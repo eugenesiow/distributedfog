@@ -10,6 +10,11 @@ body {
 }
 h1,h2,h3,h4 {
     font-family: 'Roboto', sans-serif;
+    font-weight: 100;
+}
+h1 small {
+    color: #aaa;
+    font-weight: 100 !important;
 }
 .footer {
     position: absolute;
@@ -23,7 +28,6 @@ h1,h2,h3,h4 {
 
 h4.card-title {
     text-align: center;
-    font-weight: 100;
     font-size: 2em;
     margin-bottom: 0px;
 }

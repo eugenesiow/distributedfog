@@ -15,7 +15,7 @@
             <div class="carousel-item active">
                 <div class="list-group list-group-flush">
                     {{ range $key, $value := $section }}
-                        <a href="{{ $value.URL }}" class="list-group-item list-group-item-action">{{ $value.Title }}</a>
+                        <a href="{{ $value.URL }}" class="list-group-item list-group-item-action" {{ if $value.Params.full }}data-toggle="tooltip" title="{{ $value.Params.full }}"{{end}}>{{ $value.Title }}</a>
                         {{ if modBool (add $key 1) 4 }}
                             </div></div><div class="carousel-item"><div class="list-group list-group-flush">
                         {{ end }}

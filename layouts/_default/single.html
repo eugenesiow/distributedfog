@@ -2,10 +2,10 @@
 <div class="container container-section">
     <ol class="breadcrumb">
         <li class="breadcrumb-item"><a href='{{ "/" | absURL }}'>IoT Landscape</a></li>
-        <li class="breadcrumb-item"><a href='{{ .Type | absURL }}'>{{ humanize .Type }}</a></li>
+        <li class="breadcrumb-item"><a href='{{ .Section | absURL }}'>{{ title (humanize .Section) }}</a></li>
         <li class="breadcrumb-item active">{{.Title}}</li>
     </ol>
-    <h1>{{ .Title }}</h4>
+    <h1>{{ .Title }} {{ if .Params.full}}<small>{{.Params.full}}</small>{{end}}</h4>
     {{ .Content }}
 </div>
 <footer class="footer">
