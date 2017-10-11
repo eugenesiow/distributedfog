@@ -1,0 +1,145 @@
+{{ define "main" }}
+<!-- Begin page content -->
+<div class="container container-section">
+    <div class="card-columns">
+        {{ .Content }}
+
+        {{ partial "layer.html" "Application Layer" }}
+
+        {{ $.Scratch.Set "card-title" "app-protocol" }}
+        {{ $.Scratch.Set "card-title-pretty" "App Protocols" }}
+        {{ partial "card.html" . }}
+
+        {{ partial "layer.html" "Perception Layer" }}
+
+        {{ $.Scratch.Set "card-title" "sensor" }}
+        {{ $.Scratch.Set "card-title-pretty" "Sensors" }}
+        {{ partial "card.html" . }}
+
+        {{ $.Scratch.Set "card-title" "os" }}
+        {{ $.Scratch.Set "card-title-pretty" "Device OS" }}
+        {{ partial "card.html" . }}
+
+        {{ $.Scratch.Set "card-title" "tag" }}
+        {{ $.Scratch.Set "card-title-pretty" "Tags" }}
+        {{ partial "card.html" . }}
+
+        {{ $.Scratch.Set "card-title" "kit" }}
+        {{ $.Scratch.Set "card-title-pretty" "Hardware Kits" }}
+        {{ partial "card.html" . }}
+
+        {{ $.Scratch.Set "card-title" "power" }}
+        {{ $.Scratch.Set "card-title-pretty" "Power" }}
+        {{ partial "card.html" . }}
+
+        <!-- 
+        <ul class="list-group list-group-flush">
+            <a href="#" class="list-group-item list-group-item-action">CoAP</a>
+            <a href="#" class="list-group-item list-group-item-action">HTTP/2</a>
+            <a href="#" class="list-group-item list-group-item-action">XMPP</a>
+            <a href="#" class="list-group-item list-group-item-action">MQTT</a>
+        </ul>
+        </div>
+
+        <div class="card bg-dark">
+        <div class="card-body">
+            <h4 class="card-title light">Perception Layer</h4>
+        </div>
+        </div>
+
+        <div class="card">
+        <div class="card-body">
+            <h4 class="card-title">Device OS</h4>
+            <div class="list-group">
+            <a href="#" class="list-group-item list-group-item-action">TinyOS</a>
+            <a href="#" class="list-group-item list-group-item-action">Contiki</a>
+            <a href="#" class="list-group-item list-group-item-action">LiteOS</a>
+            <a href="#" class="list-group-item list-group-item-action">Brillo</a>
+            </div>
+        </div>
+        </div>
+        
+        <div class="card">
+        <div class="card-body">
+            <h4 class="card-title">Tags</h4>
+            <div class="list-group">
+            <a href="#" class="list-group-item list-group-item-action">RFID</a>
+            <a href="#" class="list-group-item list-group-item-action">QR Code</a>
+            <a href="#" class="list-group-item list-group-item-action">Barcode</a>
+            <a href="#" class="list-group-item list-group-item-action">iBeacon</a>
+            </div>
+        </div>
+        </div>
+
+        <div class="card">
+        <div class="card-body">
+            <h4 class="card-title">Hardware Kits</h4>
+            <div class="list-group">
+            <a href="#" class="list-group-item list-group-item-action">Arduino</a>
+            <a href="#" class="list-group-item list-group-item-action">Raspberry Pi</a>
+            <a href="#" class="list-group-item list-group-item-action">SmartThings</a>
+            <a href="#" class="list-group-item list-group-item-action">NUC</a>
+            </div>
+        </div>
+        </div>
+
+        <div class="card">
+        <div class="card-body">
+            <h4 class="card-title">Power</h4>
+            <div class="list-group">
+            <a href="#" class="list-group-item list-group-item-action">Energy Harvesting</a>
+            <a href="#" class="list-group-item list-group-item-action">Wireless Charging</a>
+            <a href="#" class="list-group-item list-group-item-action">Motion Charging</a>
+            <a href="#" class="list-group-item list-group-item-action">Batteries</a>
+            </div>
+        </div>
+        </div>
+
+        <div class="card">
+        <div class="card-body">
+            <h4 class="card-title">Sensors</h4>
+        </div>
+        <div id="sensor-carousel" class="carousel slide" data-ride="carousel">
+            <ol class="carousel-indicators">
+                <li data-target="#sensor-carousel" data-slide-to="0" class="active"></li>
+                <li data-target="#sensor-carousel" data-slide-to="1"></li>
+                <li data-target="#sensor-carousel" data-slide-to="2"></li>
+            </ol>
+            <div class="carousel-inner" role="listbox">
+                <div class="carousel-item active">
+                <div class="list-group list-group-flush">
+                    <a href="#" class="list-group-item list-group-item-action">GPS</a>
+                    <a href="#" class="list-group-item list-group-item-action">Gyroscope</a>
+                    <a href="#" class="list-group-item list-group-item-action">Electro-chemical</a>
+                    <a href="#" class="list-group-item list-group-item-action">Pedometer</a>
+                </div>
+                </div>
+                <div class="carousel-item">
+                <div class="list-group list-group-flush">
+                    <a href="#" class="list-group-item list-group-item-action">EMG</a>
+                    <a href="#" class="list-group-item list-group-item-action">EEG</a>
+                    <a href="#" class="list-group-item list-group-item-action">ECG</a>
+                    <a href="#" class="list-group-item list-group-item-action">Infra-red</a>
+                </div>
+                </div>
+                <div class="carousel-item">
+                <div class="list-group list-group-flush">
+                    <a href="#" class="list-group-item list-group-item-action">Sweat</a>
+                    <a href="#" class="list-group-item list-group-item-action">Photo-ionisation</a>
+                    <a href="#" class="list-group-item list-group-item-action">Solid State</a>
+                    <a href="#" class="list-group-item list-group-item-action">SPO2</a>
+                </div>
+                </div>
+            </div>
+            </div>
+        </div> -->
+
+    </div>
+</div>
+
+<footer class="footer">
+    <div class="container">
+        <span class="text-muted">The Internet of Things Landscape by distributedfog.com.</span>
+    </div>
+</footer>
+{{ end }}

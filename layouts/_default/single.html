@@ -1,0 +1,16 @@
+{{ define "main" }}
+<div class="container container-section">
+    <ol class="breadcrumb">
+        <li class="breadcrumb-item"><a href='{{ "/" | absURL }}'>IoT Landscape</a></li>
+        <li class="breadcrumb-item"><a href='{{ .Type | absURL }}'>{{ humanize .Type }}</a></li>
+        <li class="breadcrumb-item active">{{.Title}}</li>
+    </ol>
+    <h1>{{ .Title }}</h4>
+    {{ .Content }}
+</div>
+<footer class="footer">
+    <div class="container">
+        <span class="text-muted">The Internet of Things Landscape by distributedfog.com.</span>
+    </div>
+</footer>
+{{ end }}

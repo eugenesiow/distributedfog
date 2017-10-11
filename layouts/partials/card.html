@@ -1,0 +1,27 @@
+{{ $title := $.Scratch.Get "card-title" }}
+<div class="card">
+    <div class="card-body">
+        <h4 class="card-title">{{$.Scratch.Get "card-title-pretty"}}</h4>
+    </div>
+    {{ $section := where .Data.Pages "Type" $title }}
+    <div id="{{$title}}-carousel" class="carousel slide" data-ride="carousel">
+        <ol class="carousel-indicators">
+            <li data-target="#{{$title}}-carousel" data-slide-to="0" class="active"></li>
+            {{ range (seq (div (len $section) 4)) }}
+                <li data-target="#{{$title}}-carousel" data-slide-to="{{ . }}"></li>
+            {{ end }}
+        </ol>
+        <div class="carousel-inner box-height" role="listbox">
+            <div class="carousel-item active">
+                <div class="list-group list-group-flush">
+                    {{ range $key, $value := $section }}
+                        <a href="{{ $value.URL }}" class="list-group-item list-group-item-action">{{ $value.Title }}</a>
+                        {{ if modBool (add $key 1) 4 }}
+                            </div></div><div class="carousel-item"><div class="list-group list-group-flush">
+                        {{ end }}
+                    {{ end }}
+                </div>
+            </div>
+        </div>
+    </div>
+</div>
