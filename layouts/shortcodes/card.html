@@ -1,0 +1,12 @@
+<div class='col-sm-{{ if .Get "size" }}{{.Get "size"}}{{else}}4{{end}} py-2'>
+    <div class='card card-body {{ if .Get "style" }}bg-{{.Get "style"}} text-white{{else}}{{end}} h-100'>
+        {{ .Inner }}
+        {{ if .Get "small" }}
+        <footer class="blockquote-footer {{ if .Get "style" }}text-white{{end}}">
+            <small>
+                {{.Get "small"}}
+            </small>
+        </footer>
+        {{end}}
+    </div>
+</div>

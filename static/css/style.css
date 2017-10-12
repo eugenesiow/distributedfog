@@ -8,13 +8,16 @@ body {
     /* Margin bottom by footer height */
     margin-bottom: 60px;
 }
-h1,h2,h3,h4 {
+h1,h2,h3,h4,h5 {
     font-family: 'Roboto', sans-serif;
     font-weight: 100;
 }
 h1 small {
     color: #aaa;
     font-weight: 100 !important;
+}
+a, a:hover, a:active  {
+    color: #CC4A14;
 }
 .footer {
     position: absolute;
@@ -32,14 +35,20 @@ h4.card-title {
     margin-bottom: 0px;
 }
 
-.carousel-indicators {
-    cursor: pointer;
-    bottom:-40px;
-}
-
 .carousel-inner {
     margin-bottom:35px;
- }
+}
+
+.carousel-indicators {
+    cursor: pointer;
+    bottom:-5px;
+}
+
+@media (min-width: 35em) {
+    .carousel-indicators {
+        bottom:-40px;
+    }
+}
 
 .carousel-indicators li {
     background: #CCC;
@@ -65,23 +74,40 @@ h4.card-title {
     min-height:195px;
 }
 
-.breadcrumb {
-    background-color: #212529;
+header .breadcrumb {
+    background-color: #fff;
     border: 1px solid rgba(0, 0, 0, 0.125);
-    color: #fff !important;
+    border-radius: 0px;
+    line-height: 2em;
+    color: #fff !important;   
+    margin-bottom: 0px;
 }
 
-.breadcrumb-item,.breadcrumb-item:before {
+header .breadcrumb-item,.breadcrumb-item:before {
     font-weight: 100;
-    color: #fff !important;
+    color: #666 !important;
 }
 
-a {
-    color: #ccc;
-    /* color: #CC4A14; */
+.breadcrumb-item a, .breadcrumb-item a:hover, .breadcrumb-item a:active {
+    color: #000; 
 }
 
-a:hover, a:active {
-    color: #ccc;
-    /* color: #CC4A14; */
+a.dropdown-item, a.dropdown-item:hover, a.dropdown-item:active {
+    color: #000; 
+}
+
+@media (min-width: 62em) {
+    .card-columns {
+        -webkit-column-count: 4;
+        -moz-column-count: 4;
+        column-count: 4;
+    }
+}
+
+@media (min-width: 75em) {
+    .card-columns {
+        -webkit-column-count: 5;
+        -moz-column-count: 5;
+        column-count: 5;
+    }
 }

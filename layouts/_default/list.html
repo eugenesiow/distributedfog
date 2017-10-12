@@ -3,7 +3,7 @@
 <header>
     <ol class="breadcrumb">
         <li class="breadcrumb-item"><a href='{{ "/" | absURL }}'>IoT Landscape</a></li>
-        <li class="breadcrumb-item dropdown">
+        {{ if .Section }}<li class="breadcrumb-item dropdown">
             <a class="dropdown-toggle" href="http://example.com" id="navbarDropdownMenuLink" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
                 {{ title (humanize .Section) }}
             </a>
@@ -12,26 +12,27 @@
                 <a class="dropdown-item {{if eq $pageTitle .Title}}active{{end}}" href="{{.URL}}">{{.Title}}</a>
                 {{end}}
             </div>
-        </li>
-        <li class="breadcrumb-item active">{{.Title}}</li>
+        </li>{{end}}
     </ol>
 </header>
 <div class="container container-section">
-    
     <h1>{{ $pageTitle }} {{ if .Params.full}}<small>{{.Params.full}}</small>{{end}}</h1>
     <div class="row">
         {{ .Content }}
-        <div class="col-sm-4 py-2">
+        <div class="col-sm-12 py-2">
             <div class="card h-100">
-                <div class="card-body">
-                    <h3 class="card-title">Categories</h3>
-                    <div class="tag-list">
-                        <a href='{{ .Section | absURL }}'><span class="badge badge-light">{{ title (humanize .Section) }}</span></a>
-                        {{ range .Params.tags }}    
-                            <a href="{{ "/tags/" | relLangURL }}{{ . | urlize }}"><span class="badge badge-light">{{ humanize . }}</span></a>
-                        {{ end }}  
-                    </div>
-                </div>
+                <ul class="list-group list-group-flush">
+                    {{ range .Data.Pages }}
+                    <a href="{{.URL}}" class="list-group-item list-group-item-action flex-column align-items-start">
+                        <div class="d-flex w-100">
+                            <h5 class="mb-1">{{.Title}}
+                            {{if .Params.full}} <small>{{.Params.full}}</small>{{end}}</h5>
+                        </div>
+                        {{if .Description}}<p class="mb-1">{{.Description}}</p>{{end}}
+                        {{if .Params.tags}}<small>{{delimit (apply .Params.tags "humanize" ".") "," }}</small>{{end}}
+                    </a>
+                    {{ end }}
+                </ul>
             </div>
         </div>
         <div class="col-sm-4 py-2">
