@@ -1,0 +1,1 @@
+git push https://github.com/eugenesiow/distributedfog.git gh-pages
