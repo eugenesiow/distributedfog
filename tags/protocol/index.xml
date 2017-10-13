@@ -1,0 +1,26 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes" ?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>Protocol on DistributedFog</title>
+    <link>http://distributedfog.com/tags/protocol/</link>
+    <description>Recent content in Protocol on DistributedFog</description>
+    <generator>Hugo -- gohugo.io</generator>
+    <language>en-us</language>
+    <lastBuildDate>Wed, 11 Oct 2017 17:56:48 +0100</lastBuildDate>
+    
+	<atom:link href="http://distributedfog.com/tags/protocol/index.xml" rel="self" type="application/rss+xml" />
+    
+    
+    <item>
+      <title>CoAP</title>
+      <link>http://distributedfog.com/app-protocol/coap/</link>
+      <pubDate>Wed, 11 Oct 2017 17:56:48 +0100</pubDate>
+      
+      <guid>http://distributedfog.com/app-protocol/coap/</guid>
+      <description>CoAP is a specialised web transfer protocol for use with constrained nodes and constrained (e.g., low-power, lossy) networks.  RFC 7252     Research HTTP/2, CoAP on device HTTP/2 everywhere else, Security, Californium Cloud Services, MQTT vs CoAP, TinyOS Performance, Transport: Logistics
+ 
+CoAP is network-oriented protocol with similar features to HTTP but also allows for low overhead, multicast, etc. CoAP operates over UDP (simpler) instead of TCP compensating for unreliability with a retransmission mechanism.</description>
+    </item>
+    
+  </channel>
+</rss>

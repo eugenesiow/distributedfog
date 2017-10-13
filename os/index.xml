@@ -1,0 +1,37 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes" ?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>Os on DistributedFog</title>
+    <link>http://distributedfog.com/os/</link>
+    <description>Recent content in Os on DistributedFog</description>
+    <generator>Hugo -- gohugo.io</generator>
+    <language>en-us</language>
+    <lastBuildDate>Wed, 11 Oct 2017 17:56:48 +0100</lastBuildDate>
+    
+	<atom:link href="http://distributedfog.com/os/index.xml" rel="self" type="application/rss+xml" />
+    
+    
+    <item>
+      <title>Contiki</title>
+      <link>http://distributedfog.com/os/contiki/</link>
+      <pubDate>Wed, 11 Oct 2017 17:56:48 +0100</pubDate>
+      
+      <guid>http://distributedfog.com/os/contiki/</guid>
+      <description>An open source operating system for the Internet of Things. Contiki connects tiny low-cost, low-power microcontrollers to the Internet. Contiki is a powerful toolbox for building complex wireless systems.  contiki-os.org     Research vs TinyOS, IoT-Lab Testbed, WSN OS Comparisons
+ 
+Programming on Contiki is done using the Cooja network simulator. To program, control and monitor the remote IoT devices, the back-end C base libraries of RFID chips and sensors can be customised and recompiled to get the desired results.</description>
+    </item>
+    
+    <item>
+      <title>TinyOS</title>
+      <link>http://distributedfog.com/os/tiny/</link>
+      <pubDate>Wed, 11 Oct 2017 17:56:48 +0100</pubDate>
+      
+      <guid>http://distributedfog.com/os/tiny/</guid>
+      <description>TinyOS is an embedded, component-based operating system and platform for low-power wireless devices, such as those used in wireless sensor networks (WSNs), smartdust, ubiquitous computing, personal area networks, building automation, and smart meters.  Wikipedia     Research Original Paper, Hybrid Network Evaluation, Ten-years on Paper
+ 
+Programming on TinyOS is done using a C-like language called nesC. It is a component-based, event-driven programming language with components &amp;ldquo;wired&amp;rdquo; together to run applications.</description>
+    </item>
+    
+  </channel>
+</rss>

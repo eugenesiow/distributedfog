@@ -1,0 +1,87 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes" ?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>Tags on DistributedFog</title>
+    <link>http://distributedfog.com/tags/</link>
+    <description>Recent content in Tags on DistributedFog</description>
+    <generator>Hugo -- gohugo.io</generator>
+    <language>en-us</language>
+    <lastBuildDate>Wed, 11 Oct 2017 16:24:18 +0100</lastBuildDate>
+    
+	<atom:link href="http://distributedfog.com/tags/index.xml" rel="self" type="application/rss+xml" />
+    
+    
+    <item>
+      <title>Health</title>
+      <link>http://distributedfog.com/tags/health/</link>
+      <pubDate>Wed, 11 Oct 2017 16:24:18 +0100</pubDate>
+      
+      <guid>http://distributedfog.com/tags/health/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>Mobile</title>
+      <link>http://distributedfog.com/tags/mobile/</link>
+      <pubDate>Wed, 11 Oct 2017 16:24:18 +0100</pubDate>
+      
+      <guid>http://distributedfog.com/tags/mobile/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>Navigation</title>
+      <link>http://distributedfog.com/tags/navigation/</link>
+      <pubDate>Wed, 11 Oct 2017 16:24:18 +0100</pubDate>
+      
+      <guid>http://distributedfog.com/tags/navigation/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>Protocol</title>
+      <link>http://distributedfog.com/tags/protocol/</link>
+      <pubDate>Wed, 11 Oct 2017 17:56:48 +0100</pubDate>
+      
+      <guid>http://distributedfog.com/tags/protocol/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>Rtos</title>
+      <link>http://distributedfog.com/tags/rtos/</link>
+      <pubDate>Wed, 11 Oct 2017 17:56:48 +0100</pubDate>
+      
+      <guid>http://distributedfog.com/tags/rtos/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>Smart City</title>
+      <link>http://distributedfog.com/tags/smart-city/</link>
+      <pubDate>Wed, 11 Oct 2017 16:24:18 +0100</pubDate>
+      
+      <guid>http://distributedfog.com/tags/smart-city/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>Transport</title>
+      <link>http://distributedfog.com/tags/transport/</link>
+      <pubDate>Wed, 11 Oct 2017 16:24:18 +0100</pubDate>
+      
+      <guid>http://distributedfog.com/tags/transport/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>Wearables</title>
+      <link>http://distributedfog.com/tags/wearables/</link>
+      <pubDate>Wed, 11 Oct 2017 16:24:18 +0100</pubDate>
+      
+      <guid>http://distributedfog.com/tags/wearables/</guid>
+      <description></description>
+    </item>
+    
+  </channel>
+</rss>

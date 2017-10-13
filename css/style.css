@@ -1,0 +1,125 @@
+/* Sticky footer styles
+-------------------------------------------------- */
+html {
+    position: relative;
+    min-height: 100%;
+}
+body {
+    /* Margin bottom by footer height */
+    margin-bottom: 60px;
+}
+h1,h2,h3,h4,h5 {
+    font-family: 'Roboto', sans-serif;
+    font-weight: 100;
+}
+h1 small {
+    color: #aaa;
+    font-weight: 100 !important;
+}
+a, a:hover, a:active  {
+    color: #CC4A14;
+}
+.footer {
+    position: absolute;
+    bottom: 0;
+    width: 100%;
+    /* Set the fixed height of the footer here */
+    height: 60px;
+    line-height: 60px; /* Vertically center the text there */
+    background-color: #f5f5f5;
+}
+
+.card-head {
+    padding: .75rem 1.25rem;
+}
+
+h4.card-title {
+    text-align: center;
+    font-size: 2em;
+    margin-bottom: 0px;
+}
+
+h4.card-title a {
+    color: #000;
+}
+
+h4.card-title a:hover {
+    text-decoration: none;
+}
+
+.carousel-inner {
+    margin-bottom:35px;
+}
+
+.carousel-indicators {
+    cursor: pointer;
+    bottom:-5px;
+}
+
+@media (min-width: 35em) {
+    .carousel-indicators {
+        bottom:-40px;
+    }
+}
+
+.carousel-indicators li {
+    background: #CCC;
+    border-radius: 50%;
+    width: 10px;
+    height: 10px;
+    margin: 1px;
+}
+
+.container-section {
+    padding-top: 30px;  
+}
+
+.carousel-indicators .active {
+    background: #AAA;
+}
+
+.light {
+    color: #FFF;
+}
+
+.box-height {
+    min-height:195px;
+}
+
+header .breadcrumb {
+    background-color: #fff;
+    border: 1px solid rgba(0, 0, 0, 0.125);
+    border-radius: 0px;
+    line-height: 2em;
+    color: #fff !important;   
+    margin-bottom: 0px;
+}
+
+header .breadcrumb-item,.breadcrumb-item:before {
+    font-weight: 100;
+    color: #666 !important;
+}
+
+.breadcrumb-item a, .breadcrumb-item a:hover, .breadcrumb-item a:active {
+    color: #000; 
+}
+
+a.dropdown-item, a.dropdown-item:hover, a.dropdown-item:active {
+    color: #000; 
+}
+
+@media (min-width: 62em) {
+    .card-columns {
+        -webkit-column-count: 4;
+        -moz-column-count: 4;
+        column-count: 4;
+    }
+}
+
+@media (min-width: 75em) {
+    .card-columns {
+        -webkit-column-count: 5;
+        -moz-column-count: 5;
+        column-count: 5;
+    }
+}

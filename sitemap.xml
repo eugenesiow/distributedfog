@@ -1,0 +1,127 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes" ?>
+<urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9"
+  xmlns:xhtml="http://www.w3.org/1999/xhtml">
+  
+  <url>
+    <loc>http://distributedfog.com/app-protocol/coap/</loc>
+    <lastmod>2017-10-11T17:56:48+01:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>http://distributedfog.com/os/contiki/</loc>
+    <lastmod>2017-10-11T17:56:48+01:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>http://distributedfog.com/os/tiny/</loc>
+    <lastmod>2017-10-11T17:56:48+01:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>http://distributedfog.com/</loc>
+    <lastmod>2017-10-11T16:30:48+01:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>http://distributedfog.com/sensor/air-pollution/</loc>
+    <lastmod>2017-10-11T16:24:18+01:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>http://distributedfog.com/sensor/ecg/</loc>
+    <lastmod>2017-10-11T16:24:18+01:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>http://distributedfog.com/sensor/gps/</loc>
+    <lastmod>2017-10-11T16:24:18+01:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>http://distributedfog.com/sensor/gyroscope/</loc>
+    <lastmod>2017-10-11T16:24:18+01:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>http://distributedfog.com/sensor/pedometer/</loc>
+    <lastmod>2017-10-11T16:24:18+01:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>http://distributedfog.com/app-protocol/</loc>
+    <lastmod>2017-10-11T17:56:48+01:00</lastmod>
+    <priority>0</priority>
+  </url>
+  
+  <url>
+    <loc>http://distributedfog.com/categories/</loc>
+    <priority>0</priority>
+  </url>
+  
+  <url>
+    <loc>http://distributedfog.com/tags/health/</loc>
+    <lastmod>2017-10-11T16:24:18+01:00</lastmod>
+    <priority>0</priority>
+  </url>
+  
+  <url>
+    <loc>http://distributedfog.com/tags/mobile/</loc>
+    <lastmod>2017-10-11T16:24:18+01:00</lastmod>
+    <priority>0</priority>
+  </url>
+  
+  <url>
+    <loc>http://distributedfog.com/tags/navigation/</loc>
+    <lastmod>2017-10-11T16:24:18+01:00</lastmod>
+    <priority>0</priority>
+  </url>
+  
+  <url>
+    <loc>http://distributedfog.com/os/</loc>
+    <lastmod>2017-10-11T17:56:48+01:00</lastmod>
+    <priority>0</priority>
+  </url>
+  
+  <url>
+    <loc>http://distributedfog.com/tags/protocol/</loc>
+    <lastmod>2017-10-11T17:56:48+01:00</lastmod>
+    <priority>0</priority>
+  </url>
+  
+  <url>
+    <loc>http://distributedfog.com/tags/rtos/</loc>
+    <lastmod>2017-10-11T17:56:48+01:00</lastmod>
+    <priority>0</priority>
+  </url>
+  
+  <url>
+    <loc>http://distributedfog.com/sensor/</loc>
+    <lastmod>2017-10-11T16:24:18+01:00</lastmod>
+    <priority>0</priority>
+  </url>
+  
+  <url>
+    <loc>http://distributedfog.com/tags/smart-city/</loc>
+    <lastmod>2017-10-11T16:24:18+01:00</lastmod>
+    <priority>0</priority>
+  </url>
+  
+  <url>
+    <loc>http://distributedfog.com/tags/</loc>
+    <lastmod>2017-10-11T16:24:18+01:00</lastmod>
+    <priority>0</priority>
+  </url>
+  
+  <url>
+    <loc>http://distributedfog.com/tags/transport/</loc>
+    <lastmod>2017-10-11T16:24:18+01:00</lastmod>
+    <priority>0</priority>
+  </url>
+  
+  <url>
+    <loc>http://distributedfog.com/tags/wearables/</loc>
+    <lastmod>2017-10-11T16:24:18+01:00</lastmod>
+    <priority>0</priority>
+  </url>
+  
+</urlset>
