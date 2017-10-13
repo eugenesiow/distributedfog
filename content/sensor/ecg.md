@@ -2,12 +2,13 @@
 title: "ECG"
 full: "Electrocardiogram"
 type: "article"
+description: "Electrocardiography is the process of recording the electrical activity of the heart over a period of time using electrodes placed on the skin."
 tags: ["health","wearables"]
 date: 2017-10-11T16:24:18+01:00
 ---
 
 {{<card size="4" small="Wikipedia" style="info">}}
-Electrocardiography is the process of recording the electrical activity of the heart over a period of time using electrodes placed on the skin.
+{{<description>}}
 {{</card>}}
 
 {{% card size="4" %}}

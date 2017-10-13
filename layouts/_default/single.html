@@ -28,7 +28,7 @@
                     <div class="tag-list">
                         <a href='{{ .Section | absURL }}'><span class="badge badge-light">{{ title (humanize .Section) }}</span></a>
                         {{ range .Params.tags }}    
-                            <a href="{{ "/tags/" | relLangURL }}{{ . | urlize }}"><span class="badge badge-light">{{ humanize . }}</span></a>
+                            <a href="{{ "/tags/" | relLangURL }}{{ . | urlize }}"><span class="badge badge-light">{{ title . }}</span></a>
                         {{ end }}  
                     </div>
                 </div>

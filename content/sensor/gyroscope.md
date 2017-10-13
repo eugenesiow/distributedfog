@@ -1,12 +1,13 @@
 ---
 title: "Gyroscope"
 type: "article"
+description: "A gyroscope is a type of sensor useful for measuring orientation. Electronic, microchip-packaged MEMS gyroscopes are commonly found in consumer electronics devices."
 tags: ["mobile", "wearables"]
 date: 2017-10-11T16:24:18+01:00
 ---
 
 {{<card size="4" small="Wikipedia" style="info">}}
-A gyroscope is a type of sensor useful for measuring orientation. Electronic, microchip-packaged MEMS gyroscopes are commonly found in consumer electronics devices.
+{{<description>}}
 {{</card>}}
 
 {{% card size="4" %}}
@@ -25,7 +26,7 @@ Inexpensive vibrating structure microelectromechanical systems (MEMS) gyroscopes
 Internally, MEMS gyroscopes use lithographically constructed versions of one or more of tuning forks, vibrating wheels, or resonant solids mechanisms of various designs.
 {{% /card %}}
 
-{{< listcard size="4" title="Products">}}
+{{< listcard size="4" title="Links">}}
     {{<listlink "https://learn.sparkfun.com/tutorials/gyroscope/how-a-gyro-works" "SparkFun's Gyroscope Tutorial">}}
     {{<listlink "https://www.maximintegrated.com/en/app-notes/index.mvp/id/5830" "Operation, Sensing, Apps">}}
 {{< /listcard >}}

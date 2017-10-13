@@ -39,6 +39,14 @@ h4.card-title {
     margin-bottom: 0px;
 }
 
+h4.card-title a {
+    color: #000;
+}
+
+h4.card-title a:hover {
+    text-decoration: none;
+}
+
 .carousel-inner {
     margin-bottom:35px;
 }

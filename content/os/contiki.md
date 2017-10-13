@@ -2,11 +2,12 @@
 title: "Contiki"
 type: "article"
 tags: ["rtos"]
+description: "An open source operating system for the Internet of Things. Contiki connects tiny low-cost, low-power microcontrollers to the Internet. Contiki is a powerful toolbox for building complex wireless systems."
 date: 2017-10-11T17:56:48+01:00
 ---
 
 {{<card size="4" small="contiki-os.org" style="info">}}
-An open source operating system for the Internet of Things. Contiki connects tiny low-cost, low-power microcontrollers to the Internet. Contiki is a powerful toolbox for building complex wireless systems.
+{{<description>}}
 {{</card>}}
 
 {{% card size="4" %}}
