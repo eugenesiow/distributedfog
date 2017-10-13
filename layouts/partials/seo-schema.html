@@ -1,0 +1,37 @@
+{{ if .IsPage }}
+<script type="application/ld+json">
+{
+    "@context" : "http://schema.org",
+    "@type" : "Article",
+    "articleSection" : "{{ .Section }}",
+    "mainEntityOfPage": {
+        "@type": "WebPage",
+        "@id": "{{ .Permalink }}"
+    },
+    "name" : "{{ .Title | safeJS }}",
+    "headline" : "{{ .Title | safeJS }}",
+    "description" : "{{ if .Description }}{{ .Description | safeJS }}{{ else }}{{if .IsPage}}{{ .Summary  }}{{ end }}{{ end }}",
+    "inLanguage" : "en-GB",
+    "author" : "{{ if .Params.author }}{{ .Params.author }}{{else}}DistributedFog.com{{end}}",
+    "creator" : "{{ .Params.author }}",
+    "accountablePerson" : "{{ .Params.author }}",
+    "copyrightHolder" : "{{ .Params.author }}",
+    "copyrightYear" : "{{ .Date.Format "2006" }}",
+    "datePublished" : "{{ .Date }}",
+    "dateModified" : "{{ .Date }}",
+    "publisher": {
+        "@type": "Organization",
+        "name": "DistributedFog.com",
+        "logo": {
+            "@type": "ImageObject",
+            "url": "{{ "img/logo.png" | absURL }}"
+        }
+    },
+    "logo": "{{ if isset .Site.Params "favicon" }}{{ .Site.Params.favicon | absURL }}{{ end }}",
+    "url" : "{{ .Permalink }}",
+    "wordCount" : "{{ .WordCount }}",
+    "image" : "{{ if .Params.image }}{{ .Params.image | absURL }}{{else}}{{ "img/logo.png" | absURL }}{{ end }}",
+    "keywords" : [ "{{ range $i, $e := .Params.tags }}{{ if $i }}, {{ end }}{{ $e }}{{ end }}" ]
+}
+</script>
+{{ end }}

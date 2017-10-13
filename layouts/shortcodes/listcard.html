@@ -1,6 +1,6 @@
 <div class='col-sm-{{ if .Get "size" }}{{.Get "size"}}{{else}}4{{end}} py-2'>
     <div class="card h-100 {{ if .Get "style" }}bg-{{.Get "style"}} text-white{{else}}{{end}}">
-        <div class='card-body'>
+        <div class='card-head'>
             {{ if .Get "title" }}<h4 class="card-title">{{.Get "title"}}</h4>{{end}}
         </div>
         <ul class="list-group list-group-flush">{{ .Inner }}</ul>

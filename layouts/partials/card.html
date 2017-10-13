@@ -3,7 +3,7 @@
     <div class="card-body">
         <h4 class="card-title">{{$.Scratch.Get "card-title-pretty"}}</h4>
     </div>
-    {{ $section := where .Data.Pages "Type" $title }}
+    {{ $section := where .Data.Pages "Section" $title }}
     <div id="{{$title}}-carousel" class="carousel slide" data-ride="carousel">
         <ol class="carousel-indicators">
             <li data-target="#{{$title}}-carousel" data-slide-to="0" class="active"></li>
