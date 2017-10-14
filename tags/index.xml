@@ -6,10 +6,28 @@
     <description>Recent content in Tags on DistributedFog</description>
     <generator>Hugo -- gohugo.io</generator>
     <language>en-us</language>
-    <lastBuildDate>Wed, 11 Oct 2017 16:24:18 +0100</lastBuildDate>
+    <lastBuildDate>Wed, 11 Oct 2017 17:56:48 +0100</lastBuildDate>
     
 	<atom:link href="http://distributedfog.com/tags/index.xml" rel="self" type="application/rss+xml" />
     
+    
+    <item>
+      <title>Energy</title>
+      <link>http://distributedfog.com/tags/energy/</link>
+      <pubDate>Wed, 11 Oct 2017 17:56:48 +0100</pubDate>
+      
+      <guid>http://distributedfog.com/tags/energy/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>Environment</title>
+      <link>http://distributedfog.com/tags/environment/</link>
+      <pubDate>Wed, 11 Oct 2017 17:56:48 +0100</pubDate>
+      
+      <guid>http://distributedfog.com/tags/environment/</guid>
+      <description></description>
+    </item>
     
     <item>
       <title>Health</title>
@@ -17,6 +35,24 @@
       <pubDate>Wed, 11 Oct 2017 16:24:18 +0100</pubDate>
       
       <guid>http://distributedfog.com/tags/health/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>Ibm</title>
+      <link>http://distributedfog.com/tags/ibm/</link>
+      <pubDate>Wed, 11 Oct 2017 17:56:48 +0100</pubDate>
+      
+      <guid>http://distributedfog.com/tags/ibm/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>Industry</title>
+      <link>http://distributedfog.com/tags/industry/</link>
+      <pubDate>Wed, 11 Oct 2017 16:24:18 +0100</pubDate>
+      
+      <guid>http://distributedfog.com/tags/industry/</guid>
       <description></description>
     </item>
     
@@ -80,6 +116,15 @@
       <pubDate>Wed, 11 Oct 2017 16:24:18 +0100</pubDate>
       
       <guid>http://distributedfog.com/tags/wearables/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>Wireless</title>
+      <link>http://distributedfog.com/tags/wireless/</link>
+      <pubDate>Wed, 11 Oct 2017 17:56:48 +0100</pubDate>
+      
+      <guid>http://distributedfog.com/tags/wireless/</guid>
       <description></description>
     </item>
     

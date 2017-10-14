@@ -34,6 +34,30 @@ Programming on Contiki is done using the Cooja network simulator. To program, co
     </item>
     
     <item>
+      <title>Energy Harvesting</title>
+      <link>http://distributedfog.com/power/energy-harvesting/</link>
+      <pubDate>Wed, 11 Oct 2017 17:56:48 +0100</pubDate>
+      
+      <guid>http://distributedfog.com/power/energy-harvesting/</guid>
+      <description>Energy harvesting or scavenging is the process by which ambient energy is derived from external sources, captured, and stored for small, wireless autonomous devices.  Wikipedia     Research Parametric Excitation, Energy Harvesting Technologies Book, Wireless Energy Harvesting, Comparison
+ 
+Makers Solar Harvesting Project, Pieze, Wurth, Energy Harvesting Designs for the IoT
+ 
+All processes that involve energy conversion are, to some degree, inefficient. Motors get hot, as do power transistors, automobile engines, and light bulbs; in each case energy is wasted as heat.</description>
+    </item>
+    
+    <item>
+      <title>MQTT</title>
+      <link>http://distributedfog.com/app-protocol/mqtt/</link>
+      <pubDate>Wed, 11 Oct 2017 17:56:48 +0100</pubDate>
+      
+      <guid>http://distributedfog.com/app-protocol/mqtt/</guid>
+      <description>MQTT is a publish-subscribe-based lightweight messaging protocol for use on top of TCP/IP. It is designed for connections where a small code footprint is required or the network bandwidth is limited.  Wikipedia     Research CoAP vs MQTT, MQTT and REST, Push Notifications, Secure MQTT
+ 
+MQTT-SN is a variation of the main protocol aimed at embedded devices on non-TCP/IP networks, such as ZigBee. As it does not require the TCP/IP stack, it can be used over a serial link where overhead is really small or over UDP.</description>
+    </item>
+    
+    <item>
       <title>TinyOS</title>
       <link>http://distributedfog.com/os/tiny/</link>
       <pubDate>Wed, 11 Oct 2017 17:56:48 +0100</pubDate>
@@ -42,6 +66,17 @@ Programming on Contiki is done using the Cooja network simulator. To program, co
       <description>TinyOS is an embedded, component-based operating system and platform for low-power wireless devices, such as those used in wireless sensor networks (WSNs), smartdust, ubiquitous computing, personal area networks, building automation, and smart meters.  Wikipedia     Research Original Paper, Hybrid Network Evaluation, Ten-years on Paper
  
 Programming on TinyOS is done using a C-like language called nesC. It is a component-based, event-driven programming language with components &amp;ldquo;wired&amp;rdquo; together to run applications.</description>
+    </item>
+    
+    <item>
+      <title>Wireless Charging</title>
+      <link>http://distributedfog.com/power/wireless-charging/</link>
+      <pubDate>Wed, 11 Oct 2017 17:56:48 +0100</pubDate>
+      
+      <guid>http://distributedfog.com/power/wireless-charging/</guid>
+      <description>Wireless Charging provides a convenient, safe, and reliable way to charge and power electrical devices, IoT sensors and devices, at home, in the workplace and in industry.  powerbyproxi.com     Research Comparing WiTricity and Inductive Coupling History and Future of Wireless Charging, Transport: Inductive Charging for EVs
+ 
+Although inductive charging with an induction coil is the most common form of wireless charging, uBeam is pioneering an ultrasound method, HumaVox uses near-field radio frequency resonance and WiTricity uses Magnetic Resonance.</description>
     </item>
     
     <item>
@@ -104,6 +139,18 @@ Inexpensive vibrating structure microelectromechanical systems (MEMS) gyroscopes
 Popular Devices Fitbit, Apple Watch, Nike+, iPod Nano
  
 The technology for a pedometer includes a mechanical sensor and software to count steps.</description>
+    </item>
+    
+    <item>
+      <title>QR Code</title>
+      <link>http://distributedfog.com/tag/qrcode/</link>
+      <pubDate>Wed, 11 Oct 2017 16:24:18 +0100</pubDate>
+      
+      <guid>http://distributedfog.com/tag/qrcode/</guid>
+      <description>QR code is a type of 2D matrix barcode with a machine-readable optical label that contains information about the item to which it is attached. A QR code consists of black squares arranged in a square grid on a white background.  Wikipedia     Research IoT Deployment, Smart Card, Security for QR Codes
+ 
+Example  
+The QR code system became popular due to its fast readability and greater storage capacity compared to standard UPC barcodes.</description>
     </item>
     
   </channel>

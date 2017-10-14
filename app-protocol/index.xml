@@ -1,9 +1,9 @@
 <?xml version="1.0" encoding="utf-8" standalone="yes" ?>
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
   <channel>
-    <title>App-protocols on DistributedFog</title>
+    <title>App Protocols on DistributedFog</title>
     <link>http://distributedfog.com/app-protocol/</link>
-    <description>Recent content in App-protocols on DistributedFog</description>
+    <description>Recent content in App Protocols on DistributedFog</description>
     <generator>Hugo -- gohugo.io</generator>
     <language>en-us</language>
     <lastBuildDate>Wed, 11 Oct 2017 17:56:48 +0100</lastBuildDate>
@@ -20,6 +20,17 @@
       <description>CoAP is a specialised web transfer protocol for use with constrained nodes and constrained (e.g., low-power, lossy) networks.  RFC 7252     Research HTTP/2, CoAP on device HTTP/2 everywhere else, Security, Californium Cloud Services, MQTT vs CoAP, TinyOS Performance, Transport: Logistics
  
 CoAP is network-oriented protocol with similar features to HTTP but also allows for low overhead, multicast, etc. CoAP operates over UDP (simpler) instead of TCP compensating for unreliability with a retransmission mechanism.</description>
+    </item>
+    
+    <item>
+      <title>MQTT</title>
+      <link>http://distributedfog.com/app-protocol/mqtt/</link>
+      <pubDate>Wed, 11 Oct 2017 17:56:48 +0100</pubDate>
+      
+      <guid>http://distributedfog.com/app-protocol/mqtt/</guid>
+      <description>MQTT is a publish-subscribe-based lightweight messaging protocol for use on top of TCP/IP. It is designed for connections where a small code footprint is required or the network bandwidth is limited.  Wikipedia     Research CoAP vs MQTT, MQTT and REST, Push Notifications, Secure MQTT
+ 
+MQTT-SN is a variation of the main protocol aimed at embedded devices on non-TCP/IP networks, such as ZigBee. As it does not require the TCP/IP stack, it can be used over a serial link where overhead is really small or over UDP.</description>
     </item>
     
   </channel>

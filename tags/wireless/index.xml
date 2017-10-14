@@ -1,0 +1,26 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes" ?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>Wireless on DistributedFog</title>
+    <link>http://distributedfog.com/tags/wireless/</link>
+    <description>Recent content in Wireless on DistributedFog</description>
+    <generator>Hugo -- gohugo.io</generator>
+    <language>en-us</language>
+    <lastBuildDate>Wed, 11 Oct 2017 17:56:48 +0100</lastBuildDate>
+    
+	<atom:link href="http://distributedfog.com/tags/wireless/index.xml" rel="self" type="application/rss+xml" />
+    
+    
+    <item>
+      <title>Wireless Charging</title>
+      <link>http://distributedfog.com/power/wireless-charging/</link>
+      <pubDate>Wed, 11 Oct 2017 17:56:48 +0100</pubDate>
+      
+      <guid>http://distributedfog.com/power/wireless-charging/</guid>
+      <description>Wireless Charging provides a convenient, safe, and reliable way to charge and power electrical devices, IoT sensors and devices, at home, in the workplace and in industry.  powerbyproxi.com     Research Comparing WiTricity and Inductive Coupling History and Future of Wireless Charging, Transport: Inductive Charging for EVs
+ 
+Although inductive charging with an induction coil is the most common form of wireless charging, uBeam is pioneering an ultrasound method, HumaVox uses near-field radio frequency resonance and WiTricity uses Magnetic Resonance.</description>
+    </item>
+    
+  </channel>
+</rss>

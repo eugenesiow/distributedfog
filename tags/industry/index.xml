@@ -1,0 +1,27 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes" ?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>Industry on DistributedFog</title>
+    <link>http://distributedfog.com/tags/industry/</link>
+    <description>Recent content in Industry on DistributedFog</description>
+    <generator>Hugo -- gohugo.io</generator>
+    <language>en-us</language>
+    <lastBuildDate>Wed, 11 Oct 2017 16:24:18 +0100</lastBuildDate>
+    
+	<atom:link href="http://distributedfog.com/tags/industry/index.xml" rel="self" type="application/rss+xml" />
+    
+    
+    <item>
+      <title>QR Code</title>
+      <link>http://distributedfog.com/tag/qrcode/</link>
+      <pubDate>Wed, 11 Oct 2017 16:24:18 +0100</pubDate>
+      
+      <guid>http://distributedfog.com/tag/qrcode/</guid>
+      <description>QR code is a type of 2D matrix barcode with a machine-readable optical label that contains information about the item to which it is attached. A QR code consists of black squares arranged in a square grid on a white background.  Wikipedia     Research IoT Deployment, Smart Card, Security for QR Codes
+ 
+Example  
+The QR code system became popular due to its fast readability and greater storage capacity compared to standard UPC barcodes.</description>
+    </item>
+    
+  </channel>
+</rss>

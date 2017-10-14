@@ -1,0 +1,39 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes" ?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>Energy on DistributedFog</title>
+    <link>http://distributedfog.com/tags/energy/</link>
+    <description>Recent content in Energy on DistributedFog</description>
+    <generator>Hugo -- gohugo.io</generator>
+    <language>en-us</language>
+    <lastBuildDate>Wed, 11 Oct 2017 17:56:48 +0100</lastBuildDate>
+    
+	<atom:link href="http://distributedfog.com/tags/energy/index.xml" rel="self" type="application/rss+xml" />
+    
+    
+    <item>
+      <title>Energy Harvesting</title>
+      <link>http://distributedfog.com/power/energy-harvesting/</link>
+      <pubDate>Wed, 11 Oct 2017 17:56:48 +0100</pubDate>
+      
+      <guid>http://distributedfog.com/power/energy-harvesting/</guid>
+      <description>Energy harvesting or scavenging is the process by which ambient energy is derived from external sources, captured, and stored for small, wireless autonomous devices.  Wikipedia     Research Parametric Excitation, Energy Harvesting Technologies Book, Wireless Energy Harvesting, Comparison
+ 
+Makers Solar Harvesting Project, Pieze, Wurth, Energy Harvesting Designs for the IoT
+ 
+All processes that involve energy conversion are, to some degree, inefficient. Motors get hot, as do power transistors, automobile engines, and light bulbs; in each case energy is wasted as heat.</description>
+    </item>
+    
+    <item>
+      <title>Wireless Charging</title>
+      <link>http://distributedfog.com/power/wireless-charging/</link>
+      <pubDate>Wed, 11 Oct 2017 17:56:48 +0100</pubDate>
+      
+      <guid>http://distributedfog.com/power/wireless-charging/</guid>
+      <description>Wireless Charging provides a convenient, safe, and reliable way to charge and power electrical devices, IoT sensors and devices, at home, in the workplace and in industry.  powerbyproxi.com     Research Comparing WiTricity and Inductive Coupling History and Future of Wireless Charging, Transport: Inductive Charging for EVs
+ 
+Although inductive charging with an induction coil is the most common form of wireless charging, uBeam is pioneering an ultrasound method, HumaVox uses near-field radio frequency resonance and WiTricity uses Magnetic Resonance.</description>
+    </item>
+    
+  </channel>
+</rss>
