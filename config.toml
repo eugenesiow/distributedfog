@@ -1,6 +1,7 @@
 baseURL = "http://distributedfog.com"
 languageCode = "en-us"
 title = "DistributedFog"
+googleAnalytics = "UA-108097594-1"
 
 [blackfriday]
 extensions = ["hardLineBreak"]
