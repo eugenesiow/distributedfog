@@ -1,7 +1,7 @@
 ---
 title: "TinyOS"
 type: "article"
-tags: ["rtos"]
+tags: ["RTOS"]
 description: "TinyOS is an embedded, component-based operating system and platform for low-power wireless devices, such as those used in wireless sensor networks (WSNs), smartdust, ubiquitous computing, personal area networks, building automation, and smart meters."
 date: 2017-10-11T17:56:48+01:00
 ---

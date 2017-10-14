@@ -5,7 +5,7 @@
         <li class="breadcrumb-item"><a href='{{ "/" | absURL }}'>IoT Landscape</a></li>
         {{ if .Section }}<li class="breadcrumb-item dropdown">
             <a class="dropdown-toggle" href="http://example.com" id="navbarDropdownMenuLink" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
-                {{ title (humanize .Section) }}
+                {{ title .Title }}
             </a>
             <div class="dropdown-menu">
                 {{ range where .Site.Pages "Section" .Section }}

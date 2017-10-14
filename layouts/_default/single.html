@@ -5,7 +5,7 @@
         <li class="breadcrumb-item"><a href='{{ "/" | absURL }}'>IoT Landscape</a></li>
         <li class="breadcrumb-item dropdown">
             <a class="dropdown-toggle" href="#" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
-                {{range where .Site.Sections "Section" .Section }}{{ title (humanize .Title ) }}{{end}}
+                {{range where .Site.Sections "Section" .Section }}{{ title  .Title }}{{end}}
             </a>
             <div class="dropdown-menu">
                 {{ range where .Site.Pages "Section" .Section }}
@@ -26,7 +26,7 @@
                 <div class="card-body">
                     <h3 class="card-title">Categories</h3>
                     <div class="tag-list">
-                        <a href='{{ .Section | absURL }}'><span class="badge badge-light">{{ title (humanize .Section) }}</span></a>
+                        <a href='{{ .Section | absURL }}'><span class="badge badge-light">{{range where .Site.Sections "Section" .Section }}{{ title  .Title }}{{end}}</span></a>
                         {{ range .Params.tags }}    
                             <a href="{{ "/tags/" | relLangURL }}{{ . | urlize }}"><span class="badge badge-light">{{ title . }}</span></a>
                         {{ end }}  
