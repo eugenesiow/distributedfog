@@ -1,0 +1,30 @@
+{{ define "main" }}
+{{$pageTitle := .Title}}
+<header>
+    <ol class="breadcrumb">
+        <li class="breadcrumb-item"><a href='{{ "/" | absURL }}'>IoT Landscape</a></li>
+        <li class="breadcrumb-item active">{{.Title}}</li>
+    </ol>
+</header>
+<div class="container container-section">
+    
+    <h1>{{ $pageTitle }} {{ if .Params.full}}<small>{{.Params.full}}</small>{{end}}</h1>
+    <div class="row">
+        {{ .Content }}
+        <div class="col-sm-4 py-2">
+            <div class="card text-white bg-primary">
+                <div class="card-body">
+                    <h3 class="card-title">Share</h3>
+                    <a class="btn btn-lg btn-primary" href='https://twitter.com/intent/tweet?hashtags={{ delimit (apply .Params.tags "urlize" ".") ","}}&text={{.Title | htmlEscape}}&url={{.URL | absURL | htmlUnescape}}'>
+                        <i class="fa fa-twitter" aria-hidden="true"></i></a>
+                    <a class="btn btn-lg btn-primary" href='https://www.facebook.com/sharer/sharer.php?{{ (querify "u" (.URL | absURL) ) | safeHTML }}'>
+                        <i class="fa fa-facebook" aria-hidden="true"></i></a>
+                    <a class="btn btn-lg btn-primary" href='https://plus.google.com/share?url={{ (.URL | absURL) | safeHTML }}'>
+                        <i class="fa fa-google-plus" aria-hidden="true"></i></a>
+                </div>
+            </div>
+        </div>
+    </div>
+</div>
+{{ partial "footer" . }}
+{{ end }}
