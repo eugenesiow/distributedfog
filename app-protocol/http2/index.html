@@ -6,7 +6,7 @@
     <meta name="description" content="All about the Internet of Things Landscape including technologies, protocols, applications, platforms and research.">
     <meta name="author" content="DistributedFog.com">
 
-    <title>DistributedFog: CoAP</title>
+    <title>DistributedFog: HTTP/2</title>
 
     
     <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0-beta/css/bootstrap.min.css" integrity="sha384-/Y6pD6FV/Vv2HJnA6t+vslU6fwYXjCFtcEpHbNJ0lyAFsXTsjBbfaDjzALeQsN6M" crossorigin="anonymous">
@@ -44,9 +44,9 @@ ga('send', 'pageview');
                 
                 <a class="dropdown-item " href="/app-protocol/">App Protocols</a>
                 
-                <a class="dropdown-item active" href="/app-protocol/coap/">CoAP</a>
+                <a class="dropdown-item " href="/app-protocol/coap/">CoAP</a>
                 
-                <a class="dropdown-item " href="/app-protocol/http2/">HTTP/2</a>
+                <a class="dropdown-item active" href="/app-protocol/http2/">HTTP/2</a>
                 
                 <a class="dropdown-item " href="/app-protocol/mqtt/">MQTT</a>
                 
@@ -54,22 +54,22 @@ ga('send', 'pageview');
                 
             </div>
         </li>
-        <li class="breadcrumb-item active">CoAP</li>
+        <li class="breadcrumb-item active">HTTP/2</li>
     </ol>
 </header>
 <div class="container container-section">
     
-    <h1>CoAP <small>Constrained Application Protocol</small></h1>
+    <h1>HTTP/2 <small>Hypertext Transfer Protocol 2.0</small></h1>
     <div class="row">
         <div class='col-sm-4 py-2'>
     <div class='card card-body bg-info text-white h-100'>
         
-CoAP is a specialised web transfer protocol for use with constrained nodes and constrained (e.g., low-power, lossy) networks.
+HTTP/2 is a major revision of the HTTP network protocol used by the World Wide Web and derived from Google&#39;s earlier experimental SPDY protocol.
 
         
         <footer class="blockquote-footer text-white">
             <small>
-                RFC 7252
+                Wikipedia
             </small>
         </footer>
         
@@ -80,7 +80,7 @@ CoAP is a specialised web transfer protocol for use with constrained nodes and c
     <div class='card card-body  h-100'>
         <h3 id="research">Research</h3>
 
-<p><a href="https://webofthings.org/2015/10/25/http2-for-internet-of-things-1/">HTTP/2</a>, <a href="http://timkellogg.me/blog/2015/02/20/can-http2-replace-mqtt">CoAP on device HTTP/2 everywhere else</a>, <a href="http://ieeexplore.ieee.org/document/7460363/">Security</a>, <a href="http://ieeexplore.ieee.org/abstract/document/7030106/">Californium Cloud Services</a>, <a href="https://www.researchgate.net/profile/Hwee_Xian_Tan/publication/267636202_Performance_evaluation_of_MQTT_and_CoAP_via_a_common_middleware/links/5636d46d08ae75884114e431/Performance-evaluation-of-MQTT-and-CoAP-via-a-common-middleware.pdf">MQTT vs CoAP</a>, <a href="http://ieeexplore.ieee.org/abstract/document/6208761/">TinyOS Performance</a>, Transport: <a href="http://www.academia.edu/download/41232455/Implementation_of_CoAP_and_its_Applicati20160114-28513-evheod.pdf20160115-19908-ve6aow.pdf">Logistics</a></p>
+<p><a href="http://ieeexplore.ieee.org/abstract/document/7745823/">HTTP/1.1 pipelining vs HTTP2 in-the-clear</a>, <a href="http://ieeexplore.ieee.org/abstract/document/7748934/">HTTP/2 multiplexed stream</a>, <a href="https://www.researchgate.net/profile/Nagy_Ramadan/publication/307906792_Impact_of_Implementing_HTTP2_in_Web_Services/links/57d1514208ae6399a38b411c/Impact-of-Implementing-HTTP-2-in-Web-Services.pdf">HTTP/2 in Web Services</a></p>
 
         
     </div>
@@ -88,7 +88,7 @@ CoAP is a specialised web transfer protocol for use with constrained nodes and c
 
 <p><div class='col-sm-4 py-2'>
     <div class='card card-body  h-100'>
-        <p><strong>CoAP</strong> is network-oriented protocol with similar features to <strong>HTTP</strong> but also allows for low overhead, multicast, etc. CoAP operates over UDP (simpler) instead of TCP compensating for unreliability with a retransmission mechanism.</p>
+        <p><strong>HTTP/2 Server Push</strong> allows you to send site assets to the user before they’ve even asked for them. It’s an elegant way to achieve the performance benefits of HTTP/1 optimization practices such as inlining, but without the drawbacks that come with that practice. <a href="https://www.smashingmagazine.com/2017/04/guide-http2-server-push/">More</a></p>
 
         
     </div>
@@ -96,34 +96,33 @@ CoAP is a specialised web transfer protocol for use with constrained nodes and c
 
 <p><div class='col-sm-8 py-2'>
     <div class='card card-body  h-100'>
-        <p>The Internet of Things will need billions of nodes, many of which will need to be inexpensive. <a href="http://coap.technology/">CoAP</a> has been designed to work on microcontrollers with as low as 10 KiB of RAM and 100 KiB of code space (<a href="https://tools.ietf.org/html/rfc7228">RFC 7228</a>).</p>
+        <p>HTTP/2 is a replacement for how HTTP is expressed “on the wire.” It is not a ground-up rewrite of the protocol; HTTP methods, status codes and semantics are the same, and it should be possible to use the same APIs as HTTP/1.x (possibly with some small additions) to represent the protocol.</p>
 
-<p>CoAP was developed as an Internet Standards Document, <a href="https://tools.ietf.org/html/rfc7252">RFC 7252</a>. The protocol has been designed to last for decades. Difficult issues such as congestion control have not been swept under the rug, but have been addressed using the state of the art.</p>
+<p>The focus of the protocol is on performance; specifically, end-user perceived latency, network and server resource usage. One major goal is to allow the use of a single connection from browsers to a Web site.</p>
 
-<h5 id="rest-model-for-small-devices">REST model for small devices</h5>
+<p>The basis of the work was <a href="https://www.chromium.org/spdy/spdy-whitepaper">SPDY</a>, but HTTP/2 has evolved to take the community’s input into account, incorporating several improvements in the process.</p>
 
-<p>Like HTTP, CoAP is based on the wildly successful REST model: Servers make resources available under a URL, and clients access these resources using methods such as GET, PUT, POST, and DELETE.</p>
+<h5 id="goals">Goals</h5>
 
-<h5 id="efficient">Efficient</h5>
+<ul>
+<li>Create a negotiation mechanism that allows clients and servers to elect to use HTTP 1.1, 2.0, or potentially other non-HTTP protocols.<br /></li>
+<li>Maintain high-level compatibility with HTTP 1.1 (for example with methods, status codes, URIs, and most header fields).<br /></li>
+<li>Decrease latency to improve page load speed in web browsers by considering:<br />
 
-<p>CoAP is designed to use minimal resources, both on the device and on the network. Instead of a complex transport stack, it gets by with UDP on IP. A 4-byte fixed header and a compact encoding of options enables small messages that cause no or little fragmentation on the link layer. Many servers can operate in a completely stateless fashion.</p>
-
-<h5 id="secure">Secure</h5>
-
-<p>The Internet of Things cannot spread as long as it can be exploited by hackers willy-nilly. CoAP does not just pay lip service to security, it actually provides strong security. CoAP&rsquo;s default choice of DTLS parameters is equivalent to 3072-bit RSA keys, yet still runs fine on the smallest nodes.</p>
-
-<h5 id="supports-various-data-serialisation-formats">Supports various data serialisation formats</h5>
-
-<p>Like HTTP, CoAP can carry different types of payloads, and can identify which payload type is being used. CoAP integrates with XML, JSON, <a href="http://cbor.io/">CBOR</a>, or any data format of your choice.</p>
-
-<h5 id="integrated-resource-discovery">Integrated Resource Discovery</h5>
-
-<p>The CoAP resource directory provides a way to discover the properties of the nodes on your network.</p>
+<ul>
+<li>Data compression of HTTP headers<br /></li>
+<li>HTTP/2 Server Push<br /></li>
+<li>Pipelining of requests<br /></li>
+<li>Fixing the head-of-line blocking problem in HTTP 1.x<br /></li>
+<li>Multiplexing multiple requests over a single TCP connection<br /></li>
+</ul></li>
+<li>Support common existing use cases of HTTP, such as desktop web browsers, mobile web browsers, web APIs, web servers at various scales, proxy servers, reverse proxy servers, firewalls, and content delivery networks.<br /></li>
+</ul>
 
         
         <footer class="blockquote-footer ">
             <small>
-                coap.technology
+                http2.github.io
             </small>
         </footer>
         
@@ -136,22 +135,9 @@ CoAP is a specialised web transfer protocol for use with constrained nodes and c
             <h4 class="card-title">Links</h4>
         </div>
         <ul class="list-group list-group-flush">
-    <a href="http://coap.technology/" class="list-group-item list-group-item-action ">CoAP Home</a>
-    <a href="https://github.com/markushx/coap-cheatsheet/" class="list-group-item list-group-item-action ">Cheatsheet</a>
-    <a href="https://www.youtube.com/watch?v=4bSr5x5gKvA" class="list-group-item list-group-item-action ">Tutorial Video</a>
-    <a href="http://www.openmobilealliance.org/wp/" class="list-group-item list-group-item-action ">Lightweight M2M</a>
-    <a href="https://tools.ietf.org/html/rfc7252" class="list-group-item list-group-item-action ">RFC 7252 Specification</a>
-    <a href="https://github.com/ibm-security-innovation/crosscoap" class="list-group-item list-group-item-action ">CoAP-to-HTTP Proxy</a>
-    <a href="http://people.inf.ethz.ch/mkovatsc/erbium.php" class="list-group-item list-group-item-action ">Contiki: Erbium REST Engine</a>
-    <a href="http://www.eclipse.org/californium/" class="list-group-item list-group-item-action ">Java: Californium</a>
-    <a href="https://github.com/okleine/nCoAP" class="list-group-item list-group-item-action ">Java: nCoAP</a>
-    <a href="https://libcoap.net/" class="list-group-item list-group-item-action ">C: libcoap</a>
-    <a href="https://github.com/dustin/go-coap" class="list-group-item list-group-item-action ">Go: Go-CoAP </a>
-    <a href="https://github.com/mcollina/node-coap" class="list-group-item list-group-item-action ">node.js: node-coap</a>
-    <a href="https://github.com/mwasilak/txThings" class="list-group-item list-group-item-action ">Python: txThings</a>
-    <a href="https://github.com/nning/coap" class="list-group-item list-group-item-action ">Ruby</a>
-    <a href="https://github.com/Covertness/coap-rs" class="list-group-item list-group-item-action ">Rust</a>
-    <a href="https://github.com/stuffrabbit/iCoAP" class="list-group-item list-group-item-action ">iOS</a>
+    <a href="https://http2.github.io/" class="list-group-item list-group-item-action ">HTTP/2 Home</a>
+    <a href="https://github.com/http2/http2-spec/wiki/Implementations" class="list-group-item list-group-item-action ">Implementations</a>
+    <a href="http://httpwg.org/specs/rfc7540.html" class="list-group-item list-group-item-action ">RFC 7540</a>
 </ul>
     </div>
 </div></p>
@@ -164,6 +150,8 @@ CoAP is a specialised web transfer protocol for use with constrained nodes and c
                         <a href='http://distributedfog.com/app-protocol'><span class="badge badge-light">App Protocols</span></a>
                             
                             <a href="/tags/protocol"><span class="badge badge-light">Protocol</span></a>
+                            
+                            <a href="/tags/http"><span class="badge badge-light">HTTP</span></a>
                           
                     </div>
                 </div>
@@ -173,11 +161,11 @@ CoAP is a specialised web transfer protocol for use with constrained nodes and c
             <div class="card text-white bg-primary">
                 <div class="card-body">
                     <h3 class="card-title">Share</h3>
-                    <a class="btn btn-lg btn-primary" href='https://twitter.com/intent/tweet?hashtags=protocol&text=CoAP&url=http%3a%2f%2fdistributedfog.com%2fapp-protocol%2fcoap%2f'>
+                    <a class="btn btn-lg btn-primary" href='https://twitter.com/intent/tweet?hashtags=protocol%2chttp&text=HTTP%2f2&url=http%3a%2f%2fdistributedfog.com%2fapp-protocol%2fhttp2%2f'>
                         <i class="fa fa-twitter" aria-hidden="true"></i></a>
-                    <a class="btn btn-lg btn-primary" href='https://www.facebook.com/sharer/sharer.php?u%3dhttp%253A%252F%252Fdistributedfog.com%252Fapp-protocol%252Fcoap%252F'>
+                    <a class="btn btn-lg btn-primary" href='https://www.facebook.com/sharer/sharer.php?u%3dhttp%253A%252F%252Fdistributedfog.com%252Fapp-protocol%252Fhttp2%252F'>
                         <i class="fa fa-facebook" aria-hidden="true"></i></a>
-                    <a class="btn btn-lg btn-primary" href='https://plus.google.com/share?url=http%3a%2f%2fdistributedfog.com%2fapp-protocol%2fcoap%2f'>
+                    <a class="btn btn-lg btn-primary" href='https://plus.google.com/share?url=http%3a%2f%2fdistributedfog.com%2fapp-protocol%2fhttp2%2f'>
                         <i class="fa fa-google-plus" aria-hidden="true"></i></a>
                 </div>
             </div>
@@ -231,11 +219,11 @@ CoAP is a specialised web transfer protocol for use with constrained nodes and c
     "articleSection" : "app-protocol",
     "mainEntityOfPage": {
         "@type": "WebPage",
-        "@id": "http://distributedfog.com/app-protocol/coap/"
+        "@id": "http://distributedfog.com/app-protocol/http2/"
     },
-    "name" : "CoAP",
-    "headline" : "CoAP",
-    "description" : "CoAP is a specialised web transfer protocol for use with constrained nodes and constrained (e.g., low-power, lossy) networks.",
+    "name" : "HTTP/2",
+    "headline" : "HTTP/2",
+    "description" : "HTTP/2 is a major revision of the HTTP network protocol used by the World Wide Web and derived from Google&#39;s earlier experimental SPDY protocol.",
     "inLanguage" : "en-GB",
     "author" : "DistributedFog.com",
     "creator" : "",
@@ -253,10 +241,10 @@ CoAP is a specialised web transfer protocol for use with constrained nodes and c
         }
     },
     "logo": "",
-    "url" : "http://distributedfog.com/app-protocol/coap/",
-    "wordCount" : "392",
+    "url" : "http://distributedfog.com/app-protocol/http2/",
+    "wordCount" : "309",
     "image" : "http://distributedfog.com/img/logo.png",
-    "keywords" : [ "protocol" ]
+    "keywords" : [ "protocol, HTTP" ]
 }
 </script>
 

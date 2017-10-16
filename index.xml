@@ -47,6 +47,17 @@ All processes that involve energy conversion are, to some degree, inefficient. M
     </item>
     
     <item>
+      <title>HTTP/2</title>
+      <link>http://distributedfog.com/app-protocol/http2/</link>
+      <pubDate>Wed, 11 Oct 2017 17:56:48 +0100</pubDate>
+      
+      <guid>http://distributedfog.com/app-protocol/http2/</guid>
+      <description>HTTP/2 is a major revision of the HTTP network protocol used by the World Wide Web and derived from Google&amp;#39;s earlier experimental SPDY protocol.  Wikipedia     Research HTTP/1.1 pipelining vs HTTP2 in-the-clear, HTTP/2 multiplexed stream, HTTP/2 in Web Services
+ 
+HTTP/2 Server Push allows you to send site assets to the user before they’ve even asked for them. It’s an elegant way to achieve the performance benefits of HTTP/1 optimization practices such as inlining, but without the drawbacks that come with that practice.</description>
+    </item>
+    
+    <item>
       <title>MQTT</title>
       <link>http://distributedfog.com/app-protocol/mqtt/</link>
       <pubDate>Wed, 11 Oct 2017 17:56:48 +0100</pubDate>

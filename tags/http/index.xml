@@ -1,0 +1,26 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes" ?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>Http on DistributedFog</title>
+    <link>http://distributedfog.com/tags/http/</link>
+    <description>Recent content in Http on DistributedFog</description>
+    <generator>Hugo -- gohugo.io</generator>
+    <language>en-us</language>
+    <lastBuildDate>Wed, 11 Oct 2017 17:56:48 +0100</lastBuildDate>
+    
+	<atom:link href="http://distributedfog.com/tags/http/index.xml" rel="self" type="application/rss+xml" />
+    
+    
+    <item>
+      <title>HTTP/2</title>
+      <link>http://distributedfog.com/app-protocol/http2/</link>
+      <pubDate>Wed, 11 Oct 2017 17:56:48 +0100</pubDate>
+      
+      <guid>http://distributedfog.com/app-protocol/http2/</guid>
+      <description>HTTP/2 is a major revision of the HTTP network protocol used by the World Wide Web and derived from Google&amp;#39;s earlier experimental SPDY protocol.  Wikipedia     Research HTTP/1.1 pipelining vs HTTP2 in-the-clear, HTTP/2 multiplexed stream, HTTP/2 in Web Services
+ 
+HTTP/2 Server Push allows you to send site assets to the user before they’ve even asked for them. It’s an elegant way to achieve the performance benefits of HTTP/1 optimization practices such as inlining, but without the drawbacks that come with that practice.</description>
+    </item>
+    
+  </channel>
+</rss>
