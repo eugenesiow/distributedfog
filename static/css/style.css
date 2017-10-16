@@ -20,6 +20,10 @@ footer {
     margin-top: 48px;
 }
 
+.blockquote-footer {
+    margin-top: 10px;
+}
+
 #footer-wrapper {
     padding: 48px 0 36px 0;
 }
@@ -59,6 +63,11 @@ footer {
 
 .card-head {
     padding: .75rem 1.25rem;
+}
+
+.card-body tbody>tr>td {
+    padding-right: 10px;
+    border-bottom: #ccc solid 1px;
 }
 
 h4.card-title {
