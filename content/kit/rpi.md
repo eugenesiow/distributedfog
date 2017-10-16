@@ -3,7 +3,7 @@ title: "RPi"
 full: "Raspberry Pi"
 type: "article"
 description: "The Raspberry Pi is a series of popular small and low-cost single-board computers. It was first developed in the UK by the Raspberry Pi Foundation. Manifold products have been created to accompany, modify, and enhance the Pi’s capabilities."
-tags: ["protocol"]
+tags: ["hardware","community"]
 date: 2017-10-11T17:56:48+01:00
 ---
 

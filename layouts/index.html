@@ -18,6 +18,10 @@
 
         {{ partial "layer.html" "Application Layer" }}
 
+        {{ $.Scratch.Set "card-title" "platform" }}
+        {{ $.Scratch.Set "card-title-pretty" "Platforms" }}
+        {{ partial "card.html" . }}
+
         {{ $.Scratch.Set "card-title" "app-protocol" }}
         {{ $.Scratch.Set "card-title-pretty" "App Protocols" }}
         {{ partial "card.html" . }}
