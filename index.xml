@@ -102,6 +102,28 @@ Although inductive charging with an induction coil is the most common form of wi
     </item>
     
     <item>
+      <title>XMPP</title>
+      <link>http://distributedfog.com/app-protocol/xmpp/</link>
+      <pubDate>Wed, 11 Oct 2017 17:56:48 +0100</pubDate>
+      
+      <guid>http://distributedfog.com/app-protocol/xmpp/</guid>
+      <description>XMPP is a communications protocol for message-oriented middleware based on XML. It enables the near-real-time exchange of structured yet extensible data between any two or more network entities.  Wikipedia     Research IoT Deployment, Lightweight IoT Pub/Sub, SmartObjects with mDNS, Cryptographic Hashes
+ 
+XMPP supports different communication patterns, such as Request/Response, Asynchronous Messaging, Publish/Subscribe, Event subscription (Observe) and Delayed delivery. XMPP also has support for different Quality of Service levels for messaging.</description>
+    </item>
+    
+    <item>
+      <title>Xively</title>
+      <link>http://distributedfog.com/platform/xively/</link>
+      <pubDate>Wed, 11 Oct 2017 17:56:48 +0100</pubDate>
+      
+      <guid>http://distributedfog.com/platform/xively/</guid>
+      <description>Xively offers an Internet of Things (IoT) platform as a service, business services, and partners that enable businesses to quickly connect products and operations to the Internet. It is a division of LogMeIn Inc.  Wikipedia     Customers Agriculture: Freight Farms, Smart Home: Halo Smart Labs, Lutron, Watts, SureFlap, Industry: Sato, New England Biolabs
+ 
+   Features     Device Management   Identity Management   Device and Cloud Security   Integrations with Enterprise Systems   Remote Device Support</description>
+    </item>
+    
+    <item>
       <title>About</title>
       <link>http://distributedfog.com/about/</link>
       <pubDate>Wed, 11 Oct 2017 16:30:48 +0100</pubDate>

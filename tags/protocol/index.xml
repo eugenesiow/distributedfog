@@ -34,14 +34,14 @@ MQTT-SN is a variation of the main protocol aimed at embedded devices on non-TCP
     </item>
     
     <item>
-      <title>RPi</title>
-      <link>http://distributedfog.com/kit/rpi/</link>
+      <title>XMPP</title>
+      <link>http://distributedfog.com/app-protocol/xmpp/</link>
       <pubDate>Wed, 11 Oct 2017 17:56:48 +0100</pubDate>
       
-      <guid>http://distributedfog.com/kit/rpi/</guid>
-      <description>The Raspberry Pi is a series of popular small and low-cost single-board computers. It was first developed in the UK by the Raspberry Pi Foundation. Manifold products have been created to accompany, modify, and enhance the Pi’s capabilities.  Wikipedia     Research Health Monitoring, Web of Things Book, Industrial Automation, Environmental Monitoring
+      <guid>http://distributedfog.com/app-protocol/xmpp/</guid>
+      <description>XMPP is a communications protocol for message-oriented middleware based on XML. It enables the near-real-time exchange of structured yet extensible data between any two or more network entities.  Wikipedia     Research IoT Deployment, Lightweight IoT Pub/Sub, SmartObjects with mDNS, Cryptographic Hashes
  
-Series Comparison    RPi CPU RAM WiFi     3 4 x 1.</description>
+XMPP supports different communication patterns, such as Request/Response, Asynchronous Messaging, Publish/Subscribe, Event subscription (Observe) and Delayed delivery. XMPP also has support for different Quality of Service levels for messaging.</description>
     </item>
     
   </channel>

@@ -1,0 +1,26 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes" ?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>Platforms on DistributedFog</title>
+    <link>http://distributedfog.com/platform/</link>
+    <description>Recent content in Platforms on DistributedFog</description>
+    <generator>Hugo -- gohugo.io</generator>
+    <language>en-us</language>
+    <lastBuildDate>Wed, 11 Oct 2017 17:56:48 +0100</lastBuildDate>
+    
+	<atom:link href="http://distributedfog.com/platform/index.xml" rel="self" type="application/rss+xml" />
+    
+    
+    <item>
+      <title>Xively</title>
+      <link>http://distributedfog.com/platform/xively/</link>
+      <pubDate>Wed, 11 Oct 2017 17:56:48 +0100</pubDate>
+      
+      <guid>http://distributedfog.com/platform/xively/</guid>
+      <description>Xively offers an Internet of Things (IoT) platform as a service, business services, and partners that enable businesses to quickly connect products and operations to the Internet. It is a division of LogMeIn Inc.  Wikipedia     Customers Agriculture: Freight Farms, Smart Home: Halo Smart Labs, Lutron, Watts, SureFlap, Industry: Sato, New England Biolabs
+ 
+   Features     Device Management   Identity Management   Device and Cloud Security   Integrations with Enterprise Systems   Remote Device Support</description>
+    </item>
+    
+  </channel>
+</rss>

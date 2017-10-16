@@ -33,5 +33,16 @@ CoAP is network-oriented protocol with similar features to HTTP but also allows 
 MQTT-SN is a variation of the main protocol aimed at embedded devices on non-TCP/IP networks, such as ZigBee. As it does not require the TCP/IP stack, it can be used over a serial link where overhead is really small or over UDP.</description>
     </item>
     
+    <item>
+      <title>XMPP</title>
+      <link>http://distributedfog.com/app-protocol/xmpp/</link>
+      <pubDate>Wed, 11 Oct 2017 17:56:48 +0100</pubDate>
+      
+      <guid>http://distributedfog.com/app-protocol/xmpp/</guid>
+      <description>XMPP is a communications protocol for message-oriented middleware based on XML. It enables the near-real-time exchange of structured yet extensible data between any two or more network entities.  Wikipedia     Research IoT Deployment, Lightweight IoT Pub/Sub, SmartObjects with mDNS, Cryptographic Hashes
+ 
+XMPP supports different communication patterns, such as Request/Response, Asynchronous Messaging, Publish/Subscribe, Event subscription (Observe) and Delayed delivery. XMPP also has support for different Quality of Service levels for messaging.</description>
+    </item>
+    
   </channel>
 </rss>

@@ -1,0 +1,26 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes" ?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>Hardware on DistributedFog</title>
+    <link>http://distributedfog.com/tags/hardware/</link>
+    <description>Recent content in Hardware on DistributedFog</description>
+    <generator>Hugo -- gohugo.io</generator>
+    <language>en-us</language>
+    <lastBuildDate>Wed, 11 Oct 2017 17:56:48 +0100</lastBuildDate>
+    
+	<atom:link href="http://distributedfog.com/tags/hardware/index.xml" rel="self" type="application/rss+xml" />
+    
+    
+    <item>
+      <title>RPi</title>
+      <link>http://distributedfog.com/kit/rpi/</link>
+      <pubDate>Wed, 11 Oct 2017 17:56:48 +0100</pubDate>
+      
+      <guid>http://distributedfog.com/kit/rpi/</guid>
+      <description>The Raspberry Pi is a series of popular small and low-cost single-board computers. It was first developed in the UK by the Raspberry Pi Foundation. Manifold products have been created to accompany, modify, and enhance the Pi’s capabilities.  Wikipedia     Research Health Monitoring, Web of Things Book, Industrial Automation, Environmental Monitoring
+ 
+Series Comparison    RPi CPU RAM WiFi     3 4 x 1.</description>
+    </item>
+    
+  </channel>
+</rss>
