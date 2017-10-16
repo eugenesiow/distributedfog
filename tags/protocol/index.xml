@@ -33,5 +33,16 @@ CoAP is network-oriented protocol with similar features to HTTP but also allows 
 MQTT-SN is a variation of the main protocol aimed at embedded devices on non-TCP/IP networks, such as ZigBee. As it does not require the TCP/IP stack, it can be used over a serial link where overhead is really small or over UDP.</description>
     </item>
     
+    <item>
+      <title>RPi</title>
+      <link>http://distributedfog.com/kit/rpi/</link>
+      <pubDate>Wed, 11 Oct 2017 17:56:48 +0100</pubDate>
+      
+      <guid>http://distributedfog.com/kit/rpi/</guid>
+      <description>The Raspberry Pi is a series of popular small and low-cost single-board computers. It was first developed in the UK by the Raspberry Pi Foundation. Manifold products have been created to accompany, modify, and enhance the Pi’s capabilities.  Wikipedia     Research Health Monitoring, Web of Things Book, Industrial Automation, Environmental Monitoring
+ 
+Series Comparison    RPi CPU RAM WiFi     3 4 x 1.</description>
+    </item>
+    
   </channel>
 </rss>

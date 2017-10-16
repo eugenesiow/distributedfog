@@ -58,6 +58,28 @@ MQTT-SN is a variation of the main protocol aimed at embedded devices on non-TCP
     </item>
     
     <item>
+      <title>Motion Charging</title>
+      <link>http://distributedfog.com/power/motion-charging/</link>
+      <pubDate>Wed, 11 Oct 2017 17:56:48 +0100</pubDate>
+      
+      <guid>http://distributedfog.com/power/motion-charging/</guid>
+      <description>Motion-powered charging involves the transformation of naturally occurring motion in the form of kinetic energy into electricity which can be used to charge batteries and power electronic devices.   Research Copenhagen Wheel, Vint Cerf&amp;rsquo;s Taking the Internet to the Next Physical Level, Self-charging Textile
+ 
+Ampy Move is a wearable motion-charger that transforms the kinetic energy from motion into power for smartphone and wearables. Inductors in the Move device transform movement into usable power to charge devices.</description>
+    </item>
+    
+    <item>
+      <title>RPi</title>
+      <link>http://distributedfog.com/kit/rpi/</link>
+      <pubDate>Wed, 11 Oct 2017 17:56:48 +0100</pubDate>
+      
+      <guid>http://distributedfog.com/kit/rpi/</guid>
+      <description>The Raspberry Pi is a series of popular small and low-cost single-board computers. It was first developed in the UK by the Raspberry Pi Foundation. Manifold products have been created to accompany, modify, and enhance the Pi’s capabilities.  Wikipedia     Research Health Monitoring, Web of Things Book, Industrial Automation, Environmental Monitoring
+ 
+Series Comparison    RPi CPU RAM WiFi     3 4 x 1.</description>
+    </item>
+    
+    <item>
       <title>TinyOS</title>
       <link>http://distributedfog.com/os/tiny/</link>
       <pubDate>Wed, 11 Oct 2017 17:56:48 +0100</pubDate>
