@@ -1,6 +1,18 @@
 {{ define "main" }}
 <!-- Begin page content -->
-<div class="container-fluid container-section">
+<nav class="navbar navbar-fixed-top"  role="navigation">
+        <a class="navbar-brand page-scroll" href="#page-top"><span class="light">The</span> Internet of Things <span class="light"> Landscape</span></a>
+        <div class="collapse navbar-collapse navbar-right navbar-main-collapse">
+                <ul class="nav navbar-nav">
+                    <!-- Hidden li included to remove active class from about link when scrolled up past about section -->
+                    <li class="hidden active">
+                        <a href="#page-top"></a>
+                    </li>
+                </ul>
+            </div>
+    </div>
+</nav>
+<div class="container-fluid container-main">
     <div class="card-columns">
         {{ .Content }}
 
@@ -73,18 +85,6 @@
             <a href="#" class="list-group-item list-group-item-action">Raspberry Pi</a>
             <a href="#" class="list-group-item list-group-item-action">SmartThings</a>
             <a href="#" class="list-group-item list-group-item-action">NUC</a>
-            </div>
-        </div>
-        </div>
-
-        <div class="card">
-        <div class="card-body">
-            <h4 class="card-title">Power</h4>
-            <div class="list-group">
-            <a href="#" class="list-group-item list-group-item-action">Energy Harvesting</a>
-            <a href="#" class="list-group-item list-group-item-action">Wireless Charging</a>
-            <a href="#" class="list-group-item list-group-item-action">Motion Charging</a>
-            <a href="#" class="list-group-item list-group-item-action">Batteries</a>
             </div>
         </div>
         </div>

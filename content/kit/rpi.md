@@ -13,6 +13,8 @@ date: 2017-10-11T17:56:48+01:00
 
 {{% card size="4" %}}
 ### Research
+
+[Health Monitoring](http://dl.noavarangermi.ir/dl/forum/files/freepaper/ecg-iot-3.pdf), [Web of Things Book](https://dl.acm.org/citation.cfm?id=3055920), [Industrial Automation](https://pdfs.semanticscholar.org/87cb/92d1ae21ab73994698a0735b06afb0fe8f73.pdf), [Environmental Monitoring](http://ieeexplore.ieee.org/abstract/document/7807971/)
 {{% /card %}}
 
 {{% card size="4" %}}
@@ -35,4 +37,5 @@ Since the release of the first Raspberry Pi, manifold products have been created
     {{<listlink "https://www.raspberrypi.org/documentation/" "RPi Documentation">}}
     {{<listlink "https://www.raspberrypi.org/documentation/hardware/raspberrypi/README.md" "RPi Hardware">}}
     {{<listlink "https://www.raspberrypi.org/learning/hardware-guide/" "Getting Started">}}
+    {{<listlink "https://www.adafruit.com/category/105" "Adafruit RPi Store">}}
 {{< /listcard >}}

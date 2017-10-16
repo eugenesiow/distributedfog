@@ -1,5 +1,4 @@
-/* Sticky footer styles
--------------------------------------------------- */
+/* Page Styles */
 html {
     position: relative;
     min-height: 100%;
@@ -15,6 +14,48 @@ h1 small {
 a, a:hover, a:active  {
     color: #CC4A14;
 }
+
+/* Header */
+
+.navbar-fixed-top {
+    top: 0;
+}
+
+.navbar-header {
+    width: 100%;
+}
+
+.navbar-brand {
+    position: relative;
+    margin: 0 0 0 -142px;
+    left: 50%;
+    text-align: center;
+    text-transform: uppercase;
+    font-size: 0.7em;
+    letter-spacing: .2em;
+    font-weight: 400;
+    padding-top: 20px;
+    padding-bottom: 20px;
+    color: #000;
+}
+
+a:hover.navbar-brand {
+    color: #000;
+}
+
+@media (min-width: 35em) {
+    .navbar-brand {
+        margin-left: -263px;
+        font-size: 1.4em;
+    }
+}
+
+.navbar-brand .light {
+    font-weight: 100;
+    color: #000;
+}
+
+/* Footer */
 
 footer {
     margin-top: 48px;
@@ -61,6 +102,8 @@ footer {
     list-style: none;
 }
 
+/* Card Styles */
+
 .card-head {
     padding: .75rem 1.25rem;
 }
@@ -72,7 +115,7 @@ footer {
 
 h4.card-title {
     text-align: center;
-    font-size: 2em;
+    font-size: 1.6em;
     margin-bottom: 0px;
 }
 
@@ -83,6 +126,24 @@ h4.card-title a {
 h4.card-title a:hover {
     text-decoration: none;
 }
+
+@media (min-width: 62em) {
+    .card-columns {
+        -webkit-column-count: 4;
+        -moz-column-count: 4;
+        column-count: 4;
+    }
+}
+
+@media (min-width: 75em) {
+    .card-columns {
+        -webkit-column-count: 5;
+        -moz-column-count: 5;
+        column-count: 5;
+    }
+}
+
+/* Carousel Styles */
 
 .carousel-inner {
     margin-bottom:35px;
@@ -107,10 +168,6 @@ h4.card-title a:hover {
     margin: 1px;
 }
 
-.container-section {
-    padding-top: 30px;  
-}
-
 .carousel-indicators .active {
     background: #AAA;
 }
@@ -122,6 +179,14 @@ h4.card-title a:hover {
 .box-height {
     min-height:195px;
 }
+
+/* Content Page Styles */
+
+.container-section {
+    padding-top: 20px;
+}
+
+/* Content Page Header Styles */
 
 header .breadcrumb {
     background-color: #fff;
@@ -143,20 +208,4 @@ header .breadcrumb-item,.breadcrumb-item:before {
 
 a.dropdown-item, a.dropdown-item:hover, a.dropdown-item:active {
     color: #000; 
-}
-
-@media (min-width: 62em) {
-    .card-columns {
-        -webkit-column-count: 4;
-        -moz-column-count: 4;
-        column-count: 4;
-    }
-}
-
-@media (min-width: 75em) {
-    .card-columns {
-        -webkit-column-count: 5;
-        -moz-column-count: 5;
-        column-count: 5;
-    }
 }
