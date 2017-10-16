@@ -7,7 +7,7 @@
     <div id="{{$title}}-carousel" class="carousel slide" data-ride="carousel">
         <ol class="carousel-indicators">
             <li data-target="#{{$title}}-carousel" data-slide-to="0" class="active"></li>
-            {{ range (seq (div (len $section) 4)) }}
+            {{ range (seq (div (sub (len $section) 1) 4)) }}
                 <li data-target="#{{$title}}-carousel" data-slide-to="{{ . }}"></li>
             {{ end }}
         </ol>
@@ -15,10 +15,12 @@
             <div class="carousel-item active">
                 <div class="list-group list-group-flush">
                     {{ range $key, $value := $section }}
-                        <a href="{{ $value.URL }}" class="list-group-item list-group-item-action" {{ if $value.Params.full }}data-toggle="tooltip" title="{{ $value.Params.full }}"{{end}}>{{ $value.Title }}</a>
-                        {{ if modBool (add $key 1) 4 }}
-                            </div></div><div class="carousel-item"><div class="list-group list-group-flush">
+                        {{ if ne $key 0 }}
+                            {{ if modBool $key 4}}
+                                </div></div><div class="carousel-item"><div class="list-group list-group-flush">
+                            {{ end }}
                         {{ end }}
+                        <a href="{{ $value.URL }}" class="list-group-item list-group-item-action" {{ if $value.Params.full }}data-toggle="tooltip" title="{{ $value.Params.full }}"{{end}}>{{ $value.Title }}</a>
                     {{ end }}
                 </div>
             </div>
