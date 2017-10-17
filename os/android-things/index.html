@@ -6,7 +6,7 @@
     <meta name="description" content="All about the Internet of Things Landscape including technologies, protocols, applications, platforms and research.">
     <meta name="author" content="DistributedFog.com">
 
-    <title>DistributedFog: TinyOS</title>
+    <title>DistributedFog: Android Things</title>
 
     
     <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0-beta/css/bootstrap.min.css" integrity="sha384-/Y6pD6FV/Vv2HJnA6t+vslU6fwYXjCFtcEpHbNJ0lyAFsXTsjBbfaDjzALeQsN6M" crossorigin="anonymous">
@@ -42,7 +42,7 @@ ga('send', 'pageview');
             </a>
             <div class="dropdown-menu">
                 
-                <a class="dropdown-item " href="/os/android-things/">Android Things</a>
+                <a class="dropdown-item active" href="/os/android-things/">Android Things</a>
                 
                 <a class="dropdown-item " href="/os/contiki/">Contiki</a>
                 
@@ -50,21 +50,21 @@ ga('send', 'pageview');
                 
                 <a class="dropdown-item " href="/os/lite/">LiteOS</a>
                 
-                <a class="dropdown-item active" href="/os/tiny/">TinyOS</a>
+                <a class="dropdown-item " href="/os/tiny/">TinyOS</a>
                 
             </div>
         </li>
-        <li class="breadcrumb-item active">TinyOS</li>
+        <li class="breadcrumb-item active">Android Things</li>
     </ol>
 </header>
 <div class="container container-section">
     
-    <h1>TinyOS </h1>
+    <h1>Android Things </h1>
     <div class="row">
         <div class='col-sm-4 py-2'>
     <div class='card card-body bg-info text-white h-100'>
         
-TinyOS is an embedded, component-based operating system and platform for low-power wireless devices, such as those used in wireless sensor networks (WSNs), smartdust, ubiquitous computing, personal area networks, building automation, and smart meters.
+Android Things (codenamed/rebranded from Brillo) is an Android-based embedded operating system platform by Google. It is aimed to be used with low-power and memory constrained Internet of Things (IoT) devices, which are usually built from different microcontroller platforms.
 
         
         <footer class="blockquote-footer text-white">
@@ -78,9 +78,7 @@ TinyOS is an embedded, component-based operating system and platform for low-pow
 
 <p><div class='col-sm-4 py-2'>
     <div class='card card-body  h-100'>
-        <h3 id="research">Research</h3>
-
-<p><a href="http://citeseerx.ist.psu.edu/viewdoc/download?doi=10.1.1.129.7716&amp;rep=rep1&amp;type=pdf">Original Paper</a>, <a href="http://ieeexplore.ieee.org/document/4416801/">Hybrid Network Evaluation</a>, <a href="https://sing.stanford.edu/pubs/tinyos-retrospective-osdi2012.pdf">Ten-years on Paper</a></p>
+        <p>Like updates for Android Phones, developers can push Google-provided OS updates and custom app updates using the same over-the-air infrastructure that Google uses for its products and services. This provides a pathway for security updates on IoT devices.</p>
 
         
     </div>
@@ -88,7 +86,7 @@ TinyOS is an embedded, component-based operating system and platform for low-pow
 
 <p><div class='col-sm-4 py-2'>
     <div class='card card-body  h-100'>
-        <p>Programming on <strong>TinyOS</strong> is done using a C-like language called <strong>nesC</strong>. It is a  component-based, event-driven programming language with components &ldquo;wired&rdquo; together to run applications. Phil Levis&rsquo;s book, <a href="http://tinyos.stanford.edu/tinyos-wiki/index.php/Reference,_TEPs,_Papers,_and_User_Notes">TinyOS Programming</a> is a good guide.</p>
+        <p>Android Things was first launched at Google I/O 2015 and was called Brillo, the &ldquo;underlying operating system for the internet of things&rdquo;. Additionally the <a href="https://developers.nest.com/weave/">Weave API</a>, the (cross platform) common language that will let Brillo devices, phones, and the internet all talk to one another was also announced.</p>
 
         
     </div>
@@ -96,16 +94,18 @@ TinyOS is an embedded, component-based operating system and platform for low-pow
 
 <p><div class='col-sm-8 py-2'>
     <div class='card card-body  h-100'>
-        <p><a href="https://github.com/tinyos/tinyos-main">TinyOS</a> is an &ldquo;operating system&rdquo; designed for low-power wireless embedded systems. Fundamentally, it is a work scheduler and a collection of drivers for microcontrollers and other ICs commonly used in wireless embedded platforms.</p>
+        <p>Android Things allows developers to build a smart device using Android APIs and Google Services. This takes the usual Android development stack—Android Studio, the official SDK, and Google Play Services—and applies it to the IoT. Developers will be able to use the Google Weave protocol to communicate between devices along with Google APIs and Google Cloud services like Google Cloud Vision.</p>
 
-<p>TinyOS applications are written in the programming language <a href="https://github.com/tinyos/nesc">nesC</a>, a dialect of the C language optimized for the memory limits of sensor networks. TinyOS programs are built of software components, some of which present hardware abstractions. Components are connected to each other using interfaces. TinyOS provides interfaces and components for common abstractions such as packet communication, routing, sensing, actuation and storage.</p>
+<p><img src="/img/articles/android-things-architecture.png" alt="Android Things Architecture" title="Android Things Architecture from developer.android.com" /></p>
 
-<p>TinyOS is fully non-blocking: it has one call stack. Thus, all input/output (I/O) operations that last longer than a few hundred microseconds are asynchronous and have a callback. To enable the native compiler to better optimize across call boundaries, TinyOS uses nesC&rsquo;s features to link these callbacks, called events, statically. While being non-blocking enables TinyOS to maintain high concurrency with one stack, it forces programmers to write complex logic by stitching together many small event handlers. To support larger computations, TinyOS provides tasks, which are similar to a Deferred Procedure Call and interrupt handler bottom halves. A TinyOS component can post a task, which the OS will schedule to run later. Tasks are non-preemptive and run in first in, first out order. This simple concurrency model is typically sufficient for I/O centric applications, but its difficulty with CPU-heavy applications has led to developing a thread library for the OS, named TOSThreads.</p>
+<p>Android Things extends the core Android framework with additional APIs provided by the Things Support Library. These APIs allow apps to integrate with new types of hardware not found on mobile devices.</p>
+
+<p>The Android Things platform is also streamlined for single application use. System apps are not present, and your app is launched automatically on startup to immerse your users in the app experience. <a href="https://developer.android.com/things/sdk/index.html">More</a></p>
 
         
         <footer class="blockquote-footer ">
             <small>
-                Wikipedia and tinyos.stanford.edu
+                developer.android.com
             </small>
         </footer>
         
@@ -118,11 +118,11 @@ TinyOS is an embedded, component-based operating system and platform for low-pow
             <h4 class="card-title">Links</h4>
         </div>
         <ul class="list-group list-group-flush">
-    <a href="https://github.com/tinyos/tinyos-main" class="list-group-item list-group-item-action ">Github Repo</a>
-    <a href="https://github.com/tinyos/nesc" class="list-group-item list-group-item-action ">nesC Repo</a>
-    <a href="http://tinyos.stanford.edu/tinyos-wiki/index.php/TinyOS_Overview" class="list-group-item list-group-item-action ">TinyOS Wiki</a>
-    <a href="http://csl.stanford.edu/~pal/pubs/tos-programming-web.pdf" class="list-group-item list-group-item-action ">Programming Book (Phil Levis)</a>
-    <a href="http://homepage.cs.uiowa.edu/~ochipara/classes/wsn/lectures/tinyos-tutorial.pdf" class="list-group-item list-group-item-action ">TinyOS Tutorial</a>
+    <a href="https://developer.android.com/things/index.html" class="list-group-item list-group-item-action ">Android Things Home</a>
+    <a href="https://developer.android.com/things/sdk/index.html" class="list-group-item list-group-item-action ">SDK</a>
+    <a href="https://developer.android.com/things/training/first-device/create-studio-project.html" class="list-group-item list-group-item-action ">Getting Started</a>
+    <a href="https://developer.android.com/things/hardware/raspberrypi.html" class="list-group-item list-group-item-action ">Raspberry Pi 3 Support</a>
+    <a href="https://developer.android.com/things/hardware/hardware-101.html" class="list-group-item list-group-item-action ">Hardware 101</a>
 </ul>
     </div>
 </div></p>
@@ -135,6 +135,8 @@ TinyOS is an embedded, component-based operating system and platform for low-pow
                         <a href='http://distributedfog.com/os'><span class="badge badge-light">Device OS</span></a>
                             
                             <a href="/tags/rtos"><span class="badge badge-light">RTOS</span></a>
+                            
+                            <a href="/tags/google"><span class="badge badge-light">Google</span></a>
                           
                     </div>
                 </div>
@@ -144,11 +146,11 @@ TinyOS is an embedded, component-based operating system and platform for low-pow
             <div class="card text-white bg-primary">
                 <div class="card-body">
                     <h3 class="card-title">Share</h3>
-                    <a class="btn btn-lg btn-primary" href='https://twitter.com/intent/tweet?hashtags=rtos&text=TinyOS&url=http%3a%2f%2fdistributedfog.com%2fos%2ftiny%2f'>
+                    <a class="btn btn-lg btn-primary" href='https://twitter.com/intent/tweet?hashtags=rtos%2cgoogle&text=Android%20Things&url=http%3a%2f%2fdistributedfog.com%2fos%2fandroid-things%2f'>
                         <i class="fa fa-twitter" aria-hidden="true"></i></a>
-                    <a class="btn btn-lg btn-primary" href='https://www.facebook.com/sharer/sharer.php?u%3dhttp%253A%252F%252Fdistributedfog.com%252Fos%252Ftiny%252F'>
+                    <a class="btn btn-lg btn-primary" href='https://www.facebook.com/sharer/sharer.php?u%3dhttp%253A%252F%252Fdistributedfog.com%252Fos%252Fandroid-things%252F'>
                         <i class="fa fa-facebook" aria-hidden="true"></i></a>
-                    <a class="btn btn-lg btn-primary" href='https://plus.google.com/share?url=http%3a%2f%2fdistributedfog.com%2fos%2ftiny%2f'>
+                    <a class="btn btn-lg btn-primary" href='https://plus.google.com/share?url=http%3a%2f%2fdistributedfog.com%2fos%2fandroid-things%2f'>
                         <i class="fa fa-google-plus" aria-hidden="true"></i></a>
                 </div>
             </div>
@@ -202,11 +204,11 @@ TinyOS is an embedded, component-based operating system and platform for low-pow
     "articleSection" : "os",
     "mainEntityOfPage": {
         "@type": "WebPage",
-        "@id": "http://distributedfog.com/os/tiny/"
+        "@id": "http://distributedfog.com/os/android-things/"
     },
-    "name" : "TinyOS",
-    "headline" : "TinyOS",
-    "description" : "TinyOS is an embedded, component-based operating system and platform for low-power wireless devices, such as those used in wireless sensor networks (WSNs), smartdust, ubiquitous computing, personal area networks, building automation, and smart meters.",
+    "name" : "Android Things",
+    "headline" : "Android Things",
+    "description" : "Android Things (codenamed/rebranded from Brillo) is an Android-based embedded operating system platform by Google. It is aimed to be used with low-power and memory constrained Internet of Things (IoT) devices, which are usually built from different microcontroller platforms.",
     "inLanguage" : "en-GB",
     "author" : "DistributedFog.com",
     "creator" : "",
@@ -224,10 +226,10 @@ TinyOS is an embedded, component-based operating system and platform for low-pow
         }
     },
     "logo": "",
-    "url" : "http://distributedfog.com/os/tiny/",
-    "wordCount" : "338",
+    "url" : "http://distributedfog.com/os/android-things/",
+    "wordCount" : "265",
     "image" : "http://distributedfog.com/img/logo.png",
-    "keywords" : [ "RTOS" ]
+    "keywords" : [ "RTOS, google" ]
 }
 </script>
 

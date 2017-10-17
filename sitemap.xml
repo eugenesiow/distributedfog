@@ -1,6 +1,10 @@
 <?xml version="1.0" encoding="utf-8" standalone="yes" ?>
-<urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9"
-  xmlns:xhtml="http://www.w3.org/1999/xhtml">
+<urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9">
+  
+  <url>
+    <loc>http://distributedfog.com/os/android-things/</loc>
+    <lastmod>2017-10-11T17:56:48+01:00</lastmod>
+  </url>
   
   <url>
     <loc>http://distributedfog.com/app-protocol/</loc>
@@ -29,6 +33,11 @@
   
   <url>
     <loc>http://distributedfog.com/app-protocol/http2/</loc>
+    <lastmod>2017-10-11T17:56:48+01:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>http://distributedfog.com/os/lite/</loc>
     <lastmod>2017-10-11T17:56:48+01:00</lastmod>
   </url>
   
@@ -151,6 +160,12 @@
   
   <url>
     <loc>http://distributedfog.com/tags/environment/</loc>
+    <lastmod>2017-10-11T17:56:48+01:00</lastmod>
+    <priority>0</priority>
+  </url>
+  
+  <url>
+    <loc>http://distributedfog.com/tags/google/</loc>
     <lastmod>2017-10-11T17:56:48+01:00</lastmod>
     <priority>0</priority>
   </url>

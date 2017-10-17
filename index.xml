@@ -12,6 +12,15 @@
     
     
     <item>
+      <title>Android Things</title>
+      <link>http://distributedfog.com/os/android-things/</link>
+      <pubDate>Wed, 11 Oct 2017 17:56:48 +0100</pubDate>
+      
+      <guid>http://distributedfog.com/os/android-things/</guid>
+      <description>Android Things (codenamed/rebranded from Brillo) is an Android-based embedded operating system platform by Google. It is aimed to be used with low-power and memory constrained Internet of Things (IoT) devices, which are usually built from different microcontroller platforms.  Wikipedia     Like updates for Android Phones, developers can push Google-provided OS updates and custom app updates using the same over-the-air infrastructure that Google uses for its products and services.</description>
+    </item>
+    
+    <item>
       <title>CoAP</title>
       <link>http://distributedfog.com/app-protocol/coap/</link>
       <pubDate>Wed, 11 Oct 2017 17:56:48 +0100</pubDate>
@@ -55,6 +64,17 @@ All processes that involve energy conversion are, to some degree, inefficient. M
       <description>HTTP/2 is a major revision of the HTTP network protocol used by the World Wide Web and derived from Google&amp;#39;s earlier experimental SPDY protocol.  Wikipedia     Research HTTP/1.1 pipelining vs HTTP2 in-the-clear, HTTP/2 multiplexed stream, HTTP/2 in Web Services
  
 HTTP/2 Server Push allows you to send site assets to the user before they’ve even asked for them. It’s an elegant way to achieve the performance benefits of HTTP/1 optimization practices such as inlining, but without the drawbacks that come with that practice.</description>
+    </item>
+    
+    <item>
+      <title>LiteOS</title>
+      <link>http://distributedfog.com/os/lite/</link>
+      <pubDate>Wed, 11 Oct 2017 17:56:48 +0100</pubDate>
+      
+      <guid>http://distributedfog.com/os/lite/</guid>
+      <description>LiteOS is a Unix-like operating system that fits on memory-constrained sensor nodes. LiteOS provides a familiar programming environment based on Unix, threads, and C. It follows a hybrid programming model that allows both event-driven and thread-driven programming.  Wikipedia     Research Original LiteOS Paper, Interactive UNIX Shell Demo Paper, Event Traces in the LiteOS
+ 
+Huawei also developed an open-source operating system for the IoT called Huawei LiteOS.</description>
     </item>
     
     <item>
@@ -140,8 +160,8 @@ XMPP supports different communication patterns, such as Request/Response, Asynch
       <pubDate>Wed, 11 Oct 2017 16:30:48 +0100</pubDate>
       
       <guid>http://distributedfog.com/about/</guid>
-      <description>The IoT Landscape is a project to explain the various technologies across the Internet of Things. It is an evolving reference guide of IoT technologies started as means of sharing some of the things I&amp;rsquo;ve learned in the years working on IoT research.
-  </description>
+      <description>The IoT Landscape is a project to explain the various technologies across the Internet of Things. It is an evolving reference guide of IoT technologies started as means of sharing some of the things I&amp;rsquo;ve learned in my years of working on IoT research at the University of Southampton.
+The site is built and updated using the excellent Hugo static site generator, written in Go, and site source code is available on Github.</description>
     </item>
     
     <item>

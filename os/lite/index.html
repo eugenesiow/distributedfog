@@ -6,7 +6,7 @@
     <meta name="description" content="All about the Internet of Things Landscape including technologies, protocols, applications, platforms and research.">
     <meta name="author" content="DistributedFog.com">
 
-    <title>DistributedFog: TinyOS</title>
+    <title>DistributedFog: LiteOS</title>
 
     
     <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0-beta/css/bootstrap.min.css" integrity="sha384-/Y6pD6FV/Vv2HJnA6t+vslU6fwYXjCFtcEpHbNJ0lyAFsXTsjBbfaDjzALeQsN6M" crossorigin="anonymous">
@@ -48,23 +48,23 @@ ga('send', 'pageview');
                 
                 <a class="dropdown-item " href="/os/">Device OS</a>
                 
-                <a class="dropdown-item " href="/os/lite/">LiteOS</a>
+                <a class="dropdown-item active" href="/os/lite/">LiteOS</a>
                 
-                <a class="dropdown-item active" href="/os/tiny/">TinyOS</a>
+                <a class="dropdown-item " href="/os/tiny/">TinyOS</a>
                 
             </div>
         </li>
-        <li class="breadcrumb-item active">TinyOS</li>
+        <li class="breadcrumb-item active">LiteOS</li>
     </ol>
 </header>
 <div class="container container-section">
     
-    <h1>TinyOS </h1>
+    <h1>LiteOS </h1>
     <div class="row">
         <div class='col-sm-4 py-2'>
     <div class='card card-body bg-info text-white h-100'>
         
-TinyOS is an embedded, component-based operating system and platform for low-power wireless devices, such as those used in wireless sensor networks (WSNs), smartdust, ubiquitous computing, personal area networks, building automation, and smart meters.
+LiteOS is a Unix-like operating system that fits on memory-constrained sensor nodes. LiteOS provides a familiar programming environment based on Unix, threads, and C. It follows a hybrid programming model that allows both event-driven and thread-driven programming.
 
         
         <footer class="blockquote-footer text-white">
@@ -80,7 +80,7 @@ TinyOS is an embedded, component-based operating system and platform for low-pow
     <div class='card card-body  h-100'>
         <h3 id="research">Research</h3>
 
-<p><a href="http://citeseerx.ist.psu.edu/viewdoc/download?doi=10.1.1.129.7716&amp;rep=rep1&amp;type=pdf">Original Paper</a>, <a href="http://ieeexplore.ieee.org/document/4416801/">Hybrid Network Evaluation</a>, <a href="https://sing.stanford.edu/pubs/tinyos-retrospective-osdi2012.pdf">Ten-years on Paper</a></p>
+<p><a href="https://dl.acm.org/citation.cfm?id=1371607.1372737&amp;coll=Portal&amp;dl=ACM">Original LiteOS Paper</a>, <a href="http://lanterns.eecs.utk.edu/publications/sensys_2007_liteos.pdf">Interactive UNIX Shell Demo Paper</a>, <a href="http://lanterns.eecs.utk.edu/publications/ipsn_2008_faithful.pdf">Event Traces in the LiteOS</a></p>
 
         
     </div>
@@ -88,7 +88,7 @@ TinyOS is an embedded, component-based operating system and platform for low-pow
 
 <p><div class='col-sm-4 py-2'>
     <div class='card card-body  h-100'>
-        <p>Programming on <strong>TinyOS</strong> is done using a C-like language called <strong>nesC</strong>. It is a  component-based, event-driven programming language with components &ldquo;wired&rdquo; together to run applications. Phil Levis&rsquo;s book, <a href="http://tinyos.stanford.edu/tinyos-wiki/index.php/Reference,_TEPs,_Papers,_and_User_Notes">TinyOS Programming</a> is a good guide.</p>
+        <p>Huawei also developed an open-source operating system for the IoT called <a href="http://www.huawei.com/minisite/liteos/en/">Huawei LiteOS</a>. This should not be confused with the University of Illinois <a href="http://lanterns.eecs.utk.edu/software/liteos/">LiteOS project</a> for sensor nodes and is differentiated by calling it Huawei LiteOS.</p>
 
         
     </div>
@@ -96,16 +96,16 @@ TinyOS is an embedded, component-based operating system and platform for low-pow
 
 <p><div class='col-sm-8 py-2'>
     <div class='card card-body  h-100'>
-        <p><a href="https://github.com/tinyos/tinyos-main">TinyOS</a> is an &ldquo;operating system&rdquo; designed for low-power wireless embedded systems. Fundamentally, it is a work scheduler and a collection of drivers for microcontrollers and other ICs commonly used in wireless embedded platforms.</p>
+        <p>LiteOS is an open source, interactive, UNIX-like operating system designed for wireless sensor networks. With the tools that come with LiteOS, you can operate one or more wireless sensor networks in a Unix-like manner, transferring data, installing programs, retrieving results, or configuring sensors. You can also develop programs for nodes, and wirelessly distribute such programs to sensor nodes. Development started in 2007.</p>
 
-<p>TinyOS applications are written in the programming language <a href="https://github.com/tinyos/nesc">nesC</a>, a dialect of the C language optimized for the memory limits of sensor networks. TinyOS programs are built of software components, some of which present hardware abstractions. Components are connected to each other using interfaces. TinyOS provides interfaces and components for common abstractions such as packet communication, routing, sensing, actuation and storage.</p>
+<p>LiteOS is open source, written in C and runs on the Atmel AVR based MicaZ and IRIS sensor networking platform. According to the official release notes, this version is closely integrated with <a href="http://www.avr-tutorials.com/avr-studio-5/avr-studio-5">AVR Studio 5.0</a>. With the JTAG support which is natively built into this software, LiteOS allows debugging sensor network applications directly through JTAG and AVR Studio.</p>
 
-<p>TinyOS is fully non-blocking: it has one call stack. Thus, all input/output (I/O) operations that last longer than a few hundred microseconds are asynchronous and have a callback. To enable the native compiler to better optimize across call boundaries, TinyOS uses nesC&rsquo;s features to link these callbacks, called events, statically. While being non-blocking enables TinyOS to maintain high concurrency with one stack, it forces programmers to write complex logic by stitching together many small event handlers. To support larger computations, TinyOS provides tasks, which are similar to a Deferred Procedure Call and interrupt handler bottom halves. A TinyOS component can post a task, which the OS will schedule to run later. Tasks are non-preemptive and run in first in, first out order. This simple concurrency model is typically sufficient for I/O centric applications, but its difficulty with CPU-heavy applications has led to developing a thread library for the OS, named TOSThreads.</p>
+<p>In 2015 chinese telecoms giant Huawei developed an embedded operating system for the IoT also named as LiteOS. The company says that its &ldquo;LiteOS&rdquo; is the &ldquo;lightest&rdquo; software of its kind and can be used to power a range of smart devices — from wearables to cars.  The operating system weighs in at just 10 kilobytes in size.  William Xu, Huawei’s head of strategy and marketing, said that the company wasn&rsquo;t interested in building its own internet-connected gadgets. &ldquo;We want to provide the connections, not the devices,&rdquo; said Xu, according to a report in the Financial Times. He added that LiteOS was not an attempt to compete with smartphone operating systems like Android or iOS either, but would instead be used to power a range of gadgets — for both businesses and consumers. Xu gave the example of the electric toothbrush, saying a connected version would &ldquo;record how often and how effectively you brush your teeth, and could tell you when to do it and how to do it better.&rdquo;</p>
 
         
         <footer class="blockquote-footer ">
             <small>
-                Wikipedia and tinyos.stanford.edu
+                Wikipedia and The Verge
             </small>
         </footer>
         
@@ -118,11 +118,12 @@ TinyOS is an embedded, component-based operating system and platform for low-pow
             <h4 class="card-title">Links</h4>
         </div>
         <ul class="list-group list-group-flush">
-    <a href="https://github.com/tinyos/tinyos-main" class="list-group-item list-group-item-action ">Github Repo</a>
-    <a href="https://github.com/tinyos/nesc" class="list-group-item list-group-item-action ">nesC Repo</a>
-    <a href="http://tinyos.stanford.edu/tinyos-wiki/index.php/TinyOS_Overview" class="list-group-item list-group-item-action ">TinyOS Wiki</a>
-    <a href="http://csl.stanford.edu/~pal/pubs/tos-programming-web.pdf" class="list-group-item list-group-item-action ">Programming Book (Phil Levis)</a>
-    <a href="http://homepage.cs.uiowa.edu/~ochipara/classes/wsn/lectures/tinyos-tutorial.pdf" class="list-group-item list-group-item-action ">TinyOS Tutorial</a>
+    <a href="http://lanterns.eecs.utk.edu/software/liteos/" class="list-group-item list-group-item-action ">LiteOS Website</a>
+    <a href="https://code.google.com/archive/p/liteos/" class="list-group-item list-group-item-action ">LiteOS Code</a>
+    <a href="http://lanterns.eecs.utk.edu/software/liteos/LiteOS_User_Guide.pdf" class="list-group-item list-group-item-action ">LiteOS User Guide</a>
+    <a href="http://www.huawei.com/minisite/liteos/en/" class="list-group-item list-group-item-action ">Huawei LiteOS English Mini Site</a>
+    <a href="http://developer.huawei.com/ict/cn/site-iot/product/liteos" class="list-group-item list-group-item-action ">Huawei LiteOS Chinese Site</a>
+    <a href="https://github.com/LITEOS" class="list-group-item list-group-item-action ">Huawei LiteOS Code</a>
 </ul>
     </div>
 </div></p>
@@ -144,11 +145,11 @@ TinyOS is an embedded, component-based operating system and platform for low-pow
             <div class="card text-white bg-primary">
                 <div class="card-body">
                     <h3 class="card-title">Share</h3>
-                    <a class="btn btn-lg btn-primary" href='https://twitter.com/intent/tweet?hashtags=rtos&text=TinyOS&url=http%3a%2f%2fdistributedfog.com%2fos%2ftiny%2f'>
+                    <a class="btn btn-lg btn-primary" href='https://twitter.com/intent/tweet?hashtags=rtos&text=LiteOS&url=http%3a%2f%2fdistributedfog.com%2fos%2flite%2f'>
                         <i class="fa fa-twitter" aria-hidden="true"></i></a>
-                    <a class="btn btn-lg btn-primary" href='https://www.facebook.com/sharer/sharer.php?u%3dhttp%253A%252F%252Fdistributedfog.com%252Fos%252Ftiny%252F'>
+                    <a class="btn btn-lg btn-primary" href='https://www.facebook.com/sharer/sharer.php?u%3dhttp%253A%252F%252Fdistributedfog.com%252Fos%252Flite%252F'>
                         <i class="fa fa-facebook" aria-hidden="true"></i></a>
-                    <a class="btn btn-lg btn-primary" href='https://plus.google.com/share?url=http%3a%2f%2fdistributedfog.com%2fos%2ftiny%2f'>
+                    <a class="btn btn-lg btn-primary" href='https://plus.google.com/share?url=http%3a%2f%2fdistributedfog.com%2fos%2flite%2f'>
                         <i class="fa fa-google-plus" aria-hidden="true"></i></a>
                 </div>
             </div>
@@ -202,11 +203,11 @@ TinyOS is an embedded, component-based operating system and platform for low-pow
     "articleSection" : "os",
     "mainEntityOfPage": {
         "@type": "WebPage",
-        "@id": "http://distributedfog.com/os/tiny/"
+        "@id": "http://distributedfog.com/os/lite/"
     },
-    "name" : "TinyOS",
-    "headline" : "TinyOS",
-    "description" : "TinyOS is an embedded, component-based operating system and platform for low-power wireless devices, such as those used in wireless sensor networks (WSNs), smartdust, ubiquitous computing, personal area networks, building automation, and smart meters.",
+    "name" : "LiteOS",
+    "headline" : "LiteOS",
+    "description" : "LiteOS is a Unix-like operating system that fits on memory-constrained sensor nodes. LiteOS provides a familiar programming environment based on Unix, threads, and C. It follows a hybrid programming model that allows both event-driven and thread-driven programming.",
     "inLanguage" : "en-GB",
     "author" : "DistributedFog.com",
     "creator" : "",
@@ -224,8 +225,8 @@ TinyOS is an embedded, component-based operating system and platform for low-pow
         }
     },
     "logo": "",
-    "url" : "http://distributedfog.com/os/tiny/",
-    "wordCount" : "338",
+    "url" : "http://distributedfog.com/os/lite/",
+    "wordCount" : "402",
     "image" : "http://distributedfog.com/img/logo.png",
     "keywords" : [ "RTOS" ]
 }
