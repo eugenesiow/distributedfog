@@ -12,6 +12,18 @@
     
     
     <item>
+      <title>Beacon</title>
+      <link>http://distributedfog.com/tag/beacon/</link>
+      <pubDate>Wed, 11 Oct 2017 16:24:18 +0100</pubDate>
+      
+      <guid>http://distributedfog.com/tag/beacon/</guid>
+      <description>Beacons are small devices that enable relatively accurate location within a narrow range (like indoors). Beacons periodically transmit small amounts of data within a range of approximately 70 meters, and are often used for indoor location technology.  Wikipedia     Research Smart Wearables Indoor Positioning, Indoor Positioning with Beacons
+Health: Navigation for Wheelchair Users, GuideBeacon
+ 
+iBeacon by Apple and Eddystone (formerly UriBeacon) by Google are 2 popular beacon technologies.</description>
+    </item>
+    
+    <item>
       <title>GPS</title>
       <link>http://distributedfog.com/sensor/gps/</link>
       <pubDate>Wed, 11 Oct 2017 16:24:18 +0100</pubDate>
