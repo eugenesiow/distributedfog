@@ -3,7 +3,7 @@ title: "GPS"
 full: "Global Positioning System"
 type: "article"
 description: "GPS provides geolocation and time information to a receiver anywhere on or near the Earth. It does not require the user to transmit any data, and it operates independently of any telephonic or internet reception."
-tags: ["navigation", "transport", "wearables", "mobile"]
+tags: ["navigation", "transport", "wearables", "mobile","location"]
 date: 2017-10-11T16:24:18+01:00
 ---
 
