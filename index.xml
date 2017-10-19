@@ -21,6 +21,19 @@
     </item>
     
     <item>
+      <title>Arduino</title>
+      <link>http://distributedfog.com/kit/arduino/</link>
+      <pubDate>Wed, 11 Oct 2017 17:56:48 +0100</pubDate>
+      
+      <guid>http://distributedfog.com/kit/arduino/</guid>
+      <description>Arduino is an open source single-board microcontroller for building digital devices and interactive objects that can sense and control objects in the physical world. Arduino boards are available commercially in preassembled form, or as do-it-yourself kits.  Wikipedia     Research Agriculture: Soil Moisture Monitoring
+Smart City/Smart Home: Smart Garbage, $30 Home Automation System, Environmental Monitoring
+Industry: Smart Supply Chain
+ 
+Series Comparison &amp;hellip;    Arduino CPU SRAM Flash     Yún 400 MHz 64 MB 16 MB   Uno 16 MHz 2 KB 32 KB   101 32 MHz 24 KB 196 KB   Micro 16 MHz 2.</description>
+    </item>
+    
+    <item>
       <title>CoAP</title>
       <link>http://distributedfog.com/app-protocol/coap/</link>
       <pubDate>Wed, 11 Oct 2017 17:56:48 +0100</pubDate>
