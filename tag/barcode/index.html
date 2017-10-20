@@ -6,7 +6,7 @@
     <meta name="description" content="All about the Internet of Things Landscape including technologies, protocols, applications, platforms and research.">
     <meta name="author" content="DistributedFog.com">
 
-    <title>DistributedFog: RFID</title>
+    <title>DistributedFog: Barcode</title>
 
     
     <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0-beta/css/bootstrap.min.css" integrity="sha384-/Y6pD6FV/Vv2HJnA6t+vslU6fwYXjCFtcEpHbNJ0lyAFsXTsjBbfaDjzALeQsN6M" crossorigin="anonymous">
@@ -44,27 +44,27 @@ ga('send', 'pageview');
                 
                 <a class="dropdown-item " href="/tag/">Tags</a>
                 
-                <a class="dropdown-item " href="/tag/barcode/">Barcode</a>
+                <a class="dropdown-item active" href="/tag/barcode/">Barcode</a>
                 
                 <a class="dropdown-item " href="/tag/beacon/">Beacon</a>
                 
                 <a class="dropdown-item " href="/tag/qrcode/">QR Code</a>
                 
-                <a class="dropdown-item active" href="/tag/rfid/">RFID</a>
+                <a class="dropdown-item " href="/tag/rfid/">RFID</a>
                 
             </div>
         </li>
-        <li class="breadcrumb-item active">RFID</li>
+        <li class="breadcrumb-item active">Barcode</li>
     </ol>
 </header>
 <div class="container container-section">
     
-    <h1>RFID <small>Radio-frequency Identification</small></h1>
+    <h1>Barcode </h1>
     <div class="row">
         <div class='col-sm-4 py-2'>
     <div class='card card-body bg-info text-white h-100'>
         
-Radio-frequency identification (RFID) uses electromagnetic fields to automatically identify and track tags, containing electronically stored information, attached to objects. There are passive and active tags.
+A barcode is an optical, machine-readable, representation of data; the data usually describes something about the object that carries the barcode. Originally barcodes systematically represented data by varying the widths and spacings of parallel lines.
 
         
         <footer class="blockquote-footer text-white">
@@ -78,7 +78,11 @@ Radio-frequency identification (RFID) uses electromagnetic fields to automatical
 
 <p><div class='col-sm-4 py-2'>
     <div class='card card-body  h-100'>
-        <p>In 2009, Kevin Ashton, who cofounded the Auto-ID Center researching RFID, wrote an article in the RFID Journal titled &ldquo;<a href="http://www.rfidjournal.com/articles/view?4986">That &lsquo;Internet of Things&rsquo; Thing</a>&rdquo;. He is attributed with having coined the IoT term then.</p>
+        <h3 id="research">Research</h3>
+
+<p>Industry: <a href="http://ijesc.org/upload/e8f6d4e378a0d9950af233863e5bc2e2.IOT%20Based%20Stock%20Verification%20System%20Using%20Raspberry%20PI,%20Barcode%20Scanner%20and%20Android%20Application.pdf">Stock Verification</a><br />
+Privacy: <a href="http://homepages.cae.wisc.edu/~zhu/images/S3_MobiCom.pdf">Invisible Barcode</a><br />
+<a href="http://www.journalrepository.org/media/journals/BJMCS_6/2016/Apr/Puri1552016BJMCS24854.pdf">Data Glove</a></p>
 
         
     </div>
@@ -86,55 +90,10 @@ Radio-frequency identification (RFID) uses electromagnetic fields to automatical
 
 <p><div class='col-sm-4 py-2'>
     <div class='card card-body  h-100'>
-        <h5 id="frequencies-https-en-wikipedia-org-wiki-radio-frequency-identification-frequencies">Frequencies  <a href="https://en.wikipedia.org/wiki/Radio-frequency_identification#Frequencies">&hellip;</a></h5>
+        <h3 id="example">Example</h3>
 
-<table>
-<thead>
-<tr>
-<th>Band</th>
-<th>Range</th>
-<th>Speed</th>
-<th>~Tag$</th>
-</tr>
-</thead>
-
-<tbody>
-<tr>
-<td>LF</td>
-<td>10cm</td>
-<td>Low</td>
-<td>$1</td>
-</tr>
-
-<tr>
-<td>HF</td>
-<td>10cm-1m</td>
-<td>Low</td>
-<td>&gt;$0.50</td>
-</tr>
-
-<tr>
-<td>UHF422</td>
-<td>1-100m</td>
-<td>Moderate</td>
-<td>$5</td>
-</tr>
-
-<tr>
-<td>UHF865</td>
-<td>1-12m</td>
-<td>Moderate</td>
-<td>$0.15</td>
-</tr>
-
-<tr>
-<td>μwave</td>
-<td>&lt;200m</td>
-<td>High</td>
-<td>$25</td>
-</tr>
-</tbody>
-</table>
+<p><img src="/img/articles/barcode.gif" title="DistributedFog.com in Code-128" style="width: 280px;"><br />
+Code 128 is a very high-density barcode symbology. It can encode all 128 characters of ASCII.</p>
 
         
     </div>
@@ -142,13 +101,22 @@ Radio-frequency identification (RFID) uses electromagnetic fields to automatical
 
 <p><div class='col-sm-8 py-2'>
     <div class='card card-body  h-100'>
-        <p>Radio-frequency identification (RFID) uses electromagnetic fields to automatically identify and track tags attached to objects. The tags contain electronically stored information. Passive tags collect energy from a nearby RFID reader&rsquo;s interrogating radio waves. Active tags have a local power source (such as a battery) and may operate hundreds of meters from the RFID reader. Unlike a barcode, the tag need not be within the line of sight of the reader, so it may be embedded in the tracked object.</p>
+        <h5 id="universal-product-code-upc">Universal Product Code (UPC)</h5>
 
-<p>RFID tags are used in many industries, for example, an RFID tag attached to an automobile during production can be used to track its progress through the assembly line; RFID-tagged pharmaceuticals can be tracked through warehouses; and implanting RFID microchips in livestock and pets allows for positive identification of animals. Tags can also be used in shops to expedite checkout, and to prevent theft by customers and employees.</p>
+<p>The Universal Product Code (UPC) is a barcode symbology that is widely used in the United States, Canada, United Kingdom, Australia, New Zealand, in Europe and other countries for tracking trade items in stores.</p>
 
-<h5 id="security-and-privacy">Security and Privacy</h5>
+<p>UPC (technically refers to UPC-A) consists of 12 numeric digits, that are uniquely assigned to each trade item. Along with the related EAN barcode, the UPC is the barcode mainly used for scanning of trade items at the point of sale, per GS1 specifications.[1] UPC data structures are a component of GTINs and follow the global GS1 specification, which is based on international standards. But some retailers (clothing, furniture) do not use the GS1 system (rather other barcode symbologies or article number systems). On the other hand, some retailers use the EAN/UPC barcode symbology, but without using a GTIN (for products, brands, sold at such retailers only). <a href="https://www.gs1uk.org/get-a-barcode">Read more</a></p>
 
-<p><a href="https://www.iso.org/standard/46149.html">ISO/IEC 18000</a> and <a href="https://www.iso.org/standard/55847.html">ISO/IEC 29167</a> use on-chip cryptography methods for untraceability, tag and reader authentication, and over-the-air privacy. <a href="https://www.iso.org/standard/67412.html">ISO/IEC 20248</a> specifies a digital signature data structure for RFID and barcodes providing data, source and read method authenticity. This work is done within <a href="https://www.iso.org/committee/45332.html">ISO/IEC JTC 1/SC 31</a> Automatic identification and data capture techniques.</p>
+<h5 id="code-128">Code-128</h5>
+
+<p>Code 128 is a very high-density barcode symbology. It is used for alphanumeric or numeric-only barcodes. It can encode all 128 characters of ASCII and, by use of an extension symbol (FNC4), the Latin-1 characters defined in ISO/IEC 8859-1. <a href="https://en.wikipedia.org/wiki/Code_128">Read more</a></p>
+
+<h5 id="types-of-barcodes">Types of Barcodes</h5>
+
+<ul>
+<li><a href="https://en.wikipedia.org/wiki/Barcode#Linear_barcodes">Linear barcodes</a><br /></li>
+<li><a href="https://en.wikipedia.org/wiki/Barcode#Matrix_.282D.29_barcodes">Matrix (2D) barcodes</a><br /></li>
+</ul>
 
         
         <footer class="blockquote-footer ">
@@ -166,10 +134,8 @@ Radio-frequency identification (RFID) uses electromagnetic fields to automatical
             <h4 class="card-title">Products</h4>
         </div>
         <ul class="list-group list-group-flush">
-    <a href="https://electronics.howstuffworks.com/gadgets/high-tech-gadgets/rfid.htm" class="list-group-item list-group-item-action ">How it Works?</a>
-    <a href="http://www.rfidjournal.com/site/faqs" class="list-group-item list-group-item-action ">RFID Journal FAQ</a>
-    <a href="https://www.gs1.org/epcglobal" class="list-group-item list-group-item-action ">EPCGlobal</a>
-    <a href="https://www.gs1.org/epc-rfid" class="list-group-item list-group-item-action ">RFID Standards</a>
+    <a href="https://www.gs1uk.org/get-a-barcode" class="list-group-item list-group-item-action ">GS1: Get A Barcode</a>
+    <a href="https://barcode.tec-it.com/en/Code128" class="list-group-item list-group-item-action ">Barcode Generator</a>
 </ul>
     </div>
 </div></p>
@@ -181,12 +147,6 @@ Radio-frequency identification (RFID) uses electromagnetic fields to automatical
                     <div class="tag-list">
                         <a href='http://distributedfog.com/tag'><span class="badge badge-light">Tags</span></a>
                             
-                            <a href="/tags/mobile"><span class="badge badge-light">Mobile</span></a>
-                            
-                            <a href="/tags/radio"><span class="badge badge-light">Radio</span></a>
-                            
-                            <a href="/tags/tracking"><span class="badge badge-light">Tracking</span></a>
-                            
                             <a href="/tags/industry"><span class="badge badge-light">Industry</span></a>
                           
                     </div>
@@ -197,11 +157,11 @@ Radio-frequency identification (RFID) uses electromagnetic fields to automatical
             <div class="card text-white bg-primary">
                 <div class="card-body">
                     <h3 class="card-title">Share</h3>
-                    <a class="btn btn-lg btn-primary" href='https://twitter.com/intent/tweet?hashtags=mobile%2cradio%2ctracking%2cindustry&text=RFID&url=http%3a%2f%2fdistributedfog.com%2ftag%2frfid%2f'>
+                    <a class="btn btn-lg btn-primary" href='https://twitter.com/intent/tweet?hashtags=industry&text=Barcode&url=http%3a%2f%2fdistributedfog.com%2ftag%2fbarcode%2f'>
                         <i class="fa fa-twitter" aria-hidden="true"></i></a>
-                    <a class="btn btn-lg btn-primary" href='https://www.facebook.com/sharer/sharer.php?u%3dhttp%253A%252F%252Fdistributedfog.com%252Ftag%252Frfid%252F'>
+                    <a class="btn btn-lg btn-primary" href='https://www.facebook.com/sharer/sharer.php?u%3dhttp%253A%252F%252Fdistributedfog.com%252Ftag%252Fbarcode%252F'>
                         <i class="fa fa-facebook" aria-hidden="true"></i></a>
-                    <a class="btn btn-lg btn-primary" href='https://plus.google.com/share?url=http%3a%2f%2fdistributedfog.com%2ftag%2frfid%2f'>
+                    <a class="btn btn-lg btn-primary" href='https://plus.google.com/share?url=http%3a%2f%2fdistributedfog.com%2ftag%2fbarcode%2f'>
                         <i class="fa fa-google-plus" aria-hidden="true"></i></a>
                 </div>
             </div>
@@ -255,11 +215,11 @@ Radio-frequency identification (RFID) uses electromagnetic fields to automatical
     "articleSection" : "tag",
     "mainEntityOfPage": {
         "@type": "WebPage",
-        "@id": "http://distributedfog.com/tag/rfid/"
+        "@id": "http://distributedfog.com/tag/barcode/"
     },
-    "name" : "RFID",
-    "headline" : "RFID",
-    "description" : "Radio-frequency identification (RFID) uses electromagnetic fields to automatically identify and track tags, containing electronically stored information, attached to objects. There are passive and active tags.",
+    "name" : "Barcode",
+    "headline" : "Barcode",
+    "description" : "A barcode is an optical, machine-readable, representation of data; the data usually describes something about the object that carries the barcode. Originally barcodes systematically represented data by varying the widths and spacings of parallel lines.",
     "inLanguage" : "en-GB",
     "author" : "DistributedFog.com",
     "creator" : "",
@@ -277,10 +237,10 @@ Radio-frequency identification (RFID) uses electromagnetic fields to automatical
         }
     },
     "logo": "",
-    "url" : "http://distributedfog.com/tag/rfid/",
-    "wordCount" : "299",
+    "url" : "http://distributedfog.com/tag/barcode/",
+    "wordCount" : "267",
     "image" : "http://distributedfog.com/img/logo.png",
-    "keywords" : [ "mobile, radio, tracking, industry" ]
+    "keywords" : [ "industry" ]
 }
 </script>
 
