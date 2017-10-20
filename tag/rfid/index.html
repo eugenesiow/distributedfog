@@ -6,7 +6,7 @@
     <meta name="description" content="All about the Internet of Things Landscape including technologies, protocols, applications, platforms and research.">
     <meta name="author" content="DistributedFog.com">
 
-    <title>DistributedFog: QR Code</title>
+    <title>DistributedFog: RFID</title>
 
     
     <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0-beta/css/bootstrap.min.css" integrity="sha384-/Y6pD6FV/Vv2HJnA6t+vslU6fwYXjCFtcEpHbNJ0lyAFsXTsjBbfaDjzALeQsN6M" crossorigin="anonymous">
@@ -46,23 +46,23 @@ ga('send', 'pageview');
                 
                 <a class="dropdown-item " href="/tag/beacon/">Beacon</a>
                 
-                <a class="dropdown-item active" href="/tag/qrcode/">QR Code</a>
+                <a class="dropdown-item " href="/tag/qrcode/">QR Code</a>
                 
-                <a class="dropdown-item " href="/tag/rfid/">RFID</a>
+                <a class="dropdown-item active" href="/tag/rfid/">RFID</a>
                 
             </div>
         </li>
-        <li class="breadcrumb-item active">QR Code</li>
+        <li class="breadcrumb-item active">RFID</li>
     </ol>
 </header>
 <div class="container container-section">
     
-    <h1>QR Code <small>Quick Response Code</small></h1>
+    <h1>RFID <small>Radio-frequency Identification</small></h1>
     <div class="row">
         <div class='col-sm-4 py-2'>
     <div class='card card-body bg-info text-white h-100'>
         
-QR code is a type of 2D matrix barcode with a machine-readable optical label that contains information about the item to which it is attached. A QR code consists of black squares arranged in a square grid on a white background.
+Radio-frequency identification (RFID) uses electromagnetic fields to automatically identify and track tags, containing electronically stored information, attached to objects. There are passive and active tags.
 
         
         <footer class="blockquote-footer text-white">
@@ -76,9 +76,7 @@ QR code is a type of 2D matrix barcode with a machine-readable optical label tha
 
 <p><div class='col-sm-4 py-2'>
     <div class='card card-body  h-100'>
-        <h3 id="research">Research</h3>
-
-<p><a href="http://ieeexplore.ieee.org/abstract/document/7043637/">IoT Deployment</a>, <a href="https://link.springer.com/chapter/10.1007/978-3-319-47063-4_29">Smart Card</a>, <a href="http://www.koreascience.or.kr/article/ArticleFullRecord.jsp?cn=OTNBBE_2015_v15n2_31">Security for QR Codes</a></p>
+        <p>In 2009, Kevin Ashton, who cofounded the Auto-ID Center researching RFID, wrote an article in the RFID Journal titled &ldquo;<a href="http://www.rfidjournal.com/articles/view?4986">That &lsquo;Internet of Things&rsquo; Thing</a>&rdquo;. He is attributed with having coined the IoT term then.</p>
 
         
     </div>
@@ -86,9 +84,55 @@ QR code is a type of 2D matrix barcode with a machine-readable optical label tha
 
 <p><div class='col-sm-4 py-2'>
     <div class='card card-body  h-100'>
-        <h3 id="example">Example</h3>
+        <h5 id="frequencies-https-en-wikipedia-org-wiki-radio-frequency-identification-frequencies">Frequencies  <a href="https://en.wikipedia.org/wiki/Radio-frequency_identification#Frequencies">&hellip;</a></h5>
 
-<p><img src="/img/articles/qrcode.svg" title="QR Code of a link to this page" style="height: 110px;"></p>
+<table>
+<thead>
+<tr>
+<th>Band</th>
+<th>Range</th>
+<th>Speed</th>
+<th>~Tag$</th>
+</tr>
+</thead>
+
+<tbody>
+<tr>
+<td>LF</td>
+<td>10cm</td>
+<td>Low</td>
+<td>$1</td>
+</tr>
+
+<tr>
+<td>HF</td>
+<td>10cm-1m</td>
+<td>Low</td>
+<td>&gt;$0.50</td>
+</tr>
+
+<tr>
+<td>UHF422</td>
+<td>1-100m</td>
+<td>Moderate</td>
+<td>$5</td>
+</tr>
+
+<tr>
+<td>UHF865</td>
+<td>1-12m</td>
+<td>Moderate</td>
+<td>$0.15</td>
+</tr>
+
+<tr>
+<td>μwave</td>
+<td>&lt;200m</td>
+<td>High</td>
+<td>$25</td>
+</tr>
+</tbody>
+</table>
 
         
     </div>
@@ -96,11 +140,13 @@ QR code is a type of 2D matrix barcode with a machine-readable optical label tha
 
 <p><div class='col-sm-8 py-2'>
     <div class='card card-body  h-100'>
-        <p>The QR code system became popular due to its fast readability and greater storage capacity compared to standard UPC barcodes. Applications include product tracking, item identification, time tracking, document management, and general marketing.</p>
+        <p>Radio-frequency identification (RFID) uses electromagnetic fields to automatically identify and track tags attached to objects. The tags contain electronically stored information. Passive tags collect energy from a nearby RFID reader&rsquo;s interrogating radio waves. Active tags have a local power source (such as a battery) and may operate hundreds of meters from the RFID reader. Unlike a barcode, the tag need not be within the line of sight of the reader, so it may be embedded in the tracked object.</p>
 
-<p>A QR code consists of black squares arranged in a square grid on a white background, which can be read by an imaging device such as a camera, and processed using Reed–Solomon error correction until the image can be appropriately interpreted. The required data is then extracted from patterns that are present in both horizontal and vertical components of the image.</p>
+<p>RFID tags are used in many industries, for example, an RFID tag attached to an automobile during production can be used to track its progress through the assembly line; RFID-tagged pharmaceuticals can be tracked through warehouses; and implanting RFID microchips in livestock and pets allows for positive identification of animals. Tags can also be used in shops to expedite checkout, and to prevent theft by customers and employees.</p>
 
-<p>Typically, a smartphone is used as a QR code scanner, displaying the code and converting it to some useful form (such as a standard URL for a website, thereby obviating the need for a user to type it into a web browser).</p>
+<h5 id="security-and-privacy">Security and Privacy</h5>
+
+<p><a href="https://www.iso.org/standard/46149.html">ISO/IEC 18000</a> and <a href="https://www.iso.org/standard/55847.html">ISO/IEC 29167</a> use on-chip cryptography methods for untraceability, tag and reader authentication, and over-the-air privacy. <a href="https://www.iso.org/standard/67412.html">ISO/IEC 20248</a> specifies a digital signature data structure for RFID and barcodes providing data, source and read method authenticity. This work is done within <a href="https://www.iso.org/committee/45332.html">ISO/IEC JTC 1/SC 31</a> Automatic identification and data capture techniques.</p>
 
         
         <footer class="blockquote-footer ">
@@ -118,12 +164,10 @@ QR code is a type of 2D matrix barcode with a machine-readable optical label tha
             <h4 class="card-title">Products</h4>
         </div>
         <ul class="list-group list-group-flush">
-    <a href="http://www.qr-code-generator.com/" class="list-group-item list-group-item-action ">QR Code Generator</a>
-    <a href="http://qrdroid.com/blog/encrypted-qr-codes-share-secret-messages/" class="list-group-item list-group-item-action ">Encrypted QR Codes</a>
-    <a href="https://itunes.apple.com/gb/app/qr-reader-for-iphone/id368494609?mt=8" class="list-group-item list-group-item-action ">iOS QR Reader</a>
-    <a href="https://www.scan.me/download/" class="list-group-item list-group-item-action ">Scan App</a>
-    <a href="https://webqr.com/" class="list-group-item list-group-item-action ">Web QR</a>
-    <a href="http://agilerule.blogspot.co.uk/2016/08/iot-raspberrypi-camera-module-scan-for.html" class="list-group-item list-group-item-action ">RPi Camera QR Code Scanner</a>
+    <a href="https://electronics.howstuffworks.com/gadgets/high-tech-gadgets/rfid.htm" class="list-group-item list-group-item-action ">How it Works?</a>
+    <a href="http://www.rfidjournal.com/site/faqs" class="list-group-item list-group-item-action ">RFID Journal FAQ</a>
+    <a href="https://www.gs1.org/epcglobal" class="list-group-item list-group-item-action ">EPCGlobal</a>
+    <a href="https://www.gs1.org/epc-rfid" class="list-group-item list-group-item-action ">RFID Standards</a>
 </ul>
     </div>
 </div></p>
@@ -135,6 +179,12 @@ QR code is a type of 2D matrix barcode with a machine-readable optical label tha
                     <div class="tag-list">
                         <a href='http://distributedfog.com/tag'><span class="badge badge-light">Tags</span></a>
                             
+                            <a href="/tags/mobile"><span class="badge badge-light">Mobile</span></a>
+                            
+                            <a href="/tags/radio"><span class="badge badge-light">Radio</span></a>
+                            
+                            <a href="/tags/tracking"><span class="badge badge-light">Tracking</span></a>
+                            
                             <a href="/tags/industry"><span class="badge badge-light">Industry</span></a>
                           
                     </div>
@@ -145,11 +195,11 @@ QR code is a type of 2D matrix barcode with a machine-readable optical label tha
             <div class="card text-white bg-primary">
                 <div class="card-body">
                     <h3 class="card-title">Share</h3>
-                    <a class="btn btn-lg btn-primary" href='https://twitter.com/intent/tweet?hashtags=industry&text=QR%20Code&url=http%3a%2f%2fdistributedfog.com%2ftag%2fqrcode%2f'>
+                    <a class="btn btn-lg btn-primary" href='https://twitter.com/intent/tweet?hashtags=mobile%2cradio%2ctracking%2cindustry&text=RFID&url=http%3a%2f%2fdistributedfog.com%2ftag%2frfid%2f'>
                         <i class="fa fa-twitter" aria-hidden="true"></i></a>
-                    <a class="btn btn-lg btn-primary" href='https://www.facebook.com/sharer/sharer.php?u%3dhttp%253A%252F%252Fdistributedfog.com%252Ftag%252Fqrcode%252F'>
+                    <a class="btn btn-lg btn-primary" href='https://www.facebook.com/sharer/sharer.php?u%3dhttp%253A%252F%252Fdistributedfog.com%252Ftag%252Frfid%252F'>
                         <i class="fa fa-facebook" aria-hidden="true"></i></a>
-                    <a class="btn btn-lg btn-primary" href='https://plus.google.com/share?url=http%3a%2f%2fdistributedfog.com%2ftag%2fqrcode%2f'>
+                    <a class="btn btn-lg btn-primary" href='https://plus.google.com/share?url=http%3a%2f%2fdistributedfog.com%2ftag%2frfid%2f'>
                         <i class="fa fa-google-plus" aria-hidden="true"></i></a>
                 </div>
             </div>
@@ -203,11 +253,11 @@ QR code is a type of 2D matrix barcode with a machine-readable optical label tha
     "articleSection" : "tag",
     "mainEntityOfPage": {
         "@type": "WebPage",
-        "@id": "http://distributedfog.com/tag/qrcode/"
+        "@id": "http://distributedfog.com/tag/rfid/"
     },
-    "name" : "QR Code",
-    "headline" : "QR Code",
-    "description" : "QR code is a type of 2D matrix barcode with a machine-readable optical label that contains information about the item to which it is attached. A QR code consists of black squares arranged in a square grid on a white background.",
+    "name" : "RFID",
+    "headline" : "RFID",
+    "description" : "Radio-frequency identification (RFID) uses electromagnetic fields to automatically identify and track tags, containing electronically stored information, attached to objects. There are passive and active tags.",
     "inLanguage" : "en-GB",
     "author" : "DistributedFog.com",
     "creator" : "",
@@ -225,10 +275,10 @@ QR code is a type of 2D matrix barcode with a machine-readable optical label tha
         }
     },
     "logo": "",
-    "url" : "http://distributedfog.com/tag/qrcode/",
-    "wordCount" : "208",
+    "url" : "http://distributedfog.com/tag/rfid/",
+    "wordCount" : "299",
     "image" : "http://distributedfog.com/img/logo.png",
-    "keywords" : [ "industry" ]
+    "keywords" : [ "mobile, radio, tracking, industry" ]
 }
 </script>
 
