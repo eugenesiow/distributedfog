@@ -12,6 +12,21 @@
     
     
     <item>
+      <title>Resin.io</title>
+      <link>http://distributedfog.com/platform/resin-io/</link>
+      <pubDate>Wed, 11 Oct 2017 17:56:48 +0100</pubDate>
+      
+      <guid>http://distributedfog.com/platform/resin-io/</guid>
+      <description>Resin.io offers a development and deployment framework based upon Linux and containers that is designed to facilitate control of the on-device environment, provision devices on the network, and manage a fleet of systems.  resin.io     The Good  Developer friendly: iterate and push
+ 20 supported maker devices
+ Container-based
+ Open Source: ResinOS, Balena
+ First 10 devices free
+   
+   Features &amp;hellip;     Control on-device environment   Provision devices easily   Manage device fleet at scale   Automate device fleet from own cloud   Encrypted communication   Continuous updates</description>
+    </item>
+    
+    <item>
       <title>SensorCloud</title>
       <link>http://distributedfog.com/platform/sensorcloud/</link>
       <pubDate>Wed, 11 Oct 2017 17:56:48 +0100</pubDate>

@@ -1,0 +1,30 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes" ?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>Linux on DistributedFog</title>
+    <link>http://distributedfog.com/tags/linux/</link>
+    <description>Recent content in Linux on DistributedFog</description>
+    <generator>Hugo -- gohugo.io</generator>
+    <language>en-us</language>
+    <lastBuildDate>Wed, 11 Oct 2017 17:56:48 +0100</lastBuildDate>
+    
+	<atom:link href="http://distributedfog.com/tags/linux/index.xml" rel="self" type="application/rss+xml" />
+    
+    
+    <item>
+      <title>Resin.io</title>
+      <link>http://distributedfog.com/platform/resin-io/</link>
+      <pubDate>Wed, 11 Oct 2017 17:56:48 +0100</pubDate>
+      
+      <guid>http://distributedfog.com/platform/resin-io/</guid>
+      <description>Resin.io offers a development and deployment framework based upon Linux and containers that is designed to facilitate control of the on-device environment, provision devices on the network, and manage a fleet of systems.  resin.io     The Good  Developer friendly: iterate and push
+ 20 supported maker devices
+ Container-based
+ Open Source: ResinOS, Balena
+ First 10 devices free
+   
+   Features &amp;hellip;     Control on-device environment   Provision devices easily   Manage device fleet at scale   Automate device fleet from own cloud   Encrypted communication   Continuous updates</description>
+    </item>
+    
+  </channel>
+</rss>

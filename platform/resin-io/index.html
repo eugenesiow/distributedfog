@@ -6,7 +6,7 @@
     <meta name="description" content="All about the Internet of Things Landscape including technologies, protocols, applications, platforms and research.">
     <meta name="author" content="DistributedFog.com">
 
-    <title>DistributedFog: SensorCloud</title>
+    <title>DistributedFog: Resin.io</title>
 
     
     <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0-beta/css/bootstrap.min.css" integrity="sha384-/Y6pD6FV/Vv2HJnA6t+vslU6fwYXjCFtcEpHbNJ0lyAFsXTsjBbfaDjzALeQsN6M" crossorigin="anonymous">
@@ -44,9 +44,9 @@ ga('send', 'pageview');
                 
                 <a class="dropdown-item " href="/platform/">Platforms</a>
                 
-                <a class="dropdown-item " href="/platform/resin-io/">Resin.io</a>
+                <a class="dropdown-item active" href="/platform/resin-io/">Resin.io</a>
                 
-                <a class="dropdown-item active" href="/platform/sensorcloud/">SensorCloud</a>
+                <a class="dropdown-item " href="/platform/sensorcloud/">SensorCloud</a>
                 
                 <a class="dropdown-item " href="/platform/xively/">Xively</a>
                 
@@ -54,22 +54,22 @@ ga('send', 'pageview');
                 
             </div>
         </li>
-        <li class="breadcrumb-item active">SensorCloud</li>
+        <li class="breadcrumb-item active">Resin.io</li>
     </ol>
 </header>
 <div class="container container-section">
     
-    <h1>SensorCloud </h1>
+    <h1>Resin.io </h1>
     <div class="row">
         <div class='col-sm-4 py-2'>
     <div class='card card-body bg-info text-white h-100'>
         
-SensorCloud is a sensor data storage, visualization and remote management platform. It is a product of LORD MicroStrain Sensing Systems and leverages Cloud computing technologies to provide data scalability, rapid visualization, and user programmable analysis.
+Resin.io offers a development and deployment framework based upon Linux and containers that is designed to facilitate control of the on-device environment, provision devices on the network, and manage a fleet of systems.
 
         
         <footer class="blockquote-footer text-white">
             <small>
-                sensorcloud.com
+                resin.io
             </small>
         </footer>
         
@@ -78,9 +78,15 @@ SensorCloud is a sensor data storage, visualization and remote management platfo
 
 <p><div class='col-sm-4 py-2'>
     <div class='card card-body  h-100'>
-        <h3 id="mathengine">MathEngine</h3>
+        <h3 id="the-good">The Good</h3>
 
-<p>A $50/month per SensorCloud account account. It provides multiple ways to analyze data. It can generate FFT plots, filter out frequencies, and smooth out noisy data. It also integrates <a href="http://ipython.org/">IPython</a> Notebooks into its cloud service.</p>
+<ul>
+<li>Developer friendly: iterate and push<br /></li>
+<li><a href="https://docs.resin.io/hardware/devices/">20 supported</a> maker devices<br /></li>
+<li>Container-based<br /></li>
+<li>Open Source: <a href="https://resinos.io/">ResinOS</a>, <a href="https://www.balena.io/">Balena</a><br /></li>
+<li>First 10 devices free<br /></li>
+</ul>
 
         
     </div>
@@ -91,33 +97,33 @@ SensorCloud is a sensor data storage, visualization and remote management platfo
         <table>
 <thead>
 <tr>
-<th>Features</th>
+<th>Features <a href="https://resin.io/features/">&hellip;</a></th>
 </tr>
 </thead>
 
 <tbody>
 <tr>
-<td>Open Data API</td>
+<td>Control on-device environment</td>
 </tr>
 
 <tr>
-<td>Integration with MicroStrain sensors</td>
+<td>Provision devices easily</td>
 </tr>
 
 <tr>
-<td>Encrypted data transactions</td>
+<td>Manage device fleet at scale</td>
 </tr>
 
 <tr>
-<td>Sensor monitoring and alerts</td>
+<td>Automate device fleet from own cloud</td>
 </tr>
 
 <tr>
-<td>Visualize massive datasets instantly</td>
+<td>Encrypted communication</td>
 </tr>
 
 <tr>
-<td>MathEngine</td>
+<td>Continuous updates</td>
 </tr>
 </tbody>
 </table>
@@ -128,16 +134,26 @@ SensorCloud is a sensor data storage, visualization and remote management platfo
 
 <p><div class='col-sm-8 py-2'>
     <div class='card card-body  h-100'>
-        <p>SensorCloud is a unique sensor data storage, visualization and remote management platform that leverages powerful Cloud computing technologies to provide excellent data scalability, rapid visualization, and user programmable analysis. SensorCloud&rsquo;s core features include FastGraph, <a href="http://www.sensorcloud.com/mathengine">MathEngine</a>, LiveConnect, and the <a href="https://github.com/LORD-MicroStrain/SensorCloud/blob/master/API/README.md">OpenData API</a>.</p>
+        <p><a href="http://resin.io/">Resin.io</a> makes it simple to deploy, update, and maintain code running on remote devices. We are bringing the web development and deployment workflow to hardware, using tools like git and Docker to allow you to seamlessly update all your embedded linux devices in the wild. We handle cross-compilation, device monitoring, VPNs, and log collection, so you can focus on your product and not the infrastructure.</p>
 
-<p>LORD MicroStrain&rsquo;s Wireless and Inertial sensors allow instant uploading of their data to SensorCloud. Third party devices and other data sources can also push data to SensorCloud via the OpenData API or via the provided CSV uploader. Once uploaded, your data is securely stored in the Cloud and can be accessed from anywhere, or downloaded for offline use.</p>
+<h5 id="code-deployment">Code Deployment</h5>
 
-<p>Alerts are provided to help notify you of real-time events in your data. MathEngine analytics allow you to perform both simple and complex mathematical operations on your data, all in the Cloud. <a href="http://www.sensorcloud.com/documentation">Read more</a></p>
+<p>We use the familiar and popular git version control tool to push your code changes to a remote repository on our build servers. Each resin.io application has a unique remote repository associated to it and all code changes on the master branch of this repository will be built and delivered to your device fleet. When our servers receive your changes on master a chain reaction is set in motion in which your code is built for the specified target architecture, bundled into a Docker container and then systematically rolled out to your fleet of devices in the field.</p>
+
+<h5 id="building-containers">Building Containers</h5>
+
+<p>The method our builders use to build your code depends on the project you are pushing. If your project includes a Dockerfile, the builders will execute every command in the Dockerfile, from including the base OS you define, to installing packages, pulling git repositories, and running any other commands you specify.</p>
+
+<p>Alternatively, if your project includes a package.json (i.e. a node.js project), then that will be used instead to create an implicit Dockerfile, which simulates the build process a node.js/npm project expects. In this way, we are able to transparently run node.js projects on resin.io, while taking advantage of some of Docker’s caching features.</p>
+
+<p>A Dockerfile will always give you more power to fine-tune the build process, but it’s also good to start fast without one, since you can shift to a Dockerfile whenever you like. We will soon add more languages to the “first-class” support we give to node.js. Until then, any other language can be used by adding a Dockerfile. It’s important to note that the environment within which your code gets built will match the devices you use for your app. So if you’re for example pushing to an app containing BeagleBone Black devices, we’ll build your code in an ARMv7 environment, while for the Raspberry Pi B+ it would be ARMv6.</p>
+
+<p>Now that you have a better view of the build and deployment process, you may want to read about how the resin.io device OS is composed and <a href="https://docs.resin.io/understanding/understanding-devices">what is installed on a device</a>.</p>
 
         
         <footer class="blockquote-footer ">
             <small>
-                sensorcloud.com
+                docs.resin.io
             </small>
         </footer>
         
@@ -150,9 +166,10 @@ SensorCloud is a sensor data storage, visualization and remote management platfo
             <h4 class="card-title">Links</h4>
         </div>
         <ul class="list-group list-group-flush">
-    <a href="http://www.sensorcloud.com/" class="list-group-item list-group-item-action ">SensorCloud</a>
-    <a href="http://www.microstrain.com/" class="list-group-item list-group-item-action ">MicroStrain sensors</a>
-    <a href="https://github.com/LORD-MicroStrain/SensorCloud" class="list-group-item list-group-item-action ">SensorCloud Github</a>
+    <a href="https://resin.io/" class="list-group-item list-group-item-action ">Resin.io</a>
+    <a href="https://resin.io/usecases/" class="list-group-item list-group-item-action ">Use Cases</a>
+    <a href="https://resin.io/how-it-works/" class="list-group-item list-group-item-action ">How it Works</a>
+    <a href="https://docs.resin.io/raspberrypi/nodejs/getting-started/" class="list-group-item list-group-item-action ">Getting Started</a>
 </ul>
     </div>
 </div></p>
@@ -168,9 +185,9 @@ SensorCloud is a sensor data storage, visualization and remote management platfo
                             
                             <a href="/tags/api"><span class="badge badge-light">API</span></a>
                             
-                            <a href="/tags/visualisation"><span class="badge badge-light">Visualisation</span></a>
-                            
                             <a href="/tags/cloud"><span class="badge badge-light">Cloud</span></a>
+                            
+                            <a href="/tags/linux"><span class="badge badge-light">Linux</span></a>
                           
                     </div>
                 </div>
@@ -180,11 +197,11 @@ SensorCloud is a sensor data storage, visualization and remote management platfo
             <div class="card text-white bg-primary">
                 <div class="card-body">
                     <h3 class="card-title">Share</h3>
-                    <a class="btn btn-lg btn-primary" href='https://twitter.com/intent/tweet?hashtags=software%2capi%2cvisualisation%2ccloud&text=SensorCloud&url=http%3a%2f%2fdistributedfog.com%2fplatform%2fsensorcloud%2f'>
+                    <a class="btn btn-lg btn-primary" href='https://twitter.com/intent/tweet?hashtags=software%2capi%2ccloud%2clinux&text=Resin.io&url=http%3a%2f%2fdistributedfog.com%2fplatform%2fresin-io%2f'>
                         <i class="fa fa-twitter" aria-hidden="true"></i></a>
-                    <a class="btn btn-lg btn-primary" href='https://www.facebook.com/sharer/sharer.php?u%3dhttp%253A%252F%252Fdistributedfog.com%252Fplatform%252Fsensorcloud%252F'>
+                    <a class="btn btn-lg btn-primary" href='https://www.facebook.com/sharer/sharer.php?u%3dhttp%253A%252F%252Fdistributedfog.com%252Fplatform%252Fresin-io%252F'>
                         <i class="fa fa-facebook" aria-hidden="true"></i></a>
-                    <a class="btn btn-lg btn-primary" href='https://plus.google.com/share?url=http%3a%2f%2fdistributedfog.com%2fplatform%2fsensorcloud%2f'>
+                    <a class="btn btn-lg btn-primary" href='https://plus.google.com/share?url=http%3a%2f%2fdistributedfog.com%2fplatform%2fresin-io%2f'>
                         <i class="fa fa-google-plus" aria-hidden="true"></i></a>
                 </div>
             </div>
@@ -238,11 +255,11 @@ SensorCloud is a sensor data storage, visualization and remote management platfo
     "articleSection" : "platform",
     "mainEntityOfPage": {
         "@type": "WebPage",
-        "@id": "http://distributedfog.com/platform/sensorcloud/"
+        "@id": "http://distributedfog.com/platform/resin-io/"
     },
-    "name" : "SensorCloud",
-    "headline" : "SensorCloud",
-    "description" : "SensorCloud is a sensor data storage, visualization and remote management platform. It is a product of LORD MicroStrain Sensing Systems and leverages Cloud computing technologies to provide data scalability, rapid visualization, and user programmable analysis.",
+    "name" : "Resin.io",
+    "headline" : "Resin.io",
+    "description" : "Resin.io offers a development and deployment framework based upon Linux and containers that is designed to facilitate control of the on-device environment, provision devices on the network, and manage a fleet of systems.",
     "inLanguage" : "en-GB",
     "author" : "DistributedFog.com",
     "creator" : "",
@@ -260,10 +277,10 @@ SensorCloud is a sensor data storage, visualization and remote management platfo
         }
     },
     "logo": "",
-    "url" : "http://distributedfog.com/platform/sensorcloud/",
-    "wordCount" : "231",
+    "url" : "http://distributedfog.com/platform/resin-io/",
+    "wordCount" : "502",
     "image" : "http://distributedfog.com/img/logo.png",
-    "keywords" : [ "software, API, visualisation, cloud" ]
+    "keywords" : [ "software, API, cloud, linux" ]
 }
 </script>
 

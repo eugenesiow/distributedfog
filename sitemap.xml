@@ -77,6 +77,11 @@
   </url>
   
   <url>
+    <loc>http://distributedfog.com/platform/resin-io/</loc>
+    <lastmod>2017-10-11T17:56:48+01:00</lastmod>
+  </url>
+  
+  <url>
     <loc>http://distributedfog.com/platform/sensorcloud/</loc>
     <lastmod>2017-10-11T17:56:48+01:00</lastmod>
   </url>
@@ -244,6 +249,12 @@
   
   <url>
     <loc>http://distributedfog.com/tags/kinetic/</loc>
+    <lastmod>2017-10-11T17:56:48+01:00</lastmod>
+    <priority>0</priority>
+  </url>
+  
+  <url>
+    <loc>http://distributedfog.com/tags/linux/</loc>
     <lastmod>2017-10-11T17:56:48+01:00</lastmod>
     <priority>0</priority>
   </url>
