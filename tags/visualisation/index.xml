@@ -1,0 +1,24 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes" ?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>Visualisation on DistributedFog</title>
+    <link>http://distributedfog.com/tags/visualisation/</link>
+    <description>Recent content in Visualisation on DistributedFog</description>
+    <generator>Hugo -- gohugo.io</generator>
+    <language>en-us</language>
+    <lastBuildDate>Wed, 11 Oct 2017 17:56:48 +0100</lastBuildDate>
+    
+	<atom:link href="http://distributedfog.com/tags/visualisation/index.xml" rel="self" type="application/rss+xml" />
+    
+    
+    <item>
+      <title>SensorCloud</title>
+      <link>http://distributedfog.com/platform/sensorcloud/</link>
+      <pubDate>Wed, 11 Oct 2017 17:56:48 +0100</pubDate>
+      
+      <guid>http://distributedfog.com/platform/sensorcloud/</guid>
+      <description>SensorCloud is a sensor data storage, visualization and remote management platform. It is a product of LORD MicroStrain Sensing Systems and leverages Cloud computing technologies to provide data scalability, rapid visualization, and user programmable analysis.  sensorcloud.com     MathEngine A $50/month per SensorCloud account account. It provides multiple ways to analyze data. It can generate FFT plots, filter out frequencies, and smooth out noisy data. It also integrates IPython Notebooks into its cloud service.</description>
+    </item>
+    
+  </channel>
+</rss>
