@@ -1,0 +1,24 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes" ?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>Network Security on DistributedFog</title>
+    <link>http://distributedfog.com/security/</link>
+    <description>Recent content in Network Security on DistributedFog</description>
+    <generator>Hugo -- gohugo.io</generator>
+    <language>en-us</language>
+    <lastBuildDate>Wed, 11 Oct 2017 17:56:48 +0100</lastBuildDate>
+    
+	<atom:link href="http://distributedfog.com/security/index.xml" rel="self" type="application/rss+xml" />
+    
+    
+    <item>
+      <title>IPsec</title>
+      <link>http://distributedfog.com/security/lora/</link>
+      <pubDate>Wed, 11 Oct 2017 17:56:48 +0100</pubDate>
+      
+      <guid>http://distributedfog.com/security/lora/</guid>
+      <description>IPsec is a network protocol suite that authenticates and encrypts the packets of data sent over a network. IPsec includes protocols for establishing mutual authentication between agents at the beginning of the session and negotiation of cryptographic keys to use during the session.  Wikipedia     Specifications RFC 4301 defines a Security Architecture for the Internet Protocol, while RFC 4303 defines the Encapsulating Security Payload (ESP) protocol and RFC 4309 describes the use of Advanced Encryption Standard (AES) in Counter with CBC-MAC (CCM) Mode as an IPsec Encapsulating Security Payload (ESP) mechanism.</description>
+    </item>
+    
+  </channel>
+</rss>

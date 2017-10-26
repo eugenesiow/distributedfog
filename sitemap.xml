@@ -37,12 +37,27 @@
   </url>
   
   <url>
+    <loc>http://distributedfog.com/gateway-protocol/</loc>
+    <lastmod>2017-10-11T17:56:48+01:00</lastmod>
+  </url>
+  
+  <url>
     <loc>http://distributedfog.com/app-protocol/http2/</loc>
     <lastmod>2017-10-11T17:56:48+01:00</lastmod>
   </url>
   
   <url>
+    <loc>http://distributedfog.com/security/lora/</loc>
+    <lastmod>2017-10-11T17:56:48+01:00</lastmod>
+  </url>
+  
+  <url>
     <loc>http://distributedfog.com/os/lite/</loc>
+    <lastmod>2017-10-11T17:56:48+01:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>http://distributedfog.com/gateway-protocol/lora/</loc>
     <lastmod>2017-10-11T17:56:48+01:00</lastmod>
   </url>
   
@@ -58,6 +73,11 @@
   
   <url>
     <loc>http://distributedfog.com/power/motion-charging/</loc>
+    <lastmod>2017-10-11T17:56:48+01:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>http://distributedfog.com/security/</loc>
     <lastmod>2017-10-11T17:56:48+01:00</lastmod>
   </url>
   
@@ -320,6 +340,12 @@
   </url>
   
   <url>
+    <loc>http://distributedfog.com/tags/specifications/</loc>
+    <lastmod>2017-10-11T17:56:48+01:00</lastmod>
+    <priority>0</priority>
+  </url>
+  
+  <url>
     <loc>http://distributedfog.com/tags/</loc>
     <lastmod>2017-10-11T17:56:48+01:00</lastmod>
     <priority>0</priority>
@@ -339,6 +365,12 @@
   
   <url>
     <loc>http://distributedfog.com/tags/visualisation/</loc>
+    <lastmod>2017-10-11T17:56:48+01:00</lastmod>
+    <priority>0</priority>
+  </url>
+  
+  <url>
+    <loc>http://distributedfog.com/tags/wan/</loc>
     <lastmod>2017-10-11T17:56:48+01:00</lastmod>
     <priority>0</priority>
   </url>

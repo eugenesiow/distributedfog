@@ -1,0 +1,24 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes" ?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>Wan on DistributedFog</title>
+    <link>http://distributedfog.com/tags/wan/</link>
+    <description>Recent content in Wan on DistributedFog</description>
+    <generator>Hugo -- gohugo.io</generator>
+    <language>en-us</language>
+    <lastBuildDate>Wed, 11 Oct 2017 17:56:48 +0100</lastBuildDate>
+    
+	<atom:link href="http://distributedfog.com/tags/wan/index.xml" rel="self" type="application/rss+xml" />
+    
+    
+    <item>
+      <title>LoRaWAN</title>
+      <link>http://distributedfog.com/gateway-protocol/lora/</link>
+      <pubDate>Wed, 11 Oct 2017 17:56:48 +0100</pubDate>
+      
+      <guid>http://distributedfog.com/gateway-protocol/lora/</guid>
+      <description>LoRaWAN is a Low Power Wide Area Network (LPWAN) specification intended for wireless battery operated Things in a regional, national or global network. It is designed to allow low-powered devices to communicate with Internet-connected applications over long range wireless connections.  lora-alliance.org     The Things Network The Things Network is a first-of-its-kind system that uses low-power, low-bandwidth LoRaWAN technology to cover the city with a wireless signal that allows objects like boats, trash cans and street lights to become tools for developers.</description>
+    </item>
+    
+  </channel>
+</rss>
