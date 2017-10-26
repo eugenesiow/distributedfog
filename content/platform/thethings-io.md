@@ -3,6 +3,7 @@ title: "thethings.io"
 type: "article"
 description: "thethings.iO is a Wayra Barcelona startup since July 2014 that makes a back-end for Internet of Things. It allows companies to focus more on the product and less on the database and the underlying cloud platform."
 tags: ["software","API","cloud"]
+weight: 0
 date: 2017-10-11T17:56:48+01:00
 ---
 
