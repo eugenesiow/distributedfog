@@ -26,6 +26,16 @@
         {{ $.Scratch.Set "card-title-pretty" "App Protocols" }}
         {{ partial "card.html" . }}
 
+        {{ partial "layer.html" "Network Layer" }}
+
+        {{ $.Scratch.Set "card-title" "gateway-protocol" }}
+        {{ $.Scratch.Set "card-title-pretty" "Gateway Protocols" }}
+        {{ partial "card.html" . }}
+
+        {{ $.Scratch.Set "card-title" "security" }}
+        {{ $.Scratch.Set "card-title-pretty" "Network Security" }}
+        {{ partial "card.html" . }}
+
         {{ partial "layer.html" "Perception Layer" }}
 
         {{ $.Scratch.Set "card-title" "sensor" }}
@@ -47,59 +57,6 @@
         {{ $.Scratch.Set "card-title" "power" }}
         {{ $.Scratch.Set "card-title-pretty" "Power" }}
         {{ partial "card.html" . }}
-
-        <!-- 
-
-        <div class="card">
-        <div class="card-body">
-            <h4 class="card-title">Hardware Kits</h4>
-            <div class="list-group">
-            <a href="#" class="list-group-item list-group-item-action">Arduino</a>
-            <a href="#" class="list-group-item list-group-item-action">Raspberry Pi</a>
-            <a href="#" class="list-group-item list-group-item-action">SmartThings</a>
-            <a href="#" class="list-group-item list-group-item-action">NUC</a>
-            </div>
-        </div>
-        </div>
-
-        <div class="card">
-        <div class="card-body">
-            <h4 class="card-title">Sensors</h4>
-        </div>
-        <div id="sensor-carousel" class="carousel slide" data-ride="carousel">
-            <ol class="carousel-indicators">
-                <li data-target="#sensor-carousel" data-slide-to="0" class="active"></li>
-                <li data-target="#sensor-carousel" data-slide-to="1"></li>
-                <li data-target="#sensor-carousel" data-slide-to="2"></li>
-            </ol>
-            <div class="carousel-inner" role="listbox">
-                <div class="carousel-item active">
-                <div class="list-group list-group-flush">
-                    <a href="#" class="list-group-item list-group-item-action">GPS</a>
-                    <a href="#" class="list-group-item list-group-item-action">Gyroscope</a>
-                    <a href="#" class="list-group-item list-group-item-action">Electro-chemical</a>
-                    <a href="#" class="list-group-item list-group-item-action">Pedometer</a>
-                </div>
-                </div>
-                <div class="carousel-item">
-                <div class="list-group list-group-flush">
-                    <a href="#" class="list-group-item list-group-item-action">EMG</a>
-                    <a href="#" class="list-group-item list-group-item-action">EEG</a>
-                    <a href="#" class="list-group-item list-group-item-action">ECG</a>
-                    <a href="#" class="list-group-item list-group-item-action">Infra-red</a>
-                </div>
-                </div>
-                <div class="carousel-item">
-                <div class="list-group list-group-flush">
-                    <a href="#" class="list-group-item list-group-item-action">Sweat</a>
-                    <a href="#" class="list-group-item list-group-item-action">Photo-ionisation</a>
-                    <a href="#" class="list-group-item list-group-item-action">Solid State</a>
-                    <a href="#" class="list-group-item list-group-item-action">SPO2</a>
-                </div>
-                </div>
-            </div>
-            </div>
-        </div> -->
 
     </div>
 </div>

@@ -29,7 +29,7 @@
                             {{if .Params.full}} <small>{{.Params.full}}</small>{{end}}</h5>
                         </div>
                         {{if .Description}}<p class="mb-1">{{.Description}}</p>{{end}}
-                        {{if .Params.tags}}<small>{{delimit (apply .Params.tags "humanize" ".") "," }}</small>{{end}}
+                        {{if .Params.tags}}<small>{{delimit .Params.tags ", " }}</small>{{end}}
                     </a>
                     {{ end }}
                 </ul>
