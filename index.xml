@@ -177,6 +177,17 @@ Programming on TinyOS is done using a C-like language called nesC. It is a compo
     </item>
     
     <item>
+      <title>WiMAX</title>
+      <link>http://distributedfog.com/gateway-protocol/wimax/</link>
+      <pubDate>Wed, 11 Oct 2017 17:56:48 +0100</pubDate>
+      
+      <guid>http://distributedfog.com/gateway-protocol/wimax/</guid>
+      <description>WiMAX is a family of wireless communication standards based on the IEEE 802.16 set of standards, which provide multiple physical layer (PHY) and Media Access Control (MAC) options. It can enable wireless usage at long distances.  Wikipedia     Possible Uses  Portable mobile broadband connectivity across cities
+ Wireless alternative to cable and DSL for &amp;ldquo;last mile&amp;rdquo; broadband
+ Data, telecommunications (VoIP) and IPTV services (triple play)</description>
+    </item>
+    
+    <item>
       <title>Wireless Charging</title>
       <link>http://distributedfog.com/power/wireless-charging/</link>
       <pubDate>Wed, 11 Oct 2017 17:56:48 +0100</pubDate>

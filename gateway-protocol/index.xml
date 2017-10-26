@@ -20,5 +20,16 @@
       <description>LoRaWAN is a Low Power Wide Area Network (LPWAN) specification intended for wireless battery operated Things in a regional, national or global network. It is designed to allow low-powered devices to communicate with Internet-connected applications over long range wireless connections.  lora-alliance.org     The Things Network The Things Network is a first-of-its-kind system that uses low-power, low-bandwidth LoRaWAN technology to cover the city with a wireless signal that allows objects like boats, trash cans and street lights to become tools for developers.</description>
     </item>
     
+    <item>
+      <title>WiMAX</title>
+      <link>http://distributedfog.com/gateway-protocol/wimax/</link>
+      <pubDate>Wed, 11 Oct 2017 17:56:48 +0100</pubDate>
+      
+      <guid>http://distributedfog.com/gateway-protocol/wimax/</guid>
+      <description>WiMAX is a family of wireless communication standards based on the IEEE 802.16 set of standards, which provide multiple physical layer (PHY) and Media Access Control (MAC) options. It can enable wireless usage at long distances.  Wikipedia     Possible Uses  Portable mobile broadband connectivity across cities
+ Wireless alternative to cable and DSL for &amp;ldquo;last mile&amp;rdquo; broadband
+ Data, telecommunications (VoIP) and IPTV services (triple play)</description>
+    </item>
+    
   </channel>
 </rss>

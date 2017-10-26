@@ -6,7 +6,7 @@
     <meta name="description" content="All about the Internet of Things Landscape including technologies, protocols, applications, platforms and research.">
     <meta name="author" content="DistributedFog.com">
 
-    <title>DistributedFog: LoRaWAN</title>
+    <title>DistributedFog: WiMAX</title>
 
     
     <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0-beta/css/bootstrap.min.css" integrity="sha384-/Y6pD6FV/Vv2HJnA6t+vslU6fwYXjCFtcEpHbNJ0lyAFsXTsjBbfaDjzALeQsN6M" crossorigin="anonymous">
@@ -44,28 +44,28 @@ ga('send', 'pageview');
                 
                 <a class="dropdown-item " href="/gateway-protocol/">Gateway Protocols</a>
                 
-                <a class="dropdown-item active" href="/gateway-protocol/lora/">LoRaWAN</a>
+                <a class="dropdown-item " href="/gateway-protocol/lora/">LoRaWAN</a>
                 
-                <a class="dropdown-item " href="/gateway-protocol/wimax/">WiMAX</a>
+                <a class="dropdown-item active" href="/gateway-protocol/wimax/">WiMAX</a>
                 
             </div>
         </li>
-        <li class="breadcrumb-item active">LoRaWAN</li>
+        <li class="breadcrumb-item active">WiMAX</li>
     </ol>
 </header>
 <div class="container container-section">
     
-    <h1>LoRaWAN <small>Long Range Wide Area Network</small></h1>
+    <h1>WiMAX <small>Worldwide Interoperability for Microwave Access</small></h1>
     <div class="row">
         <div class='col-sm-4 py-2'>
     <div class='card card-body bg-info text-white h-100'>
         
-LoRaWAN is a Low Power Wide Area Network (LPWAN) specification intended for wireless battery operated Things in a regional, national or global network. It is designed to allow low-powered devices to communicate with Internet-connected applications over long range wireless connections.
+WiMAX is a family of wireless communication standards based on the IEEE 802.16 set of standards, which provide multiple physical layer (PHY) and Media Access Control (MAC) options. It can enable wireless usage at long distances.
 
         
         <footer class="blockquote-footer text-white">
             <small>
-                lora-alliance.org
+                Wikipedia
             </small>
         </footer>
         
@@ -74,9 +74,14 @@ LoRaWAN is a Low Power Wide Area Network (LPWAN) specification intended for wire
 
 <p><div class='col-sm-4 py-2'>
     <div class='card card-body  h-100'>
-        <h3 id="the-things-network">The Things Network</h3>
+        <h3 id="possible-uses">Possible Uses</h3>
 
-<p><a href="http://thethingsnetwork.org/">The Things Network</a> is a first-of-its-kind system that uses low-power, low-bandwidth LoRaWAN technology to cover the city with a wireless signal that allows objects like boats, trash cans and street lights to become tools for developers. Unlike other ‘smart city’ projects, this one is entirely crowdsourced by citizens and was put together in just six weeks.</p>
+<ul>
+<li>Portable mobile broadband connectivity across cities<br /></li>
+<li>Wireless alternative to cable and <a href="https://en.wikipedia.org/wiki/Digital_subscriber_line">DSL</a> for &ldquo;last mile&rdquo; broadband<br /></li>
+<li>Data, telecommunications (VoIP) and IPTV services (<a href="https://en.wikipedia.org/wiki/Triple_play_(telecommunications)">triple play</a>)<br /></li>
+<li>Smart grids and metering<br /></li>
+</ul>
 
         
     </div>
@@ -84,9 +89,43 @@ LoRaWAN is a Low Power Wide Area Network (LPWAN) specification intended for wire
 
 <p><div class='col-sm-4 py-2'>
     <div class='card card-body  h-100'>
-        <h3 id="things-connected">Things Connected</h3>
+        <table>
+<thead>
+<tr>
+<th>Summary</th>
+</tr>
+</thead>
 
-<p><a href="https://www.thingsconnected.net/">Things Connected</a> is an initiative by Digital Catapult, to support UK businesses using LPWAN technologies. It is a free LoRaWAN network and it is intended for the prototyping of new products and services that can benefit from the unique features of LPWAN.</p>
+<tbody>
+<tr>
+<td>Long range system</td>
+</tr>
+
+<tr>
+<td>QoS, base station to device</td>
+</tr>
+
+<tr>
+<td>No uniform global licensed spectrum</td>
+</tr>
+
+<tr>
+<td>IP based core network</td>
+</tr>
+
+<tr>
+<td>Subscriber stations (SS)</td>
+</tr>
+
+<tr>
+<td>Maximum distance of 30 miles</td>
+</tr>
+
+<tr>
+<td>10 MBps with a range of 1 – 6 miles</td>
+</tr>
+</tbody>
+</table>
 
         
     </div>
@@ -94,24 +133,26 @@ LoRaWAN is a Low Power Wide Area Network (LPWAN) specification intended for wire
 
 <p><div class='col-sm-8 py-2'>
     <div class='card card-body  h-100'>
-        <h5 id="what-is-lora">What is LoRa?</h5>
+        <h5 id="what-is-wimax">What is WiMax?</h5>
 
-<p>LoRa is the physical layer or the wireless modulation utilized to create the long range communication link. Many legacy wireless systems use frequency shifting keying (FSK) modulation as the physical layer because it is a very efficient modulation for achieving low power. LoRa is based on chirp spread spectrum modulation, which maintains the same low power characteristics as FSK modulation but significantly increases the communication range. Chirp spread spectrum has been used in military and space communication for decades due to the long communication distances that can be achieved and robustness to interference, but LoRa is the first low cost implementation for commercial usage.</p>
+<p>WiMax stands for “Worldwide Interoperability for Microwave Access.” It is an ITU-approved, fourth-generation mobile broadband technology that attempts to mimic the abilities of Wi-Fi wireless internet, but over a mobile phone network using an open protocol (802.16m). Think of it as a patchwork of Wi-Fi hotspots that, instead of reaching for a few hundred feet, can stretch for miles and overlap, eliminating coverage gaps. It provides fixed and mobile internet access for compatible devices with less interference than traditional Wi-Fi. Theoretically, a WiMax tower could provide broadband wireless internet over a 30-mile range, though most stations currently achieve much less. Current WiMax users can realistically expect about 3Mbps to 6Mbps download speeds.</p>
 
-<p>The advantage of LoRa® is in the technology’s long range capability. A single gateway or base station can cover entire cities or hundreds of square kilometers. Range highly depends on the environment or obstructions in a given location, but LoRa and LoRaWAN have a link budget greater than any other standardized communication technology. The link budget, typically given in decibels (dB), is the primary factor in determining the range in a given environment.</p>
+<h5 id="what-s-the-difference-between-lte-and-wimax">What’s the difference between LTE and WiMax?</h5>
 
-<h5 id="what-is-lorawan">What is LoRaWAN?</h5>
+<p>WiMax is based on IEEE (Institute of Electrical and Electronics Engineers) standards, meaning it uses an open protocol that has been debated and approved by a large community of engineers. LTE, on the other hand, is a standard that was cooked up by the 3GPP (Third Generation Partnership Project), which is an organization consisting of wireless agencies and telecommunications companies. The 3GPP organization came up with 3G standard for GSM some years back, which was adopted by a majority of wireless carriers around the world.</p>
 
-<p>LoRaWAN defines the communication protocol and system architecture for the network while the LoRa physical layer enables the long-range communication link. The protocol and network architecture have the most influence in determining the battery lifetime of a node, the network capacity, the quality of service, the security, and the variety of applications served by the network. <a href="https://www.lora-alliance.org/what-is-lora">Read More</a></p>
+<p>However, LTE and WiMax aren’t enemies like CDMA and GSM have been. Both technologies use OFDM (Orthogonal frequency-division multiplexing), which means that unlike competing 3G networks like CDMA and GSM, WiMax and LTE are more like siblings. They aren’t entirely incompatible, so it’s easier and cheaper to design devices that incorporate both technologies.</p>
 
-<h5 id="how-secure-is-it">How secure is it?</h5>
+<p>Similarities: Both use SIM cards, both are backward compatible with existing CDMA and GSM networks, both use OFDM and MIMO (Multiple In, Multiple Out), both have similar speeds, and both are IP-based.</p>
 
-<p>LoRaWAN has been designed to include a certain amount of security, authentication and encryption. The Network Session key is used to ensure security at network level - from device to the network. The key is 128 bits in length represented by a 32-character hexadecimal string. The Application Session key is used to ensure end-to-end security at application level – from device to the users end application server. The key is 128 bits in length represented by a 32-character hexadecimal string. A developer is of course free to further encrypt the data payload should they have the requirement to do so.</p>
+<h5 id="what-about-lte-advanced">What about LTE Advanced?</h5>
+
+<p>LTE Advanced is the latest and greatest incarnation of 4G technology, and it’s widely regarded as a stepping stone towards 5G. It’s often abbreviated to LTE-A, and uses what’s called “carrier aggregation” to work properly. To understand carrier aggregation, you have to understand that phones download data through radio waves, which exist in different frequencies. 4G exists across multiple different frequency bands, and that’s where LTE-A comes in. Instead of connecting on one frequency band, LTE-A downloads data through multiple frequency bands. <a href="https://www.digitaltrends.com/mobile/what-is-4g-the-ultimate-guide-to-4g-wireless-networks-phones-coverage-and-more/2/">Read More</a></p>
 
         
         <footer class="blockquote-footer ">
             <small>
-                lora-alliance.org
+                digitaltrends.com
             </small>
         </footer>
         
@@ -124,9 +165,9 @@ LoRaWAN is a Low Power Wide Area Network (LPWAN) specification intended for wire
             <h4 class="card-title">Links</h4>
         </div>
         <ul class="list-group list-group-flush">
-    <a href="https://www.lora-alliance.org/" class="list-group-item list-group-item-action ">LoRa Alliance</a>
-    <a href="https://www.lora-alliance.org/lorawan-for-developers" class="list-group-item list-group-item-action ">LoRa Alliance Developers Page</a>
-    <a href="https://www.thethingsnetwork.org/wiki/LoRaWAN/Home" class="list-group-item list-group-item-action ">The Things Network LoRaWAN</a>
+    <a href="http://wimaxforum.org/Page/Resources/WiMAX-ITU" class="list-group-item list-group-item-action ">WiMAX Forum</a>
+    <a href="http://wimaxforum.org/Page/Resources/White-Papers" class="list-group-item list-group-item-action ">Whitepapers</a>
+    <a href="http://files.wimaxforum.org/Document/Download/WiMAX_HSPA_and_LTE_111809_final" class="list-group-item list-group-item-action ">Whitepaper Comparing WiMAX, LTE, HSPA&#43;</a>
 </ul>
     </div>
 </div></p>
@@ -140,8 +181,6 @@ LoRaWAN is a Low Power Wide Area Network (LPWAN) specification intended for wire
                             
                             <a href="/tags/protocol"><span class="badge badge-light">Protocol</span></a>
                             
-                            <a href="/tags/wan"><span class="badge badge-light">WAN</span></a>
-                            
                             <a href="/tags/wireless"><span class="badge badge-light">Wireless</span></a>
                           
                     </div>
@@ -152,11 +191,11 @@ LoRaWAN is a Low Power Wide Area Network (LPWAN) specification intended for wire
             <div class="card text-white bg-primary">
                 <div class="card-body">
                     <h3 class="card-title">Share</h3>
-                    <a class="btn btn-lg btn-primary" href='https://twitter.com/intent/tweet?hashtags=protocol%2cwan%2cwireless&text=LoRaWAN&url=http%3a%2f%2fdistributedfog.com%2fgateway-protocol%2flora%2f'>
+                    <a class="btn btn-lg btn-primary" href='https://twitter.com/intent/tweet?hashtags=protocol%2cwireless&text=WiMAX&url=http%3a%2f%2fdistributedfog.com%2fgateway-protocol%2fwimax%2f'>
                         <i class="fa fa-twitter" aria-hidden="true"></i></a>
-                    <a class="btn btn-lg btn-primary" href='https://www.facebook.com/sharer/sharer.php?u%3dhttp%253A%252F%252Fdistributedfog.com%252Fgateway-protocol%252Flora%252F'>
+                    <a class="btn btn-lg btn-primary" href='https://www.facebook.com/sharer/sharer.php?u%3dhttp%253A%252F%252Fdistributedfog.com%252Fgateway-protocol%252Fwimax%252F'>
                         <i class="fa fa-facebook" aria-hidden="true"></i></a>
-                    <a class="btn btn-lg btn-primary" href='https://plus.google.com/share?url=http%3a%2f%2fdistributedfog.com%2fgateway-protocol%2flora%2f'>
+                    <a class="btn btn-lg btn-primary" href='https://plus.google.com/share?url=http%3a%2f%2fdistributedfog.com%2fgateway-protocol%2fwimax%2f'>
                         <i class="fa fa-google-plus" aria-hidden="true"></i></a>
                 </div>
             </div>
@@ -210,11 +249,11 @@ LoRaWAN is a Low Power Wide Area Network (LPWAN) specification intended for wire
     "articleSection" : "gateway-protocol",
     "mainEntityOfPage": {
         "@type": "WebPage",
-        "@id": "http://distributedfog.com/gateway-protocol/lora/"
+        "@id": "http://distributedfog.com/gateway-protocol/wimax/"
     },
-    "name" : "LoRaWAN",
-    "headline" : "LoRaWAN",
-    "description" : "LoRaWAN is a Low Power Wide Area Network (LPWAN) specification intended for wireless battery operated Things in a regional, national or global network. It is designed to allow low-powered devices to communicate with Internet-connected applications over long range wireless connections.",
+    "name" : "WiMAX",
+    "headline" : "WiMAX",
+    "description" : "WiMAX is a family of wireless communication standards based on the IEEE 802.16 set of standards, which provide multiple physical layer (PHY) and Media Access Control (MAC) options. It can enable wireless usage at long distances.",
     "inLanguage" : "en-GB",
     "author" : "DistributedFog.com",
     "creator" : "",
@@ -232,10 +271,10 @@ LoRaWAN is a Low Power Wide Area Network (LPWAN) specification intended for wire
         }
     },
     "logo": "",
-    "url" : "http://distributedfog.com/gateway-protocol/lora/",
-    "wordCount" : "501",
+    "url" : "http://distributedfog.com/gateway-protocol/wimax/",
+    "wordCount" : "493",
     "image" : "http://distributedfog.com/img/logo.png",
-    "keywords" : [ "protocol, WAN, wireless" ]
+    "keywords" : [ "protocol, wireless" ]
 }
 </script>
 
