@@ -3,7 +3,7 @@ title: "XMPP"
 full: "Extensible Messaging and Presence Protocol"
 type: "article"
 description: "XMPP is a communications protocol for message-oriented middleware based on XML. It enables the near-real-time exchange of structured yet extensible data between any two or more network entities."
-tags: ["protocol", "XML"]
+tags: ["protocol", "XML", "IETF"]
 date: 2017-10-11T17:56:48+01:00
 ---
 

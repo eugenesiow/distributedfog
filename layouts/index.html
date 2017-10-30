@@ -28,12 +28,20 @@
 
         {{ partial "layer.html" "Network Layer" }}
 
-        {{ $.Scratch.Set "card-title" "gateway-protocol" }}
+        {{ $.Scratch.Set "card-title" "gateway-network" }}
         {{ $.Scratch.Set "card-title-pretty" "Gateway Net" }}
+        {{ partial "card.html" . }}
+
+        {{ $.Scratch.Set "card-title" "sensor-network" }}
+        {{ $.Scratch.Set "card-title-pretty" "Sensor Net" }}
         {{ partial "card.html" . }}
 
         {{ $.Scratch.Set "card-title" "security" }}
         {{ $.Scratch.Set "card-title-pretty" "Network Security" }}
+        {{ partial "card.html" . }}
+
+        {{ $.Scratch.Set "card-title" "discovery" }}
+        {{ $.Scratch.Set "card-title-pretty" "Discovery" }}
         {{ partial "card.html" . }}
 
         {{ partial "layer.html" "Perception Layer" }}
