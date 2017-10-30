@@ -23,6 +23,15 @@ Ubiquitous computing (or &amp;ldquo;ubicomp&amp;rdquo;) is a concept in software
     </item>
     
     <item>
+      <title>Bluetooth</title>
+      <link>http://distributedfog.com/sensor-network/bluetooth/</link>
+      <pubDate>Wed, 11 Oct 2017 17:56:48 +0100</pubDate>
+      
+      <guid>http://distributedfog.com/sensor-network/bluetooth/</guid>
+      <description>Bluetooth is a wireless technology standard for exchanging data over short distances (using short-wavelength UHF radio waves in the industrial, scientific and medical (ISM) radio bands from 2.4 to 2.485 GHz) from fixed and mobile devices, and building personal area networks (PANs). Bluetooth Low Energy or Smart is intended to provide considerably reduced power consumption and cost while maintaining a similar communication range.  Wikipedia     Feature Compare &amp;hellip;    Feature BT-LE BT     Audio/Headset No Yes   Data Yes Yes   A/V Control Non-Native Native   Throughput Low Medium   Authentication No For Non-Audio Only</description>
+    </item>
+    
+    <item>
       <title>CoAP</title>
       <link>http://distributedfog.com/app-protocol/coap/</link>
       <pubDate>Wed, 11 Oct 2017 17:56:48 +0100</pubDate>
@@ -31,6 +40,15 @@ Ubiquitous computing (or &amp;ldquo;ubicomp&amp;rdquo;) is a concept in software
       <description>CoAP is a specialised web transfer protocol for use with constrained nodes and constrained (e.g., low-power, lossy) networks.  RFC 7252     Research HTTP/2, CoAP on device HTTP/2 everywhere else, Security, Californium Cloud Services, MQTT vs CoAP, TinyOS Performance, Transport: Logistics
  
 CoAP is network-oriented protocol with similar features to HTTP but also allows for low overhead, multicast, etc. CoAP operates over UDP (simpler) instead of TCP compensating for unreliability with a retransmission mechanism.</description>
+    </item>
+    
+    <item>
+      <title>DNS-SD</title>
+      <link>http://distributedfog.com/discovery/dns-sd/</link>
+      <pubDate>Wed, 11 Oct 2017 17:56:48 +0100</pubDate>
+      
+      <guid>http://distributedfog.com/discovery/dns-sd/</guid>
+      <description>DNS-SD allows clients to discover a named list of service instances, given a service type, and to resolve those services to hostnames using standard DNS queries. The specification is compatible with existing unicast DNS server and client software, but works equally well with Multicast DNS in a zero-configuration environment.  Wikipedia     Zeroconf It is a set of technologies that automatically creates a usable computer network based on TCP/IP when computers or network peripherals are interconnected.</description>
     </item>
     
     <item>
@@ -55,10 +73,10 @@ HTTP/2 Server Push allows you to send site assets to the user before they’ve e
     
     <item>
       <title>LoRaWAN</title>
-      <link>http://distributedfog.com/gateway-protocol/lora/</link>
+      <link>http://distributedfog.com/gateway-network/lora/</link>
       <pubDate>Wed, 11 Oct 2017 17:56:48 +0100</pubDate>
       
-      <guid>http://distributedfog.com/gateway-protocol/lora/</guid>
+      <guid>http://distributedfog.com/gateway-network/lora/</guid>
       <description>LoRaWAN is a Low Power Wide Area Network (LPWAN) specification intended for wireless battery operated Things in a regional, national or global network. It is designed to allow low-powered devices to communicate with Internet-connected applications over long range wireless connections.  lora-alliance.org     The Things Network The Things Network is a first-of-its-kind system that uses low-power, low-bandwidth LoRaWAN technology to cover the city with a wireless signal that allows objects like boats, trash cans and street lights to become tools for developers.</description>
     </item>
     
@@ -75,10 +93,10 @@ MQTT-SN is a variation of the main protocol aimed at embedded devices on non-TCP
     
     <item>
       <title>WiMAX</title>
-      <link>http://distributedfog.com/gateway-protocol/wimax/</link>
+      <link>http://distributedfog.com/gateway-network/wimax/</link>
       <pubDate>Wed, 11 Oct 2017 17:56:48 +0100</pubDate>
       
-      <guid>http://distributedfog.com/gateway-protocol/wimax/</guid>
+      <guid>http://distributedfog.com/gateway-network/wimax/</guid>
       <description>WiMAX is a family of wireless communication standards based on the IEEE 802.16 set of standards, which provide multiple physical layer (PHY) and Media Access Control (MAC) options. It can enable wireless usage at long distances.  Wikipedia     Possible Uses  Portable mobile broadband connectivity across cities
  Wireless alternative to cable and DSL for &amp;ldquo;last mile&amp;rdquo; broadband
  Data, telecommunications (VoIP) and IPTV services (triple play)</description>
@@ -93,6 +111,24 @@ MQTT-SN is a variation of the main protocol aimed at embedded devices on non-TCP
       <description>XMPP is a communications protocol for message-oriented middleware based on XML. It enables the near-real-time exchange of structured yet extensible data between any two or more network entities.  Wikipedia     Research IoT Deployment, Lightweight IoT Pub/Sub, SmartObjects with mDNS, Cryptographic Hashes
  
 XMPP supports different communication patterns, such as Request/Response, Asynchronous Messaging, Publish/Subscribe, Event subscription (Observe) and Delayed delivery. XMPP also has support for different Quality of Service levels for messaging.</description>
+    </item>
+    
+    <item>
+      <title>Zigbee</title>
+      <link>http://distributedfog.com/sensor-network/zigbee/</link>
+      <pubDate>Wed, 11 Oct 2017 17:56:48 +0100</pubDate>
+      
+      <guid>http://distributedfog.com/sensor-network/zigbee/</guid>
+      <description>Zigbee is an IEEE 802.15.4-based specification for a suite of high-level communication protocols used to create personal area networks with small, low-power digital radios, such as for home automation, medical device data collection, and other low-power low-bandwidth needs, designed for small scale projects which need wireless connection.  Wikipedia     IEEE 802.15.4 IEEE 802.15.4 is a technical standard which defines the operation of low-rate wireless personal area networks (LR-WPANs).</description>
+    </item>
+    
+    <item>
+      <title>mDNS</title>
+      <link>http://distributedfog.com/discovery/mdns/</link>
+      <pubDate>Wed, 11 Oct 2017 17:56:48 +0100</pubDate>
+      
+      <guid>http://distributedfog.com/discovery/mdns/</guid>
+      <description>mDNS resolves host names to IP addresses within small networks that do not include a local name server. It is a zero-configuration service, using essentially the same programming interfaces, packet formats and operating semantics as the unicast Domain Name System (DNS).  Wikipedia     Zeroconf It is a set of technologies that automatically creates a usable computer network based on TCP/IP when computers or network peripherals are interconnected.</description>
     </item>
     
   </channel>

@@ -1,14 +1,14 @@
 <?xml version="1.0" encoding="utf-8" standalone="yes" ?>
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
   <channel>
-    <title>Wan on DistributedFog</title>
-    <link>http://distributedfog.com/tags/wan/</link>
-    <description>Recent content in Wan on DistributedFog</description>
+    <title>Gateway Networks on DistributedFog</title>
+    <link>http://distributedfog.com/gateway-network/</link>
+    <description>Recent content in Gateway Networks on DistributedFog</description>
     <generator>Hugo -- gohugo.io</generator>
     <language>en-us</language>
     <lastBuildDate>Wed, 11 Oct 2017 17:56:48 +0100</lastBuildDate>
     
-	<atom:link href="http://distributedfog.com/tags/wan/index.xml" rel="self" type="application/rss+xml" />
+	<atom:link href="http://distributedfog.com/gateway-network/index.xml" rel="self" type="application/rss+xml" />
     
     
     <item>
@@ -18,6 +18,17 @@
       
       <guid>http://distributedfog.com/gateway-network/lora/</guid>
       <description>LoRaWAN is a Low Power Wide Area Network (LPWAN) specification intended for wireless battery operated Things in a regional, national or global network. It is designed to allow low-powered devices to communicate with Internet-connected applications over long range wireless connections.  lora-alliance.org     The Things Network The Things Network is a first-of-its-kind system that uses low-power, low-bandwidth LoRaWAN technology to cover the city with a wireless signal that allows objects like boats, trash cans and street lights to become tools for developers.</description>
+    </item>
+    
+    <item>
+      <title>WiMAX</title>
+      <link>http://distributedfog.com/gateway-network/wimax/</link>
+      <pubDate>Wed, 11 Oct 2017 17:56:48 +0100</pubDate>
+      
+      <guid>http://distributedfog.com/gateway-network/wimax/</guid>
+      <description>WiMAX is a family of wireless communication standards based on the IEEE 802.16 set of standards, which provide multiple physical layer (PHY) and Media Access Control (MAC) options. It can enable wireless usage at long distances.  Wikipedia     Possible Uses  Portable mobile broadband connectivity across cities
+ Wireless alternative to cable and DSL for &amp;ldquo;last mile&amp;rdquo; broadband
+ Data, telecommunications (VoIP) and IPTV services (triple play)</description>
     </item>
     
   </channel>

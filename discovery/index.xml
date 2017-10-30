@@ -1,0 +1,33 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes" ?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>Discovery on DistributedFog</title>
+    <link>http://distributedfog.com/discovery/</link>
+    <description>Recent content in Discovery on DistributedFog</description>
+    <generator>Hugo -- gohugo.io</generator>
+    <language>en-us</language>
+    <lastBuildDate>Wed, 11 Oct 2017 17:56:48 +0100</lastBuildDate>
+    
+	<atom:link href="http://distributedfog.com/discovery/index.xml" rel="self" type="application/rss+xml" />
+    
+    
+    <item>
+      <title>DNS-SD</title>
+      <link>http://distributedfog.com/discovery/dns-sd/</link>
+      <pubDate>Wed, 11 Oct 2017 17:56:48 +0100</pubDate>
+      
+      <guid>http://distributedfog.com/discovery/dns-sd/</guid>
+      <description>DNS-SD allows clients to discover a named list of service instances, given a service type, and to resolve those services to hostnames using standard DNS queries. The specification is compatible with existing unicast DNS server and client software, but works equally well with Multicast DNS in a zero-configuration environment.  Wikipedia     Zeroconf It is a set of technologies that automatically creates a usable computer network based on TCP/IP when computers or network peripherals are interconnected.</description>
+    </item>
+    
+    <item>
+      <title>mDNS</title>
+      <link>http://distributedfog.com/discovery/mdns/</link>
+      <pubDate>Wed, 11 Oct 2017 17:56:48 +0100</pubDate>
+      
+      <guid>http://distributedfog.com/discovery/mdns/</guid>
+      <description>mDNS resolves host names to IP addresses within small networks that do not include a local name server. It is a zero-configuration service, using essentially the same programming interfaces, packet formats and operating semantics as the unicast Domain Name System (DNS).  Wikipedia     Zeroconf It is a set of technologies that automatically creates a usable computer network based on TCP/IP when computers or network peripherals are interconnected.</description>
+    </item>
+    
+  </channel>
+</rss>
