@@ -21,6 +21,15 @@
     </item>
     
     <item>
+      <title>LTE</title>
+      <link>http://distributedfog.com/gateway-network/lte/</link>
+      <pubDate>Wed, 11 Oct 2017 17:56:48 +0100</pubDate>
+      
+      <guid>http://distributedfog.com/gateway-network/lte/</guid>
+      <description>LTE is a standard for high-speed wireless communication for mobile devices and data terminals, based on the GSM/EDGE and UMTS/HSPA technologies. It increases the capacity and speed using a different radio interface together with core network improvements. The standard is developed by the 3GPP (3rd Generation Partnership Project).  Wikipedia     NB-IoT &amp;hellip; NarrowBand IoT (NB-IoT) is a Low Power Wide Area Network (LPWAN) radio technology standard. NB-IoT focuses specifically on indoor coverage, low cost, long battery life, and enabling a large number of connected devices.</description>
+    </item>
+    
+    <item>
       <title>LoRaWAN</title>
       <link>http://distributedfog.com/gateway-network/lora/</link>
       <pubDate>Wed, 11 Oct 2017 17:56:48 +0100</pubDate>
