@@ -12,6 +12,17 @@
     
     
     <item>
+      <title>Cisco IOx</title>
+      <link>http://distributedfog.com/fog-computing/cisco-iox/</link>
+      <pubDate>Wed, 11 Oct 2017 17:56:48 +0100</pubDate>
+      
+      <guid>http://distributedfog.com/fog-computing/cisco-iox/</guid>
+      <description>IOx combines IoT application execution within the fog and offers highly secure connectivity with Cisco IOS technology, as well as powerful services for rapid, reliable integration with IoT sensors and the cloud.  cisco.com     Architecture 
+ cisco.com    
+The Cisco IOx application environment combines IoT application execution within the fog; secure connectivity with Cisco IOS Software; and powerful services for rapid, reliable integration with Internet of Things (IoT) sensors and the cloud.</description>
+    </item>
+    
+    <item>
       <title>Resin.io</title>
       <link>http://distributedfog.com/platform/resin-io/</link>
       <pubDate>Wed, 11 Oct 2017 17:56:48 +0100</pubDate>

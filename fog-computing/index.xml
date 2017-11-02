@@ -1,0 +1,26 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes" ?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>Fog Computing on DistributedFog</title>
+    <link>http://distributedfog.com/fog-computing/</link>
+    <description>Recent content in Fog Computing on DistributedFog</description>
+    <generator>Hugo -- gohugo.io</generator>
+    <language>en-us</language>
+    <lastBuildDate>Wed, 11 Oct 2017 17:56:48 +0100</lastBuildDate>
+    
+	<atom:link href="http://distributedfog.com/fog-computing/index.xml" rel="self" type="application/rss+xml" />
+    
+    
+    <item>
+      <title>Cisco IOx</title>
+      <link>http://distributedfog.com/fog-computing/cisco-iox/</link>
+      <pubDate>Wed, 11 Oct 2017 17:56:48 +0100</pubDate>
+      
+      <guid>http://distributedfog.com/fog-computing/cisco-iox/</guid>
+      <description>IOx combines IoT application execution within the fog and offers highly secure connectivity with Cisco IOS technology, as well as powerful services for rapid, reliable integration with IoT sensors and the cloud.  cisco.com     Architecture 
+ cisco.com    
+The Cisco IOx application environment combines IoT application execution within the fog; secure connectivity with Cisco IOS Software; and powerful services for rapid, reliable integration with Internet of Things (IoT) sensors and the cloud.</description>
+    </item>
+    
+  </channel>
+</rss>
