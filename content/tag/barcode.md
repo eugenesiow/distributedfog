@@ -19,7 +19,7 @@ Privacy: [Invisible Barcode](http://homepages.cae.wisc.edu/~zhu/images/S3_MobiCo
 
 {{% card size="4" %}}
 ### Example
-<img src="/img/articles/barcode.gif" title="DistributedFog.com in Code-128" style="width: 280px;">
+<img src="/img/articles/barcode.gif" title="DistributedFog.com in Code-128" style="width: 100%;">
 Code 128 is a very high-density barcode symbology. It can encode all 128 characters of ASCII.
 {{% /card %}}
 
