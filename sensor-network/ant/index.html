@@ -6,7 +6,7 @@
     <meta name="description" content="All about the Internet of Things Landscape including technologies, protocols, applications, platforms and research.">
     <meta name="author" content="DistributedFog.com">
 
-    <title>DistributedFog: Zigbee</title>
+    <title>DistributedFog: ANT&#43;</title>
 
     
     <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0-beta/css/bootstrap.min.css" integrity="sha384-/Y6pD6FV/Vv2HJnA6t+vslU6fwYXjCFtcEpHbNJ0lyAFsXTsjBbfaDjzALeQsN6M" crossorigin="anonymous">
@@ -42,27 +42,27 @@ ga('send', 'pageview');
             </a>
             <div class="dropdown-menu">
                 
-                <a class="dropdown-item " href="/sensor-network/ant/">ANT&#43;</a>
+                <a class="dropdown-item active" href="/sensor-network/ant/">ANT&#43;</a>
                 
                 <a class="dropdown-item " href="/sensor-network/bluetooth/">Bluetooth</a>
                 
                 <a class="dropdown-item " href="/sensor-network/">Sensor Networks</a>
                 
-                <a class="dropdown-item active" href="/sensor-network/zigbee/">Zigbee</a>
+                <a class="dropdown-item " href="/sensor-network/zigbee/">Zigbee</a>
                 
             </div>
         </li>
-        <li class="breadcrumb-item active">Zigbee</li>
+        <li class="breadcrumb-item active">ANT&#43;</li>
     </ol>
 </header>
 <div class="container container-section">
     
-    <h1>Zigbee </h1>
+    <h1>ANT&#43; </h1>
     <div class="row">
         <div class='col-sm-4 py-2'>
     <div class='card card-body bg-info text-white h-100'>
         
-Zigbee is an IEEE 802.15.4-based specification for a suite of high-level communication protocols used to create personal area networks with small, low-power digital radios, such as for home automation, medical device data collection, and other low-power low-bandwidth needs, designed for small scale projects which need wireless connection.
+ANT&#43; is a wireless protocol for monitoring sensor data such as a person&#39;s heart rate or a car&#39;s tyre/tire pressure, as well as the control of systems like indoor lighting or a television set.
 
         
         <footer class="blockquote-footer text-white">
@@ -74,74 +74,9 @@ Zigbee is an IEEE 802.15.4-based specification for a suite of high-level communi
     </div>
 </div>
 
-<p><div class='col-sm-4 py-2'>
+<p><div class='col-sm-8 py-2'>
     <div class='card card-body  h-100'>
-        <h3 id="ieee-802-15-4">IEEE 802.15.4</h3>
-
-<p>IEEE 802.15.4 is a technical standard which defines the operation of low-rate wireless personal area networks (LR-WPANs). It specifies the physical layer and media access control. It is the basis for the ZigBee, ISA100.11a,WirelessHART, MiWi, SNAP, and Thread specifications, each of which further extends the standard by developing the upper layers not defined.</p>
-
-        
-    </div>
-</div></p>
-
-<p><div class='col-sm-4 py-2'>
-    <div class='card card-body  h-100'>
-        <h3 id="spec-compare">Spec Compare</h3>
-
-<table>
-<thead>
-<tr>
-<th></th>
-<th>BT</th>
-<th>BT-LE</th>
-<th>Zigbee</th>
-</tr>
-</thead>
-
-<tbody>
-<tr>
-<td>Range</td>
-<td>30m</td>
-<td>50m</td>
-<td>&lt;300m</td>
-</tr>
-
-<tr>
-<td>Rate</td>
-<td>&lt;3Mbps</td>
-<td>200Kb/s</td>
-<td>250Kb/s</td>
-</tr>
-
-<tr>
-<td>Latency</td>
-<td>6s</td>
-<td>3ms</td>
-<td>30ms</td>
-</tr>
-
-<tr>
-<td>Battery</td>
-<td>Days</td>
-<td>Days</td>
-<td>Years</td>
-</tr>
-
-<tr>
-<td>Complexity</td>
-<td>Cplx</td>
-<td>Cplx</td>
-<td>Simple</td>
-</tr>
-
-<tr>
-<td>Nodes</td>
-<td>7</td>
-<td>7</td>
-<td>64k</td>
-</tr>
-</tbody>
-</table>
+        <p><a href="https://www.thisisant.com/developer/ant/ant-basics/#104_tab" target="_blank"><img src="/img/articles/ant-layers.png" title="ANT Layers in Standard ANT/HOST and System on Chip Devices" style="width: 100%;"></a></p>
 
         
     </div>
@@ -149,20 +84,20 @@ Zigbee is an IEEE 802.15.4-based specification for a suite of high-level communi
 
 <p><div class='col-sm-8 py-2'>
     <div class='card card-body  h-100'>
-        <p>Zigbee is a low-cost, low-power, wireless mesh network standard targeted at the wide development of long battery life devices in wireless control and monitoring applications. Zigbee devices have low latency, which further reduces average current. Zigbee chips are typically integrated with radios and with microcontrollers that have between 60-256 KB of flash memory. Zigbee operates in the industrial, scientific and medical (ISM) radio bands: 2.4 GHz in most jurisdictions worldwide; though some devices also use 784 MHz in China, 868 MHz in Europe and 915 MHz in the USA and Australia, however even those regions and countries still use 2.4 GHz for most commercial Zigbee devices for home use. Data rates vary from 20 kbit/s (868 MHz band) to 250 kbit/s (2.4 GHz band).</p>
+        <p>ANT is a practical wireless sensor network protocol running in the 2.4 GHz ISM band. Designed for ultra-low power, ease of use, efficiency and scalability, ANT easily handles peer-to-peer, star, connected star, tree and fixed mesh topologies.</p>
 
-<p>The Zigbee network layer natively supports both star and tree networks, and generic mesh networking. Every network must have one coordinator device, tasked with its creation, the control of its parameters and basic maintenance. Within star networks, the coordinator must be the central node. Both trees and meshes allow the use of Zigbee routers to extend communication at the network level.</p>
+<p>ANT provides reliable data communications, flexible and adaptive network operation and cross-talk immunity. ANT protocol stack is extremely compact, requiring minimal microcontroller resources and considerably reduces system costs.</p>
 
-<p>Zigbee builds on the physical layer and media access control defined in IEEE standard 802.15.4 for low-rate WPANs. The specification includes four additional key components: network layer, application layer, Zigbee Device Objects (ZDOs) and manufacturer-defined application objects which allow for customization and favor total integration. ZDOs are responsible for some tasks, including keeping track of device roles, managing requests to join a network, as well as device discovery and security.</p>
+<p>ANT provides carefree handling of the Physical, Network and Transport OSI layers. In addition, it incorporates key low-level security features that form the foundation for user-defined sophisticated network security implementations. ANT ensures adequate user control while considerably lightening computational burden in providing a simple yet effective wireless networking solution.</p>
 
-<p>Zigbee is one of the global standards of communication protocol formulated by the significant task force under the IEEE 802.15 working group. The fourth in the series, WPAN Low Rate/Zigbee is the newest and provides specifications for devices that have low data rates, consume very low power and are thus characterized by long battery life. Other standards like Bluetooth and IrDA address high data rate applications such as voice, video and LAN communications.</p>
+<p>The interface between ANT and the Host application has been designed with the utmost simplicity in mind such that ANT can be easily and quickly implemented into new devices and applications. The encapsulation of the wireless protocol complexity within the ANT chipset vastly reduces the burden on the application host controller, allowing a low-cost 4-bit or 8-bit Microcontroller (MCU) to establish and maintain complex wireless networks. Data transfers can be scheduled in a deterministic or ad-hoc fashion. A burst mode allows for the efficient transfer of large amounts of stored data to and from a PC or other computing device.</p>
 
-<p>Zigbee provides the ability to run for years on inexpensive batteries for a host of monitoring and control applications. The Zigbee network layer ensures that networks remain operable in the conditions of a constantly changing quality between communication nodes. The Zigbee advantage is the Zigbee protocol which is designed to communicate data through hostile RF environments that are common in commercial and industrial application. Its protocol features include support for multiple network topologies such as; point to point and mesh network, collision avoidance and retries, and low latency. Another defining feature of Zigbee is facilities for carrying out secure communications, protecting establishment and transport of cryptographic keys, cyphering frames, and controlling device. It builds on the basic security framework defined in IEEE 802.15.4.</p>
+<p>A typical ANT-enabled device consists of an application host MCU interfaced with an ANT module, chipset or chip. The host MCU establishes and maintains a communication session to other remote ANT-enabled devices by means of a simple, bidirectional, serial message protocol. This document details the protocol and provides examples of how to use ANT for wireless networking.</p>
 
         
         <footer class="blockquote-footer ">
             <small>
-                Wikipedia
+                thisisant.com
             </small>
         </footer>
         
@@ -175,9 +110,10 @@ Zigbee is an IEEE 802.15.4-based specification for a suite of high-level communi
             <h4 class="card-title">Links</h4>
         </div>
         <ul class="list-group list-group-flush">
-    <a href="http://www.zigbee.org/what-is-zigbee/" class="list-group-item list-group-item-action ">Zigbee Alliance</a>
-    <a href="http://www.zigbee.org/zigbee-products-2/" class="list-group-item list-group-item-action ">Certified Products</a>
-    <a href="https://www.tomsguide.com/us/smart-home-wireless-network-primer,news-21085.html" class="list-group-item list-group-item-action ">ZigBee, Z-Wave, Thread and WeMo</a>
+    <a href="https://www.thisisant.com/resources/ant-message-protocol-and-usage" class="list-group-item list-group-item-action ">ANT Message Protocol and Usage</a>
+    <a href="https://www.thisisant.com/directory" class="list-group-item list-group-item-action ">Product Directory</a>
+    <a href="https://www.thisisant.com/developer/ant/ant-basics/#105_tab" class="list-group-item list-group-item-action ">ANT basics</a>
+    <a href="https://buy.garmin.com/en-GB/GB/p/10997" class="list-group-item list-group-item-action ">Garmin&#39;s USB ANT Stick</a>
 </ul>
     </div>
 </div></p>
@@ -193,9 +129,9 @@ Zigbee is an IEEE 802.15.4-based specification for a suite of high-level communi
                             
                             <a href="/tags/wireless"><span class="badge badge-light">Wireless</span></a>
                             
-                            <a href="/tags/radio"><span class="badge badge-light">Radio</span></a>
-                            
                             <a href="/tags/mesh"><span class="badge badge-light">Mesh</span></a>
+                            
+                            <a href="/tags/remote-control"><span class="badge badge-light">Remote Control</span></a>
                           
                     </div>
                 </div>
@@ -205,11 +141,11 @@ Zigbee is an IEEE 802.15.4-based specification for a suite of high-level communi
             <div class="card text-white bg-primary">
                 <div class="card-body">
                     <h3 class="card-title">Share</h3>
-                    <a class="btn btn-lg btn-primary" href='https://twitter.com/intent/tweet?hashtags=protocol%2cwireless%2cradio%2cmesh&text=Zigbee&url=http%3a%2f%2fdistributedfog.com%2fsensor-network%2fzigbee%2f'>
+                    <a class="btn btn-lg btn-primary" href='https://twitter.com/intent/tweet?hashtags=protocol%2cwireless%2cmesh%2cremote-control&text=ANT%2b&url=http%3a%2f%2fdistributedfog.com%2fsensor-network%2fant%2f'>
                         <i class="fa fa-twitter" aria-hidden="true"></i></a>
-                    <a class="btn btn-lg btn-primary" href='https://www.facebook.com/sharer/sharer.php?u%3dhttp%253A%252F%252Fdistributedfog.com%252Fsensor-network%252Fzigbee%252F'>
+                    <a class="btn btn-lg btn-primary" href='https://www.facebook.com/sharer/sharer.php?u%3dhttp%253A%252F%252Fdistributedfog.com%252Fsensor-network%252Fant%252F'>
                         <i class="fa fa-facebook" aria-hidden="true"></i></a>
-                    <a class="btn btn-lg btn-primary" href='https://plus.google.com/share?url=http%3a%2f%2fdistributedfog.com%2fsensor-network%2fzigbee%2f'>
+                    <a class="btn btn-lg btn-primary" href='https://plus.google.com/share?url=http%3a%2f%2fdistributedfog.com%2fsensor-network%2fant%2f'>
                         <i class="fa fa-google-plus" aria-hidden="true"></i></a>
                 </div>
             </div>
@@ -220,8 +156,8 @@ Zigbee is an IEEE 802.15.4-based specification for a suite of high-level communi
             <div id="disqus_thread"></div>
             <script>
                 var disqus_config = function () {
-                    this.page.url = "http://distributedfog.com/sensor-network/zigbee/";
-                    this.page.identifier = "555c3b7d513e7882c31b362f1f8592d4";
+                    this.page.url = "http://distributedfog.com/sensor-network/ant/";
+                    this.page.identifier = "31b83f32f53c52cdf794e837d65d45eb";
                 };
                 (function() { 
                     var d = document, s = d.createElement('script');
@@ -284,11 +220,11 @@ Zigbee is an IEEE 802.15.4-based specification for a suite of high-level communi
     "articleSection" : "sensor-network",
     "mainEntityOfPage": {
         "@type": "WebPage",
-        "@id": "http://distributedfog.com/sensor-network/zigbee/"
+        "@id": "http://distributedfog.com/sensor-network/ant/"
     },
-    "name" : "Zigbee",
-    "headline" : "Zigbee",
-    "description" : "Zigbee is an IEEE 802.15.4-based specification for a suite of high-level communication protocols used to create personal area networks with small, low-power digital radios, such as for home automation, medical device data collection, and other low-power low-bandwidth needs, designed for small scale projects which need wireless connection.",
+    "name" : "ANT&#43;",
+    "headline" : "ANT&#43;",
+    "description" : "ANT&#43; is a wireless protocol for monitoring sensor data such as a person&#39;s heart rate or a car&#39;s tyre/tire pressure, as well as the control of systems like indoor lighting or a television set.",
     "inLanguage" : "en-GB",
     "author" : "DistributedFog.com",
     "creator" : "",
@@ -306,10 +242,10 @@ Zigbee is an IEEE 802.15.4-based specification for a suite of high-level communi
         }
     },
     "logo": "",
-    "url" : "http://distributedfog.com/sensor-network/zigbee/",
-    "wordCount" : "594",
+    "url" : "http://distributedfog.com/sensor-network/ant/",
+    "wordCount" : "321",
     "image" : "http://distributedfog.com/img/logo.png",
-    "keywords" : [ "protocol, wireless, radio, mesh" ]
+    "keywords" : [ "protocol, wireless, mesh, remote control" ]
 }
 </script>
 

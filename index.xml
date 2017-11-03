@@ -23,6 +23,17 @@ Ubiquitous computing (or &amp;ldquo;ubicomp&amp;rdquo;) is a concept in software
     </item>
     
     <item>
+      <title>ANT&#43;</title>
+      <link>http://distributedfog.com/sensor-network/ant/</link>
+      <pubDate>Wed, 11 Oct 2017 17:56:48 +0100</pubDate>
+      
+      <guid>http://distributedfog.com/sensor-network/ant/</guid>
+      <description>ANT&amp;#43; is a wireless protocol for monitoring sensor data such as a person&amp;#39;s heart rate or a car&amp;#39;s tyre/tire pressure, as well as the control of systems like indoor lighting or a television set.  Wikipedia     
+ 
+ANT is a practical wireless sensor network protocol running in the 2.4 GHz ISM band. Designed for ultra-low power, ease of use, efficiency and scalability, ANT easily handles peer-to-peer, star, connected star, tree and fixed mesh topologies.</description>
+    </item>
+    
+    <item>
       <title>Android Things</title>
       <link>http://distributedfog.com/os/android-things/</link>
       <pubDate>Wed, 11 Oct 2017 17:56:48 +0100</pubDate>

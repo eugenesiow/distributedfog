@@ -1,0 +1,26 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes" ?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>Remote Control on DistributedFog</title>
+    <link>http://distributedfog.com/tags/remote-control/</link>
+    <description>Recent content in Remote Control on DistributedFog</description>
+    <generator>Hugo -- gohugo.io</generator>
+    <language>en-us</language>
+    <lastBuildDate>Wed, 11 Oct 2017 17:56:48 +0100</lastBuildDate>
+    
+	<atom:link href="http://distributedfog.com/tags/remote-control/index.xml" rel="self" type="application/rss+xml" />
+    
+    
+    <item>
+      <title>ANT&#43;</title>
+      <link>http://distributedfog.com/sensor-network/ant/</link>
+      <pubDate>Wed, 11 Oct 2017 17:56:48 +0100</pubDate>
+      
+      <guid>http://distributedfog.com/sensor-network/ant/</guid>
+      <description>ANT&amp;#43; is a wireless protocol for monitoring sensor data such as a person&amp;#39;s heart rate or a car&amp;#39;s tyre/tire pressure, as well as the control of systems like indoor lighting or a television set.  Wikipedia     
+ 
+ANT is a practical wireless sensor network protocol running in the 2.4 GHz ISM band. Designed for ultra-low power, ease of use, efficiency and scalability, ANT easily handles peer-to-peer, star, connected star, tree and fixed mesh topologies.</description>
+    </item>
+    
+  </channel>
+</rss>
