@@ -1,26 +1,15 @@
 <?xml version="1.0" encoding="utf-8" standalone="yes" ?>
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
   <channel>
-    <title>Distributed on DistributedFog</title>
-    <link>http://distributedfog.com/tags/distributed/</link>
-    <description>Recent content in Distributed on DistributedFog</description>
+    <title>Decentralisation on DistributedFog</title>
+    <link>http://distributedfog.com/decentralisation/</link>
+    <description>Recent content in Decentralisation on DistributedFog</description>
     <generator>Hugo -- gohugo.io</generator>
     <language>en-us</language>
     <lastBuildDate>Wed, 11 Oct 2017 17:56:48 +0100</lastBuildDate>
     
-	<atom:link href="http://distributedfog.com/tags/distributed/index.xml" rel="self" type="application/rss+xml" />
+	<atom:link href="http://distributedfog.com/decentralisation/index.xml" rel="self" type="application/rss+xml" />
     
-    
-    <item>
-      <title>Cisco IOx</title>
-      <link>http://distributedfog.com/fog-computing/cisco-iox/</link>
-      <pubDate>Wed, 11 Oct 2017 17:56:48 +0100</pubDate>
-      
-      <guid>http://distributedfog.com/fog-computing/cisco-iox/</guid>
-      <description>IOx combines IoT application execution within the fog and offers highly secure connectivity with Cisco IOS technology, as well as powerful services for rapid, reliable integration with IoT sensors and the cloud.  cisco.com     Architecture 
- cisco.com    
-The Cisco IOx application environment combines IoT application execution within the fog; secure connectivity with Cisco IOS Software; and powerful services for rapid, reliable integration with Internet of Things (IoT) sensors and the cloud.</description>
-    </item>
     
     <item>
       <title>Computes.io</title>
@@ -29,15 +18,6 @@ The Cisco IOx application environment combines IoT application execution within 
       
       <guid>http://distributedfog.com/decentralisation/computes-io/</guid>
       <description>Computes.io is a mesh networked, distributed supercomputing platform powered by IPFS. Each node on the mesh network acts as both a core and kernel, meaning that each node can perform computations for other machines as well as request computations from itself and other machines.  computes.io     Computes.io is a distributed supercomputer mesh network. Each node on the mesh network acts as both a core and kernel — meaning that each node can perform Javascript computations for other machines as well as request computations from itself and other machines.</description>
-    </item>
-    
-    <item>
-      <title>Eywa</title>
-      <link>http://distributedfog.com/fog-computing/eywa/</link>
-      <pubDate>Wed, 11 Oct 2017 17:56:48 +0100</pubDate>
-      
-      <guid>http://distributedfog.com/fog-computing/eywa/</guid>
-      <description>Eywa is an interoperable fog computing infrastructure for RDF Stream Processing (RSP). It implements a means of distribution and control of query workload for stream processing on flexible, interopeable, RDF graph structures.  eugenesiow.com     Paper Abstract Fog computing is an emerging technology for the Internet of Things (IoT) that aims to support processing on resource-constrained distributed nodes in between the sensors and actuators on the ground and compute clusters in the cloud.</description>
     </item>
     
     <item>

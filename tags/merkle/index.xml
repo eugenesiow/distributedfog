@@ -1,0 +1,24 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes" ?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>Merkle on DistributedFog</title>
+    <link>http://distributedfog.com/tags/merkle/</link>
+    <description>Recent content in Merkle on DistributedFog</description>
+    <generator>Hugo -- gohugo.io</generator>
+    <language>en-us</language>
+    <lastBuildDate>Wed, 11 Oct 2017 17:56:48 +0100</lastBuildDate>
+    
+	<atom:link href="http://distributedfog.com/tags/merkle/index.xml" rel="self" type="application/rss+xml" />
+    
+    
+    <item>
+      <title>IPFS</title>
+      <link>http://distributedfog.com/decentralisation/ipfs/</link>
+      <pubDate>Wed, 11 Oct 2017 17:56:48 +0100</pubDate>
+      
+      <guid>http://distributedfog.com/decentralisation/ipfs/</guid>
+      <description>InterPlanetary File System (IPFS) is a protocol designed to create a permanent and decentralized method of storing and sharing files. It is a content-addressable, peer-to-peer hypermedia distribution protocol. Nodes in the IPFS network form a distributed file system.  Wikipedia     IPNS IPFS has a name service called IPNS, a global namespace based on PKI, serves to build trust chains, is compatible with other NSes and can map DNS, .</description>
+    </item>
+    
+  </channel>
+</rss>

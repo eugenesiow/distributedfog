@@ -1,0 +1,24 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes" ?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>Ipfs on DistributedFog</title>
+    <link>http://distributedfog.com/tags/ipfs/</link>
+    <description>Recent content in Ipfs on DistributedFog</description>
+    <generator>Hugo -- gohugo.io</generator>
+    <language>en-us</language>
+    <lastBuildDate>Wed, 11 Oct 2017 17:56:48 +0100</lastBuildDate>
+    
+	<atom:link href="http://distributedfog.com/tags/ipfs/index.xml" rel="self" type="application/rss+xml" />
+    
+    
+    <item>
+      <title>Computes.io</title>
+      <link>http://distributedfog.com/decentralisation/computes-io/</link>
+      <pubDate>Wed, 11 Oct 2017 17:56:48 +0100</pubDate>
+      
+      <guid>http://distributedfog.com/decentralisation/computes-io/</guid>
+      <description>Computes.io is a mesh networked, distributed supercomputing platform powered by IPFS. Each node on the mesh network acts as both a core and kernel, meaning that each node can perform computations for other machines as well as request computations from itself and other machines.  computes.io     Computes.io is a distributed supercomputer mesh network. Each node on the mesh network acts as both a core and kernel — meaning that each node can perform Javascript computations for other machines as well as request computations from itself and other machines.</description>
+    </item>
+    
+  </channel>
+</rss>

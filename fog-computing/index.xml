@@ -22,5 +22,14 @@
 The Cisco IOx application environment combines IoT application execution within the fog; secure connectivity with Cisco IOS Software; and powerful services for rapid, reliable integration with Internet of Things (IoT) sensors and the cloud.</description>
     </item>
     
+    <item>
+      <title>Eywa</title>
+      <link>http://distributedfog.com/fog-computing/eywa/</link>
+      <pubDate>Wed, 11 Oct 2017 17:56:48 +0100</pubDate>
+      
+      <guid>http://distributedfog.com/fog-computing/eywa/</guid>
+      <description>Eywa is an interoperable fog computing infrastructure for RDF Stream Processing (RSP). It implements a means of distribution and control of query workload for stream processing on flexible, interopeable, RDF graph structures.  eugenesiow.com     Paper Abstract Fog computing is an emerging technology for the Internet of Things (IoT) that aims to support processing on resource-constrained distributed nodes in between the sensors and actuators on the ground and compute clusters in the cloud.</description>
+    </item>
+    
   </channel>
 </rss>

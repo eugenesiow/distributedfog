@@ -39,6 +39,15 @@
     </item>
     
     <item>
+      <title>Decentralised</title>
+      <link>http://distributedfog.com/tags/decentralised/</link>
+      <pubDate>Wed, 11 Oct 2017 17:56:48 +0100</pubDate>
+      
+      <guid>http://distributedfog.com/tags/decentralised/</guid>
+      <description></description>
+    </item>
+    
+    <item>
       <title>Distributed</title>
       <link>http://distributedfog.com/tags/distributed/</link>
       <pubDate>Wed, 11 Oct 2017 17:56:48 +0100</pubDate>
@@ -71,6 +80,24 @@
       <pubDate>Wed, 11 Oct 2017 17:56:48 +0100</pubDate>
       
       <guid>http://distributedfog.com/tags/environment/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>Eywa</title>
+      <link>http://distributedfog.com/tags/eywa/</link>
+      <pubDate>Wed, 11 Oct 2017 17:56:48 +0100</pubDate>
+      
+      <guid>http://distributedfog.com/tags/eywa/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>Fog Computing</title>
+      <link>http://distributedfog.com/tags/fog-computing/</link>
+      <pubDate>Wed, 11 Oct 2017 17:56:48 +0100</pubDate>
+      
+      <guid>http://distributedfog.com/tags/fog-computing/</guid>
       <description></description>
     </item>
     
@@ -138,6 +165,15 @@
     </item>
     
     <item>
+      <title>Ipfs</title>
+      <link>http://distributedfog.com/tags/ipfs/</link>
+      <pubDate>Wed, 11 Oct 2017 17:56:48 +0100</pubDate>
+      
+      <guid>http://distributedfog.com/tags/ipfs/</guid>
+      <description></description>
+    </item>
+    
+    <item>
       <title>Kinetic</title>
       <link>http://distributedfog.com/tags/kinetic/</link>
       <pubDate>Wed, 11 Oct 2017 17:56:48 +0100</pubDate>
@@ -161,6 +197,15 @@
       <pubDate>Wed, 11 Oct 2017 16:24:18 +0100</pubDate>
       
       <guid>http://distributedfog.com/tags/location/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>Merkle</title>
+      <link>http://distributedfog.com/tags/merkle/</link>
+      <pubDate>Wed, 11 Oct 2017 17:56:48 +0100</pubDate>
+      
+      <guid>http://distributedfog.com/tags/merkle/</guid>
       <description></description>
     </item>
     
@@ -210,6 +255,15 @@
     </item>
     
     <item>
+      <title>Privacy</title>
+      <link>http://distributedfog.com/tags/privacy/</link>
+      <pubDate>Wed, 11 Oct 2017 17:56:48 +0100</pubDate>
+      
+      <guid>http://distributedfog.com/tags/privacy/</guid>
+      <description></description>
+    </item>
+    
+    <item>
       <title>Protocol</title>
       <link>http://distributedfog.com/tags/protocol/</link>
       <pubDate>Wed, 11 Oct 2017 17:56:48 +0100</pubDate>
@@ -228,6 +282,15 @@
     </item>
     
     <item>
+      <title>Rdf</title>
+      <link>http://distributedfog.com/tags/rdf/</link>
+      <pubDate>Wed, 11 Oct 2017 17:56:48 +0100</pubDate>
+      
+      <guid>http://distributedfog.com/tags/rdf/</guid>
+      <description></description>
+    </item>
+    
+    <item>
       <title>Remote Control</title>
       <link>http://distributedfog.com/tags/remote-control/</link>
       <pubDate>Wed, 11 Oct 2017 17:56:48 +0100</pubDate>
@@ -237,11 +300,29 @@
     </item>
     
     <item>
+      <title>Rsp</title>
+      <link>http://distributedfog.com/tags/rsp/</link>
+      <pubDate>Wed, 11 Oct 2017 17:56:48 +0100</pubDate>
+      
+      <guid>http://distributedfog.com/tags/rsp/</guid>
+      <description></description>
+    </item>
+    
+    <item>
       <title>Rtos</title>
       <link>http://distributedfog.com/tags/rtos/</link>
       <pubDate>Wed, 11 Oct 2017 17:56:48 +0100</pubDate>
       
       <guid>http://distributedfog.com/tags/rtos/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>S2s</title>
+      <link>http://distributedfog.com/tags/s2s/</link>
+      <pubDate>Wed, 11 Oct 2017 17:56:48 +0100</pubDate>
+      
+      <guid>http://distributedfog.com/tags/s2s/</guid>
       <description></description>
     </item>
     
@@ -264,11 +345,29 @@
     </item>
     
     <item>
+      <title>Sparql</title>
+      <link>http://distributedfog.com/tags/sparql/</link>
+      <pubDate>Wed, 11 Oct 2017 17:56:48 +0100</pubDate>
+      
+      <guid>http://distributedfog.com/tags/sparql/</guid>
+      <description></description>
+    </item>
+    
+    <item>
       <title>Specifications</title>
       <link>http://distributedfog.com/tags/specifications/</link>
       <pubDate>Wed, 11 Oct 2017 17:56:48 +0100</pubDate>
       
       <guid>http://distributedfog.com/tags/specifications/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>Stream Processing</title>
+      <link>http://distributedfog.com/tags/stream-processing/</link>
+      <pubDate>Wed, 11 Oct 2017 17:56:48 +0100</pubDate>
+      
+      <guid>http://distributedfog.com/tags/stream-processing/</guid>
       <description></description>
     </item>
     

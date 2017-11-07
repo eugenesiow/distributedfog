@@ -1,0 +1,24 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes" ?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>Stream Processing on DistributedFog</title>
+    <link>http://distributedfog.com/tags/stream-processing/</link>
+    <description>Recent content in Stream Processing on DistributedFog</description>
+    <generator>Hugo -- gohugo.io</generator>
+    <language>en-us</language>
+    <lastBuildDate>Wed, 11 Oct 2017 17:56:48 +0100</lastBuildDate>
+    
+	<atom:link href="http://distributedfog.com/tags/stream-processing/index.xml" rel="self" type="application/rss+xml" />
+    
+    
+    <item>
+      <title>Eywa</title>
+      <link>http://distributedfog.com/fog-computing/eywa/</link>
+      <pubDate>Wed, 11 Oct 2017 17:56:48 +0100</pubDate>
+      
+      <guid>http://distributedfog.com/fog-computing/eywa/</guid>
+      <description>Eywa is an interoperable fog computing infrastructure for RDF Stream Processing (RSP). It implements a means of distribution and control of query workload for stream processing on flexible, interopeable, RDF graph structures.  eugenesiow.com     Paper Abstract Fog computing is an emerging technology for the Internet of Things (IoT) that aims to support processing on resource-constrained distributed nodes in between the sensors and actuators on the ground and compute clusters in the cloud.</description>
+    </item>
+    
+  </channel>
+</rss>

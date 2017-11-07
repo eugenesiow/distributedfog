@@ -23,6 +23,44 @@ The Cisco IOx application environment combines IoT application execution within 
     </item>
     
     <item>
+      <title>Computes.io</title>
+      <link>http://distributedfog.com/decentralisation/computes-io/</link>
+      <pubDate>Wed, 11 Oct 2017 17:56:48 +0100</pubDate>
+      
+      <guid>http://distributedfog.com/decentralisation/computes-io/</guid>
+      <description>Computes.io is a mesh networked, distributed supercomputing platform powered by IPFS. Each node on the mesh network acts as both a core and kernel, meaning that each node can perform computations for other machines as well as request computations from itself and other machines.  computes.io     Computes.io is a distributed supercomputer mesh network. Each node on the mesh network acts as both a core and kernel — meaning that each node can perform Javascript computations for other machines as well as request computations from itself and other machines.</description>
+    </item>
+    
+    <item>
+      <title>Eywa</title>
+      <link>http://distributedfog.com/fog-computing/eywa/</link>
+      <pubDate>Wed, 11 Oct 2017 17:56:48 +0100</pubDate>
+      
+      <guid>http://distributedfog.com/fog-computing/eywa/</guid>
+      <description>Eywa is an interoperable fog computing infrastructure for RDF Stream Processing (RSP). It implements a means of distribution and control of query workload for stream processing on flexible, interopeable, RDF graph structures.  eugenesiow.com     Paper Abstract Fog computing is an emerging technology for the Internet of Things (IoT) that aims to support processing on resource-constrained distributed nodes in between the sensors and actuators on the ground and compute clusters in the cloud.</description>
+    </item>
+    
+    <item>
+      <title>IPFS</title>
+      <link>http://distributedfog.com/decentralisation/ipfs/</link>
+      <pubDate>Wed, 11 Oct 2017 17:56:48 +0100</pubDate>
+      
+      <guid>http://distributedfog.com/decentralisation/ipfs/</guid>
+      <description>InterPlanetary File System (IPFS) is a protocol designed to create a permanent and decentralized method of storing and sharing files. It is a content-addressable, peer-to-peer hypermedia distribution protocol. Nodes in the IPFS network form a distributed file system.  Wikipedia     IPNS IPFS has a name service called IPNS, a global namespace based on PKI, serves to build trust chains, is compatible with other NSes and can map DNS, .</description>
+    </item>
+    
+    <item>
+      <title>PIOTRe</title>
+      <link>http://distributedfog.com/decentralisation/piotre/</link>
+      <pubDate>Wed, 11 Oct 2017 17:56:48 +0100</pubDate>
+      
+      <guid>http://distributedfog.com/decentralisation/piotre/</guid>
+      <description>PIOTRe is a Personal IoT Repository that allows applications to be built on interoperable and efficient semantic database technology for deployment on lightweight IoT devices. The name PIOTRe is derived from the name Peter meaning &amp;#39;stone&amp;#39; or &amp;#39;rock&amp;#39; and is the foundation for personal IoT device repositories.  cisco.com     Architecture 
+ cisco.com    
+PIOTRe PIOTRe is a Personal IoT Repository based on sparql2sql, sparql2stream and sparql2fed technologies.</description>
+    </item>
+    
+    <item>
       <title>Resin.io</title>
       <link>http://distributedfog.com/platform/resin-io/</link>
       <pubDate>Wed, 11 Oct 2017 17:56:48 +0100</pubDate>
@@ -44,6 +82,19 @@ The Cisco IOx application environment combines IoT application execution within 
       
       <guid>http://distributedfog.com/platform/sensorcloud/</guid>
       <description>SensorCloud is a sensor data storage, visualization and remote management platform. It is a product of LORD MicroStrain Sensing Systems and leverages Cloud computing technologies to provide data scalability, rapid visualization, and user programmable analysis.  sensorcloud.com     MathEngine A $50/month per SensorCloud account account. It provides multiple ways to analyze data. It can generate FFT plots, filter out frequencies, and smooth out noisy data. It also integrates IPython Notebooks into its cloud service.</description>
+    </item>
+    
+    <item>
+      <title>Solid</title>
+      <link>http://distributedfog.com/decentralisation/solid/</link>
+      <pubDate>Wed, 11 Oct 2017 17:56:48 +0100</pubDate>
+      
+      <guid>http://distributedfog.com/decentralisation/solid/</guid>
+      <description>Solid (derived from &amp;#39;social linked data&amp;#39;) is a proposed set of conventions and tools for building decentralized social applications based on Linked Data principles. The project aims to radically change the way Web applications work today, resulting in true data ownership as well as improved privacy.  computes.io     Apps  Plume Blogging
+ Cimba Microblogging
+ Contacts
+ Dokieli Article Publishing
+ Profile Editing</description>
     </item>
     
     <item>
