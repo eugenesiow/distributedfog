@@ -3,6 +3,7 @@ title: "Arduino"
 type: "article"
 description: "Arduino is an open source single-board microcontroller for building digital devices and interactive objects that can sense and control objects in the physical world. Arduino boards are available commercially in preassembled form, or as do-it-yourself kits."
 tags: ["hardware","community","open source"]
+weight: 10
 date: 2017-10-11T17:56:48+01:00
 ---
 
