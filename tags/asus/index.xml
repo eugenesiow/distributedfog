@@ -1,0 +1,24 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes" ?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>Asus on DistributedFog</title>
+    <link>http://distributedfog.com/tags/asus/</link>
+    <description>Recent content in Asus on DistributedFog</description>
+    <generator>Hugo -- gohugo.io</generator>
+    <language>en-us</language>
+    <lastBuildDate>Wed, 11 Oct 2017 17:56:48 +0100</lastBuildDate>
+    
+	<atom:link href="http://distributedfog.com/tags/asus/index.xml" rel="self" type="application/rss+xml" />
+    
+    
+    <item>
+      <title>TinkerBoard</title>
+      <link>http://distributedfog.com/kit/tinkerboard/</link>
+      <pubDate>Wed, 11 Oct 2017 17:56:48 +0100</pubDate>
+      
+      <guid>http://distributedfog.com/kit/tinkerboard/</guid>
+      <description>The ASUS Tinker Board is a single board computer launched by ASUS in early 2017. Its physical size and GPIO pinout are designed to be compatible with the second-generation and later Raspberry Pi models. The first released board features 4K video, 2GB of onboard RAM, gigabit Ethernet and a Rockchip RK3288 processor running at 1.8 GHz.  Wikipedia     Tinker Board is a Single Board Computer (SBC) in an ultra-small form factor that offers class-leading performance while leveraging outstanding mechanical compatibility.</description>
+    </item>
+    
+  </channel>
+</rss>

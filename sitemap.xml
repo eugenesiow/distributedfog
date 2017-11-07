@@ -2,6 +2,21 @@
 <urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9">
   
   <url>
+    <loc>http://distributedfog.com/kit/arduino/</loc>
+    <lastmod>2017-10-11T17:56:48+01:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>http://distributedfog.com/kit/microbit/</loc>
+    <lastmod>2017-10-11T17:56:48+01:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>http://distributedfog.com/kit/rpi/</loc>
+    <lastmod>2017-10-11T17:56:48+01:00</lastmod>
+  </url>
+  
+  <url>
     <loc>http://distributedfog.com/security/18883-green-security/</loc>
     <lastmod>2017-10-11T17:56:48+01:00</lastmod>
   </url>
@@ -22,7 +37,7 @@
   </url>
   
   <url>
-    <loc>http://distributedfog.com/kit/arduino/</loc>
+    <loc>http://distributedfog.com/kit/beagle/</loc>
     <lastmod>2017-10-11T17:56:48+01:00</lastmod>
   </url>
   
@@ -48,6 +63,11 @@
   
   <url>
     <loc>http://distributedfog.com/os/contiki/</loc>
+    <lastmod>2017-10-11T17:56:48+01:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>http://distributedfog.com/kit/cubieboard/</loc>
     <lastmod>2017-10-11T17:56:48+01:00</lastmod>
   </url>
   
@@ -87,7 +107,22 @@
   </url>
   
   <url>
+    <loc>http://distributedfog.com/kit/gadgeteer/</loc>
+    <lastmod>2017-10-11T17:56:48+01:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>http://distributedfog.com/kit/galileo/</loc>
+    <lastmod>2017-10-11T17:56:48+01:00</lastmod>
+  </url>
+  
+  <url>
     <loc>http://distributedfog.com/gateway-network/</loc>
+    <lastmod>2017-10-11T17:56:48+01:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>http://distributedfog.com/kit/gizmo2/</loc>
     <lastmod>2017-10-11T17:56:48+01:00</lastmod>
   </url>
   
@@ -137,6 +172,11 @@
   </url>
   
   <url>
+    <loc>http://distributedfog.com/kit/nuc/</loc>
+    <lastmod>2017-10-11T17:56:48+01:00</lastmod>
+  </url>
+  
+  <url>
     <loc>http://distributedfog.com/security/</loc>
     <lastmod>2017-10-11T17:56:48+01:00</lastmod>
   </url>
@@ -147,17 +187,17 @@
   </url>
   
   <url>
+    <loc>http://distributedfog.com/kit/phidgets/</loc>
+    <lastmod>2017-10-11T17:56:48+01:00</lastmod>
+  </url>
+  
+  <url>
     <loc>http://distributedfog.com/platform/</loc>
     <lastmod>2017-10-11T17:56:48+01:00</lastmod>
   </url>
   
   <url>
     <loc>http://distributedfog.com/power/</loc>
-    <lastmod>2017-10-11T17:56:48+01:00</lastmod>
-  </url>
-  
-  <url>
-    <loc>http://distributedfog.com/kit/rpi/</loc>
     <lastmod>2017-10-11T17:56:48+01:00</lastmod>
   </url>
   
@@ -182,12 +222,22 @@
   </url>
   
   <url>
+    <loc>http://distributedfog.com/kit/smartthings/</loc>
+    <lastmod>2017-10-11T17:56:48+01:00</lastmod>
+  </url>
+  
+  <url>
     <loc>http://distributedfog.com/decentralisation/solid/</loc>
     <lastmod>2017-10-11T17:56:48+01:00</lastmod>
   </url>
   
   <url>
     <loc>http://distributedfog.com/tag/</loc>
+    <lastmod>2017-10-11T17:56:48+01:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>http://distributedfog.com/kit/tinkerboard/</loc>
     <lastmod>2017-10-11T17:56:48+01:00</lastmod>
   </url>
   
@@ -293,6 +343,18 @@
   </url>
   
   <url>
+    <loc>http://distributedfog.com/tags/asus/</loc>
+    <lastmod>2017-10-11T17:56:48+01:00</lastmod>
+    <priority>0</priority>
+  </url>
+  
+  <url>
+    <loc>http://distributedfog.com/tags/bbc/</loc>
+    <lastmod>2017-10-11T17:56:48+01:00</lastmod>
+    <priority>0</priority>
+  </url>
+  
+  <url>
     <loc>http://distributedfog.com/categories/</loc>
     <priority>0</priority>
   </url>
@@ -323,6 +385,12 @@
   
   <url>
     <loc>http://distributedfog.com/tags/dns/</loc>
+    <lastmod>2017-10-11T17:56:48+01:00</lastmod>
+    <priority>0</priority>
+  </url>
+  
+  <url>
+    <loc>http://distributedfog.com/tags/education/</loc>
     <lastmod>2017-10-11T17:56:48+01:00</lastmod>
     <priority>0</priority>
   </url>
@@ -394,6 +462,12 @@
   </url>
   
   <url>
+    <loc>http://distributedfog.com/tags/intel/</loc>
+    <lastmod>2017-10-11T17:56:48+01:00</lastmod>
+    <priority>0</priority>
+  </url>
+  
+  <url>
     <loc>http://distributedfog.com/tags/ipfs/</loc>
     <lastmod>2017-10-11T17:56:48+01:00</lastmod>
     <priority>0</priority>
@@ -425,6 +499,12 @@
   
   <url>
     <loc>http://distributedfog.com/tags/mesh/</loc>
+    <lastmod>2017-10-11T17:56:48+01:00</lastmod>
+    <priority>0</priority>
+  </url>
+  
+  <url>
+    <loc>http://distributedfog.com/tags/microsoft/</loc>
     <lastmod>2017-10-11T17:56:48+01:00</lastmod>
     <priority>0</priority>
   </url>
@@ -497,6 +577,12 @@
   
   <url>
     <loc>http://distributedfog.com/tags/s2s/</loc>
+    <lastmod>2017-10-11T17:56:48+01:00</lastmod>
+    <priority>0</priority>
+  </url>
+  
+  <url>
+    <loc>http://distributedfog.com/tags/samsung/</loc>
     <lastmod>2017-10-11T17:56:48+01:00</lastmod>
     <priority>0</priority>
   </url>

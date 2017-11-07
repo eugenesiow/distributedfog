@@ -25,6 +25,80 @@ Series Comparison &amp;hellip;    Arduino CPU SRAM Flash     Yún 400 MHz 64 MB 
     </item>
     
     <item>
+      <title>Beagle</title>
+      <link>http://distributedfog.com/kit/beagle/</link>
+      <pubDate>Wed, 11 Oct 2017 17:56:48 +0100</pubDate>
+      
+      <guid>http://distributedfog.com/kit/beagle/</guid>
+      <description>Beagles are low-cost, fan-less single-board computers based on low-power Texas Instruments processors featuring the ARM Cortex-A series core with all of the expandability of today&amp;#39;s desktop machines, but without the bulk, expense, or noise. Initially, development was targeted at enabling Linux distributions to improve support for ARM devices.  BeagleBoard.org     BeagleBone VS BeagleBone Black 
+ elinux.org    
+BeagleBoard The USB-powered BeagleBoard is a low-cost, fan-less single board computer that unleashes laptop-like performance and expandability without the bulk, expense, or noise of typical desktop machines.</description>
+    </item>
+    
+    <item>
+      <title>CubieBoard</title>
+      <link>http://distributedfog.com/kit/cubieboard/</link>
+      <pubDate>Wed, 11 Oct 2017 17:56:48 +0100</pubDate>
+      
+      <guid>http://distributedfog.com/kit/cubieboard/</guid>
+      <description>Cubieboard is a single-board computer which can run Android 4 ICS, Ubuntu 12.04 desktop, Fedora 19 ARM Remix desktop, Arch Linux ARM, a Debian-based Cubian distribution, or OpenBSD. It uses the AllWinner A10 SoC, popular on cheap tablets, phones and media PCs. This SoC is used by developers of the lima driver, an open-source driver for the ARM Mali GPU.  Wikipedia     Cubietruck Plus (Cubieboard 5) Hardware (More Models)  SoC: Allwinner H8</description>
+    </item>
+    
+    <item>
+      <title>Gadgeteer</title>
+      <link>http://distributedfog.com/kit/gadgeteer/</link>
+      <pubDate>Wed, 11 Oct 2017 17:56:48 +0100</pubDate>
+      
+      <guid>http://distributedfog.com/kit/gadgeteer/</guid>
+      <description>Microsoft .NET Gadgeteer is an open-source rapid-prototyping standard for building small electronic devices using the Microsoft .NET Micro Framework and Microsoft Visual Studio/Visual C# Express. The Gadgeteer platform centers around a Gadgeteer mainboard with a microcontroller running the .NET Micro Framework.  Wikipedia     .NET Gadgeteer was created by researchers at Microsoft as an internal prototyping tool, but because of external interest, particualrly from educators and hobbyists, we turned it into open source software which now has a vibrant hardware ecosystem from multiple manufacturers.</description>
+    </item>
+    
+    <item>
+      <title>Galileo</title>
+      <link>http://distributedfog.com/kit/galileo/</link>
+      <pubDate>Wed, 11 Oct 2017 17:56:48 +0100</pubDate>
+      
+      <guid>http://distributedfog.com/kit/galileo/</guid>
+      <description>Intel Galileo is the first in a line of Arduino-certified development boards based on Intel x86 architecture and is designed for the maker and education communities. Intel released two versions of Galileo, referred to as Gen 1 and Gen 2. These development boards are sometimes called &amp;#39;Breakout boards&amp;#39;.  Wikipedia     Intel Galileo combines Intel technology with support for Arduino ready-made hardware expansion cards (called &amp;ldquo;shields&amp;rdquo;) and the Arduino software development environment and libraries.</description>
+    </item>
+    
+    <item>
+      <title>Gizmo2</title>
+      <link>http://distributedfog.com/kit/gizmo2/</link>
+      <pubDate>Wed, 11 Oct 2017 17:56:48 +0100</pubDate>
+      
+      <guid>http://distributedfog.com/kit/gizmo2/</guid>
+      <description>Gizmo2 is the second generation open source x86 development board from GizmoSphere. Gizmo 2 provides the power of a high performance computer and the I/O capabilities of a microcontroller through the use of an AMD Embedded G-Series System-on-Chip (SOC). The board includes the AMD GX-210HA dual-core processor, combined on a single die with AMD Radeon HD 8210E discrete-class graphics, providing 85 GFLOPS performance while drawing only 9 watts TDP.  element14     The new Gizmo 2 platform is the second-generation x86-based DIY single-board-computer (SBC) from Gizmosphere.</description>
+    </item>
+    
+    <item>
+      <title>Microbit</title>
+      <link>http://distributedfog.com/kit/microbit/</link>
+      <pubDate>Wed, 11 Oct 2017 17:56:48 +0100</pubDate>
+      
+      <guid>http://distributedfog.com/kit/microbit/</guid>
+      <description>The BBC Micro Bit is an ARM-based embedded system designed by the BBC for use in computer education. The board is 4 cm × 5 cm and has an ARM Cortex-M0 processor, accelerometer and magnetometer sensors, Bluetooth and USB connectivity, a display consisting of 25 LEDs, two programmable buttons, and can be powered by either USB or an external battery pack.  Wikipedia     Hardware  Size: 43 mm × 52 mm (half credit card)</description>
+    </item>
+    
+    <item>
+      <title>NUC</title>
+      <link>http://distributedfog.com/kit/nuc/</link>
+      <pubDate>Wed, 11 Oct 2017 17:56:48 +0100</pubDate>
+      
+      <guid>http://distributedfog.com/kit/nuc/</guid>
+      <description>Next Unit of Computing (NUC) is a small-form-factor personal computer designed by Intel. Its motherboard measures 4 × 4 inches (10.16 × 10.16 cm). The barebone kits consist of the board, in a plastic case with a fan, an external power supply and VESA mounting plate.  Wikipedia     Seventh Generation Intel&amp;rsquo;s seventh generation NUC models, codenamed Baby Canyon, are based on their Kaby Lake-U processors with a TDP from 15 W to 28 W.</description>
+    </item>
+    
+    <item>
+      <title>Phidgets</title>
+      <link>http://distributedfog.com/kit/phidgets/</link>
+      <pubDate>Wed, 11 Oct 2017 17:56:48 +0100</pubDate>
+      
+      <guid>http://distributedfog.com/kit/phidgets/</guid>
+      <description>Phidgets are a system of low-cost electronic components and sensors that are controlled by a personal computer. Using the Universal Serial Bus (USB) as the basis for all phidgets, the complexity is managed behind an Application Programming Interface (API). A phidget is a physical representation or implementation of a GUI widget.  Wikipedia     Phidgets are an easy to use set of building blocks for low cost sensing and control from your PC.</description>
+    </item>
+    
+    <item>
       <title>RPi</title>
       <link>http://distributedfog.com/kit/rpi/</link>
       <pubDate>Wed, 11 Oct 2017 17:56:48 +0100</pubDate>
@@ -33,6 +107,24 @@ Series Comparison &amp;hellip;    Arduino CPU SRAM Flash     Yún 400 MHz 64 MB 
       <description>The Raspberry Pi is a series of popular small and low-cost single-board computers. It was first developed in the UK by the Raspberry Pi Foundation. Manifold products have been created to accompany, modify, and enhance the Pi’s capabilities.  Wikipedia     Research Health Monitoring, Web of Things Book, Industrial Automation, Environmental Monitoring
  
 Series Comparison    RPi CPU RAM WiFi     3 4 x 1.</description>
+    </item>
+    
+    <item>
+      <title>SmartThings</title>
+      <link>http://distributedfog.com/kit/smartthings/</link>
+      <pubDate>Wed, 11 Oct 2017 17:56:48 +0100</pubDate>
+      
+      <guid>http://distributedfog.com/kit/smartthings/</guid>
+      <description>The SmartThings Hub acts as the centre of a smart home. Able to connect wirelessly with hundreds of compatible smart devices, allowing monitoring, controlling and securing a home from anywhere.  samsung.com     SmartThings primary products include a free SmartThings app, a SmartThings Hub, as well as various sensors and smart devices. The SmartThings native mobile application allows users to control, automate, and monitor their home environment via mobile device.</description>
+    </item>
+    
+    <item>
+      <title>TinkerBoard</title>
+      <link>http://distributedfog.com/kit/tinkerboard/</link>
+      <pubDate>Wed, 11 Oct 2017 17:56:48 +0100</pubDate>
+      
+      <guid>http://distributedfog.com/kit/tinkerboard/</guid>
+      <description>The ASUS Tinker Board is a single board computer launched by ASUS in early 2017. Its physical size and GPIO pinout are designed to be compatible with the second-generation and later Raspberry Pi models. The first released board features 4K video, 2GB of onboard RAM, gigabit Ethernet and a Rockchip RK3288 processor running at 1.8 GHz.  Wikipedia     Tinker Board is a Single Board Computer (SBC) in an ultra-small form factor that offers class-leading performance while leveraging outstanding mechanical compatibility.</description>
     </item>
     
   </channel>

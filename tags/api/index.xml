@@ -12,6 +12,15 @@
     
     
     <item>
+      <title>Phidgets</title>
+      <link>http://distributedfog.com/kit/phidgets/</link>
+      <pubDate>Wed, 11 Oct 2017 17:56:48 +0100</pubDate>
+      
+      <guid>http://distributedfog.com/kit/phidgets/</guid>
+      <description>Phidgets are a system of low-cost electronic components and sensors that are controlled by a personal computer. Using the Universal Serial Bus (USB) as the basis for all phidgets, the complexity is managed behind an Application Programming Interface (API). A phidget is a physical representation or implementation of a GUI widget.  Wikipedia     Phidgets are an easy to use set of building blocks for low cost sensing and control from your PC.</description>
+    </item>
+    
+    <item>
       <title>Resin.io</title>
       <link>http://distributedfog.com/platform/resin-io/</link>
       <pubDate>Wed, 11 Oct 2017 17:56:48 +0100</pubDate>

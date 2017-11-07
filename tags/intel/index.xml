@@ -1,0 +1,33 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes" ?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>Intel on DistributedFog</title>
+    <link>http://distributedfog.com/tags/intel/</link>
+    <description>Recent content in Intel on DistributedFog</description>
+    <generator>Hugo -- gohugo.io</generator>
+    <language>en-us</language>
+    <lastBuildDate>Wed, 11 Oct 2017 17:56:48 +0100</lastBuildDate>
+    
+	<atom:link href="http://distributedfog.com/tags/intel/index.xml" rel="self" type="application/rss+xml" />
+    
+    
+    <item>
+      <title>Galileo</title>
+      <link>http://distributedfog.com/kit/galileo/</link>
+      <pubDate>Wed, 11 Oct 2017 17:56:48 +0100</pubDate>
+      
+      <guid>http://distributedfog.com/kit/galileo/</guid>
+      <description>Intel Galileo is the first in a line of Arduino-certified development boards based on Intel x86 architecture and is designed for the maker and education communities. Intel released two versions of Galileo, referred to as Gen 1 and Gen 2. These development boards are sometimes called &amp;#39;Breakout boards&amp;#39;.  Wikipedia     Intel Galileo combines Intel technology with support for Arduino ready-made hardware expansion cards (called &amp;ldquo;shields&amp;rdquo;) and the Arduino software development environment and libraries.</description>
+    </item>
+    
+    <item>
+      <title>NUC</title>
+      <link>http://distributedfog.com/kit/nuc/</link>
+      <pubDate>Wed, 11 Oct 2017 17:56:48 +0100</pubDate>
+      
+      <guid>http://distributedfog.com/kit/nuc/</guid>
+      <description>Next Unit of Computing (NUC) is a small-form-factor personal computer designed by Intel. Its motherboard measures 4 × 4 inches (10.16 × 10.16 cm). The barebone kits consist of the board, in a plastic case with a fan, an external power supply and VESA mounting plate.  Wikipedia     Seventh Generation Intel&amp;rsquo;s seventh generation NUC models, codenamed Baby Canyon, are based on their Kaby Lake-U processors with a TDP from 15 W to 28 W.</description>
+    </item>
+    
+  </channel>
+</rss>

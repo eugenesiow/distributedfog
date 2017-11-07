@@ -1,0 +1,24 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes" ?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>Samsung on DistributedFog</title>
+    <link>http://distributedfog.com/tags/samsung/</link>
+    <description>Recent content in Samsung on DistributedFog</description>
+    <generator>Hugo -- gohugo.io</generator>
+    <language>en-us</language>
+    <lastBuildDate>Wed, 11 Oct 2017 17:56:48 +0100</lastBuildDate>
+    
+	<atom:link href="http://distributedfog.com/tags/samsung/index.xml" rel="self" type="application/rss+xml" />
+    
+    
+    <item>
+      <title>SmartThings</title>
+      <link>http://distributedfog.com/kit/smartthings/</link>
+      <pubDate>Wed, 11 Oct 2017 17:56:48 +0100</pubDate>
+      
+      <guid>http://distributedfog.com/kit/smartthings/</guid>
+      <description>The SmartThings Hub acts as the centre of a smart home. Able to connect wirelessly with hundreds of compatible smart devices, allowing monitoring, controlling and securing a home from anywhere.  samsung.com     SmartThings primary products include a free SmartThings app, a SmartThings Hub, as well as various sensors and smart devices. The SmartThings native mobile application allows users to control, automate, and monitor their home environment via mobile device.</description>
+    </item>
+    
+  </channel>
+</rss>
