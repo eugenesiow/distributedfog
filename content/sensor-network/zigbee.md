@@ -2,7 +2,7 @@
 title: "Zigbee"
 type: "article"
 description: "Zigbee is an IEEE 802.15.4-based specification for a suite of high-level communication protocols used to create personal area networks with small, low-power digital radios, such as for home automation, medical device data collection, and other low-power low-bandwidth needs, designed for small scale projects which need wireless connection."
-weight: 0
+weight: 10
 tags: ["protocol", "wireless", "radio", "mesh"]
 date: 2017-10-11T17:56:48+01:00
 ---

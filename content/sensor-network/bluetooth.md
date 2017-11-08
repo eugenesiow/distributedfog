@@ -2,7 +2,7 @@
 title: "Bluetooth"
 type: "article"
 description: "Bluetooth is a wireless technology standard for exchanging data over short distances (using short-wavelength UHF radio waves in the industrial, scientific and medical (ISM) radio bands from 2.4 to 2.485 GHz) from fixed and mobile devices, and building personal area networks (PANs). Bluetooth Low Energy or Smart is intended to provide considerably reduced power consumption and cost while maintaining a similar communication range."
-weight: 0
+weight: 10
 tags: ["protocol", "wireless", "mesh"]
 date: 2017-10-11T17:56:48+01:00
 ---
