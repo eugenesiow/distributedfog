@@ -20,5 +20,24 @@
       <description>The 6LoWPAN concept originated from the idea that &amp;#39;the Internet Protocol could and should be applied even to the smallest devices,&amp;#39; and that low-power devices with limited processing capabilities should be able to participate in the Internet of Things. The 6LoWPAN group has defined encapsulation and header compression mechanisms that allow IPv6 packets to be sent and received over IEEE 802.15.4 (LR-WPAN) based networks.  Wikipedia     Thread Thread is a standard suggested by Nest Labs based on IEEE 802.</description>
     </item>
     
+    <item>
+      <title>802.15.4</title>
+      <link>http://distributedfog.com/sensor-network/802-15-4/</link>
+      <pubDate>Wed, 11 Oct 2017 17:56:48 +0100</pubDate>
+      
+      <guid>http://distributedfog.com/sensor-network/802-15-4/</guid>
+      <description>IEEE 802.15.4 is a technical standard which defines the operation of low-rate wireless personal area networks (LR-WPANs). It specifies the physical layer and media access control for LR-WPANs, and is maintained by the IEEE 802.15 working group, which defined the standard in 2003.  Wikipedia     Features  Data rates of 250 kbps, 40 kbps, and 20 kbps.
+ Two addressing modes; 16-bit short and 64-bit IEEE addressing.</description>
+    </item>
+    
+    <item>
+      <title>Zigbee</title>
+      <link>http://distributedfog.com/sensor-network/zigbee/</link>
+      <pubDate>Wed, 11 Oct 2017 17:56:48 +0100</pubDate>
+      
+      <guid>http://distributedfog.com/sensor-network/zigbee/</guid>
+      <description>Zigbee is an IEEE 802.15.4-based specification for a suite of high-level communication protocols used to create personal area networks with small, low-power digital radios, such as for home automation, medical device data collection, and other low-power low-bandwidth needs, designed for small scale projects which need wireless connection.  Wikipedia     IEEE 802.15.4 IEEE 802.15.4 is a technical standard which defines the operation of low-rate wireless personal area networks (LR-WPANs).</description>
+    </item>
+    
   </channel>
 </rss>

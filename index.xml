@@ -83,6 +83,16 @@ Ubiquitous computing (or &amp;ldquo;ubicomp&amp;rdquo;) is a concept in software
     </item>
     
     <item>
+      <title>802.15.4</title>
+      <link>http://distributedfog.com/sensor-network/802-15-4/</link>
+      <pubDate>Wed, 11 Oct 2017 17:56:48 +0100</pubDate>
+      
+      <guid>http://distributedfog.com/sensor-network/802-15-4/</guid>
+      <description>IEEE 802.15.4 is a technical standard which defines the operation of low-rate wireless personal area networks (LR-WPANs). It specifies the physical layer and media access control for LR-WPANs, and is maintained by the IEEE 802.15 working group, which defined the standard in 2003.  Wikipedia     Features  Data rates of 250 kbps, 40 kbps, and 20 kbps.
+ Two addressing modes; 16-bit short and 64-bit IEEE addressing.</description>
+    </item>
+    
+    <item>
       <title>ANT&#43;</title>
       <link>http://distributedfog.com/sensor-network/ant/</link>
       <pubDate>Wed, 11 Oct 2017 17:56:48 +0100</pubDate>
@@ -205,6 +215,15 @@ All processes that involve energy conversion are, to some degree, inefficient. M
     </item>
     
     <item>
+      <title>FireWire</title>
+      <link>http://distributedfog.com/sensor-network/firewire/</link>
+      <pubDate>Wed, 11 Oct 2017 17:56:48 +0100</pubDate>
+      
+      <guid>http://distributedfog.com/sensor-network/firewire/</guid>
+      <description>IEEE 1394 is an interface standard for a serial bus for high-speed communications and isochronous real-time data transfer. It was developed in the late 1980s and early 1990s by Apple, which called it FireWire. The 1394 interface is also known by the brand i.LINK (Sony), and Lynx (Texas Instruments).  Wikipedia     FireWire can connect up to 63 peripherals in a tree or daisy-chain topology (as opposed to Parallel SCSI&amp;rsquo;s electrical bus topology).</description>
+    </item>
+    
+    <item>
       <title>Gadgeteer</title>
       <link>http://distributedfog.com/kit/gadgeteer/</link>
       <pubDate>Wed, 11 Oct 2017 17:56:48 +0100</pubDate>
@@ -229,6 +248,15 @@ All processes that involve energy conversion are, to some degree, inefficient. M
       
       <guid>http://distributedfog.com/kit/gizmo2/</guid>
       <description>Gizmo2 is the second generation open source x86 development board from GizmoSphere. Gizmo 2 provides the power of a high performance computer and the I/O capabilities of a microcontroller through the use of an AMD Embedded G-Series System-on-Chip (SOC). The board includes the AMD GX-210HA dual-core processor, combined on a single die with AMD Radeon HD 8210E discrete-class graphics, providing 85 GFLOPS performance while drawing only 9 watts TDP.  element14     The new Gizmo 2 platform is the second-generation x86-based DIY single-board-computer (SBC) from Gizmosphere.</description>
+    </item>
+    
+    <item>
+      <title>HAN</title>
+      <link>http://distributedfog.com/sensor-network/han/</link>
+      <pubDate>Wed, 11 Oct 2017 17:56:48 +0100</pubDate>
+      
+      <guid>http://distributedfog.com/sensor-network/han/</guid>
+      <description>A home network or home area network (HAN) is a type of computer network that facilitates communication among devices within the close vicinity of a home. Devices capable of participating in this network, for example, smart devices such as network printers and handheld mobile computers, often gain enhanced emergent capabilities through their ability to interact.  Wikipedia     A home-area network (HAN) connects in-home digital devices, such as PCs, mobile phones, entertainment technology, thermostats, home security systems and smart appliances, into a common network.</description>
     </item>
     
     <item>
@@ -348,12 +376,30 @@ Ampy Move is a wearable motion-charger that transforms the kinetic energy from m
     </item>
     
     <item>
+      <title>NFC</title>
+      <link>http://distributedfog.com/sensor-network/nfc/</link>
+      <pubDate>Wed, 11 Oct 2017 17:56:48 +0100</pubDate>
+      
+      <guid>http://distributedfog.com/sensor-network/nfc/</guid>
+      <description>Near-field communication (NFC) is a set of communication protocols that enable two electronic devices, one of which is usually a portable device such as a smartphone, to establish communication by bringing them within 4 cm (1.6 in) of each other. NFC offers a low-speed connection with simple setup that can be used to bootstrap more capable wireless connections.  Wikipedia     NFC Protocol Stack Overview</description>
+    </item>
+    
+    <item>
       <title>NUC</title>
       <link>http://distributedfog.com/kit/nuc/</link>
       <pubDate>Wed, 11 Oct 2017 17:56:48 +0100</pubDate>
       
       <guid>http://distributedfog.com/kit/nuc/</guid>
       <description>Next Unit of Computing (NUC) is a small-form-factor personal computer designed by Intel. Its motherboard measures 4 × 4 inches (10.16 × 10.16 cm). The barebone kits consist of the board, in a plastic case with a fan, an external power supply and VESA mounting plate.  Wikipedia     Seventh Generation Intel&amp;rsquo;s seventh generation NUC models, codenamed Baby Canyon, are based on their Kaby Lake-U processors with a TDP from 15 W to 28 W.</description>
+    </item>
+    
+    <item>
+      <title>P1906.1</title>
+      <link>http://distributedfog.com/sensor-network/p1906-1/</link>
+      <pubDate>Wed, 11 Oct 2017 17:56:48 +0100</pubDate>
+      
+      <guid>http://distributedfog.com/sensor-network/p1906-1/</guid>
+      <description>The IEEE P1906.1 - Recommended Practice for Nanoscale and Molecular Communication Framework - is a standards working group sponsored by the IEEE Communications Society Standards Development Board whose goal is to develop a common framework for nanoscale and molecular communication.  Wikipedia     A nanoscale communication network is a human-designed system for communicating at or with the nanoscale, using physical principles that are suited to nanoscale systems.</description>
     </item>
     
     <item>
@@ -374,6 +420,15 @@ PIOTRe PIOTRe is a Personal IoT Repository based on sparql2sql, sparql2stream an
       
       <guid>http://distributedfog.com/kit/phidgets/</guid>
       <description>Phidgets are a system of low-cost electronic components and sensors that are controlled by a personal computer. Using the Universal Serial Bus (USB) as the basis for all phidgets, the complexity is managed behind an Application Programming Interface (API). A phidget is a physical representation or implementation of a GUI widget.  Wikipedia     Phidgets are an easy to use set of building blocks for low cost sensing and control from your PC.</description>
+    </item>
+    
+    <item>
+      <title>RPL</title>
+      <link>http://distributedfog.com/sensor-network/rpl/</link>
+      <pubDate>Wed, 11 Oct 2017 17:56:48 +0100</pubDate>
+      
+      <guid>http://distributedfog.com/sensor-network/rpl/</guid>
+      <description>RPL is the IPv6 Routing Protocol for Low-Power and Lossy Networks (LLN), which provides a mechanism whereby multipoint-to-point traffic from devices inside the LLN towards a central control point as well as point-to-multipoint traffic from the central control point to the devices inside the LLN are supported.  RFC 6550     RPL is a distance vector routing protocol for LLNs that makes use of IPv6. Network devices running the protocol are connected in such a way that no cycles are present.</description>
     </item>
     
     <item>
@@ -398,6 +453,15 @@ PIOTRe PIOTRe is a Personal IoT Repository based on sparql2sql, sparql2stream an
       
       <guid>http://distributedfog.com/os/riot/</guid>
       <description>RIOT is a small operating system for networked, memory-constrained systems with a focus on low-power wireless IoT devices. It is open-source software, released under the GNU Lesser General Public License (LGPL). Due to its large independent community RIOT is often referred to as the Linux of the Internet of Things.  Wikipedia     RIOT is an operating system designed for the particular requirements of Internet of Things (IoT) scenarios.</description>
+    </item>
+    
+    <item>
+      <title>SAN</title>
+      <link>http://distributedfog.com/file-system/san/</link>
+      <pubDate>Wed, 11 Oct 2017 17:56:48 +0100</pubDate>
+      
+      <guid>http://distributedfog.com/file-system/san/</guid>
+      <description>A SAN is a network which provides access to consolidated, block level data storage. SANs are primarily used to enhance storage devices, such as disk arrays, tape libraries, and optical jukeboxes, accessible to servers so that the devices appear to the operating system as locally attached devices. A SAN typically has its own network of storage devices that are generally not accessible through the local area network (LAN) by other devices.</description>
     </item>
     
     <item>
@@ -482,6 +546,15 @@ Programming on TinyOS is done using a C-like language called nesC. It is a compo
     </item>
     
     <item>
+      <title>UWB</title>
+      <link>http://distributedfog.com/sensor-network/uwb/</link>
+      <pubDate>Wed, 11 Oct 2017 17:56:48 +0100</pubDate>
+      
+      <guid>http://distributedfog.com/sensor-network/uwb/</guid>
+      <description>Ultra-wideband (also known as UWB, ultra-wide band and ultraband) is a radio technology that can use a very low energy level for short-range, high-bandwidth communications over a large portion of the radio spectrum. UWB transmissions transmit information by generating radio energy at specific time intervals and occupying a large bandwidth, thus enabling pulse-position or time modulation.  Wikipedia     Ultra Wide Band (UWB) is a technology for the transmission of data using techniques which cause a spreading of the radio energy over a very wide frequency band, with a very low power spectral density.</description>
+    </item>
+    
+    <item>
       <title>VxWorks</title>
       <link>http://distributedfog.com/os/vxworks/</link>
       <pubDate>Wed, 11 Oct 2017 17:56:48 +0100</pubDate>
@@ -519,6 +592,15 @@ Programming on TinyOS is done using a C-like language called nesC. It is a compo
       <description>Wireless Charging provides a convenient, safe, and reliable way to charge and power electrical devices, IoT sensors and devices, at home, in the workplace and in industry.  powerbyproxi.com     Research Comparing WiTricity and Inductive Coupling History and Future of Wireless Charging, Transport: Inductive Charging for EVs
  
 Although inductive charging with an induction coil is the most common form of wireless charging, uBeam is pioneering an ultrasound method, HumaVox uses near-field radio frequency resonance and WiTricity uses Magnetic Resonance.</description>
+    </item>
+    
+    <item>
+      <title>Wireless USB</title>
+      <link>http://distributedfog.com/sensor-network/wireless-usb/</link>
+      <pubDate>Wed, 11 Oct 2017 17:56:48 +0100</pubDate>
+      
+      <guid>http://distributedfog.com/sensor-network/wireless-usb/</guid>
+      <description>Wireless USB is a short-range, high-bandwidth wireless radio communication protocol created by the Wireless USB Promoter Group which intends to further increase the availability of general USB-based technologies. It was designed to operate in the 3.1 to 10.6 GHz frequency range and is capable of sending 480 Mbit/s at distances up to 3 metres (9.8 ft) and 110 Mbit/s at up to 10 metres (33 ft).  Wikipedia     The rationale for this specification is the overwhelming success of USB as a base for peripherals everywhere: cited reasons include extreme ease of use and low cost, which allow the existence of a ubiquitous bidirectional, fast port architecture.</description>
     </item>
     
     <item>

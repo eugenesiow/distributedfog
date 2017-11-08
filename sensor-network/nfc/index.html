@@ -1,0 +1,276 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+    <meta name="description" content="All about the Internet of Things Landscape including technologies, protocols, applications, platforms and research.">
+    <meta name="author" content="DistributedFog.com">
+
+    <title>DistributedFog: NFC</title>
+
+    
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0-beta/css/bootstrap.min.css" integrity="sha384-/Y6pD6FV/Vv2HJnA6t+vslU6fwYXjCFtcEpHbNJ0lyAFsXTsjBbfaDjzALeQsN6M" crossorigin="anonymous">
+    <link rel="stylesheet" href="https://fonts.googleapis.com/css?family=Roboto:100,400">
+    <link rel="stylesheet" href="//maxcdn.bootstrapcdn.com/font-awesome/4.7.0/css/font-awesome.min.css">
+    
+    <link href='http://distributedfog.com/css/style.css' rel="stylesheet">
+    
+    <link rel="icon" href='http://distributedfog.com/favicon.ico' type="image/x-icon" />
+    
+<script>
+(function(i,s,o,g,r,a,m){i['GoogleAnalyticsObject']=r;i[r]=i[r]||function(){
+(i[r].q=i[r].q||[]).push(arguments)},i[r].l=1*new Date();a=s.createElement(o),
+m=s.getElementsByTagName(o)[0];a.async=1;a.src=g;m.parentNode.insertBefore(a,m)
+})(window,document,'script','https://www.google-analytics.com/analytics.js','ga');
+
+ga('create', 'UA-108097594-1', 'auto');
+ga('send', 'pageview');
+</script>
+
+  </head>
+
+  <body>
+
+      
+
+<header>
+    <ol class="breadcrumb">
+        <li class="breadcrumb-item"><a href='http://distributedfog.com/'>IoT Landscape</a></li>
+        <li class="breadcrumb-item dropdown">
+            <a class="dropdown-toggle" href="#" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
+                Sensor Networks
+            </a>
+            <div class="dropdown-menu">
+                
+                <a class="dropdown-item " href="/sensor-network/bluetooth/">Bluetooth</a>
+                
+                <a class="dropdown-item " href="/sensor-network/zigbee/">Zigbee</a>
+                
+                <a class="dropdown-item " href="/sensor-network/6lowpan/">6LoWPAN</a>
+                
+                <a class="dropdown-item " href="/sensor-network/802-15-4/">802.15.4</a>
+                
+                <a class="dropdown-item " href="/sensor-network/ant/">ANT&#43;</a>
+                
+                <a class="dropdown-item " href="/sensor-network/dash7/">DASH7</a>
+                
+                <a class="dropdown-item " href="/sensor-network/firewire/">FireWire</a>
+                
+                <a class="dropdown-item " href="/sensor-network/han/">HAN</a>
+                
+                <a class="dropdown-item " href="/sensor-network/ir/">IR</a>
+                
+                <a class="dropdown-item " href="/sensor-network/insteon/">Insteon</a>
+                
+                <a class="dropdown-item active" href="/sensor-network/nfc/">NFC</a>
+                
+                <a class="dropdown-item " href="/sensor-network/p1906-1/">P1906.1</a>
+                
+                <a class="dropdown-item " href="/sensor-network/rpl/">RPL</a>
+                
+                <a class="dropdown-item " href="/sensor-network/">Sensor Networks</a>
+                
+                <a class="dropdown-item " href="/sensor-network/uwb/">UWB</a>
+                
+                <a class="dropdown-item " href="/sensor-network/wireless-usb/">Wireless USB</a>
+                
+                <a class="dropdown-item " href="/sensor-network/z-wave/">Z-Wave</a>
+                
+            </div>
+        </li>
+        <li class="breadcrumb-item active">NFC</li>
+    </ol>
+</header>
+<div class="container container-section">
+    
+    <h1>NFC <small>Near-field communication</small></h1>
+    <div class="row">
+        <div class='col-sm-4 py-2'>
+    <div class='card card-body bg-info text-white h-100'>
+        
+Near-field communication (NFC) is a set of communication protocols that enable two electronic devices, one of which is usually a portable device such as a smartphone, to establish communication by bringing them within 4 cm (1.6 in) of each other. NFC offers a low-speed connection with simple setup that can be used to bootstrap more capable wireless connections.
+
+        
+        <footer class="blockquote-footer text-white">
+            <small>
+                Wikipedia
+            </small>
+        </footer>
+        
+    </div>
+</div>
+
+<p><div class='col-sm-8 py-2'>
+    <div class='card card-body  h-100'>
+        <h3 id="nfc-protocol-stack-overview">NFC Protocol Stack Overview</h3>
+
+<p><a href="https://en.wikipedia.org/wiki/Near-field_communication" target="_blank"><img src="/img/articles/nfc.png" title="Wikipedia: NFC Protocol stack overview" style="width: 100%;"></a></p>
+
+        
+    </div>
+</div></p>
+
+<p><div class='col-sm-8 py-2'>
+    <div class='card card-body  h-100'>
+        <p>NFC is a set of short-range wireless technologies, typically requiring a separation of 10 cm or less. NFC operates at 13.56 MHz on ISO/IEC 18000-3 air interface and at rates ranging from 106 kbit/s to 424 kbit/s. NFC always involves an initiator and a target; the initiator actively generates an RF field that can power a passive target. This enables NFC targets to take very simple form factors such as unpowered tags, stickers, key fobs, or cards. NFC peer-to-peer communication is possible, provided both devices are powered.</p>
+
+<p>NFC tags contain data and are typically read-only, but may be writeable. They can be custom-encoded by their manufacturers or use NFC Forum specifications. The tags can securely store personal data such as debit and credit card information, loyalty program data, PINs and networking contacts, among other information. The NFC Forum defines four types of tags that provide different communication speeds and capabilities in terms of configurability, memory, security, data retention and write endurance. Tags currently offer between 96 and 4,096 bytes of memory.</p>
+
+<p>As with proximity card technology, near-field communication uses electromagnetic induction between two loop antennas located within each other&rsquo;s near field, effectively forming an air-core transformer. It operates within the globally available and unlicensed radio frequency ISM band of 13.56 MHz. Most of the RF energy is concentrated in the allowed ±7 kHz bandwidth range, but the spectral mask for the main lobe is as wide as 1.8 MHz.</p>
+
+<p>NFC devices are full-duplex—they are able to receive and transmit data at the same time. Thus, they can check for potential collisions if the received signal frequency does not match the transmitted signal&rsquo;s frequency. <a href="https://en.wikipedia.org/wiki/Near-field_communication">Read more</a></p>
+
+        
+        <footer class="blockquote-footer ">
+            <small>
+                Wikipedia
+            </small>
+        </footer>
+        
+    </div>
+</div></p>
+
+<p><div class='col-sm-4 py-2'>
+    <div class="card h-100 ">
+        <div class='card-head'>
+            <h4 class="card-title">Links</h4>
+        </div>
+        <ul class="list-group list-group-flush">
+    <a href="https://nfc-forum.org/" class="list-group-item list-group-item-action ">NFC Forum</a>
+    <a href="http://nearfieldcommunication.org/" class="list-group-item list-group-item-action ">NearFieldCommunication.org</a>
+    <a href="https://nfc-forum.org/our-work/specifications-and-application-documents/specifications/specification-releases/" class="list-group-item list-group-item-action ">Specifications</a>
+</ul>
+    </div>
+</div></p>
+
+        <div class="col-sm-4 py-2">
+            <div class="card h-100">
+                <div class="card-body">
+                    <h3 class="card-title">Categories</h3>
+                    <div class="tag-list">
+                        <a href='http://distributedfog.com/sensor-network'><span class="badge badge-light">Sensor Networks</span></a>
+                            
+                            <a href="/tags/radio"><span class="badge badge-light">Radio</span></a>
+                            
+                            <a href="/tags/wireless"><span class="badge badge-light">Wireless</span></a>
+                            
+                            <a href="/tags/rfid"><span class="badge badge-light">RFID</span></a>
+                          
+                    </div>
+                </div>
+            </div>
+        </div>
+        <div class="col-sm-4 py-2">
+            <div class="card text-white bg-primary">
+                <div class="card-body">
+                    <h3 class="card-title">Share</h3>
+                    <a class="btn btn-lg btn-primary" href='https://twitter.com/intent/tweet?hashtags=radio%2cwireless%2crfid&text=NFC&url=http%3a%2f%2fdistributedfog.com%2fsensor-network%2fnfc%2f'>
+                        <i class="fa fa-twitter" aria-hidden="true"></i></a>
+                    <a class="btn btn-lg btn-primary" href='https://www.facebook.com/sharer/sharer.php?u%3dhttp%253A%252F%252Fdistributedfog.com%252Fsensor-network%252Fnfc%252F'>
+                        <i class="fa fa-facebook" aria-hidden="true"></i></a>
+                    <a class="btn btn-lg btn-primary" href='https://plus.google.com/share?url=http%3a%2f%2fdistributedfog.com%2fsensor-network%2fnfc%2f'>
+                        <i class="fa fa-google-plus" aria-hidden="true"></i></a>
+                </div>
+            </div>
+        </div>
+        <div class="col-sm-12 py-2">
+    <div class="card">
+        <div class="card-body">
+            <div id="disqus_thread"></div>
+            <script>
+                var disqus_config = function () {
+                    this.page.url = "http://distributedfog.com/sensor-network/nfc/";
+                    this.page.identifier = "8e5be06f5f4170dad4846d514120a675";
+                };
+                (function() { 
+                    var d = document, s = d.createElement('script');
+                    s.src = 'https://distributedfog.disqus.com/embed.js';
+                    s.setAttribute('data-timestamp', +new Date());
+                    (d.head || d.body).appendChild(s);
+                })();
+            </script>
+            <noscript>Please enable JavaScript to view the <a href="https://disqus.com/?ref_noscript">comments powered by Disqus.</a></noscript>
+        </div>
+    </div>
+</div>
+    </div>
+</div>
+<footer class="bg-light">
+    <div id="footer-wrapper">
+       <div class="container">
+          <div class="row">
+                <div class="col-sm-4 infobox">
+                    
+                    <a href="http://distributedfog.com"><img src="http://distributedfog.com/img/logo.svg" id="logo-graphic" title="DistributedFog.com"></a>
+                    <ul class="footer-links">
+                        <li><a href="http://distributedfog.com/about">About</a></li>
+                        <li><a href="http://eugenesiow.com">eugenesiow.com</a></li>
+                    </ul>
+                </div>
+             <div class="col-sm-4 infobox">
+                <h4>Learn</h4>
+                <ul class="footer-links">
+                    <li><a href="http://distributedfog.com/make">Make</a></li>
+                    <li><a href="http://distributedfog.com/develop">Develop</a></li>
+                    <li><a href="http://distributedfog.com/use">Use</a></li>
+                </ul>
+            </div>
+            
+            <div class="col-sm-4 infobox">
+                <h4>Code</h4>
+                <ul class="footer-icons">
+                    <li><a href="https://github.com/eugenesiow/distributedfog"><i class="fa fa-github" aria-hidden="true"></i></a></li>
+                    <li><a href="https://github.com/eugenesiow/distributedfog/wiki"><i class="fa fa-wikipedia-w" aria-hidden="true"></i></a></li>
+                </ul>
+            </div>
+          </div>
+       </div>
+    </div>
+ </footer>
+<script id="dsq-count-scr" src="//distributedfog.disqus.com/count.js" async></script>
+
+
+    
+    <script src="https://code.jquery.com/jquery-3.2.1.slim.min.js" integrity="sha384-KJ3o2DKtIkvYIK3UENzmM7KCkRr/rE9/Qpg6aAZGJwFDMVNA/GpGFF93hXpG5KkN" crossorigin="anonymous"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.11.0/umd/popper.min.js" integrity="sha384-b/U6ypiBEHpOf/4+1nzFpr53nxSS+GLCkfwBdFNTxtclqqenISfwAzpKaMNFNmj4" crossorigin="anonymous"></script>
+    <script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0-beta/js/bootstrap.min.js" integrity="sha384-h0AbiXch4ZDo7tp9hKZ4TsHbi047NrKGLO3SEJAg45jXxnGIfYzk4Si90RDIqNm1" crossorigin="anonymous"></script>
+    <script src='http://distributedfog.com/js/main.js'></script>
+    
+<script type="application/ld+json">
+{
+    "@context" : "http://schema.org",
+    "@type" : "Article",
+    "articleSection" : "sensor-network",
+    "mainEntityOfPage": {
+        "@type": "WebPage",
+        "@id": "http://distributedfog.com/sensor-network/nfc/"
+    },
+    "name" : "NFC",
+    "headline" : "NFC",
+    "description" : "Near-field communication (NFC) is a set of communication protocols that enable two electronic devices, one of which is usually a portable device such as a smartphone, to establish communication by bringing them within 4 cm (1.6 in) of each other. NFC offers a low-speed connection with simple setup that can be used to bootstrap more capable wireless connections.",
+    "inLanguage" : "en-GB",
+    "author" : "DistributedFog.com",
+    "creator" : "",
+    "accountablePerson" : "",
+    "copyrightHolder" : "",
+    "copyrightYear" : "2017",
+    "datePublished" : "2017-10-11 17:56:48 &#43;0100 BST",
+    "dateModified" : "2017-10-11 17:56:48 &#43;0100 BST",
+    "publisher": {
+        "@type": "Organization",
+        "name": "DistributedFog.com",
+        "logo": {
+            "@type": "ImageObject",
+            "url": "http://distributedfog.com/img/logo.png"
+        }
+    },
+    "logo": "",
+    "url" : "http://distributedfog.com/sensor-network/nfc/",
+    "wordCount" : "344",
+    "image" : "http://distributedfog.com/img/logo.png",
+    "keywords" : [ "radio, wireless, RFID" ]
+}
+</script>
+
+  </body>
+</html>

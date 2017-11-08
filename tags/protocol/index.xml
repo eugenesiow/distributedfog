@@ -32,6 +32,16 @@ Ubiquitous computing (or &amp;ldquo;ubicomp&amp;rdquo;) is a concept in software
     </item>
     
     <item>
+      <title>802.15.4</title>
+      <link>http://distributedfog.com/sensor-network/802-15-4/</link>
+      <pubDate>Wed, 11 Oct 2017 17:56:48 +0100</pubDate>
+      
+      <guid>http://distributedfog.com/sensor-network/802-15-4/</guid>
+      <description>IEEE 802.15.4 is a technical standard which defines the operation of low-rate wireless personal area networks (LR-WPANs). It specifies the physical layer and media access control for LR-WPANs, and is maintained by the IEEE 802.15 working group, which defined the standard in 2003.  Wikipedia     Features  Data rates of 250 kbps, 40 kbps, and 20 kbps.
+ Two addressing modes; 16-bit short and 64-bit IEEE addressing.</description>
+    </item>
+    
+    <item>
       <title>ANT&#43;</title>
       <link>http://distributedfog.com/sensor-network/ant/</link>
       <pubDate>Wed, 11 Oct 2017 17:56:48 +0100</pubDate>
@@ -157,6 +167,15 @@ MQTT-SN is a variation of the main protocol aimed at embedded devices on non-TCP
     </item>
     
     <item>
+      <title>RPL</title>
+      <link>http://distributedfog.com/sensor-network/rpl/</link>
+      <pubDate>Wed, 11 Oct 2017 17:56:48 +0100</pubDate>
+      
+      <guid>http://distributedfog.com/sensor-network/rpl/</guid>
+      <description>RPL is the IPv6 Routing Protocol for Low-Power and Lossy Networks (LLN), which provides a mechanism whereby multipoint-to-point traffic from devices inside the LLN towards a central control point as well as point-to-multipoint traffic from the central control point to the devices inside the LLN are supported.  RFC 6550     RPL is a distance vector routing protocol for LLNs that makes use of IPv6. Network devices running the protocol are connected in such a way that no cycles are present.</description>
+    </item>
+    
+    <item>
       <title>SSDP</title>
       <link>http://distributedfog.com/discovery/ssdp/</link>
       <pubDate>Wed, 11 Oct 2017 17:56:48 +0100</pubDate>
@@ -195,6 +214,15 @@ MQTT-SN is a variation of the main protocol aimed at embedded devices on non-TCP
       <description>WiMAX is a family of wireless communication standards based on the IEEE 802.16 set of standards, which provide multiple physical layer (PHY) and Media Access Control (MAC) options. It can enable wireless usage at long distances.  Wikipedia     Possible Uses  Portable mobile broadband connectivity across cities
  Wireless alternative to cable and DSL for &amp;ldquo;last mile&amp;rdquo; broadband
  Data, telecommunications (VoIP) and IPTV services (triple play)</description>
+    </item>
+    
+    <item>
+      <title>Wireless USB</title>
+      <link>http://distributedfog.com/sensor-network/wireless-usb/</link>
+      <pubDate>Wed, 11 Oct 2017 17:56:48 +0100</pubDate>
+      
+      <guid>http://distributedfog.com/sensor-network/wireless-usb/</guid>
+      <description>Wireless USB is a short-range, high-bandwidth wireless radio communication protocol created by the Wireless USB Promoter Group which intends to further increase the availability of general USB-based technologies. It was designed to operate in the 3.1 to 10.6 GHz frequency range and is capable of sending 480 Mbit/s at distances up to 3 metres (9.8 ft) and 110 Mbit/s at up to 10 metres (33 ft).  Wikipedia     The rationale for this specification is the overwhelming success of USB as a base for peripherals everywhere: cited reasons include extreme ease of use and low cost, which allow the existence of a ubiquitous bidirectional, fast port architecture.</description>
     </item>
     
     <item>

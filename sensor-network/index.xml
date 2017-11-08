@@ -39,6 +39,16 @@
     </item>
     
     <item>
+      <title>802.15.4</title>
+      <link>http://distributedfog.com/sensor-network/802-15-4/</link>
+      <pubDate>Wed, 11 Oct 2017 17:56:48 +0100</pubDate>
+      
+      <guid>http://distributedfog.com/sensor-network/802-15-4/</guid>
+      <description>IEEE 802.15.4 is a technical standard which defines the operation of low-rate wireless personal area networks (LR-WPANs). It specifies the physical layer and media access control for LR-WPANs, and is maintained by the IEEE 802.15 working group, which defined the standard in 2003.  Wikipedia     Features  Data rates of 250 kbps, 40 kbps, and 20 kbps.
+ Two addressing modes; 16-bit short and 64-bit IEEE addressing.</description>
+    </item>
+    
+    <item>
       <title>ANT&#43;</title>
       <link>http://distributedfog.com/sensor-network/ant/</link>
       <pubDate>Wed, 11 Oct 2017 17:56:48 +0100</pubDate>
@@ -59,6 +69,24 @@ ANT is a practical wireless sensor network protocol running in the 2.4 GHz ISM b
     </item>
     
     <item>
+      <title>FireWire</title>
+      <link>http://distributedfog.com/sensor-network/firewire/</link>
+      <pubDate>Wed, 11 Oct 2017 17:56:48 +0100</pubDate>
+      
+      <guid>http://distributedfog.com/sensor-network/firewire/</guid>
+      <description>IEEE 1394 is an interface standard for a serial bus for high-speed communications and isochronous real-time data transfer. It was developed in the late 1980s and early 1990s by Apple, which called it FireWire. The 1394 interface is also known by the brand i.LINK (Sony), and Lynx (Texas Instruments).  Wikipedia     FireWire can connect up to 63 peripherals in a tree or daisy-chain topology (as opposed to Parallel SCSI&amp;rsquo;s electrical bus topology).</description>
+    </item>
+    
+    <item>
+      <title>HAN</title>
+      <link>http://distributedfog.com/sensor-network/han/</link>
+      <pubDate>Wed, 11 Oct 2017 17:56:48 +0100</pubDate>
+      
+      <guid>http://distributedfog.com/sensor-network/han/</guid>
+      <description>A home network or home area network (HAN) is a type of computer network that facilitates communication among devices within the close vicinity of a home. Devices capable of participating in this network, for example, smart devices such as network printers and handheld mobile computers, often gain enhanced emergent capabilities through their ability to interact.  Wikipedia     A home-area network (HAN) connects in-home digital devices, such as PCs, mobile phones, entertainment technology, thermostats, home security systems and smart appliances, into a common network.</description>
+    </item>
+    
+    <item>
       <title>IR</title>
       <link>http://distributedfog.com/sensor-network/ir/</link>
       <pubDate>Wed, 11 Oct 2017 17:56:48 +0100</pubDate>
@@ -74,6 +102,51 @@ ANT is a practical wireless sensor network protocol running in the 2.4 GHz ISM b
       
       <guid>http://distributedfog.com/sensor-network/insteon/</guid>
       <description>Insteon is a home automation technology that enables light switches, lights, thermostats, leak sensors, remote controls, motion sensors, and other electrically powered devices to interoperate through power lines, radio frequency (RF) communications, or both. It employs a dual-mesh networking topology in which all devices are peers and each device independently transmits, receives, and repeats messages.  Wikipedia     Insteon Hub Insteon Hub is a simple and straightforward device that connects you to your home from any smartphone or tablet, anywhere in the world.</description>
+    </item>
+    
+    <item>
+      <title>NFC</title>
+      <link>http://distributedfog.com/sensor-network/nfc/</link>
+      <pubDate>Wed, 11 Oct 2017 17:56:48 +0100</pubDate>
+      
+      <guid>http://distributedfog.com/sensor-network/nfc/</guid>
+      <description>Near-field communication (NFC) is a set of communication protocols that enable two electronic devices, one of which is usually a portable device such as a smartphone, to establish communication by bringing them within 4 cm (1.6 in) of each other. NFC offers a low-speed connection with simple setup that can be used to bootstrap more capable wireless connections.  Wikipedia     NFC Protocol Stack Overview</description>
+    </item>
+    
+    <item>
+      <title>P1906.1</title>
+      <link>http://distributedfog.com/sensor-network/p1906-1/</link>
+      <pubDate>Wed, 11 Oct 2017 17:56:48 +0100</pubDate>
+      
+      <guid>http://distributedfog.com/sensor-network/p1906-1/</guid>
+      <description>The IEEE P1906.1 - Recommended Practice for Nanoscale and Molecular Communication Framework - is a standards working group sponsored by the IEEE Communications Society Standards Development Board whose goal is to develop a common framework for nanoscale and molecular communication.  Wikipedia     A nanoscale communication network is a human-designed system for communicating at or with the nanoscale, using physical principles that are suited to nanoscale systems.</description>
+    </item>
+    
+    <item>
+      <title>RPL</title>
+      <link>http://distributedfog.com/sensor-network/rpl/</link>
+      <pubDate>Wed, 11 Oct 2017 17:56:48 +0100</pubDate>
+      
+      <guid>http://distributedfog.com/sensor-network/rpl/</guid>
+      <description>RPL is the IPv6 Routing Protocol for Low-Power and Lossy Networks (LLN), which provides a mechanism whereby multipoint-to-point traffic from devices inside the LLN towards a central control point as well as point-to-multipoint traffic from the central control point to the devices inside the LLN are supported.  RFC 6550     RPL is a distance vector routing protocol for LLNs that makes use of IPv6. Network devices running the protocol are connected in such a way that no cycles are present.</description>
+    </item>
+    
+    <item>
+      <title>UWB</title>
+      <link>http://distributedfog.com/sensor-network/uwb/</link>
+      <pubDate>Wed, 11 Oct 2017 17:56:48 +0100</pubDate>
+      
+      <guid>http://distributedfog.com/sensor-network/uwb/</guid>
+      <description>Ultra-wideband (also known as UWB, ultra-wide band and ultraband) is a radio technology that can use a very low energy level for short-range, high-bandwidth communications over a large portion of the radio spectrum. UWB transmissions transmit information by generating radio energy at specific time intervals and occupying a large bandwidth, thus enabling pulse-position or time modulation.  Wikipedia     Ultra Wide Band (UWB) is a technology for the transmission of data using techniques which cause a spreading of the radio energy over a very wide frequency band, with a very low power spectral density.</description>
+    </item>
+    
+    <item>
+      <title>Wireless USB</title>
+      <link>http://distributedfog.com/sensor-network/wireless-usb/</link>
+      <pubDate>Wed, 11 Oct 2017 17:56:48 +0100</pubDate>
+      
+      <guid>http://distributedfog.com/sensor-network/wireless-usb/</guid>
+      <description>Wireless USB is a short-range, high-bandwidth wireless radio communication protocol created by the Wireless USB Promoter Group which intends to further increase the availability of general USB-based technologies. It was designed to operate in the 3.1 to 10.6 GHz frequency range and is capable of sending 480 Mbit/s at distances up to 3 metres (9.8 ft) and 110 Mbit/s at up to 10 metres (33 ft).  Wikipedia     The rationale for this specification is the overwhelming success of USB as a base for peripherals everywhere: cited reasons include extreme ease of use and low cost, which allow the existence of a ubiquitous bidirectional, fast port architecture.</description>
     </item>
     
     <item>

@@ -1,0 +1,24 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes" ?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>Nanoscale on DistributedFog</title>
+    <link>http://distributedfog.com/tags/nanoscale/</link>
+    <description>Recent content in Nanoscale on DistributedFog</description>
+    <generator>Hugo -- gohugo.io</generator>
+    <language>en-us</language>
+    <lastBuildDate>Wed, 11 Oct 2017 17:56:48 +0100</lastBuildDate>
+    
+	<atom:link href="http://distributedfog.com/tags/nanoscale/index.xml" rel="self" type="application/rss+xml" />
+    
+    
+    <item>
+      <title>P1906.1</title>
+      <link>http://distributedfog.com/sensor-network/p1906-1/</link>
+      <pubDate>Wed, 11 Oct 2017 17:56:48 +0100</pubDate>
+      
+      <guid>http://distributedfog.com/sensor-network/p1906-1/</guid>
+      <description>The IEEE P1906.1 - Recommended Practice for Nanoscale and Molecular Communication Framework - is a standards working group sponsored by the IEEE Communications Society Standards Development Board whose goal is to develop a common framework for nanoscale and molecular communication.  Wikipedia     A nanoscale communication network is a human-designed system for communicating at or with the nanoscale, using physical principles that are suited to nanoscale systems.</description>
+    </item>
+    
+  </channel>
+</rss>

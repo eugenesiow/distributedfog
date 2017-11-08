@@ -1,0 +1,24 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes" ?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>Rfid on DistributedFog</title>
+    <link>http://distributedfog.com/tags/rfid/</link>
+    <description>Recent content in Rfid on DistributedFog</description>
+    <generator>Hugo -- gohugo.io</generator>
+    <language>en-us</language>
+    <lastBuildDate>Wed, 11 Oct 2017 17:56:48 +0100</lastBuildDate>
+    
+	<atom:link href="http://distributedfog.com/tags/rfid/index.xml" rel="self" type="application/rss+xml" />
+    
+    
+    <item>
+      <title>NFC</title>
+      <link>http://distributedfog.com/sensor-network/nfc/</link>
+      <pubDate>Wed, 11 Oct 2017 17:56:48 +0100</pubDate>
+      
+      <guid>http://distributedfog.com/sensor-network/nfc/</guid>
+      <description>Near-field communication (NFC) is a set of communication protocols that enable two electronic devices, one of which is usually a portable device such as a smartphone, to establish communication by bringing them within 4 cm (1.6 in) of each other. NFC offers a low-speed connection with simple setup that can be used to bootstrap more capable wireless connections.  Wikipedia     NFC Protocol Stack Overview</description>
+    </item>
+    
+  </channel>
+</rss>

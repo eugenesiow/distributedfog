@@ -37,6 +37,11 @@
   </url>
   
   <url>
+    <loc>http://distributedfog.com/sensor-network/802-15-4/</loc>
+    <lastmod>2017-10-11T17:56:48+01:00</lastmod>
+  </url>
+  
+  <url>
     <loc>http://distributedfog.com/sensor-network/ant/</loc>
     <lastmod>2017-10-11T17:56:48+01:00</lastmod>
   </url>
@@ -117,6 +122,16 @@
   </url>
   
   <url>
+    <loc>http://distributedfog.com/file-system/</loc>
+    <lastmod>2017-10-11T17:56:48+01:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>http://distributedfog.com/sensor-network/firewire/</loc>
+    <lastmod>2017-10-11T17:56:48+01:00</lastmod>
+  </url>
+  
+  <url>
     <loc>http://distributedfog.com/fog-computing/</loc>
     <lastmod>2017-10-11T17:56:48+01:00</lastmod>
   </url>
@@ -138,6 +153,11 @@
   
   <url>
     <loc>http://distributedfog.com/kit/gizmo2/</loc>
+    <lastmod>2017-10-11T17:56:48+01:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>http://distributedfog.com/sensor-network/han/</loc>
     <lastmod>2017-10-11T17:56:48+01:00</lastmod>
   </url>
   
@@ -207,12 +227,22 @@
   </url>
   
   <url>
+    <loc>http://distributedfog.com/sensor-network/nfc/</loc>
+    <lastmod>2017-10-11T17:56:48+01:00</lastmod>
+  </url>
+  
+  <url>
     <loc>http://distributedfog.com/kit/nuc/</loc>
     <lastmod>2017-10-11T17:56:48+01:00</lastmod>
   </url>
   
   <url>
     <loc>http://distributedfog.com/security/</loc>
+    <lastmod>2017-10-11T17:56:48+01:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>http://distributedfog.com/sensor-network/p1906-1/</loc>
     <lastmod>2017-10-11T17:56:48+01:00</lastmod>
   </url>
   
@@ -237,12 +267,22 @@
   </url>
   
   <url>
+    <loc>http://distributedfog.com/sensor-network/rpl/</loc>
+    <lastmod>2017-10-11T17:56:48+01:00</lastmod>
+  </url>
+  
+  <url>
     <loc>http://distributedfog.com/platform/resin-io/</loc>
     <lastmod>2017-10-11T17:56:48+01:00</lastmod>
   </url>
   
   <url>
     <loc>http://distributedfog.com/os/riot/</loc>
+    <lastmod>2017-10-11T17:56:48+01:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>http://distributedfog.com/file-system/san/</loc>
     <lastmod>2017-10-11T17:56:48+01:00</lastmod>
   </url>
   
@@ -302,6 +342,11 @@
   </url>
   
   <url>
+    <loc>http://distributedfog.com/sensor-network/uwb/</loc>
+    <lastmod>2017-10-11T17:56:48+01:00</lastmod>
+  </url>
+  
+  <url>
     <loc>http://distributedfog.com/os/vxworks/</loc>
     <lastmod>2017-10-11T17:56:48+01:00</lastmod>
   </url>
@@ -318,6 +363,11 @@
   
   <url>
     <loc>http://distributedfog.com/power/wireless-charging/</loc>
+    <lastmod>2017-10-11T17:56:48+01:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>http://distributedfog.com/sensor-network/wireless-usb/</loc>
     <lastmod>2017-10-11T17:56:48+01:00</lastmod>
   </url>
   
@@ -574,6 +624,12 @@
   </url>
   
   <url>
+    <loc>http://distributedfog.com/tags/ipv6/</loc>
+    <lastmod>2017-10-11T17:56:48+01:00</lastmod>
+    <priority>0</priority>
+  </url>
+  
+  <url>
     <loc>http://distributedfog.com/tags/kinetic/</loc>
     <lastmod>2017-10-11T17:56:48+01:00</lastmod>
     <priority>0</priority>
@@ -628,6 +684,12 @@
   </url>
   
   <url>
+    <loc>http://distributedfog.com/tags/nanoscale/</loc>
+    <lastmod>2017-10-11T17:56:48+01:00</lastmod>
+    <priority>0</priority>
+  </url>
+  
+  <url>
     <loc>http://distributedfog.com/tags/navigation/</loc>
     <lastmod>2017-10-11T16:24:18+01:00</lastmod>
     <priority>0</priority>
@@ -665,6 +727,18 @@
   
   <url>
     <loc>http://distributedfog.com/tags/remote-control/</loc>
+    <lastmod>2017-10-11T17:56:48+01:00</lastmod>
+    <priority>0</priority>
+  </url>
+  
+  <url>
+    <loc>http://distributedfog.com/tags/rfid/</loc>
+    <lastmod>2017-10-11T17:56:48+01:00</lastmod>
+    <priority>0</priority>
+  </url>
+  
+  <url>
+    <loc>http://distributedfog.com/tags/routing/</loc>
     <lastmod>2017-10-11T17:56:48+01:00</lastmod>
     <priority>0</priority>
   </url>
@@ -724,6 +798,12 @@
   </url>
   
   <url>
+    <loc>http://distributedfog.com/tags/storage/</loc>
+    <lastmod>2017-10-11T17:56:48+01:00</lastmod>
+    <priority>0</priority>
+  </url>
+  
+  <url>
     <loc>http://distributedfog.com/tags/stream-processing/</loc>
     <lastmod>2017-10-11T17:56:48+01:00</lastmod>
     <priority>0</priority>
@@ -760,6 +840,12 @@
   </url>
   
   <url>
+    <loc>http://distributedfog.com/tags/uwb/</loc>
+    <lastmod>2017-10-11T17:56:48+01:00</lastmod>
+    <priority>0</priority>
+  </url>
+  
+  <url>
     <loc>http://distributedfog.com/tags/virtualisation/</loc>
     <lastmod>2017-10-11T17:56:48+01:00</lastmod>
     <priority>0</priority>
@@ -780,6 +866,12 @@
   <url>
     <loc>http://distributedfog.com/tags/wearables/</loc>
     <lastmod>2017-10-11T16:24:18+01:00</lastmod>
+    <priority>0</priority>
+  </url>
+  
+  <url>
+    <loc>http://distributedfog.com/tags/wired/</loc>
+    <lastmod>2017-10-11T17:56:48+01:00</lastmod>
     <priority>0</priority>
   </url>
   

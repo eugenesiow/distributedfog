@@ -1,0 +1,24 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes" ?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>Routing on DistributedFog</title>
+    <link>http://distributedfog.com/tags/routing/</link>
+    <description>Recent content in Routing on DistributedFog</description>
+    <generator>Hugo -- gohugo.io</generator>
+    <language>en-us</language>
+    <lastBuildDate>Wed, 11 Oct 2017 17:56:48 +0100</lastBuildDate>
+    
+	<atom:link href="http://distributedfog.com/tags/routing/index.xml" rel="self" type="application/rss+xml" />
+    
+    
+    <item>
+      <title>RPL</title>
+      <link>http://distributedfog.com/sensor-network/rpl/</link>
+      <pubDate>Wed, 11 Oct 2017 17:56:48 +0100</pubDate>
+      
+      <guid>http://distributedfog.com/sensor-network/rpl/</guid>
+      <description>RPL is the IPv6 Routing Protocol for Low-Power and Lossy Networks (LLN), which provides a mechanism whereby multipoint-to-point traffic from devices inside the LLN towards a central control point as well as point-to-multipoint traffic from the central control point to the devices inside the LLN are supported.  RFC 6550     RPL is a distance vector routing protocol for LLNs that makes use of IPv6. Network devices running the protocol are connected in such a way that no cycles are present.</description>
+    </item>
+    
+  </channel>
+</rss>

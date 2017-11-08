@@ -21,6 +21,16 @@
     </item>
     
     <item>
+      <title>802.15.4</title>
+      <link>http://distributedfog.com/sensor-network/802-15-4/</link>
+      <pubDate>Wed, 11 Oct 2017 17:56:48 +0100</pubDate>
+      
+      <guid>http://distributedfog.com/sensor-network/802-15-4/</guid>
+      <description>IEEE 802.15.4 is a technical standard which defines the operation of low-rate wireless personal area networks (LR-WPANs). It specifies the physical layer and media access control for LR-WPANs, and is maintained by the IEEE 802.15 working group, which defined the standard in 2003.  Wikipedia     Features  Data rates of 250 kbps, 40 kbps, and 20 kbps.
+ Two addressing modes; 16-bit short and 64-bit IEEE addressing.</description>
+    </item>
+    
+    <item>
       <title>ANT&#43;</title>
       <link>http://distributedfog.com/sensor-network/ant/</link>
       <pubDate>Wed, 11 Oct 2017 17:56:48 +0100</pubDate>
@@ -47,6 +57,15 @@ ANT is a practical wireless sensor network protocol running in the 2.4 GHz ISM b
       
       <guid>http://distributedfog.com/sensor-network/dash7/</guid>
       <description>DASH7 Alliance Protocol (D7A) is an open source Wireless Sensor and Actuator Network protocol, which operates in the 433 MHz, 868 MHz and 915 MHz unlicensed ISM band/SRD band. DASH7 provides multi-year battery life, range of up to 2 km, low latency for connecting with moving things, a very small open source protocol stack, AES 128-bit shared key encryption support, and data transfer of up to 167 kbit/s.  Wikipedia     Why DASH7?</description>
+    </item>
+    
+    <item>
+      <title>HAN</title>
+      <link>http://distributedfog.com/sensor-network/han/</link>
+      <pubDate>Wed, 11 Oct 2017 17:56:48 +0100</pubDate>
+      
+      <guid>http://distributedfog.com/sensor-network/han/</guid>
+      <description>A home network or home area network (HAN) is a type of computer network that facilitates communication among devices within the close vicinity of a home. Devices capable of participating in this network, for example, smart devices such as network printers and handheld mobile computers, often gain enhanced emergent capabilities through their ability to interact.  Wikipedia     A home-area network (HAN) connects in-home digital devices, such as PCs, mobile phones, entertainment technology, thermostats, home security systems and smart appliances, into a common network.</description>
     </item>
     
     <item>
@@ -86,6 +105,33 @@ ANT is a practical wireless sensor network protocol running in the 2.4 GHz ISM b
     </item>
     
     <item>
+      <title>NFC</title>
+      <link>http://distributedfog.com/sensor-network/nfc/</link>
+      <pubDate>Wed, 11 Oct 2017 17:56:48 +0100</pubDate>
+      
+      <guid>http://distributedfog.com/sensor-network/nfc/</guid>
+      <description>Near-field communication (NFC) is a set of communication protocols that enable two electronic devices, one of which is usually a portable device such as a smartphone, to establish communication by bringing them within 4 cm (1.6 in) of each other. NFC offers a low-speed connection with simple setup that can be used to bootstrap more capable wireless connections.  Wikipedia     NFC Protocol Stack Overview</description>
+    </item>
+    
+    <item>
+      <title>RPL</title>
+      <link>http://distributedfog.com/sensor-network/rpl/</link>
+      <pubDate>Wed, 11 Oct 2017 17:56:48 +0100</pubDate>
+      
+      <guid>http://distributedfog.com/sensor-network/rpl/</guid>
+      <description>RPL is the IPv6 Routing Protocol for Low-Power and Lossy Networks (LLN), which provides a mechanism whereby multipoint-to-point traffic from devices inside the LLN towards a central control point as well as point-to-multipoint traffic from the central control point to the devices inside the LLN are supported.  RFC 6550     RPL is a distance vector routing protocol for LLNs that makes use of IPv6. Network devices running the protocol are connected in such a way that no cycles are present.</description>
+    </item>
+    
+    <item>
+      <title>UWB</title>
+      <link>http://distributedfog.com/sensor-network/uwb/</link>
+      <pubDate>Wed, 11 Oct 2017 17:56:48 +0100</pubDate>
+      
+      <guid>http://distributedfog.com/sensor-network/uwb/</guid>
+      <description>Ultra-wideband (also known as UWB, ultra-wide band and ultraband) is a radio technology that can use a very low energy level for short-range, high-bandwidth communications over a large portion of the radio spectrum. UWB transmissions transmit information by generating radio energy at specific time intervals and occupying a large bandwidth, thus enabling pulse-position or time modulation.  Wikipedia     Ultra Wide Band (UWB) is a technology for the transmission of data using techniques which cause a spreading of the radio energy over a very wide frequency band, with a very low power spectral density.</description>
+    </item>
+    
+    <item>
       <title>WiMAX</title>
       <link>http://distributedfog.com/gateway-network/wimax/</link>
       <pubDate>Wed, 11 Oct 2017 17:56:48 +0100</pubDate>
@@ -105,6 +151,15 @@ ANT is a practical wireless sensor network protocol running in the 2.4 GHz ISM b
       <description>Wireless Charging provides a convenient, safe, and reliable way to charge and power electrical devices, IoT sensors and devices, at home, in the workplace and in industry.  powerbyproxi.com     Research Comparing WiTricity and Inductive Coupling History and Future of Wireless Charging, Transport: Inductive Charging for EVs
  
 Although inductive charging with an induction coil is the most common form of wireless charging, uBeam is pioneering an ultrasound method, HumaVox uses near-field radio frequency resonance and WiTricity uses Magnetic Resonance.</description>
+    </item>
+    
+    <item>
+      <title>Wireless USB</title>
+      <link>http://distributedfog.com/sensor-network/wireless-usb/</link>
+      <pubDate>Wed, 11 Oct 2017 17:56:48 +0100</pubDate>
+      
+      <guid>http://distributedfog.com/sensor-network/wireless-usb/</guid>
+      <description>Wireless USB is a short-range, high-bandwidth wireless radio communication protocol created by the Wireless USB Promoter Group which intends to further increase the availability of general USB-based technologies. It was designed to operate in the 3.1 to 10.6 GHz frequency range and is capable of sending 480 Mbit/s at distances up to 3 metres (9.8 ft) and 110 Mbit/s at up to 10 metres (33 ft).  Wikipedia     The rationale for this specification is the overwhelming success of USB as a base for peripherals everywhere: cited reasons include extreme ease of use and low cost, which allow the existence of a ubiquitous bidirectional, fast port architecture.</description>
     </item>
     
     <item>

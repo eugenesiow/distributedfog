@@ -1,0 +1,33 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes" ?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>Wired on DistributedFog</title>
+    <link>http://distributedfog.com/tags/wired/</link>
+    <description>Recent content in Wired on DistributedFog</description>
+    <generator>Hugo -- gohugo.io</generator>
+    <language>en-us</language>
+    <lastBuildDate>Wed, 11 Oct 2017 17:56:48 +0100</lastBuildDate>
+    
+	<atom:link href="http://distributedfog.com/tags/wired/index.xml" rel="self" type="application/rss+xml" />
+    
+    
+    <item>
+      <title>FireWire</title>
+      <link>http://distributedfog.com/sensor-network/firewire/</link>
+      <pubDate>Wed, 11 Oct 2017 17:56:48 +0100</pubDate>
+      
+      <guid>http://distributedfog.com/sensor-network/firewire/</guid>
+      <description>IEEE 1394 is an interface standard for a serial bus for high-speed communications and isochronous real-time data transfer. It was developed in the late 1980s and early 1990s by Apple, which called it FireWire. The 1394 interface is also known by the brand i.LINK (Sony), and Lynx (Texas Instruments).  Wikipedia     FireWire can connect up to 63 peripherals in a tree or daisy-chain topology (as opposed to Parallel SCSI&amp;rsquo;s electrical bus topology).</description>
+    </item>
+    
+    <item>
+      <title>HAN</title>
+      <link>http://distributedfog.com/sensor-network/han/</link>
+      <pubDate>Wed, 11 Oct 2017 17:56:48 +0100</pubDate>
+      
+      <guid>http://distributedfog.com/sensor-network/han/</guid>
+      <description>A home network or home area network (HAN) is a type of computer network that facilitates communication among devices within the close vicinity of a home. Devices capable of participating in this network, for example, smart devices such as network printers and handheld mobile computers, often gain enhanced emergent capabilities through their ability to interact.  Wikipedia     A home-area network (HAN) connects in-home digital devices, such as PCs, mobile phones, entertainment technology, thermostats, home security systems and smart appliances, into a common network.</description>
+    </item>
+    
+  </channel>
+</rss>
