@@ -21,12 +21,30 @@
     </item>
     
     <item>
+      <title>UPnP</title>
+      <link>http://distributedfog.com/discovery/upnp/</link>
+      <pubDate>Wed, 11 Oct 2017 17:56:48 +0100</pubDate>
+      
+      <guid>http://distributedfog.com/discovery/upnp/</guid>
+      <description>Universal Plug and Play (UPnP) is a set of networking protocols that permits networked devices, such as personal computers, printers, Internet gateways, Wi-Fi access points and mobile devices to seamlessly discover each other&amp;#39;s presence on the network and establish functional network services for data sharing, communications, and entertainment.  Wikipedia     Protocol UPnP assumes the network must run Internet Protocol (IP) and then leverages HTTP, SOAP and XML on top of IP, in order to provide device/service description, actions, data transfer and eventing.</description>
+    </item>
+    
+    <item>
       <title>mDNS</title>
       <link>http://distributedfog.com/discovery/mdns/</link>
       <pubDate>Wed, 11 Oct 2017 17:56:48 +0100</pubDate>
       
       <guid>http://distributedfog.com/discovery/mdns/</guid>
       <description>mDNS resolves host names to IP addresses within small networks that do not include a local name server. It is a zero-configuration service, using essentially the same programming interfaces, packet formats and operating semantics as the unicast Domain Name System (DNS).  Wikipedia     Zeroconf It is a set of technologies that automatically creates a usable computer network based on TCP/IP when computers or network peripherals are interconnected.</description>
+    </item>
+    
+    <item>
+      <title>μPnP</title>
+      <link>http://distributedfog.com/discovery/micro-pnp/</link>
+      <pubDate>Wed, 11 Oct 2017 17:56:48 +0100</pubDate>
+      
+      <guid>http://distributedfog.com/discovery/micro-pnp/</guid>
+      <description>A hardware and software solution for plug-and-play integration of embedded peripherals with IoT devices. µPnP provides support for: driver development, automatic integration of third-party peripherals, discovery and remote access to peripheral services.  μPnP     Abstract Internet of Things (IoT) applications require diverse sensors and actuators. However, contemporary IoT devices provide limited support for the integration of third-party peripherals. To tackle this problem, we introduce μPnP: a hardware and software solution for plug-and-play integration of embedded peripherals with IoT devices.</description>
     </item>
     
   </channel>

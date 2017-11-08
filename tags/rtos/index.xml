@@ -43,6 +43,24 @@ Huawei also developed an open-source operating system for the IoT called Huawei 
     </item>
     
     <item>
+      <title>Mbed OS</title>
+      <link>http://distributedfog.com/os/mbed/</link>
+      <pubDate>Wed, 11 Oct 2017 17:56:48 +0100</pubDate>
+      
+      <guid>http://distributedfog.com/os/mbed/</guid>
+      <description>Arm Mbed OS is an open source embedded operating system designed specifically for the &amp;#39;things&amp;#39; in the Internet of Things. It includes all the features you need to develop a connected product based on an Arm Cortex-M microcontroller, including security, connectivity, an RTOS, and drivers for sensors and I/O devices.  mbed.com     Mbed Cloud Mbed Cloud is a suite of software tools and services for developing secure IoT products, including secure communication, standard-based and seamless device management and flexible production-line integration.</description>
+    </item>
+    
+    <item>
+      <title>Riot OS</title>
+      <link>http://distributedfog.com/os/riot/</link>
+      <pubDate>Wed, 11 Oct 2017 17:56:48 +0100</pubDate>
+      
+      <guid>http://distributedfog.com/os/riot/</guid>
+      <description>RIOT is a small operating system for networked, memory-constrained systems with a focus on low-power wireless IoT devices. It is open-source software, released under the GNU Lesser General Public License (LGPL). Due to its large independent community RIOT is often referred to as the Linux of the Internet of Things.  Wikipedia     RIOT is an operating system designed for the particular requirements of Internet of Things (IoT) scenarios.</description>
+    </item>
+    
+    <item>
       <title>TinyOS</title>
       <link>http://distributedfog.com/os/tiny/</link>
       <pubDate>Wed, 11 Oct 2017 17:56:48 +0100</pubDate>
@@ -51,6 +69,24 @@ Huawei also developed an open-source operating system for the IoT called Huawei 
       <description>TinyOS is an embedded, component-based operating system and platform for low-power wireless devices, such as those used in wireless sensor networks (WSNs), smartdust, ubiquitous computing, personal area networks, building automation, and smart meters.  Wikipedia     Research Original Paper, Hybrid Network Evaluation, Ten-years on Paper
  
 Programming on TinyOS is done using a C-like language called nesC. It is a component-based, event-driven programming language with components &amp;ldquo;wired&amp;rdquo; together to run applications.</description>
+    </item>
+    
+    <item>
+      <title>VxWorks</title>
+      <link>http://distributedfog.com/os/vxworks/</link>
+      <pubDate>Wed, 11 Oct 2017 17:56:48 +0100</pubDate>
+      
+      <guid>http://distributedfog.com/os/vxworks/</guid>
+      <description>VxWorks is a real-time operating system (RTOS) developed as proprietary software and designed for use in embedded systems requiring real-time, deterministic performance and, in many cases, safety and security certification. VxWorks supports Intel (x86, including the new Intel Quark SoC, and x86-64), MIPS, PowerPC, SH-4, and ARM architectures.  Wikipedia     VxWorks comes with the kernel, middleware, board support packages, Wind River Workbench development suite and complementary third-party software and hardware technologies.</description>
+    </item>
+    
+    <item>
+      <title>Windows IoT</title>
+      <link>http://distributedfog.com/os/windows-iot/</link>
+      <pubDate>Wed, 11 Oct 2017 17:56:48 +0100</pubDate>
+      
+      <guid>http://distributedfog.com/os/windows-iot/</guid>
+      <description>Windows IoT, formerly Windows Embedded, is a family of operating systems from Microsoft designed for use in embedded systems. Designed specifically for use in small footprint, low-cost devices and IoT scenarios.  Wikipedia     Windows 10 IoT Core A version of Windows optimized for devices that are cost and resource constrained such as IoT gateways, enabling specific industry scenarios and extending the flexibility of Windows 10 offerings to a wider range of specialized devices.</description>
     </item>
     
   </channel>

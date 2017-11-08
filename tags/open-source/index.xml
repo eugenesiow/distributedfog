@@ -53,5 +53,14 @@ BeagleBoard The USB-powered BeagleBoard is a low-cost, fan-less single board com
       <description>Gizmo2 is the second generation open source x86 development board from GizmoSphere. Gizmo 2 provides the power of a high performance computer and the I/O capabilities of a microcontroller through the use of an AMD Embedded G-Series System-on-Chip (SOC). The board includes the AMD GX-210HA dual-core processor, combined on a single die with AMD Radeon HD 8210E discrete-class graphics, providing 85 GFLOPS performance while drawing only 9 watts TDP.  element14     The new Gizmo 2 platform is the second-generation x86-based DIY single-board-computer (SBC) from Gizmosphere.</description>
     </item>
     
+    <item>
+      <title>Riot OS</title>
+      <link>http://distributedfog.com/os/riot/</link>
+      <pubDate>Wed, 11 Oct 2017 17:56:48 +0100</pubDate>
+      
+      <guid>http://distributedfog.com/os/riot/</guid>
+      <description>RIOT is a small operating system for networked, memory-constrained systems with a focus on low-power wireless IoT devices. It is open-source software, released under the GNU Lesser General Public License (LGPL). Due to its large independent community RIOT is often referred to as the Linux of the Internet of Things.  Wikipedia     RIOT is an operating system designed for the particular requirements of Internet of Things (IoT) scenarios.</description>
+    </item>
+    
   </channel>
 </rss>

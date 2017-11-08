@@ -21,6 +21,15 @@
     </item>
     
     <item>
+      <title>Arm</title>
+      <link>http://distributedfog.com/tags/arm/</link>
+      <pubDate>Wed, 11 Oct 2017 17:56:48 +0100</pubDate>
+      
+      <guid>http://distributedfog.com/tags/arm/</guid>
+      <description></description>
+    </item>
+    
+    <item>
       <title>Asus</title>
       <link>http://distributedfog.com/tags/asus/</link>
       <pubDate>Wed, 11 Oct 2017 17:56:48 +0100</pubDate>
@@ -39,6 +48,15 @@
     </item>
     
     <item>
+      <title>Cisco</title>
+      <link>http://distributedfog.com/tags/cisco/</link>
+      <pubDate>Wed, 11 Oct 2017 17:56:48 +0100</pubDate>
+      
+      <guid>http://distributedfog.com/tags/cisco/</guid>
+      <description></description>
+    </item>
+    
+    <item>
       <title>Cloud</title>
       <link>http://distributedfog.com/tags/cloud/</link>
       <pubDate>Wed, 11 Oct 2017 17:56:48 +0100</pubDate>
@@ -48,11 +66,29 @@
     </item>
     
     <item>
+      <title>Coap</title>
+      <link>http://distributedfog.com/tags/coap/</link>
+      <pubDate>Wed, 11 Oct 2017 17:56:48 +0100</pubDate>
+      
+      <guid>http://distributedfog.com/tags/coap/</guid>
+      <description></description>
+    </item>
+    
+    <item>
       <title>Community</title>
       <link>http://distributedfog.com/tags/community/</link>
       <pubDate>Wed, 11 Oct 2017 17:56:48 +0100</pubDate>
       
       <guid>http://distributedfog.com/tags/community/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>Core</title>
+      <link>http://distributedfog.com/tags/core/</link>
+      <pubDate>Wed, 11 Oct 2017 17:56:48 +0100</pubDate>
+      
+      <guid>http://distributedfog.com/tags/core/</guid>
       <description></description>
     </item>
     
@@ -282,6 +318,15 @@
     </item>
     
     <item>
+      <title>Multicast</title>
+      <link>http://distributedfog.com/tags/multicast/</link>
+      <pubDate>Wed, 11 Oct 2017 17:56:48 +0100</pubDate>
+      
+      <guid>http://distributedfog.com/tags/multicast/</guid>
+      <description></description>
+    </item>
+    
+    <item>
       <title>Navigation</title>
       <link>http://distributedfog.com/tags/navigation/</link>
       <pubDate>Wed, 11 Oct 2017 16:24:18 +0100</pubDate>
@@ -440,6 +485,24 @@
       <pubDate>Wed, 11 Oct 2017 16:24:18 +0100</pubDate>
       
       <guid>http://distributedfog.com/tags/transport/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>Udp</title>
+      <link>http://distributedfog.com/tags/udp/</link>
+      <pubDate>Wed, 11 Oct 2017 17:56:48 +0100</pubDate>
+      
+      <guid>http://distributedfog.com/tags/udp/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>Upnp</title>
+      <link>http://distributedfog.com/tags/upnp/</link>
+      <pubDate>Wed, 11 Oct 2017 17:56:48 +0100</pubDate>
+      
+      <guid>http://distributedfog.com/tags/upnp/</guid>
       <description></description>
     </item>
     

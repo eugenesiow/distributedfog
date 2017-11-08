@@ -226,10 +226,10 @@ HTTP/2 Server Push allows you to send site assets to the user before they’ve e
     
     <item>
       <title>IPsec</title>
-      <link>http://distributedfog.com/security/lora/</link>
+      <link>http://distributedfog.com/security/ipsec/</link>
       <pubDate>Wed, 11 Oct 2017 17:56:48 +0100</pubDate>
       
-      <guid>http://distributedfog.com/security/lora/</guid>
+      <guid>http://distributedfog.com/security/ipsec/</guid>
       <description>IPsec is a network protocol suite that authenticates and encrypts the packets of data sent over a network. IPsec includes protocols for establishing mutual authentication between agents at the beginning of the session and negotiation of cryptographic keys to use during the session.  Wikipedia     Specifications RFC 4301 defines a Security Architecture for the Internet Protocol, while RFC 4303 defines the Encapsulating Security Payload (ESP) protocol and RFC 4309 describes the use of Advanced Encryption Standard (AES) in Counter with CBC-MAC (CCM) Mode as an IPsec Encapsulating Security Payload (ESP) mechanism.</description>
     </item>
     
@@ -274,6 +274,15 @@ MQTT-SN is a variation of the main protocol aimed at embedded devices on non-TCP
     </item>
     
     <item>
+      <title>Mbed OS</title>
+      <link>http://distributedfog.com/os/mbed/</link>
+      <pubDate>Wed, 11 Oct 2017 17:56:48 +0100</pubDate>
+      
+      <guid>http://distributedfog.com/os/mbed/</guid>
+      <description>Arm Mbed OS is an open source embedded operating system designed specifically for the &amp;#39;things&amp;#39; in the Internet of Things. It includes all the features you need to develop a connected product based on an Arm Cortex-M microcontroller, including security, connectivity, an RTOS, and drivers for sensors and I/O devices.  mbed.com     Mbed Cloud Mbed Cloud is a suite of software tools and services for developing secure IoT products, including secure communication, standard-based and seamless device management and flexible production-line integration.</description>
+    </item>
+    
+    <item>
       <title>Motion Charging</title>
       <link>http://distributedfog.com/power/motion-charging/</link>
       <pubDate>Wed, 11 Oct 2017 17:56:48 +0100</pubDate>
@@ -282,6 +291,15 @@ MQTT-SN is a variation of the main protocol aimed at embedded devices on non-TCP
       <description>Motion-powered charging involves the transformation of naturally occurring motion in the form of kinetic energy into electricity which can be used to charge batteries and power electronic devices.   Research Copenhagen Wheel, Vint Cerf&amp;rsquo;s Taking the Internet to the Next Physical Level, Self-charging Textile
  
 Ampy Move is a wearable motion-charger that transforms the kinetic energy from motion into power for smartphone and wearables. Inductors in the Move device transform movement into usable power to charge devices.</description>
+    </item>
+    
+    <item>
+      <title>Multicast CoAP</title>
+      <link>http://distributedfog.com/discovery/multicast-coap/</link>
+      <pubDate>Wed, 11 Oct 2017 17:56:48 +0100</pubDate>
+      
+      <guid>http://distributedfog.com/discovery/multicast-coap/</guid>
+      <description>Group communication involves a one-to-many relationship between CoAP endpoints. Specifically, a single CoAP client can simultaneously get (or set) resources from multiple CoAP servers using CoAP over IP multicast. CoAP is a web transfer protocol based on Representational State Transfer (REST) for resource constrained devices operating in an IP network.  RFC 7390     In M2M applications, for example, home or building automation, there is a need for local clients and servers to find and interact with each other without human intervention.</description>
     </item>
     
     <item>
@@ -329,6 +347,24 @@ PIOTRe PIOTRe is a Personal IoT Repository based on sparql2sql, sparql2stream an
     </item>
     
     <item>
+      <title>Riot OS</title>
+      <link>http://distributedfog.com/os/riot/</link>
+      <pubDate>Wed, 11 Oct 2017 17:56:48 +0100</pubDate>
+      
+      <guid>http://distributedfog.com/os/riot/</guid>
+      <description>RIOT is a small operating system for networked, memory-constrained systems with a focus on low-power wireless IoT devices. It is open-source software, released under the GNU Lesser General Public License (LGPL). Due to its large independent community RIOT is often referred to as the Linux of the Internet of Things.  Wikipedia     RIOT is an operating system designed for the particular requirements of Internet of Things (IoT) scenarios.</description>
+    </item>
+    
+    <item>
+      <title>SSDP</title>
+      <link>http://distributedfog.com/discovery/ssdp/</link>
+      <pubDate>Wed, 11 Oct 2017 17:56:48 +0100</pubDate>
+      
+      <guid>http://distributedfog.com/discovery/ssdp/</guid>
+      <description>The Simple Service Discovery Protocol (SSDP) is a network protocol based on the Internet Protocol Suite for advertisement and discovery of network services and presence information. It accomplishes this without assistance of server-based configuration mechanisms, such as the Dynamic Host Configuration Protocol (DHCP) or the Domain Name System (DNS), and without special static configuration of a network host.  Wikipedia     The Simple Service Discovery Protocol (SSDP) provides a mechanism where by network clients, with little or no static configuration, can discover network services.</description>
+    </item>
+    
+    <item>
       <title>SensorCloud</title>
       <link>http://distributedfog.com/platform/sensorcloud/</link>
       <pubDate>Wed, 11 Oct 2017 17:56:48 +0100</pubDate>
@@ -360,6 +396,18 @@ PIOTRe PIOTRe is a Personal IoT Repository based on sparql2sql, sparql2stream an
     </item>
     
     <item>
+      <title>Threat Defence</title>
+      <link>http://distributedfog.com/security/threat-defence/</link>
+      <pubDate>Wed, 11 Oct 2017 17:56:48 +0100</pubDate>
+      
+      <guid>http://distributedfog.com/security/threat-defence/</guid>
+      <description>IoT Threat Defense securely segments IoT devices based on policy that provides an adaptable, extensible means of protecting vital services at IoT scale. It also provides a cybersecurity architecture, featuring a strong cast of integrated products from Identity Services Engine (ISE) and TrustSec to Stealthwatch and Next-Generation Firewall.  cisco.com     IoT Threat Defence works through…  Segmentation
+ Secure remote access
+ Security services
+ Visibility and analysis</description>
+    </item>
+    
+    <item>
       <title>TinkerBoard</title>
       <link>http://distributedfog.com/kit/tinkerboard/</link>
       <pubDate>Wed, 11 Oct 2017 17:56:48 +0100</pubDate>
@@ -380,6 +428,24 @@ Programming on TinyOS is done using a C-like language called nesC. It is a compo
     </item>
     
     <item>
+      <title>UPnP</title>
+      <link>http://distributedfog.com/discovery/upnp/</link>
+      <pubDate>Wed, 11 Oct 2017 17:56:48 +0100</pubDate>
+      
+      <guid>http://distributedfog.com/discovery/upnp/</guid>
+      <description>Universal Plug and Play (UPnP) is a set of networking protocols that permits networked devices, such as personal computers, printers, Internet gateways, Wi-Fi access points and mobile devices to seamlessly discover each other&amp;#39;s presence on the network and establish functional network services for data sharing, communications, and entertainment.  Wikipedia     Protocol UPnP assumes the network must run Internet Protocol (IP) and then leverages HTTP, SOAP and XML on top of IP, in order to provide device/service description, actions, data transfer and eventing.</description>
+    </item>
+    
+    <item>
+      <title>VxWorks</title>
+      <link>http://distributedfog.com/os/vxworks/</link>
+      <pubDate>Wed, 11 Oct 2017 17:56:48 +0100</pubDate>
+      
+      <guid>http://distributedfog.com/os/vxworks/</guid>
+      <description>VxWorks is a real-time operating system (RTOS) developed as proprietary software and designed for use in embedded systems requiring real-time, deterministic performance and, in many cases, safety and security certification. VxWorks supports Intel (x86, including the new Intel Quark SoC, and x86-64), MIPS, PowerPC, SH-4, and ARM architectures.  Wikipedia     VxWorks comes with the kernel, middleware, board support packages, Wind River Workbench development suite and complementary third-party software and hardware technologies.</description>
+    </item>
+    
+    <item>
       <title>WiMAX</title>
       <link>http://distributedfog.com/gateway-network/wimax/</link>
       <pubDate>Wed, 11 Oct 2017 17:56:48 +0100</pubDate>
@@ -388,6 +454,15 @@ Programming on TinyOS is done using a C-like language called nesC. It is a compo
       <description>WiMAX is a family of wireless communication standards based on the IEEE 802.16 set of standards, which provide multiple physical layer (PHY) and Media Access Control (MAC) options. It can enable wireless usage at long distances.  Wikipedia     Possible Uses  Portable mobile broadband connectivity across cities
  Wireless alternative to cable and DSL for &amp;ldquo;last mile&amp;rdquo; broadband
  Data, telecommunications (VoIP) and IPTV services (triple play)</description>
+    </item>
+    
+    <item>
+      <title>Windows IoT</title>
+      <link>http://distributedfog.com/os/windows-iot/</link>
+      <pubDate>Wed, 11 Oct 2017 17:56:48 +0100</pubDate>
+      
+      <guid>http://distributedfog.com/os/windows-iot/</guid>
+      <description>Windows IoT, formerly Windows Embedded, is a family of operating systems from Microsoft designed for use in embedded systems. Designed specifically for use in small footprint, low-cost devices and IoT scenarios.  Wikipedia     Windows 10 IoT Core A version of Windows optimized for devices that are cost and resource constrained such as IoT gateways, enabling specific industry scenarios and extending the flexibility of Windows 10 offerings to a wider range of specialized devices.</description>
     </item>
     
     <item>
@@ -450,6 +525,15 @@ XMPP supports different communication patterns, such as Request/Response, Asynch
       <description>thethings.iO is a Wayra Barcelona startup since July 2014 that makes a back-end for Internet of Things. It allows companies to focus more on the product and less on the database and the underlying cloud platform.  crunchbase     Featured In TechCrunch: thethings.iO Pulls In $270k
 Forbes: 6 IoT Startups That Make Connecting Things To The Cloud A Breeze
 VentureBeat: thethings.iO wants to be the Amazon Web Services for the IoT</description>
+    </item>
+    
+    <item>
+      <title>μPnP</title>
+      <link>http://distributedfog.com/discovery/micro-pnp/</link>
+      <pubDate>Wed, 11 Oct 2017 17:56:48 +0100</pubDate>
+      
+      <guid>http://distributedfog.com/discovery/micro-pnp/</guid>
+      <description>A hardware and software solution for plug-and-play integration of embedded peripherals with IoT devices. µPnP provides support for: driver development, automatic integration of third-party peripherals, discovery and remote access to peripheral services.  μPnP     Abstract Internet of Things (IoT) applications require diverse sensors and actuators. However, contemporary IoT devices provide limited support for the integration of third-party peripherals. To tackle this problem, we introduce μPnP: a hardware and software solution for plug-and-play integration of embedded peripherals with IoT devices.</description>
     </item>
     
     <item>

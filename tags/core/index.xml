@@ -1,0 +1,24 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes" ?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>Core on DistributedFog</title>
+    <link>http://distributedfog.com/tags/core/</link>
+    <description>Recent content in Core on DistributedFog</description>
+    <generator>Hugo -- gohugo.io</generator>
+    <language>en-us</language>
+    <lastBuildDate>Wed, 11 Oct 2017 17:56:48 +0100</lastBuildDate>
+    
+	<atom:link href="http://distributedfog.com/tags/core/index.xml" rel="self" type="application/rss+xml" />
+    
+    
+    <item>
+      <title>Multicast CoAP</title>
+      <link>http://distributedfog.com/discovery/multicast-coap/</link>
+      <pubDate>Wed, 11 Oct 2017 17:56:48 +0100</pubDate>
+      
+      <guid>http://distributedfog.com/discovery/multicast-coap/</guid>
+      <description>Group communication involves a one-to-many relationship between CoAP endpoints. Specifically, a single CoAP client can simultaneously get (or set) resources from multiple CoAP servers using CoAP over IP multicast. CoAP is a web transfer protocol based on Representational State Transfer (REST) for resource constrained devices operating in an IP network.  RFC 7390     In M2M applications, for example, home or building automation, there is a need for local clients and servers to find and interact with each other without human intervention.</description>
+    </item>
+    
+  </channel>
+</rss>

@@ -1,0 +1,24 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes" ?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>Arm on DistributedFog</title>
+    <link>http://distributedfog.com/tags/arm/</link>
+    <description>Recent content in Arm on DistributedFog</description>
+    <generator>Hugo -- gohugo.io</generator>
+    <language>en-us</language>
+    <lastBuildDate>Wed, 11 Oct 2017 17:56:48 +0100</lastBuildDate>
+    
+	<atom:link href="http://distributedfog.com/tags/arm/index.xml" rel="self" type="application/rss+xml" />
+    
+    
+    <item>
+      <title>Mbed OS</title>
+      <link>http://distributedfog.com/os/mbed/</link>
+      <pubDate>Wed, 11 Oct 2017 17:56:48 +0100</pubDate>
+      
+      <guid>http://distributedfog.com/os/mbed/</guid>
+      <description>Arm Mbed OS is an open source embedded operating system designed specifically for the &amp;#39;things&amp;#39; in the Internet of Things. It includes all the features you need to develop a connected product based on an Arm Cortex-M microcontroller, including security, connectivity, an RTOS, and drivers for sensors and I/O devices.  mbed.com     Mbed Cloud Mbed Cloud is a suite of software tools and services for developing secure IoT products, including secure communication, standard-based and seamless device management and flexible production-line integration.</description>
+    </item>
+    
+  </channel>
+</rss>

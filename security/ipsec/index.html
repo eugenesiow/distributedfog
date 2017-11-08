@@ -1,0 +1,264 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+    <meta name="description" content="All about the Internet of Things Landscape including technologies, protocols, applications, platforms and research.">
+    <meta name="author" content="DistributedFog.com">
+
+    <title>DistributedFog: IPsec</title>
+
+    
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0-beta/css/bootstrap.min.css" integrity="sha384-/Y6pD6FV/Vv2HJnA6t+vslU6fwYXjCFtcEpHbNJ0lyAFsXTsjBbfaDjzALeQsN6M" crossorigin="anonymous">
+    <link rel="stylesheet" href="https://fonts.googleapis.com/css?family=Roboto:100,400">
+    <link rel="stylesheet" href="//maxcdn.bootstrapcdn.com/font-awesome/4.7.0/css/font-awesome.min.css">
+    
+    <link href='http://distributedfog.com/css/style.css' rel="stylesheet">
+    
+    <link rel="icon" href='http://distributedfog.com/favicon.ico' type="image/x-icon" />
+    
+<script>
+(function(i,s,o,g,r,a,m){i['GoogleAnalyticsObject']=r;i[r]=i[r]||function(){
+(i[r].q=i[r].q||[]).push(arguments)},i[r].l=1*new Date();a=s.createElement(o),
+m=s.getElementsByTagName(o)[0];a.async=1;a.src=g;m.parentNode.insertBefore(a,m)
+})(window,document,'script','https://www.google-analytics.com/analytics.js','ga');
+
+ga('create', 'UA-108097594-1', 'auto');
+ga('send', 'pageview');
+</script>
+
+  </head>
+
+  <body>
+
+      
+
+<header>
+    <ol class="breadcrumb">
+        <li class="breadcrumb-item"><a href='http://distributedfog.com/'>IoT Landscape</a></li>
+        <li class="breadcrumb-item dropdown">
+            <a class="dropdown-toggle" href="#" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
+                Network Security
+            </a>
+            <div class="dropdown-menu">
+                
+                <a class="dropdown-item " href="/security/18883-green-security/">1888.3</a>
+                
+                <a class="dropdown-item active" href="/security/ipsec/">IPsec</a>
+                
+                <a class="dropdown-item " href="/security/">Network Security</a>
+                
+                <a class="dropdown-item " href="/security/threat-defence/">Threat Defence</a>
+                
+            </div>
+        </li>
+        <li class="breadcrumb-item active">IPsec</li>
+    </ol>
+</header>
+<div class="container container-section">
+    
+    <h1>IPsec <small>Internet Protocol Security</small></h1>
+    <div class="row">
+        <div class='col-sm-4 py-2'>
+    <div class='card card-body bg-info text-white h-100'>
+        
+IPsec is a network protocol suite that authenticates and encrypts the packets of data sent over a network. IPsec includes protocols for establishing mutual authentication between agents at the beginning of the session and negotiation of cryptographic keys to use during the session.
+
+        
+        <footer class="blockquote-footer text-white">
+            <small>
+                Wikipedia
+            </small>
+        </footer>
+        
+    </div>
+</div>
+
+<p><div class='col-sm-4 py-2'>
+    <div class='card card-body  h-100'>
+        <h3 id="specifications">Specifications</h3>
+
+<p><a href="https://tools.ietf.org/html/rfc4301">RFC 4301</a> defines a Security Architecture for the Internet Protocol, while <a href="https://tools.ietf.org/html/rfc4303">RFC 4303</a> defines the Encapsulating Security Payload (ESP) protocol and <a href="https://tools.ietf.org/html/rfc4309">RFC 4309</a> describes the use of Advanced Encryption Standard (AES) in Counter with CBC-MAC (CCM) Mode as an IPsec Encapsulating Security Payload (ESP) mechanism.</p>
+
+        
+    </div>
+</div></p>
+
+<p><div class='col-sm-4 py-2'>
+    <div class='card card-body  h-100'>
+        <h3 id="ipsec-and-vpns-https-www-lifewire-com-vpns-ipsec-vs-ssl-2486720">IPsec and VPNs <a href="https://www.lifewire.com/vpns-ipsec-vs-ssl-2486720">&hellip;</a></h3>
+
+<p>A VPN creates a virtual &ldquo;tunnel&rdquo; connecting the two endpoints. The traffic within the VPN tunnel is encrypted so that other users of the public Internet can not readily view intercepted communications. Traditional VPN’s rely on IPsec to secure all data between two endpoints without an association to any specific application.</p>
+
+        
+    </div>
+</div></p>
+
+<p><div class='col-sm-8 py-2'>
+    <div class='card card-body  h-100'>
+        <p>IPsec can protect data flows between a pair of hosts (host-to-host), between a pair of security gateways (network-to-network), or between a security gateway and a host (network-to-host). IPsec uses cryptographic security services to protect communications over Internet Protocol (IP) networks. IPsec supports network-level peer authentication, data-origin authentication, data integrity, data confidentiality (encryption), and replay protection.</p>
+
+<p>IPsec is an end-to-end security scheme operating in the Internet Layer of the Internet Protocol Suite, while some other Internet security systems in widespread use, such as Transport Layer Security (TLS) and Secure Shell (SSH), operate in the upper layers at the Transport Layer (TLS) and the Application layer (SSH). IPsec can automatically secure applications at the IP layer.</p>
+
+<h5 id="security-architecture">Security Architecture</h5>
+
+<p>The IPsec suite is an open standard. IPsec uses the following protocols to perform various functions:</p>
+
+<ul>
+<li><a href="http://www.tcpipguide.com/free/t_IPSecAuthenticationHeaderAH.htm">Authentication Headers (AH)</a> provides connectionless data integrity and data origin authentication for IP datagrams and provides protection against replay attacks.<br /></li>
+<li><a href="https://tools.ietf.org/html/rfc4303">Encapsulating Security Payloads (ESP)</a> provides confidentiality, data-origin authentication, connectionless integrity, an anti-replay service (a form of partial sequence integrity), and limited traffic-flow confidentiality.<br /></li>
+<li><a href="http://www.ciscopress.com/articles/article.asp?p=25443">Security Associations (SA)</a> provides the bundle of algorithms and data that provide the parameters necessary for AH and/or ESP operations. The Internet Security Association and Key Management Protocol (ISAKMP) provides a framework for authentication and key exchange, with actual authenticated keying material provided either by manual configuration with pre-shared keys, Internet Key Exchange (IKE and IKEv2), Kerberized Internet Negotiation of Keys (KINK), or IPSECKEY DNS records.<br /></li>
+</ul>
+
+        
+        <footer class="blockquote-footer ">
+            <small>
+                Wikipedia
+            </small>
+        </footer>
+        
+    </div>
+</div></p>
+
+<p><div class='col-sm-4 py-2'>
+    <div class="card h-100 ">
+        <div class='card-head'>
+            <h4 class="card-title">Links</h4>
+        </div>
+        <ul class="list-group list-group-flush">
+    <a href="https://en.wikipedia.org/wiki/IPsec" class="list-group-item list-group-item-action ">IPsec on Wikipedia</a>
+    <a href="http://www.tcpipguide.com/free/t_IPSecurityIPSecProtocols.htm" class="list-group-item list-group-item-action ">TCP/IP Guide to IPsec</a>
+    <a href="http://www.unixwiz.net/techtips/iguide-ipsec.html" class="list-group-item list-group-item-action ">Illustrated IPsec guide</a>
+</ul>
+    </div>
+</div></p>
+
+        <div class="col-sm-4 py-2">
+            <div class="card h-100">
+                <div class="card-body">
+                    <h3 class="card-title">Categories</h3>
+                    <div class="tag-list">
+                        <a href='http://distributedfog.com/security'><span class="badge badge-light">Network Security</span></a>
+                            
+                            <a href="/tags/protocol"><span class="badge badge-light">Protocol</span></a>
+                            
+                            <a href="/tags/specifications"><span class="badge badge-light">Specifications</span></a>
+                          
+                    </div>
+                </div>
+            </div>
+        </div>
+        <div class="col-sm-4 py-2">
+            <div class="card text-white bg-primary">
+                <div class="card-body">
+                    <h3 class="card-title">Share</h3>
+                    <a class="btn btn-lg btn-primary" href='https://twitter.com/intent/tweet?hashtags=protocol%2cspecifications&text=IPsec&url=http%3a%2f%2fdistributedfog.com%2fsecurity%2fipsec%2f'>
+                        <i class="fa fa-twitter" aria-hidden="true"></i></a>
+                    <a class="btn btn-lg btn-primary" href='https://www.facebook.com/sharer/sharer.php?u%3dhttp%253A%252F%252Fdistributedfog.com%252Fsecurity%252Fipsec%252F'>
+                        <i class="fa fa-facebook" aria-hidden="true"></i></a>
+                    <a class="btn btn-lg btn-primary" href='https://plus.google.com/share?url=http%3a%2f%2fdistributedfog.com%2fsecurity%2fipsec%2f'>
+                        <i class="fa fa-google-plus" aria-hidden="true"></i></a>
+                </div>
+            </div>
+        </div>
+        <div class="col-sm-12 py-2">
+    <div class="card">
+        <div class="card-body">
+            <div id="disqus_thread"></div>
+            <script>
+                var disqus_config = function () {
+                    this.page.url = "http://distributedfog.com/security/ipsec/";
+                    this.page.identifier = "12d47d0d2ca01446df9c8e664fe488d6";
+                };
+                (function() { 
+                    var d = document, s = d.createElement('script');
+                    s.src = 'https://distributedfog.disqus.com/embed.js';
+                    s.setAttribute('data-timestamp', +new Date());
+                    (d.head || d.body).appendChild(s);
+                })();
+            </script>
+            <noscript>Please enable JavaScript to view the <a href="https://disqus.com/?ref_noscript">comments powered by Disqus.</a></noscript>
+        </div>
+    </div>
+</div>
+    </div>
+</div>
+<footer class="bg-light">
+    <div id="footer-wrapper">
+       <div class="container">
+          <div class="row">
+                <div class="col-sm-4 infobox">
+                    
+                    <a href="http://distributedfog.com"><img src="http://distributedfog.com/img/logo.svg" id="logo-graphic" title="DistributedFog.com"></a>
+                    <ul class="footer-links">
+                        <li><a href="http://distributedfog.com/about">About</a></li>
+                        <li><a href="http://eugenesiow.com">eugenesiow.com</a></li>
+                    </ul>
+                </div>
+             <div class="col-sm-4 infobox">
+                <h4>Learn</h4>
+                <ul class="footer-links">
+                    <li><a href="http://distributedfog.com/make">Make</a></li>
+                    <li><a href="http://distributedfog.com/develop">Develop</a></li>
+                    <li><a href="http://distributedfog.com/use">Use</a></li>
+                </ul>
+            </div>
+            
+            <div class="col-sm-4 infobox">
+                <h4>Code</h4>
+                <ul class="footer-icons">
+                    <li><a href="https://github.com/eugenesiow/distributedfog"><i class="fa fa-github" aria-hidden="true"></i></a></li>
+                    <li><a href="https://github.com/eugenesiow/distributedfog/wiki"><i class="fa fa-wikipedia-w" aria-hidden="true"></i></a></li>
+                </ul>
+            </div>
+          </div>
+       </div>
+    </div>
+ </footer>
+<script id="dsq-count-scr" src="//distributedfog.disqus.com/count.js" async></script>
+
+
+    
+    <script src="https://code.jquery.com/jquery-3.2.1.slim.min.js" integrity="sha384-KJ3o2DKtIkvYIK3UENzmM7KCkRr/rE9/Qpg6aAZGJwFDMVNA/GpGFF93hXpG5KkN" crossorigin="anonymous"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.11.0/umd/popper.min.js" integrity="sha384-b/U6ypiBEHpOf/4+1nzFpr53nxSS+GLCkfwBdFNTxtclqqenISfwAzpKaMNFNmj4" crossorigin="anonymous"></script>
+    <script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0-beta/js/bootstrap.min.js" integrity="sha384-h0AbiXch4ZDo7tp9hKZ4TsHbi047NrKGLO3SEJAg45jXxnGIfYzk4Si90RDIqNm1" crossorigin="anonymous"></script>
+    <script src='http://distributedfog.com/js/main.js'></script>
+    
+<script type="application/ld+json">
+{
+    "@context" : "http://schema.org",
+    "@type" : "Article",
+    "articleSection" : "security",
+    "mainEntityOfPage": {
+        "@type": "WebPage",
+        "@id": "http://distributedfog.com/security/ipsec/"
+    },
+    "name" : "IPsec",
+    "headline" : "IPsec",
+    "description" : "IPsec is a network protocol suite that authenticates and encrypts the packets of data sent over a network. IPsec includes protocols for establishing mutual authentication between agents at the beginning of the session and negotiation of cryptographic keys to use during the session.",
+    "inLanguage" : "en-GB",
+    "author" : "DistributedFog.com",
+    "creator" : "",
+    "accountablePerson" : "",
+    "copyrightHolder" : "",
+    "copyrightYear" : "2017",
+    "datePublished" : "2017-10-11 17:56:48 &#43;0100 BST",
+    "dateModified" : "2017-10-11 17:56:48 &#43;0100 BST",
+    "publisher": {
+        "@type": "Organization",
+        "name": "DistributedFog.com",
+        "logo": {
+            "@type": "ImageObject",
+            "url": "http://distributedfog.com/img/logo.png"
+        }
+    },
+    "logo": "",
+    "url" : "http://distributedfog.com/security/ipsec/",
+    "wordCount" : "398",
+    "image" : "http://distributedfog.com/img/logo.png",
+    "keywords" : [ "protocol, specifications" ]
+}
+</script>
+
+  </body>
+</html>

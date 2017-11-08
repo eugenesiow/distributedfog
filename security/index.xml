@@ -24,11 +24,23 @@ Ubiquitous computing (or &amp;ldquo;ubicomp&amp;rdquo;) is a concept in software
     
     <item>
       <title>IPsec</title>
-      <link>http://distributedfog.com/security/lora/</link>
+      <link>http://distributedfog.com/security/ipsec/</link>
       <pubDate>Wed, 11 Oct 2017 17:56:48 +0100</pubDate>
       
-      <guid>http://distributedfog.com/security/lora/</guid>
+      <guid>http://distributedfog.com/security/ipsec/</guid>
       <description>IPsec is a network protocol suite that authenticates and encrypts the packets of data sent over a network. IPsec includes protocols for establishing mutual authentication between agents at the beginning of the session and negotiation of cryptographic keys to use during the session.  Wikipedia     Specifications RFC 4301 defines a Security Architecture for the Internet Protocol, while RFC 4303 defines the Encapsulating Security Payload (ESP) protocol and RFC 4309 describes the use of Advanced Encryption Standard (AES) in Counter with CBC-MAC (CCM) Mode as an IPsec Encapsulating Security Payload (ESP) mechanism.</description>
+    </item>
+    
+    <item>
+      <title>Threat Defence</title>
+      <link>http://distributedfog.com/security/threat-defence/</link>
+      <pubDate>Wed, 11 Oct 2017 17:56:48 +0100</pubDate>
+      
+      <guid>http://distributedfog.com/security/threat-defence/</guid>
+      <description>IoT Threat Defense securely segments IoT devices based on policy that provides an adaptable, extensible means of protecting vital services at IoT scale. It also provides a cybersecurity architecture, featuring a strong cast of integrated products from Identity Services Engine (ISE) and TrustSec to Stealthwatch and Next-Generation Firewall.  cisco.com     IoT Threat Defence works through…  Segmentation
+ Secure remote access
+ Security services
+ Visibility and analysis</description>
     </item>
     
   </channel>

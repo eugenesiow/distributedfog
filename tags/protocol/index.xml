@@ -75,10 +75,10 @@ HTTP/2 Server Push allows you to send site assets to the user before they’ve e
     
     <item>
       <title>IPsec</title>
-      <link>http://distributedfog.com/security/lora/</link>
+      <link>http://distributedfog.com/security/ipsec/</link>
       <pubDate>Wed, 11 Oct 2017 17:56:48 +0100</pubDate>
       
-      <guid>http://distributedfog.com/security/lora/</guid>
+      <guid>http://distributedfog.com/security/ipsec/</guid>
       <description>IPsec is a network protocol suite that authenticates and encrypts the packets of data sent over a network. IPsec includes protocols for establishing mutual authentication between agents at the beginning of the session and negotiation of cryptographic keys to use during the session.  Wikipedia     Specifications RFC 4301 defines a Security Architecture for the Internet Protocol, while RFC 4303 defines the Encapsulating Security Payload (ESP) protocol and RFC 4309 describes the use of Advanced Encryption Standard (AES) in Counter with CBC-MAC (CCM) Mode as an IPsec Encapsulating Security Payload (ESP) mechanism.</description>
     </item>
     
@@ -109,6 +109,45 @@ HTTP/2 Server Push allows you to send site assets to the user before they’ve e
       <description>MQTT is a publish-subscribe-based lightweight messaging protocol for use on top of TCP/IP. It is designed for connections where a small code footprint is required or the network bandwidth is limited.  Wikipedia     Research CoAP vs MQTT, MQTT and REST, Push Notifications, Secure MQTT
  
 MQTT-SN is a variation of the main protocol aimed at embedded devices on non-TCP/IP networks, such as ZigBee. As it does not require the TCP/IP stack, it can be used over a serial link where overhead is really small or over UDP.</description>
+    </item>
+    
+    <item>
+      <title>Multicast CoAP</title>
+      <link>http://distributedfog.com/discovery/multicast-coap/</link>
+      <pubDate>Wed, 11 Oct 2017 17:56:48 +0100</pubDate>
+      
+      <guid>http://distributedfog.com/discovery/multicast-coap/</guid>
+      <description>Group communication involves a one-to-many relationship between CoAP endpoints. Specifically, a single CoAP client can simultaneously get (or set) resources from multiple CoAP servers using CoAP over IP multicast. CoAP is a web transfer protocol based on Representational State Transfer (REST) for resource constrained devices operating in an IP network.  RFC 7390     In M2M applications, for example, home or building automation, there is a need for local clients and servers to find and interact with each other without human intervention.</description>
+    </item>
+    
+    <item>
+      <title>SSDP</title>
+      <link>http://distributedfog.com/discovery/ssdp/</link>
+      <pubDate>Wed, 11 Oct 2017 17:56:48 +0100</pubDate>
+      
+      <guid>http://distributedfog.com/discovery/ssdp/</guid>
+      <description>The Simple Service Discovery Protocol (SSDP) is a network protocol based on the Internet Protocol Suite for advertisement and discovery of network services and presence information. It accomplishes this without assistance of server-based configuration mechanisms, such as the Dynamic Host Configuration Protocol (DHCP) or the Domain Name System (DNS), and without special static configuration of a network host.  Wikipedia     The Simple Service Discovery Protocol (SSDP) provides a mechanism where by network clients, with little or no static configuration, can discover network services.</description>
+    </item>
+    
+    <item>
+      <title>Threat Defence</title>
+      <link>http://distributedfog.com/security/threat-defence/</link>
+      <pubDate>Wed, 11 Oct 2017 17:56:48 +0100</pubDate>
+      
+      <guid>http://distributedfog.com/security/threat-defence/</guid>
+      <description>IoT Threat Defense securely segments IoT devices based on policy that provides an adaptable, extensible means of protecting vital services at IoT scale. It also provides a cybersecurity architecture, featuring a strong cast of integrated products from Identity Services Engine (ISE) and TrustSec to Stealthwatch and Next-Generation Firewall.  cisco.com     IoT Threat Defence works through…  Segmentation
+ Secure remote access
+ Security services
+ Visibility and analysis</description>
+    </item>
+    
+    <item>
+      <title>UPnP</title>
+      <link>http://distributedfog.com/discovery/upnp/</link>
+      <pubDate>Wed, 11 Oct 2017 17:56:48 +0100</pubDate>
+      
+      <guid>http://distributedfog.com/discovery/upnp/</guid>
+      <description>Universal Plug and Play (UPnP) is a set of networking protocols that permits networked devices, such as personal computers, printers, Internet gateways, Wi-Fi access points and mobile devices to seamlessly discover each other&amp;#39;s presence on the network and establish functional network services for data sharing, communications, and entertainment.  Wikipedia     Protocol UPnP assumes the network must run Internet Protocol (IP) and then leverages HTTP, SOAP and XML on top of IP, in order to provide device/service description, actions, data transfer and eventing.</description>
     </item>
     
     <item>
@@ -149,6 +188,15 @@ XMPP supports different communication patterns, such as Request/Response, Asynch
       
       <guid>http://distributedfog.com/discovery/mdns/</guid>
       <description>mDNS resolves host names to IP addresses within small networks that do not include a local name server. It is a zero-configuration service, using essentially the same programming interfaces, packet formats and operating semantics as the unicast Domain Name System (DNS).  Wikipedia     Zeroconf It is a set of technologies that automatically creates a usable computer network based on TCP/IP when computers or network peripherals are interconnected.</description>
+    </item>
+    
+    <item>
+      <title>μPnP</title>
+      <link>http://distributedfog.com/discovery/micro-pnp/</link>
+      <pubDate>Wed, 11 Oct 2017 17:56:48 +0100</pubDate>
+      
+      <guid>http://distributedfog.com/discovery/micro-pnp/</guid>
+      <description>A hardware and software solution for plug-and-play integration of embedded peripherals with IoT devices. µPnP provides support for: driver development, automatic integration of third-party peripherals, discovery and remote access to peripheral services.  μPnP     Abstract Internet of Things (IoT) applications require diverse sensors and actuators. However, contemporary IoT devices provide limited support for the integration of third-party peripherals. To tackle this problem, we introduce μPnP: a hardware and software solution for plug-and-play integration of embedded peripherals with IoT devices.</description>
     </item>
     
   </channel>

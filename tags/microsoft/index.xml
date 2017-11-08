@@ -20,5 +20,14 @@
       <description>Microsoft .NET Gadgeteer is an open-source rapid-prototyping standard for building small electronic devices using the Microsoft .NET Micro Framework and Microsoft Visual Studio/Visual C# Express. The Gadgeteer platform centers around a Gadgeteer mainboard with a microcontroller running the .NET Micro Framework.  Wikipedia     .NET Gadgeteer was created by researchers at Microsoft as an internal prototyping tool, but because of external interest, particualrly from educators and hobbyists, we turned it into open source software which now has a vibrant hardware ecosystem from multiple manufacturers.</description>
     </item>
     
+    <item>
+      <title>Windows IoT</title>
+      <link>http://distributedfog.com/os/windows-iot/</link>
+      <pubDate>Wed, 11 Oct 2017 17:56:48 +0100</pubDate>
+      
+      <guid>http://distributedfog.com/os/windows-iot/</guid>
+      <description>Windows IoT, formerly Windows Embedded, is a family of operating systems from Microsoft designed for use in embedded systems. Designed specifically for use in small footprint, low-cost devices and IoT scenarios.  Wikipedia     Windows 10 IoT Core A version of Windows optimized for devices that are cost and resource constrained such as IoT gateways, enabling specific industry scenarios and extending the flexibility of Windows 10 offerings to a wider range of specialized devices.</description>
+    </item>
+    
   </channel>
 </rss>
