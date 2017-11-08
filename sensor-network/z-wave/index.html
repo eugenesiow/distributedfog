@@ -6,7 +6,7 @@
     <meta name="description" content="All about the Internet of Things Landscape including technologies, protocols, applications, platforms and research.">
     <meta name="author" content="DistributedFog.com">
 
-    <title>DistributedFog: ANT&#43;</title>
+    <title>DistributedFog: Z-Wave</title>
 
     
     <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0-beta/css/bootstrap.min.css" integrity="sha384-/Y6pD6FV/Vv2HJnA6t+vslU6fwYXjCFtcEpHbNJ0lyAFsXTsjBbfaDjzALeQsN6M" crossorigin="anonymous">
@@ -48,7 +48,7 @@ ga('send', 'pageview');
                 
                 <a class="dropdown-item " href="/sensor-network/6lowpan/">6LoWPAN</a>
                 
-                <a class="dropdown-item active" href="/sensor-network/ant/">ANT&#43;</a>
+                <a class="dropdown-item " href="/sensor-network/ant/">ANT&#43;</a>
                 
                 <a class="dropdown-item " href="/sensor-network/dash7/">DASH7</a>
                 
@@ -58,21 +58,21 @@ ga('send', 'pageview');
                 
                 <a class="dropdown-item " href="/sensor-network/">Sensor Networks</a>
                 
-                <a class="dropdown-item " href="/sensor-network/z-wave/">Z-Wave</a>
+                <a class="dropdown-item active" href="/sensor-network/z-wave/">Z-Wave</a>
                 
             </div>
         </li>
-        <li class="breadcrumb-item active">ANT&#43;</li>
+        <li class="breadcrumb-item active">Z-Wave</li>
     </ol>
 </header>
 <div class="container container-section">
     
-    <h1>ANT&#43; </h1>
+    <h1>Z-Wave </h1>
     <div class="row">
         <div class='col-sm-4 py-2'>
     <div class='card card-body bg-info text-white h-100'>
         
-ANT&#43; is a wireless protocol for monitoring sensor data such as a person&#39;s heart rate or a car&#39;s tyre/tire pressure, as well as the control of systems like indoor lighting or a television set.
+Z-Wave is a wireless communications protocol used primarily for home automation. It is a mesh network using low-energy radio waves to communicate from appliance to appliance, allowing for wireless control of residential appliances and other devices, such as lighting control, security systems, thermostats, windows, locks, swimming pools and garage door openers.
 
         
         <footer class="blockquote-footer text-white">
@@ -86,7 +86,16 @@ ANT&#43; is a wireless protocol for monitoring sensor data such as a person&#39;
 
 <p><div class='col-sm-8 py-2'>
     <div class='card card-body  h-100'>
-        <p><a href="https://www.thisisant.com/developer/ant/ant-basics/#104_tab" target="_blank"><img src="/img/articles/ant-layers.png" title="ANT Layers in Standard ANT/HOST and System on Chip Devices" style="width: 100%;"></a></p>
+        <h3 id="essentials">Essentials</h3>
+
+<ul>
+<li>Low Powered RF communications technology that supports full mesh networks without the need for a coordinator node<br /></li>
+<li>Operates in the sub-1GHz band; impervious to interference from Wi-Fi and other wireless technologies in the 2.4-GHz range (Bluetooth, ZigBee, etc.)<br /></li>
+<li>Designed specifically for control and status apps, supports data rates of up to 100kbps, with AES128 encryption, IPV6, and multi-channel operation<br /></li>
+<li>Full interoperability through layer 6 with backwards compatibility to all versions.<br /></li>
+<li>Successfully bridged and trialed with OpenADR, SEP 1, SEP 1.1 and other  Smart Energy protocols.<br /></li>
+<li>Shares the same position in the NIST / SGIP Catalog of Standards as the IEEE 802.11 and 802.15 and 802.16 families<br /></li>
+</ul>
 
         
     </div>
@@ -94,20 +103,12 @@ ANT&#43; is a wireless protocol for monitoring sensor data such as a person&#39;
 
 <p><div class='col-sm-8 py-2'>
     <div class='card card-body  h-100'>
-        <p>ANT is a practical wireless sensor network protocol running in the 2.4 GHz ISM band. Designed for ultra-low power, ease of use, efficiency and scalability, ANT easily handles peer-to-peer, star, connected star, tree and fixed mesh topologies.</p>
-
-<p>ANT provides reliable data communications, flexible and adaptive network operation and cross-talk immunity. ANT protocol stack is extremely compact, requiring minimal microcontroller resources and considerably reduces system costs.</p>
-
-<p>ANT provides carefree handling of the Physical, Network and Transport OSI layers. In addition, it incorporates key low-level security features that form the foundation for user-defined sophisticated network security implementations. ANT ensures adequate user control while considerably lightening computational burden in providing a simple yet effective wireless networking solution.</p>
-
-<p>The interface between ANT and the Host application has been designed with the utmost simplicity in mind such that ANT can be easily and quickly implemented into new devices and applications. The encapsulation of the wireless protocol complexity within the ANT chipset vastly reduces the burden on the application host controller, allowing a low-cost 4-bit or 8-bit Microcontroller (MCU) to establish and maintain complex wireless networks. Data transfers can be scheduled in a deterministic or ad-hoc fashion. A burst mode allows for the efficient transfer of large amounts of stored data to and from a PC or other computing device.</p>
-
-<p>A typical ANT-enabled device consists of an application host MCU interfaced with an ANT module, chipset or chip. The host MCU establishes and maintains a communication session to other remote ANT-enabled devices by means of a simple, bidirectional, serial message protocol. This document details the protocol and provides examples of how to use ANT for wireless networking.</p>
+        <p>The Z-Wave protocol is an interoperable, wireless,  RF-based communications technology designed specifically for control, monitoring and status reading applications in residential and light commercial environments. Mature, proven and broadly deployed (with over 70 million products sold worldwide), Z-Wave is by far the world market leader in wireless control, bringing affordable, reliable and easy-to-use &lsquo;smart&rsquo; products to many millions of people in every aspect of daily life.</p>
 
         
         <footer class="blockquote-footer ">
             <small>
-                thisisant.com
+                Z-WaveAlliance.org
             </small>
         </footer>
         
@@ -120,10 +121,10 @@ ANT&#43; is a wireless protocol for monitoring sensor data such as a person&#39;
             <h4 class="card-title">Links</h4>
         </div>
         <ul class="list-group list-group-flush">
-    <a href="https://www.thisisant.com/resources/ant-message-protocol-and-usage" class="list-group-item list-group-item-action ">ANT Message Protocol and Usage</a>
-    <a href="https://www.thisisant.com/directory" class="list-group-item list-group-item-action ">Product Directory</a>
-    <a href="https://www.thisisant.com/developer/ant/ant-basics/#105_tab" class="list-group-item list-group-item-action ">ANT basics</a>
-    <a href="https://buy.garmin.com/en-GB/GB/p/10997" class="list-group-item list-group-item-action ">Garmin&#39;s USB ANT Stick</a>
+    <a href="http://www.z-wave.com/" class="list-group-item list-group-item-action ">Z-Wave Products</a>
+    <a href="https://z-wavealliance.org/about_z-wave_technology/" class="list-group-item list-group-item-action ">Z-Wave Alliance</a>
+    <a href="https://www.itu.int/rec/T-REC-G.9959" class="list-group-item list-group-item-action ">ITU-T Recommendation G.9959</a>
+    <a href="https://z-wavealliance.org/wp-content/uploads/2015/02/ZAD12837-1.pdf" class="list-group-item list-group-item-action ">ZAD12837 Spec</a>
 </ul>
     </div>
 </div></p>
@@ -141,7 +142,7 @@ ANT&#43; is a wireless protocol for monitoring sensor data such as a person&#39;
                             
                             <a href="/tags/mesh"><span class="badge badge-light">Mesh</span></a>
                             
-                            <a href="/tags/remote-control"><span class="badge badge-light">Remote Control</span></a>
+                            <a href="/tags/smart-home"><span class="badge badge-light">Smart Home</span></a>
                           
                     </div>
                 </div>
@@ -151,11 +152,11 @@ ANT&#43; is a wireless protocol for monitoring sensor data such as a person&#39;
             <div class="card text-white bg-primary">
                 <div class="card-body">
                     <h3 class="card-title">Share</h3>
-                    <a class="btn btn-lg btn-primary" href='https://twitter.com/intent/tweet?hashtags=protocol%2cwireless%2cmesh%2cremote-control&text=ANT%2b&url=http%3a%2f%2fdistributedfog.com%2fsensor-network%2fant%2f'>
+                    <a class="btn btn-lg btn-primary" href='https://twitter.com/intent/tweet?hashtags=protocol%2cwireless%2cmesh%2csmart-home&text=Z-Wave&url=http%3a%2f%2fdistributedfog.com%2fsensor-network%2fz-wave%2f'>
                         <i class="fa fa-twitter" aria-hidden="true"></i></a>
-                    <a class="btn btn-lg btn-primary" href='https://www.facebook.com/sharer/sharer.php?u%3dhttp%253A%252F%252Fdistributedfog.com%252Fsensor-network%252Fant%252F'>
+                    <a class="btn btn-lg btn-primary" href='https://www.facebook.com/sharer/sharer.php?u%3dhttp%253A%252F%252Fdistributedfog.com%252Fsensor-network%252Fz-wave%252F'>
                         <i class="fa fa-facebook" aria-hidden="true"></i></a>
-                    <a class="btn btn-lg btn-primary" href='https://plus.google.com/share?url=http%3a%2f%2fdistributedfog.com%2fsensor-network%2fant%2f'>
+                    <a class="btn btn-lg btn-primary" href='https://plus.google.com/share?url=http%3a%2f%2fdistributedfog.com%2fsensor-network%2fz-wave%2f'>
                         <i class="fa fa-google-plus" aria-hidden="true"></i></a>
                 </div>
             </div>
@@ -166,8 +167,8 @@ ANT&#43; is a wireless protocol for monitoring sensor data such as a person&#39;
             <div id="disqus_thread"></div>
             <script>
                 var disqus_config = function () {
-                    this.page.url = "http://distributedfog.com/sensor-network/ant/";
-                    this.page.identifier = "31b83f32f53c52cdf794e837d65d45eb";
+                    this.page.url = "http://distributedfog.com/sensor-network/z-wave/";
+                    this.page.identifier = "26593235565e7c0139fca2848e9a2d90";
                 };
                 (function() { 
                     var d = document, s = d.createElement('script');
@@ -230,11 +231,11 @@ ANT&#43; is a wireless protocol for monitoring sensor data such as a person&#39;
     "articleSection" : "sensor-network",
     "mainEntityOfPage": {
         "@type": "WebPage",
-        "@id": "http://distributedfog.com/sensor-network/ant/"
+        "@id": "http://distributedfog.com/sensor-network/z-wave/"
     },
-    "name" : "ANT&#43;",
-    "headline" : "ANT&#43;",
-    "description" : "ANT&#43; is a wireless protocol for monitoring sensor data such as a person&#39;s heart rate or a car&#39;s tyre/tire pressure, as well as the control of systems like indoor lighting or a television set.",
+    "name" : "Z-Wave",
+    "headline" : "Z-Wave",
+    "description" : "Z-Wave is a wireless communications protocol used primarily for home automation. It is a mesh network using low-energy radio waves to communicate from appliance to appliance, allowing for wireless control of residential appliances and other devices, such as lighting control, security systems, thermostats, windows, locks, swimming pools and garage door openers.",
     "inLanguage" : "en-GB",
     "author" : "DistributedFog.com",
     "creator" : "",
@@ -252,10 +253,10 @@ ANT&#43; is a wireless protocol for monitoring sensor data such as a person&#39;
         }
     },
     "logo": "",
-    "url" : "http://distributedfog.com/sensor-network/ant/",
-    "wordCount" : "321",
+    "url" : "http://distributedfog.com/sensor-network/z-wave/",
+    "wordCount" : "236",
     "image" : "http://distributedfog.com/img/logo.png",
-    "keywords" : [ "protocol, wireless, mesh, remote control" ]
+    "keywords" : [ "protocol, wireless, mesh, smart home" ]
 }
 </script>
 

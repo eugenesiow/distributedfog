@@ -6,7 +6,7 @@
     <meta name="description" content="All about the Internet of Things Landscape including technologies, protocols, applications, platforms and research.">
     <meta name="author" content="DistributedFog.com">
 
-    <title>DistributedFog: ANT&#43;</title>
+    <title>DistributedFog: DASH7</title>
 
     
     <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0-beta/css/bootstrap.min.css" integrity="sha384-/Y6pD6FV/Vv2HJnA6t+vslU6fwYXjCFtcEpHbNJ0lyAFsXTsjBbfaDjzALeQsN6M" crossorigin="anonymous">
@@ -48,9 +48,9 @@ ga('send', 'pageview');
                 
                 <a class="dropdown-item " href="/sensor-network/6lowpan/">6LoWPAN</a>
                 
-                <a class="dropdown-item active" href="/sensor-network/ant/">ANT&#43;</a>
+                <a class="dropdown-item " href="/sensor-network/ant/">ANT&#43;</a>
                 
-                <a class="dropdown-item " href="/sensor-network/dash7/">DASH7</a>
+                <a class="dropdown-item active" href="/sensor-network/dash7/">DASH7</a>
                 
                 <a class="dropdown-item " href="/sensor-network/ir/">IR</a>
                 
@@ -62,17 +62,17 @@ ga('send', 'pageview');
                 
             </div>
         </li>
-        <li class="breadcrumb-item active">ANT&#43;</li>
+        <li class="breadcrumb-item active">DASH7</li>
     </ol>
 </header>
 <div class="container container-section">
     
-    <h1>ANT&#43; </h1>
+    <h1>DASH7 </h1>
     <div class="row">
         <div class='col-sm-4 py-2'>
     <div class='card card-body bg-info text-white h-100'>
         
-ANT&#43; is a wireless protocol for monitoring sensor data such as a person&#39;s heart rate or a car&#39;s tyre/tire pressure, as well as the control of systems like indoor lighting or a television set.
+DASH7 Alliance Protocol (D7A) is an open source Wireless Sensor and Actuator Network protocol, which operates in the 433 MHz, 868 MHz and 915 MHz unlicensed ISM band/SRD band. DASH7 provides multi-year battery life, range of up to 2 km, low latency for connecting with moving things, a very small open source protocol stack, AES 128-bit shared key encryption support, and data transfer of up to 167 kbit/s.
 
         
         <footer class="blockquote-footer text-white">
@@ -86,28 +86,50 @@ ANT&#43; is a wireless protocol for monitoring sensor data such as a person&#39;
 
 <p><div class='col-sm-8 py-2'>
     <div class='card card-body  h-100'>
-        <p><a href="https://www.thisisant.com/developer/ant/ant-basics/#104_tab" target="_blank"><img src="/img/articles/ant-layers.png" title="ANT Layers in Standard ANT/HOST and System on Chip Devices" style="width: 100%;"></a></p>
+        <h3 id="why-dash7">Why DASH7?</h3>
 
+<ul>
+<li>Open Standard of Ultra Low Power Mid-Range Sensor and Actuator Communication, Open Source Stacks available<br /></li>
+<li>Ultra Low Power, Low energy per bit transmitted / received, Narrow band low silicon complexity, Low infrastructure deployment cost, Multi-year battery performance<br /></li>
+<li>BLAST (Bursty, Light, Asynchronous, Stealth, Transitional)<br /></li>
+<li>Seamless Indoor and Outdoor use, even in presence of concrete, metal and water<br /></li>
+<li>Optimal RF performances, Low signal attenuation<br /></li>
+<li>Context Aware Sensor and Actuator Data Propagation System, Event based data propagation based on sensor value changes, configurable over the air<br /></li>
+</ul>
+
+        
+        <footer class="blockquote-footer ">
+            <small>
+                dash7-alliance.org
+            </small>
+        </footer>
         
     </div>
 </div></p>
 
 <p><div class='col-sm-8 py-2'>
     <div class='card card-body  h-100'>
-        <p>ANT is a practical wireless sensor network protocol running in the 2.4 GHz ISM band. Designed for ultra-low power, ease of use, efficiency and scalability, ANT easily handles peer-to-peer, star, connected star, tree and fixed mesh topologies.</p>
+        <h5 id="blast-networking-technology-https-en-wikipedia-org-wiki-dash7">BLAST networking technology <a href="https://en.wikipedia.org/wiki/DASH7">&hellip;</a></h5>
 
-<p>ANT provides reliable data communications, flexible and adaptive network operation and cross-talk immunity. ANT protocol stack is extremely compact, requiring minimal microcontroller resources and considerably reduces system costs.</p>
+<p>Networks based on DASH7 differ from typical wire-line and wireless networks utilizing a &ldquo;session&rdquo;. DASH7 networks serves applications in which low power usage is essential, and data transmission is typically much slower and/or sporadic, like basic telemetry. Thus instead of replicating a wire-line &ldquo;session&rdquo;, DASH7 was designed with the concept of B.L.A.S.T.:</p>
 
-<p>ANT provides carefree handling of the Physical, Network and Transport OSI layers. In addition, it incorporates key low-level security features that form the foundation for user-defined sophisticated network security implementations. ANT ensures adequate user control while considerably lightening computational burden in providing a simple yet effective wireless networking solution.</p>
+<ul>
+<li>Bursty: Data transfer is abrupt and does not include content such as video, audio, or other isochronous forms of data.<br /></li>
+<li>Light: For most applications, packet sizes are limited to 256 bytes. Transmission of multiple, consecutive packets may occur but is generally avoided if possible.<br /></li>
+<li>Asynchronous: DASH7&rsquo;s main method of communication is by command-response, which by design requires no periodic network &ldquo;hand-shaking&rdquo; or synchronization between devices.<br /></li>
+<li>Stealth: DASH7 devices does not need periodic beaconing to be able to respond in communication.<br /></li>
+<li>Transitive: A DASH7 system of devices is inherently mobile or transitional. Unlike other wireless technologies DASH7 is upload-centric, not download-centric, thus devices do not need to be managed extensively by fixed infrastructure (i.e. base stations).<br />
+<br /></li>
+</ul>
 
-<p>The interface between ANT and the Host application has been designed with the utmost simplicity in mind such that ANT can be easily and quickly implemented into new devices and applications. The encapsulation of the wireless protocol complexity within the ANT chipset vastly reduces the burden on the application host controller, allowing a low-cost 4-bit or 8-bit Microcontroller (MCU) to establish and maintain complex wireless networks. Data transfers can be scheduled in a deterministic or ad-hoc fashion. A burst mode allows for the efficient transfer of large amounts of stored data to and from a PC or other computing device.</p>
+<h5 id="oss-7">OSS-7</h5>
 
-<p>A typical ANT-enabled device consists of an application host MCU interfaced with an ANT module, chipset or chip. The host MCU establishes and maintains a communication session to other remote ANT-enabled devices by means of a simple, bidirectional, serial message protocol. This document details the protocol and provides examples of how to use ANT for wireless networking.</p>
+<p>OSS-7 is an open source implementation of the DASH7 Alliance protocol. The aim of the project is to provide a reference implementation of the protocol stack which allowing fast development and prototyping of DASH7 based products. This implementation focuses on completeness, correctness and being easy to use and understand. Performance and code size are less important aspects. For clarity a clear separation between the ISO layers is maintained in the code. <a href="http://mosaic-lopow.github.io/dash7-ap-open-source-stack/">Read more</a></p>
 
         
         <footer class="blockquote-footer ">
             <small>
-                thisisant.com
+                Wikipedia and dash7-alliance.org
             </small>
         </footer>
         
@@ -120,10 +142,9 @@ ANT&#43; is a wireless protocol for monitoring sensor data such as a person&#39;
             <h4 class="card-title">Links</h4>
         </div>
         <ul class="list-group list-group-flush">
-    <a href="https://www.thisisant.com/resources/ant-message-protocol-and-usage" class="list-group-item list-group-item-action ">ANT Message Protocol and Usage</a>
-    <a href="https://www.thisisant.com/directory" class="list-group-item list-group-item-action ">Product Directory</a>
-    <a href="https://www.thisisant.com/developer/ant/ant-basics/#105_tab" class="list-group-item list-group-item-action ">ANT basics</a>
-    <a href="https://buy.garmin.com/en-GB/GB/p/10997" class="list-group-item list-group-item-action ">Garmin&#39;s USB ANT Stick</a>
+    <a href="http://www.dash7-alliance.org/" class="list-group-item list-group-item-action ">DASH7 Alliance</a>
+    <a href="http://www.dash7-alliance.org/product/d7ap1-1/" class="list-group-item list-group-item-action ">Spec 1.1</a>
+    <a href="http://mosaic-lopow.github.io/dash7-ap-open-source-stack/" class="list-group-item list-group-item-action ">Open Source Stack</a>
 </ul>
     </div>
 </div></p>
@@ -139,9 +160,7 @@ ANT&#43; is a wireless protocol for monitoring sensor data such as a person&#39;
                             
                             <a href="/tags/wireless"><span class="badge badge-light">Wireless</span></a>
                             
-                            <a href="/tags/mesh"><span class="badge badge-light">Mesh</span></a>
-                            
-                            <a href="/tags/remote-control"><span class="badge badge-light">Remote Control</span></a>
+                            <a href="/tags/open-source"><span class="badge badge-light">Open Source</span></a>
                           
                     </div>
                 </div>
@@ -151,11 +170,11 @@ ANT&#43; is a wireless protocol for monitoring sensor data such as a person&#39;
             <div class="card text-white bg-primary">
                 <div class="card-body">
                     <h3 class="card-title">Share</h3>
-                    <a class="btn btn-lg btn-primary" href='https://twitter.com/intent/tweet?hashtags=protocol%2cwireless%2cmesh%2cremote-control&text=ANT%2b&url=http%3a%2f%2fdistributedfog.com%2fsensor-network%2fant%2f'>
+                    <a class="btn btn-lg btn-primary" href='https://twitter.com/intent/tweet?hashtags=protocol%2cwireless%2copen-source&text=DASH7&url=http%3a%2f%2fdistributedfog.com%2fsensor-network%2fdash7%2f'>
                         <i class="fa fa-twitter" aria-hidden="true"></i></a>
-                    <a class="btn btn-lg btn-primary" href='https://www.facebook.com/sharer/sharer.php?u%3dhttp%253A%252F%252Fdistributedfog.com%252Fsensor-network%252Fant%252F'>
+                    <a class="btn btn-lg btn-primary" href='https://www.facebook.com/sharer/sharer.php?u%3dhttp%253A%252F%252Fdistributedfog.com%252Fsensor-network%252Fdash7%252F'>
                         <i class="fa fa-facebook" aria-hidden="true"></i></a>
-                    <a class="btn btn-lg btn-primary" href='https://plus.google.com/share?url=http%3a%2f%2fdistributedfog.com%2fsensor-network%2fant%2f'>
+                    <a class="btn btn-lg btn-primary" href='https://plus.google.com/share?url=http%3a%2f%2fdistributedfog.com%2fsensor-network%2fdash7%2f'>
                         <i class="fa fa-google-plus" aria-hidden="true"></i></a>
                 </div>
             </div>
@@ -166,8 +185,8 @@ ANT&#43; is a wireless protocol for monitoring sensor data such as a person&#39;
             <div id="disqus_thread"></div>
             <script>
                 var disqus_config = function () {
-                    this.page.url = "http://distributedfog.com/sensor-network/ant/";
-                    this.page.identifier = "31b83f32f53c52cdf794e837d65d45eb";
+                    this.page.url = "http://distributedfog.com/sensor-network/dash7/";
+                    this.page.identifier = "afe0b8f6a93a634db58d9247449defca";
                 };
                 (function() { 
                     var d = document, s = d.createElement('script');
@@ -230,11 +249,11 @@ ANT&#43; is a wireless protocol for monitoring sensor data such as a person&#39;
     "articleSection" : "sensor-network",
     "mainEntityOfPage": {
         "@type": "WebPage",
-        "@id": "http://distributedfog.com/sensor-network/ant/"
+        "@id": "http://distributedfog.com/sensor-network/dash7/"
     },
-    "name" : "ANT&#43;",
-    "headline" : "ANT&#43;",
-    "description" : "ANT&#43; is a wireless protocol for monitoring sensor data such as a person&#39;s heart rate or a car&#39;s tyre/tire pressure, as well as the control of systems like indoor lighting or a television set.",
+    "name" : "DASH7",
+    "headline" : "DASH7",
+    "description" : "DASH7 Alliance Protocol (D7A) is an open source Wireless Sensor and Actuator Network protocol, which operates in the 433 MHz, 868 MHz and 915 MHz unlicensed ISM band/SRD band. DASH7 provides multi-year battery life, range of up to 2 km, low latency for connecting with moving things, a very small open source protocol stack, AES 128-bit shared key encryption support, and data transfer of up to 167 kbit/s.",
     "inLanguage" : "en-GB",
     "author" : "DistributedFog.com",
     "creator" : "",
@@ -252,10 +271,10 @@ ANT&#43; is a wireless protocol for monitoring sensor data such as a person&#39;
         }
     },
     "logo": "",
-    "url" : "http://distributedfog.com/sensor-network/ant/",
-    "wordCount" : "321",
+    "url" : "http://distributedfog.com/sensor-network/dash7/",
+    "wordCount" : "411",
     "image" : "http://distributedfog.com/img/logo.png",
-    "keywords" : [ "protocol, wireless, mesh, remote control" ]
+    "keywords" : [ "protocol, wireless, open source" ]
 }
 </script>
 

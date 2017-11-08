@@ -25,6 +25,15 @@ Series Comparison &amp;hellip;    Arduino CPU SRAM Flash     Yún 400 MHz 64 MB 
     </item>
     
     <item>
+      <title>Bluetooth</title>
+      <link>http://distributedfog.com/sensor-network/bluetooth/</link>
+      <pubDate>Wed, 11 Oct 2017 17:56:48 +0100</pubDate>
+      
+      <guid>http://distributedfog.com/sensor-network/bluetooth/</guid>
+      <description>Bluetooth is a wireless technology standard for exchanging data over short distances (using short-wavelength UHF radio waves in the industrial, scientific and medical (ISM) radio bands from 2.4 to 2.485 GHz) from fixed and mobile devices, and building personal area networks (PANs). Bluetooth Low Energy or Smart is intended to provide considerably reduced power consumption and cost while maintaining a similar communication range.  Wikipedia     Feature Compare &amp;hellip;    Feature BT-LE BT     Audio/Headset No Yes   Data Yes Yes   A/V Control Non-Native Native   Throughput Low Medium   Authentication No For Non-Audio Only</description>
+    </item>
+    
+    <item>
       <title>Microbit</title>
       <link>http://distributedfog.com/kit/microbit/</link>
       <pubDate>Wed, 11 Oct 2017 17:56:48 +0100</pubDate>
@@ -45,6 +54,15 @@ Series Comparison    RPi CPU RAM WiFi     3 4 x 1.</description>
     </item>
     
     <item>
+      <title>Zigbee</title>
+      <link>http://distributedfog.com/sensor-network/zigbee/</link>
+      <pubDate>Wed, 11 Oct 2017 17:56:48 +0100</pubDate>
+      
+      <guid>http://distributedfog.com/sensor-network/zigbee/</guid>
+      <description>Zigbee is an IEEE 802.15.4-based specification for a suite of high-level communication protocols used to create personal area networks with small, low-power digital radios, such as for home automation, medical device data collection, and other low-power low-bandwidth needs, designed for small scale projects which need wireless connection.  Wikipedia     IEEE 802.15.4 IEEE 802.15.4 is a technical standard which defines the operation of low-rate wireless personal area networks (LR-WPANs).</description>
+    </item>
+    
+    <item>
       <title>1888.3</title>
       <link>http://distributedfog.com/security/18883-green-security/</link>
       <pubDate>Wed, 11 Oct 2017 17:56:48 +0100</pubDate>
@@ -53,6 +71,15 @@ Series Comparison    RPi CPU RAM WiFi     3 4 x 1.</description>
       <description>Green Security is a new research field defining and investigating security solutions under an energy-aware perspective. 1888.3 describes the enhanced security management function for the IEEE 1888 &amp;#39;Ubiquitous Green Community Control Network Protocol&amp;#39;.  IEEE     Research Smart meter, Efficient Power Grid Algorithms, Proxy, Survey on Protocols and Standards, Real-time Smart Grid
  
 Ubiquitous computing (or &amp;ldquo;ubicomp&amp;rdquo;) is a concept in software engineering and computer science where computing is made to appear anytime and everywhere.</description>
+    </item>
+    
+    <item>
+      <title>6LoWPAN</title>
+      <link>http://distributedfog.com/sensor-network/6lowpan/</link>
+      <pubDate>Wed, 11 Oct 2017 17:56:48 +0100</pubDate>
+      
+      <guid>http://distributedfog.com/sensor-network/6lowpan/</guid>
+      <description>The 6LoWPAN concept originated from the idea that &amp;#39;the Internet Protocol could and should be applied even to the smallest devices,&amp;#39; and that low-power devices with limited processing capabilities should be able to participate in the Internet of Things. The 6LoWPAN group has defined encapsulation and header compression mechanisms that allow IPv6 packets to be sent and received over IEEE 802.15.4 (LR-WPAN) based networks.  Wikipedia     Thread Thread is a standard suggested by Nest Labs based on IEEE 802.</description>
     </item>
     
     <item>
@@ -84,15 +111,6 @@ ANT is a practical wireless sensor network protocol running in the 2.4 GHz ISM b
       <description>Beagles are low-cost, fan-less single-board computers based on low-power Texas Instruments processors featuring the ARM Cortex-A series core with all of the expandability of today&amp;#39;s desktop machines, but without the bulk, expense, or noise. Initially, development was targeted at enabling Linux distributions to improve support for ARM devices.  BeagleBoard.org     BeagleBone VS BeagleBone Black 
  elinux.org    
 BeagleBoard The USB-powered BeagleBoard is a low-cost, fan-less single board computer that unleashes laptop-like performance and expandability without the bulk, expense, or noise of typical desktop machines.</description>
-    </item>
-    
-    <item>
-      <title>Bluetooth</title>
-      <link>http://distributedfog.com/sensor-network/bluetooth/</link>
-      <pubDate>Wed, 11 Oct 2017 17:56:48 +0100</pubDate>
-      
-      <guid>http://distributedfog.com/sensor-network/bluetooth/</guid>
-      <description>Bluetooth is a wireless technology standard for exchanging data over short distances (using short-wavelength UHF radio waves in the industrial, scientific and medical (ISM) radio bands from 2.4 to 2.485 GHz) from fixed and mobile devices, and building personal area networks (PANs). Bluetooth Low Energy or Smart is intended to provide considerably reduced power consumption and cost while maintaining a similar communication range.  Wikipedia     Feature Compare &amp;hellip;    Feature BT-LE BT     Audio/Headset No Yes   Data Yes Yes   A/V Control Non-Native Native   Throughput Low Medium   Authentication No For Non-Audio Only</description>
     </item>
     
     <item>
@@ -144,6 +162,15 @@ Programming on Contiki is done using the Cooja network simulator. To program, co
       
       <guid>http://distributedfog.com/kit/cubieboard/</guid>
       <description>Cubieboard is a single-board computer which can run Android 4 ICS, Ubuntu 12.04 desktop, Fedora 19 ARM Remix desktop, Arch Linux ARM, a Debian-based Cubian distribution, or OpenBSD. It uses the AllWinner A10 SoC, popular on cheap tablets, phones and media PCs. This SoC is used by developers of the lima driver, an open-source driver for the ARM Mali GPU.  Wikipedia     Cubietruck Plus (Cubieboard 5) Hardware (More Models)  SoC: Allwinner H8</description>
+    </item>
+    
+    <item>
+      <title>DASH7</title>
+      <link>http://distributedfog.com/sensor-network/dash7/</link>
+      <pubDate>Wed, 11 Oct 2017 17:56:48 +0100</pubDate>
+      
+      <guid>http://distributedfog.com/sensor-network/dash7/</guid>
+      <description>DASH7 Alliance Protocol (D7A) is an open source Wireless Sensor and Actuator Network protocol, which operates in the 433 MHz, 868 MHz and 915 MHz unlicensed ISM band/SRD band. DASH7 provides multi-year battery life, range of up to 2 km, low latency for connecting with moving things, a very small open source protocol stack, AES 128-bit shared key encryption support, and data transfer of up to 167 kbit/s.  Wikipedia     Why DASH7?</description>
     </item>
     
     <item>
@@ -231,6 +258,24 @@ HTTP/2 Server Push allows you to send site assets to the user before they’ve e
       
       <guid>http://distributedfog.com/security/ipsec/</guid>
       <description>IPsec is a network protocol suite that authenticates and encrypts the packets of data sent over a network. IPsec includes protocols for establishing mutual authentication between agents at the beginning of the session and negotiation of cryptographic keys to use during the session.  Wikipedia     Specifications RFC 4301 defines a Security Architecture for the Internet Protocol, while RFC 4303 defines the Encapsulating Security Payload (ESP) protocol and RFC 4309 describes the use of Advanced Encryption Standard (AES) in Counter with CBC-MAC (CCM) Mode as an IPsec Encapsulating Security Payload (ESP) mechanism.</description>
+    </item>
+    
+    <item>
+      <title>IR</title>
+      <link>http://distributedfog.com/sensor-network/ir/</link>
+      <pubDate>Wed, 11 Oct 2017 17:56:48 +0100</pubDate>
+      
+      <guid>http://distributedfog.com/sensor-network/ir/</guid>
+      <description>Infrared radiation, or simply infrared or IR, is electromagnetic radiation (EMR) with longer wavelengths than those of visible light, and is therefore invisible, although it is sometimes loosely called infrared light. IR data transmission is employed in short-range communication among computer peripherals and personal digital assistants.  Wikipedia     IrDA IrDA refers to a complete set of protocols for wireless infrared communications. The main reason for using IrDA had been wireless data transfer over the “last one meter” using point-and-shoot principles.</description>
+    </item>
+    
+    <item>
+      <title>Insteon</title>
+      <link>http://distributedfog.com/sensor-network/insteon/</link>
+      <pubDate>Wed, 11 Oct 2017 17:56:48 +0100</pubDate>
+      
+      <guid>http://distributedfog.com/sensor-network/insteon/</guid>
+      <description>Insteon is a home automation technology that enables light switches, lights, thermostats, leak sensors, remote controls, motion sensors, and other electrically powered devices to interoperate through power lines, radio frequency (RF) communications, or both. It employs a dual-mesh networking topology in which all devices are peers and each device independently transmits, receives, and repeats messages.  Wikipedia     Insteon Hub Insteon Hub is a simple and straightforward device that connects you to your home from any smartphone or tablet, anywhere in the world.</description>
     </item>
     
     <item>
@@ -499,12 +544,12 @@ XMPP supports different communication patterns, such as Request/Response, Asynch
     </item>
     
     <item>
-      <title>Zigbee</title>
-      <link>http://distributedfog.com/sensor-network/zigbee/</link>
+      <title>Z-Wave</title>
+      <link>http://distributedfog.com/sensor-network/z-wave/</link>
       <pubDate>Wed, 11 Oct 2017 17:56:48 +0100</pubDate>
       
-      <guid>http://distributedfog.com/sensor-network/zigbee/</guid>
-      <description>Zigbee is an IEEE 802.15.4-based specification for a suite of high-level communication protocols used to create personal area networks with small, low-power digital radios, such as for home automation, medical device data collection, and other low-power low-bandwidth needs, designed for small scale projects which need wireless connection.  Wikipedia     IEEE 802.15.4 IEEE 802.15.4 is a technical standard which defines the operation of low-rate wireless personal area networks (LR-WPANs).</description>
+      <guid>http://distributedfog.com/sensor-network/z-wave/</guid>
+      <description>Z-Wave is a wireless communications protocol used primarily for home automation. It is a mesh network using low-energy radio waves to communicate from appliance to appliance, allowing for wireless control of residential appliances and other devices, such as lighting control, security systems, thermostats, windows, locks, swimming pools and garage door openers.  Wikipedia     Essentials  Low Powered RF communications technology that supports full mesh networks without the need for a coordinator node</description>
     </item>
     
     <item>

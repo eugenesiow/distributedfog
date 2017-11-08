@@ -45,6 +45,15 @@ BeagleBoard The USB-powered BeagleBoard is a low-cost, fan-less single board com
     </item>
     
     <item>
+      <title>DASH7</title>
+      <link>http://distributedfog.com/sensor-network/dash7/</link>
+      <pubDate>Wed, 11 Oct 2017 17:56:48 +0100</pubDate>
+      
+      <guid>http://distributedfog.com/sensor-network/dash7/</guid>
+      <description>DASH7 Alliance Protocol (D7A) is an open source Wireless Sensor and Actuator Network protocol, which operates in the 433 MHz, 868 MHz and 915 MHz unlicensed ISM band/SRD band. DASH7 provides multi-year battery life, range of up to 2 km, low latency for connecting with moving things, a very small open source protocol stack, AES 128-bit shared key encryption support, and data transfer of up to 167 kbit/s.  Wikipedia     Why DASH7?</description>
+    </item>
+    
+    <item>
       <title>Gizmo2</title>
       <link>http://distributedfog.com/kit/gizmo2/</link>
       <pubDate>Wed, 11 Oct 2017 17:56:48 +0100</pubDate>

@@ -32,6 +32,15 @@ ANT is a practical wireless sensor network protocol running in the 2.4 GHz ISM b
     </item>
     
     <item>
+      <title>Z-Wave</title>
+      <link>http://distributedfog.com/sensor-network/z-wave/</link>
+      <pubDate>Wed, 11 Oct 2017 17:56:48 +0100</pubDate>
+      
+      <guid>http://distributedfog.com/sensor-network/z-wave/</guid>
+      <description>Z-Wave is a wireless communications protocol used primarily for home automation. It is a mesh network using low-energy radio waves to communicate from appliance to appliance, allowing for wireless control of residential appliances and other devices, such as lighting control, security systems, thermostats, windows, locks, swimming pools and garage door openers.  Wikipedia     Essentials  Low Powered RF communications technology that supports full mesh networks without the need for a coordinator node</description>
+    </item>
+    
+    <item>
       <title>Zigbee</title>
       <link>http://distributedfog.com/sensor-network/zigbee/</link>
       <pubDate>Wed, 11 Oct 2017 17:56:48 +0100</pubDate>

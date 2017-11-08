@@ -6,7 +6,7 @@
     <meta name="description" content="All about the Internet of Things Landscape including technologies, protocols, applications, platforms and research.">
     <meta name="author" content="DistributedFog.com">
 
-    <title>DistributedFog: ANT&#43;</title>
+    <title>DistributedFog: Insteon</title>
 
     
     <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0-beta/css/bootstrap.min.css" integrity="sha384-/Y6pD6FV/Vv2HJnA6t+vslU6fwYXjCFtcEpHbNJ0lyAFsXTsjBbfaDjzALeQsN6M" crossorigin="anonymous">
@@ -48,13 +48,13 @@ ga('send', 'pageview');
                 
                 <a class="dropdown-item " href="/sensor-network/6lowpan/">6LoWPAN</a>
                 
-                <a class="dropdown-item active" href="/sensor-network/ant/">ANT&#43;</a>
+                <a class="dropdown-item " href="/sensor-network/ant/">ANT&#43;</a>
                 
                 <a class="dropdown-item " href="/sensor-network/dash7/">DASH7</a>
                 
                 <a class="dropdown-item " href="/sensor-network/ir/">IR</a>
                 
-                <a class="dropdown-item " href="/sensor-network/insteon/">Insteon</a>
+                <a class="dropdown-item active" href="/sensor-network/insteon/">Insteon</a>
                 
                 <a class="dropdown-item " href="/sensor-network/">Sensor Networks</a>
                 
@@ -62,17 +62,17 @@ ga('send', 'pageview');
                 
             </div>
         </li>
-        <li class="breadcrumb-item active">ANT&#43;</li>
+        <li class="breadcrumb-item active">Insteon</li>
     </ol>
 </header>
 <div class="container container-section">
     
-    <h1>ANT&#43; </h1>
+    <h1>Insteon </h1>
     <div class="row">
         <div class='col-sm-4 py-2'>
     <div class='card card-body bg-info text-white h-100'>
         
-ANT&#43; is a wireless protocol for monitoring sensor data such as a person&#39;s heart rate or a car&#39;s tyre/tire pressure, as well as the control of systems like indoor lighting or a television set.
+Insteon is a home automation technology that enables light switches, lights, thermostats, leak sensors, remote controls, motion sensors, and other electrically powered devices to interoperate through power lines, radio frequency (RF) communications, or both. It employs a dual-mesh networking topology in which all devices are peers and each device independently transmits, receives, and repeats messages.
 
         
         <footer class="blockquote-footer text-white">
@@ -84,9 +84,21 @@ ANT&#43; is a wireless protocol for monitoring sensor data such as a person&#39;
     </div>
 </div>
 
-<p><div class='col-sm-8 py-2'>
+<p><div class='col-sm-4 py-2'>
     <div class='card card-body  h-100'>
-        <p><a href="https://www.thisisant.com/developer/ant/ant-basics/#104_tab" target="_blank"><img src="/img/articles/ant-layers.png" title="ANT Layers in Standard ANT/HOST and System on Chip Devices" style="width: 100%;"></a></p>
+        <h3 id="insteon-hub">Insteon Hub</h3>
+
+<p>Insteon Hub is a simple and straightforward device that connects you to your home from any smartphone or tablet, anywhere in the world. Control Insteon light bulbs, wall switches, outlets, and thermostats at home or remotely and receive instant email or push notification alerts from motion, door and window, water leak, and smoke sensors while you’re away.</p>
+
+        
+    </div>
+</div></p>
+
+<p><div class='col-sm-4 py-2'>
+    <div class='card card-body  h-100'>
+        <h3 id="insteon-homekit-hub">Insteon HomeKit Hub</h3>
+
+<p><a href="https://developer.apple.com/homekit/">HomeKit</a> devices use Bluetooth and Wi-Fi to communicate, but Insteon’s family of home control devices (lights, plugs, switches, sensors, cameras, locks, the works) use a different dual-band communication technology that combines both wireless and powerline networking. The Insteon Hub acts as a bridge between Insteon’s mesh network and your regular Wi-Fi network, so you can reach your Insteon devices from outside of the house, and to bridge your Insteon system with HomeKit.</p>
 
         
     </div>
@@ -94,20 +106,16 @@ ANT&#43; is a wireless protocol for monitoring sensor data such as a person&#39;
 
 <p><div class='col-sm-8 py-2'>
     <div class='card card-body  h-100'>
-        <p>ANT is a practical wireless sensor network protocol running in the 2.4 GHz ISM band. Designed for ultra-low power, ease of use, efficiency and scalability, ANT easily handles peer-to-peer, star, connected star, tree and fixed mesh topologies.</p>
+        <h5 id="protocol-specifications">Protocol Specifications</h5>
 
-<p>ANT provides reliable data communications, flexible and adaptive network operation and cross-talk immunity. ANT protocol stack is extremely compact, requiring minimal microcontroller resources and considerably reduces system costs.</p>
+<p>INSTEON messages are fixed in length and synchronized to the AC powerline zero crossings. They do not contain routing information beyond a source and destination address. INSTEON is reliable and affordable because it is optimized for command and control, not high-speed data transport. INSTEON allows infrastructure devices like light switches and sensors to be networked together in large numbers, at low cost. INSTEON stands on its own, but can also bridge to other networks, such as WiFi LANs, the Internet, telephony, and entertainment distribution systems. Such bridging allows INSTEON to be part of very sophisticated integrated home control environments.</p>
 
-<p>ANT provides carefree handling of the Physical, Network and Transport OSI layers. In addition, it incorporates key low-level security features that form the foundation for user-defined sophisticated network security implementations. ANT ensures adequate user control while considerably lightening computational burden in providing a simple yet effective wireless networking solution.</p>
-
-<p>The interface between ANT and the Host application has been designed with the utmost simplicity in mind such that ANT can be easily and quickly implemented into new devices and applications. The encapsulation of the wireless protocol complexity within the ANT chipset vastly reduces the burden on the application host controller, allowing a low-cost 4-bit or 8-bit Microcontroller (MCU) to establish and maintain complex wireless networks. Data transfers can be scheduled in a deterministic or ad-hoc fashion. A burst mode allows for the efficient transfer of large amounts of stored data to and from a PC or other computing device.</p>
-
-<p>A typical ANT-enabled device consists of an application host MCU interfaced with an ANT module, chipset or chip. The host MCU establishes and maintains a communication session to other remote ANT-enabled devices by means of a simple, bidirectional, serial message protocol. This document details the protocol and provides examples of how to use ANT for wireless networking.</p>
+<p><a href="http://cache.insteon.com/pdf/insteondetails.pdf" target="_blank"><img src="/img/articles/insteon.png" title="Insteon Specifications" style="width: 100%;"></a></p>
 
         
         <footer class="blockquote-footer ">
             <small>
-                thisisant.com
+                Insteon Whitepaper
             </small>
         </footer>
         
@@ -120,10 +128,10 @@ ANT&#43; is a wireless protocol for monitoring sensor data such as a person&#39;
             <h4 class="card-title">Links</h4>
         </div>
         <ul class="list-group list-group-flush">
-    <a href="https://www.thisisant.com/resources/ant-message-protocol-and-usage" class="list-group-item list-group-item-action ">ANT Message Protocol and Usage</a>
-    <a href="https://www.thisisant.com/directory" class="list-group-item list-group-item-action ">Product Directory</a>
-    <a href="https://www.thisisant.com/developer/ant/ant-basics/#105_tab" class="list-group-item list-group-item-action ">ANT basics</a>
-    <a href="https://buy.garmin.com/en-GB/GB/p/10997" class="list-group-item list-group-item-action ">Garmin&#39;s USB ANT Stick</a>
+    <a href="http://www.insteon.com/" class="list-group-item list-group-item-action ">Insteon (Company)</a>
+    <a href="http://www.insteon.com/insteon-hub" class="list-group-item list-group-item-action ">Hub</a>
+    <a href="http://cache.insteon.com/pdf/insteondetails.pdf" class="list-group-item list-group-item-action ">Whitepaper</a>
+    <a href="http://cache.insteon.com/pdf/INSTEONCompared.pdf" class="list-group-item list-group-item-action ">Comparison to other protocols</a>
 </ul>
     </div>
 </div></p>
@@ -139,9 +147,7 @@ ANT&#43; is a wireless protocol for monitoring sensor data such as a person&#39;
                             
                             <a href="/tags/wireless"><span class="badge badge-light">Wireless</span></a>
                             
-                            <a href="/tags/mesh"><span class="badge badge-light">Mesh</span></a>
-                            
-                            <a href="/tags/remote-control"><span class="badge badge-light">Remote Control</span></a>
+                            <a href="/tags/smart-home"><span class="badge badge-light">Smart Home</span></a>
                           
                     </div>
                 </div>
@@ -151,11 +157,11 @@ ANT&#43; is a wireless protocol for monitoring sensor data such as a person&#39;
             <div class="card text-white bg-primary">
                 <div class="card-body">
                     <h3 class="card-title">Share</h3>
-                    <a class="btn btn-lg btn-primary" href='https://twitter.com/intent/tweet?hashtags=protocol%2cwireless%2cmesh%2cremote-control&text=ANT%2b&url=http%3a%2f%2fdistributedfog.com%2fsensor-network%2fant%2f'>
+                    <a class="btn btn-lg btn-primary" href='https://twitter.com/intent/tweet?hashtags=protocol%2cwireless%2csmart-home&text=Insteon&url=http%3a%2f%2fdistributedfog.com%2fsensor-network%2finsteon%2f'>
                         <i class="fa fa-twitter" aria-hidden="true"></i></a>
-                    <a class="btn btn-lg btn-primary" href='https://www.facebook.com/sharer/sharer.php?u%3dhttp%253A%252F%252Fdistributedfog.com%252Fsensor-network%252Fant%252F'>
+                    <a class="btn btn-lg btn-primary" href='https://www.facebook.com/sharer/sharer.php?u%3dhttp%253A%252F%252Fdistributedfog.com%252Fsensor-network%252Finsteon%252F'>
                         <i class="fa fa-facebook" aria-hidden="true"></i></a>
-                    <a class="btn btn-lg btn-primary" href='https://plus.google.com/share?url=http%3a%2f%2fdistributedfog.com%2fsensor-network%2fant%2f'>
+                    <a class="btn btn-lg btn-primary" href='https://plus.google.com/share?url=http%3a%2f%2fdistributedfog.com%2fsensor-network%2finsteon%2f'>
                         <i class="fa fa-google-plus" aria-hidden="true"></i></a>
                 </div>
             </div>
@@ -166,8 +172,8 @@ ANT&#43; is a wireless protocol for monitoring sensor data such as a person&#39;
             <div id="disqus_thread"></div>
             <script>
                 var disqus_config = function () {
-                    this.page.url = "http://distributedfog.com/sensor-network/ant/";
-                    this.page.identifier = "31b83f32f53c52cdf794e837d65d45eb";
+                    this.page.url = "http://distributedfog.com/sensor-network/insteon/";
+                    this.page.identifier = "4d6d54ea86c45400642d35c6771b5209";
                 };
                 (function() { 
                     var d = document, s = d.createElement('script');
@@ -230,11 +236,11 @@ ANT&#43; is a wireless protocol for monitoring sensor data such as a person&#39;
     "articleSection" : "sensor-network",
     "mainEntityOfPage": {
         "@type": "WebPage",
-        "@id": "http://distributedfog.com/sensor-network/ant/"
+        "@id": "http://distributedfog.com/sensor-network/insteon/"
     },
-    "name" : "ANT&#43;",
-    "headline" : "ANT&#43;",
-    "description" : "ANT&#43; is a wireless protocol for monitoring sensor data such as a person&#39;s heart rate or a car&#39;s tyre/tire pressure, as well as the control of systems like indoor lighting or a television set.",
+    "name" : "Insteon",
+    "headline" : "Insteon",
+    "description" : "Insteon is a home automation technology that enables light switches, lights, thermostats, leak sensors, remote controls, motion sensors, and other electrically powered devices to interoperate through power lines, radio frequency (RF) communications, or both. It employs a dual-mesh networking topology in which all devices are peers and each device independently transmits, receives, and repeats messages.",
     "inLanguage" : "en-GB",
     "author" : "DistributedFog.com",
     "creator" : "",
@@ -252,10 +258,10 @@ ANT&#43; is a wireless protocol for monitoring sensor data such as a person&#39;
         }
     },
     "logo": "",
-    "url" : "http://distributedfog.com/sensor-network/ant/",
-    "wordCount" : "321",
+    "url" : "http://distributedfog.com/sensor-network/insteon/",
+    "wordCount" : "302",
     "image" : "http://distributedfog.com/img/logo.png",
-    "keywords" : [ "protocol, wireless, mesh, remote control" ]
+    "keywords" : [ "protocol, wireless, smart home" ]
 }
 </script>
 

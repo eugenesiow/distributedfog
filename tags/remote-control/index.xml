@@ -22,5 +22,14 @@
 ANT is a practical wireless sensor network protocol running in the 2.4 GHz ISM band. Designed for ultra-low power, ease of use, efficiency and scalability, ANT easily handles peer-to-peer, star, connected star, tree and fixed mesh topologies.</description>
     </item>
     
+    <item>
+      <title>IR</title>
+      <link>http://distributedfog.com/sensor-network/ir/</link>
+      <pubDate>Wed, 11 Oct 2017 17:56:48 +0100</pubDate>
+      
+      <guid>http://distributedfog.com/sensor-network/ir/</guid>
+      <description>Infrared radiation, or simply infrared or IR, is electromagnetic radiation (EMR) with longer wavelengths than those of visible light, and is therefore invisible, although it is sometimes loosely called infrared light. IR data transmission is employed in short-range communication among computer peripherals and personal digital assistants.  Wikipedia     IrDA IrDA refers to a complete set of protocols for wireless infrared communications. The main reason for using IrDA had been wireless data transfer over the “last one meter” using point-and-shoot principles.</description>
+    </item>
+    
   </channel>
 </rss>

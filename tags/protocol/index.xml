@@ -23,6 +23,15 @@ Ubiquitous computing (or &amp;ldquo;ubicomp&amp;rdquo;) is a concept in software
     </item>
     
     <item>
+      <title>6LoWPAN</title>
+      <link>http://distributedfog.com/sensor-network/6lowpan/</link>
+      <pubDate>Wed, 11 Oct 2017 17:56:48 +0100</pubDate>
+      
+      <guid>http://distributedfog.com/sensor-network/6lowpan/</guid>
+      <description>The 6LoWPAN concept originated from the idea that &amp;#39;the Internet Protocol could and should be applied even to the smallest devices,&amp;#39; and that low-power devices with limited processing capabilities should be able to participate in the Internet of Things. The 6LoWPAN group has defined encapsulation and header compression mechanisms that allow IPv6 packets to be sent and received over IEEE 802.15.4 (LR-WPAN) based networks.  Wikipedia     Thread Thread is a standard suggested by Nest Labs based on IEEE 802.</description>
+    </item>
+    
+    <item>
       <title>ANT&#43;</title>
       <link>http://distributedfog.com/sensor-network/ant/</link>
       <pubDate>Wed, 11 Oct 2017 17:56:48 +0100</pubDate>
@@ -54,6 +63,15 @@ CoAP is network-oriented protocol with similar features to HTTP but also allows 
     </item>
     
     <item>
+      <title>DASH7</title>
+      <link>http://distributedfog.com/sensor-network/dash7/</link>
+      <pubDate>Wed, 11 Oct 2017 17:56:48 +0100</pubDate>
+      
+      <guid>http://distributedfog.com/sensor-network/dash7/</guid>
+      <description>DASH7 Alliance Protocol (D7A) is an open source Wireless Sensor and Actuator Network protocol, which operates in the 433 MHz, 868 MHz and 915 MHz unlicensed ISM band/SRD band. DASH7 provides multi-year battery life, range of up to 2 km, low latency for connecting with moving things, a very small open source protocol stack, AES 128-bit shared key encryption support, and data transfer of up to 167 kbit/s.  Wikipedia     Why DASH7?</description>
+    </item>
+    
+    <item>
       <title>DNS-SD</title>
       <link>http://distributedfog.com/discovery/dns-sd/</link>
       <pubDate>Wed, 11 Oct 2017 17:56:48 +0100</pubDate>
@@ -80,6 +98,24 @@ HTTP/2 Server Push allows you to send site assets to the user before they’ve e
       
       <guid>http://distributedfog.com/security/ipsec/</guid>
       <description>IPsec is a network protocol suite that authenticates and encrypts the packets of data sent over a network. IPsec includes protocols for establishing mutual authentication between agents at the beginning of the session and negotiation of cryptographic keys to use during the session.  Wikipedia     Specifications RFC 4301 defines a Security Architecture for the Internet Protocol, while RFC 4303 defines the Encapsulating Security Payload (ESP) protocol and RFC 4309 describes the use of Advanced Encryption Standard (AES) in Counter with CBC-MAC (CCM) Mode as an IPsec Encapsulating Security Payload (ESP) mechanism.</description>
+    </item>
+    
+    <item>
+      <title>IR</title>
+      <link>http://distributedfog.com/sensor-network/ir/</link>
+      <pubDate>Wed, 11 Oct 2017 17:56:48 +0100</pubDate>
+      
+      <guid>http://distributedfog.com/sensor-network/ir/</guid>
+      <description>Infrared radiation, or simply infrared or IR, is electromagnetic radiation (EMR) with longer wavelengths than those of visible light, and is therefore invisible, although it is sometimes loosely called infrared light. IR data transmission is employed in short-range communication among computer peripherals and personal digital assistants.  Wikipedia     IrDA IrDA refers to a complete set of protocols for wireless infrared communications. The main reason for using IrDA had been wireless data transfer over the “last one meter” using point-and-shoot principles.</description>
+    </item>
+    
+    <item>
+      <title>Insteon</title>
+      <link>http://distributedfog.com/sensor-network/insteon/</link>
+      <pubDate>Wed, 11 Oct 2017 17:56:48 +0100</pubDate>
+      
+      <guid>http://distributedfog.com/sensor-network/insteon/</guid>
+      <description>Insteon is a home automation technology that enables light switches, lights, thermostats, leak sensors, remote controls, motion sensors, and other electrically powered devices to interoperate through power lines, radio frequency (RF) communications, or both. It employs a dual-mesh networking topology in which all devices are peers and each device independently transmits, receives, and repeats messages.  Wikipedia     Insteon Hub Insteon Hub is a simple and straightforward device that connects you to your home from any smartphone or tablet, anywhere in the world.</description>
     </item>
     
     <item>
@@ -170,6 +206,15 @@ MQTT-SN is a variation of the main protocol aimed at embedded devices on non-TCP
       <description>XMPP is a communications protocol for message-oriented middleware based on XML. It enables the near-real-time exchange of structured yet extensible data between any two or more network entities.  Wikipedia     Research IoT Deployment, Lightweight IoT Pub/Sub, SmartObjects with mDNS, Cryptographic Hashes
  
 XMPP supports different communication patterns, such as Request/Response, Asynchronous Messaging, Publish/Subscribe, Event subscription (Observe) and Delayed delivery. XMPP also has support for different Quality of Service levels for messaging.</description>
+    </item>
+    
+    <item>
+      <title>Z-Wave</title>
+      <link>http://distributedfog.com/sensor-network/z-wave/</link>
+      <pubDate>Wed, 11 Oct 2017 17:56:48 +0100</pubDate>
+      
+      <guid>http://distributedfog.com/sensor-network/z-wave/</guid>
+      <description>Z-Wave is a wireless communications protocol used primarily for home automation. It is a mesh network using low-energy radio waves to communicate from appliance to appliance, allowing for wireless control of residential appliances and other devices, such as lighting control, security systems, thermostats, windows, locks, swimming pools and garage door openers.  Wikipedia     Essentials  Low Powered RF communications technology that supports full mesh networks without the need for a coordinator node</description>
     </item>
     
     <item>

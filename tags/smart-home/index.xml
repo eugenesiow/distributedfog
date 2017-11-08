@@ -1,0 +1,33 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes" ?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>Smart Home on DistributedFog</title>
+    <link>http://distributedfog.com/tags/smart-home/</link>
+    <description>Recent content in Smart Home on DistributedFog</description>
+    <generator>Hugo -- gohugo.io</generator>
+    <language>en-us</language>
+    <lastBuildDate>Wed, 11 Oct 2017 17:56:48 +0100</lastBuildDate>
+    
+	<atom:link href="http://distributedfog.com/tags/smart-home/index.xml" rel="self" type="application/rss+xml" />
+    
+    
+    <item>
+      <title>Insteon</title>
+      <link>http://distributedfog.com/sensor-network/insteon/</link>
+      <pubDate>Wed, 11 Oct 2017 17:56:48 +0100</pubDate>
+      
+      <guid>http://distributedfog.com/sensor-network/insteon/</guid>
+      <description>Insteon is a home automation technology that enables light switches, lights, thermostats, leak sensors, remote controls, motion sensors, and other electrically powered devices to interoperate through power lines, radio frequency (RF) communications, or both. It employs a dual-mesh networking topology in which all devices are peers and each device independently transmits, receives, and repeats messages.  Wikipedia     Insteon Hub Insteon Hub is a simple and straightforward device that connects you to your home from any smartphone or tablet, anywhere in the world.</description>
+    </item>
+    
+    <item>
+      <title>Z-Wave</title>
+      <link>http://distributedfog.com/sensor-network/z-wave/</link>
+      <pubDate>Wed, 11 Oct 2017 17:56:48 +0100</pubDate>
+      
+      <guid>http://distributedfog.com/sensor-network/z-wave/</guid>
+      <description>Z-Wave is a wireless communications protocol used primarily for home automation. It is a mesh network using low-energy radio waves to communicate from appliance to appliance, allowing for wireless control of residential appliances and other devices, such as lighting control, security systems, thermostats, windows, locks, swimming pools and garage door openers.  Wikipedia     Essentials  Low Powered RF communications technology that supports full mesh networks without the need for a coordinator node</description>
+    </item>
+    
+  </channel>
+</rss>

@@ -6,7 +6,7 @@
     <meta name="description" content="All about the Internet of Things Landscape including technologies, protocols, applications, platforms and research.">
     <meta name="author" content="DistributedFog.com">
 
-    <title>DistributedFog: ANT&#43;</title>
+    <title>DistributedFog: 6LoWPAN</title>
 
     
     <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0-beta/css/bootstrap.min.css" integrity="sha384-/Y6pD6FV/Vv2HJnA6t+vslU6fwYXjCFtcEpHbNJ0lyAFsXTsjBbfaDjzALeQsN6M" crossorigin="anonymous">
@@ -46,9 +46,9 @@ ga('send', 'pageview');
                 
                 <a class="dropdown-item " href="/sensor-network/zigbee/">Zigbee</a>
                 
-                <a class="dropdown-item " href="/sensor-network/6lowpan/">6LoWPAN</a>
+                <a class="dropdown-item active" href="/sensor-network/6lowpan/">6LoWPAN</a>
                 
-                <a class="dropdown-item active" href="/sensor-network/ant/">ANT&#43;</a>
+                <a class="dropdown-item " href="/sensor-network/ant/">ANT&#43;</a>
                 
                 <a class="dropdown-item " href="/sensor-network/dash7/">DASH7</a>
                 
@@ -62,17 +62,17 @@ ga('send', 'pageview');
                 
             </div>
         </li>
-        <li class="breadcrumb-item active">ANT&#43;</li>
+        <li class="breadcrumb-item active">6LoWPAN</li>
     </ol>
 </header>
 <div class="container container-section">
     
-    <h1>ANT&#43; </h1>
+    <h1>6LoWPAN <small>IPv6 over Low-Power Wireless Personal Area Networks</small></h1>
     <div class="row">
         <div class='col-sm-4 py-2'>
     <div class='card card-body bg-info text-white h-100'>
         
-ANT&#43; is a wireless protocol for monitoring sensor data such as a person&#39;s heart rate or a car&#39;s tyre/tire pressure, as well as the control of systems like indoor lighting or a television set.
+The 6LoWPAN concept originated from the idea that &#39;the Internet Protocol could and should be applied even to the smallest devices,&#39; and that low-power devices with limited processing capabilities should be able to participate in the Internet of Things. The 6LoWPAN group has defined encapsulation and header compression mechanisms that allow IPv6 packets to be sent and received over IEEE 802.15.4 (LR-WPAN) based networks.
 
         
         <footer class="blockquote-footer text-white">
@@ -86,28 +86,61 @@ ANT&#43; is a wireless protocol for monitoring sensor data such as a person&#39;
 
 <p><div class='col-sm-8 py-2'>
     <div class='card card-body  h-100'>
-        <p><a href="https://www.thisisant.com/developer/ant/ant-basics/#104_tab" target="_blank"><img src="/img/articles/ant-layers.png" title="ANT Layers in Standard ANT/HOST and System on Chip Devices" style="width: 100%;"></a></p>
+        <h3 id="thread">Thread</h3>
 
+<p><a href="http://threadgroup.org/What-is-Thread/Overview">Thread</a> is a standard suggested by Nest Labs based on IEEE 802.15.4 and 6LoWPAN to connect and control products in the home.</p>
+
+<ul>
+<li>Securely and reliably connect products around the home<br /></li>
+<li>Provides open IPv6 device-to-device and device-to-cloud connections<br /></li>
+<li>Provides security at the network layer<br /></li>
+<li>Devices can route messages with no single point of failure with a robust mesh network<br /></li>
+<li>Install using a smartphone, tablet, or computer (simple setup)<br /></li>
+<li>Based on the power-efficient IEEE 802.15.4 MAC/PHY<br /></li>
+</ul>
+
+        
+        <footer class="blockquote-footer ">
+            <small>
+                threadgroup.org
+            </small>
+        </footer>
         
     </div>
 </div></p>
 
 <p><div class='col-sm-8 py-2'>
     <div class='card card-body  h-100'>
-        <p>ANT is a practical wireless sensor network protocol running in the 2.4 GHz ISM band. Designed for ultra-low power, ease of use, efficiency and scalability, ANT easily handles peer-to-peer, star, connected star, tree and fixed mesh topologies.</p>
+        <p>IPv4 and IPv6 are the work horses for data delivery for local-area networks, metropolitan area networks, and wide-area networks such as the Internet. Likewise, IEEE 802.15.4 low-power personal area network devices provide sensing communication-ability in the wireless domain. The inherent natures of the two networks though, are different.</p>
 
-<p>ANT provides reliable data communications, flexible and adaptive network operation and cross-talk immunity. ANT protocol stack is extremely compact, requiring minimal microcontroller resources and considerably reduces system costs.</p>
+<h5 id="problems-6lowpan-tries-to-solve-are-https-www-rfc-editor-org-rfc-rfc4919-txt">Problems 6LoWPAN tries to solve are <a href="https://www.rfc-editor.org/rfc/rfc4919.txt">&hellip;</a></h5>
 
-<p>ANT provides carefree handling of the Physical, Network and Transport OSI layers. In addition, it incorporates key low-level security features that form the foundation for user-defined sophisticated network security implementations. ANT ensures adequate user control while considerably lightening computational burden in providing a simple yet effective wireless networking solution.</p>
+<ul>
+<li>IP Connectivity<br /></li>
+<li>Supporting Topologies like mesh and star<br /></li>
+<li>Limited Packet Size<br /></li>
+<li>Limited Configuration and Management<br /></li>
+<li>Service Discovery<br /></li>
+<li>Security<br />
+<br /></li>
+</ul>
 
-<p>The interface between ANT and the Host application has been designed with the utmost simplicity in mind such that ANT can be easily and quickly implemented into new devices and applications. The encapsulation of the wireless protocol complexity within the ANT chipset vastly reduces the burden on the application host controller, allowing a low-cost 4-bit or 8-bit Microcontroller (MCU) to establish and maintain complex wireless networks. Data transfers can be scheduled in a deterministic or ad-hoc fashion. A burst mode allows for the efficient transfer of large amounts of stored data to and from a PC or other computing device.</p>
+<h5 id="goals-https-www-rfc-editor-org-rfc-rfc4919-txt">Goals <a href="https://www.rfc-editor.org/rfc/rfc4919.txt">&hellip;</a></h5>
 
-<p>A typical ANT-enabled device consists of an application host MCU interfaced with an ANT module, chipset or chip. The host MCU establishes and maintains a communication session to other remote ANT-enabled devices by means of a simple, bidirectional, serial message protocol. This document details the protocol and provides examples of how to use ANT for wireless networking.</p>
+<ul>
+<li>Fragmentation and Reassembly layer<br /></li>
+<li>Header Compression<br /></li>
+<li>Address Autoconfiguration<br /></li>
+<li>Mesh Routing Protocol<br /></li>
+<li>Network Management<br /></li>
+<li>Implementation Considerations<br /></li>
+<li>Application and higher layer Considerations<br /></li>
+</ul>
 
         
         <footer class="blockquote-footer ">
             <small>
-                thisisant.com
+                RFC 4919
             </small>
         </footer>
         
@@ -120,10 +153,11 @@ ANT&#43; is a wireless protocol for monitoring sensor data such as a person&#39;
             <h4 class="card-title">Links</h4>
         </div>
         <ul class="list-group list-group-flush">
-    <a href="https://www.thisisant.com/resources/ant-message-protocol-and-usage" class="list-group-item list-group-item-action ">ANT Message Protocol and Usage</a>
-    <a href="https://www.thisisant.com/directory" class="list-group-item list-group-item-action ">Product Directory</a>
-    <a href="https://www.thisisant.com/developer/ant/ant-basics/#105_tab" class="list-group-item list-group-item-action ">ANT basics</a>
-    <a href="https://buy.garmin.com/en-GB/GB/p/10997" class="list-group-item list-group-item-action ">Garmin&#39;s USB ANT Stick</a>
+    <a href="https://www.rfc-editor.org/rfc/rfc4944.txt" class="list-group-item list-group-item-action ">RFC 4944 Packets Spec</a>
+    <a href="https://www.rfc-editor.org/rfc/rfc6606.txt" class="list-group-item list-group-item-action ">RFC 6606 Routing</a>
+    <a href="https://tools.ietf.org/html/draft-daniel-6lowpan-interoperability-01" class="list-group-item list-group-item-action ">Interoperability</a>
+    <a href="https://tools.ietf.org/html/rfc6282" class="list-group-item list-group-item-action ">RFC 6282 Header Compression</a>
+    <a href="https://tools.ietf.org/html/rfc6775" class="list-group-item list-group-item-action ">RFC 6775 Neighbour Discovery</a>
 </ul>
     </div>
 </div></p>
@@ -139,9 +173,7 @@ ANT&#43; is a wireless protocol for monitoring sensor data such as a person&#39;
                             
                             <a href="/tags/wireless"><span class="badge badge-light">Wireless</span></a>
                             
-                            <a href="/tags/mesh"><span class="badge badge-light">Mesh</span></a>
-                            
-                            <a href="/tags/remote-control"><span class="badge badge-light">Remote Control</span></a>
+                            <a href="/tags/802.15.4"><span class="badge badge-light">802.15.4</span></a>
                           
                     </div>
                 </div>
@@ -151,11 +183,11 @@ ANT&#43; is a wireless protocol for monitoring sensor data such as a person&#39;
             <div class="card text-white bg-primary">
                 <div class="card-body">
                     <h3 class="card-title">Share</h3>
-                    <a class="btn btn-lg btn-primary" href='https://twitter.com/intent/tweet?hashtags=protocol%2cwireless%2cmesh%2cremote-control&text=ANT%2b&url=http%3a%2f%2fdistributedfog.com%2fsensor-network%2fant%2f'>
+                    <a class="btn btn-lg btn-primary" href='https://twitter.com/intent/tweet?hashtags=protocol%2cwireless%2c802.15.4&text=6LoWPAN&url=http%3a%2f%2fdistributedfog.com%2fsensor-network%2f6lowpan%2f'>
                         <i class="fa fa-twitter" aria-hidden="true"></i></a>
-                    <a class="btn btn-lg btn-primary" href='https://www.facebook.com/sharer/sharer.php?u%3dhttp%253A%252F%252Fdistributedfog.com%252Fsensor-network%252Fant%252F'>
+                    <a class="btn btn-lg btn-primary" href='https://www.facebook.com/sharer/sharer.php?u%3dhttp%253A%252F%252Fdistributedfog.com%252Fsensor-network%252F6lowpan%252F'>
                         <i class="fa fa-facebook" aria-hidden="true"></i></a>
-                    <a class="btn btn-lg btn-primary" href='https://plus.google.com/share?url=http%3a%2f%2fdistributedfog.com%2fsensor-network%2fant%2f'>
+                    <a class="btn btn-lg btn-primary" href='https://plus.google.com/share?url=http%3a%2f%2fdistributedfog.com%2fsensor-network%2f6lowpan%2f'>
                         <i class="fa fa-google-plus" aria-hidden="true"></i></a>
                 </div>
             </div>
@@ -166,8 +198,8 @@ ANT&#43; is a wireless protocol for monitoring sensor data such as a person&#39;
             <div id="disqus_thread"></div>
             <script>
                 var disqus_config = function () {
-                    this.page.url = "http://distributedfog.com/sensor-network/ant/";
-                    this.page.identifier = "31b83f32f53c52cdf794e837d65d45eb";
+                    this.page.url = "http://distributedfog.com/sensor-network/6lowpan/";
+                    this.page.identifier = "85aeaa5ce4057f8550e7eff8452997c2";
                 };
                 (function() { 
                     var d = document, s = d.createElement('script');
@@ -230,11 +262,11 @@ ANT&#43; is a wireless protocol for monitoring sensor data such as a person&#39;
     "articleSection" : "sensor-network",
     "mainEntityOfPage": {
         "@type": "WebPage",
-        "@id": "http://distributedfog.com/sensor-network/ant/"
+        "@id": "http://distributedfog.com/sensor-network/6lowpan/"
     },
-    "name" : "ANT&#43;",
-    "headline" : "ANT&#43;",
-    "description" : "ANT&#43; is a wireless protocol for monitoring sensor data such as a person&#39;s heart rate or a car&#39;s tyre/tire pressure, as well as the control of systems like indoor lighting or a television set.",
+    "name" : "6LoWPAN",
+    "headline" : "6LoWPAN",
+    "description" : "The 6LoWPAN concept originated from the idea that &#39;the Internet Protocol could and should be applied even to the smallest devices,&#39; and that low-power devices with limited processing capabilities should be able to participate in the Internet of Things. The 6LoWPAN group has defined encapsulation and header compression mechanisms that allow IPv6 packets to be sent and received over IEEE 802.15.4 (LR-WPAN) based networks.",
     "inLanguage" : "en-GB",
     "author" : "DistributedFog.com",
     "creator" : "",
@@ -252,10 +284,10 @@ ANT&#43; is a wireless protocol for monitoring sensor data such as a person&#39;
         }
     },
     "logo": "",
-    "url" : "http://distributedfog.com/sensor-network/ant/",
-    "wordCount" : "321",
+    "url" : "http://distributedfog.com/sensor-network/6lowpan/",
+    "wordCount" : "255",
     "image" : "http://distributedfog.com/img/logo.png",
-    "keywords" : [ "protocol, wireless, mesh, remote control" ]
+    "keywords" : [ "protocol, wireless, 802.15.4" ]
 }
 </script>
 

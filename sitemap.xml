@@ -7,6 +7,11 @@
   </url>
   
   <url>
+    <loc>http://distributedfog.com/sensor-network/bluetooth/</loc>
+    <lastmod>2017-10-11T17:56:48+01:00</lastmod>
+  </url>
+  
+  <url>
     <loc>http://distributedfog.com/kit/microbit/</loc>
     <lastmod>2017-10-11T17:56:48+01:00</lastmod>
   </url>
@@ -17,7 +22,17 @@
   </url>
   
   <url>
+    <loc>http://distributedfog.com/sensor-network/zigbee/</loc>
+    <lastmod>2017-10-11T17:56:48+01:00</lastmod>
+  </url>
+  
+  <url>
     <loc>http://distributedfog.com/security/18883-green-security/</loc>
+    <lastmod>2017-10-11T17:56:48+01:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>http://distributedfog.com/sensor-network/6lowpan/</loc>
     <lastmod>2017-10-11T17:56:48+01:00</lastmod>
   </url>
   
@@ -38,11 +53,6 @@
   
   <url>
     <loc>http://distributedfog.com/kit/beagle/</loc>
-    <lastmod>2017-10-11T17:56:48+01:00</lastmod>
-  </url>
-  
-  <url>
-    <loc>http://distributedfog.com/sensor-network/bluetooth/</loc>
     <lastmod>2017-10-11T17:56:48+01:00</lastmod>
   </url>
   
@@ -68,6 +78,11 @@
   
   <url>
     <loc>http://distributedfog.com/kit/cubieboard/</loc>
+    <lastmod>2017-10-11T17:56:48+01:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>http://distributedfog.com/sensor-network/dash7/</loc>
     <lastmod>2017-10-11T17:56:48+01:00</lastmod>
   </url>
   
@@ -138,6 +153,16 @@
   
   <url>
     <loc>http://distributedfog.com/security/ipsec/</loc>
+    <lastmod>2017-10-11T17:56:48+01:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>http://distributedfog.com/sensor-network/ir/</loc>
+    <lastmod>2017-10-11T17:56:48+01:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>http://distributedfog.com/sensor-network/insteon/</loc>
     <lastmod>2017-10-11T17:56:48+01:00</lastmod>
   </url>
   
@@ -307,7 +332,7 @@
   </url>
   
   <url>
-    <loc>http://distributedfog.com/sensor-network/zigbee/</loc>
+    <loc>http://distributedfog.com/sensor-network/z-wave/</loc>
     <lastmod>2017-10-11T17:56:48+01:00</lastmod>
   </url>
   
@@ -379,6 +404,12 @@
   <url>
     <loc>http://distributedfog.com/tag/rfid/</loc>
     <lastmod>2017-10-11T16:24:18+01:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>http://distributedfog.com/tags/802.15.4/</loc>
+    <lastmod>2017-10-11T17:56:48+01:00</lastmod>
+    <priority>0</priority>
   </url>
   
   <url>
@@ -665,6 +696,12 @@
   <url>
     <loc>http://distributedfog.com/tags/smart-city/</loc>
     <lastmod>2017-10-11T16:24:18+01:00</lastmod>
+    <priority>0</priority>
+  </url>
+  
+  <url>
+    <loc>http://distributedfog.com/tags/smart-home/</loc>
+    <lastmod>2017-10-11T17:56:48+01:00</lastmod>
     <priority>0</priority>
   </url>
   
