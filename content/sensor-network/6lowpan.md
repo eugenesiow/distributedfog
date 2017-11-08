@@ -4,7 +4,7 @@ full: "IPv6 over Low-Power Wireless Personal Area Networks"
 type: "article"
 description: "The 6LoWPAN concept originated from the idea that 'the Internet Protocol could and should be applied even to the smallest devices,' and that low-power devices with limited processing capabilities should be able to participate in the Internet of Things. The 6LoWPAN group has defined encapsulation and header compression mechanisms that allow IPv6 packets to be sent and received over IEEE 802.15.4 (LR-WPAN) based networks."
 weight: 0
-tags: ["protocol", "wireless","802.15.4"]
+tags: ["protocol", "wireless","802.15.4","IPv6"]
 date: 2017-10-11T17:56:48+01:00
 ---
 

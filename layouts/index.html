@@ -34,6 +34,12 @@
         {{ $.Scratch.Set "card-title-pretty" "App Protocols" }}
         {{ partial "card.html" . }}
 
+        {{ partial "layer.html" "Processing Layer" }}
+
+        {{ $.Scratch.Set "card-title" "file-system" }}
+        {{ $.Scratch.Set "card-title-pretty" "File Systems" }}
+        {{ partial "card.html" . }}
+
         {{ partial "layer.html" "Network Layer" }}
 
         {{ $.Scratch.Set "card-title" "gateway-network" }}
