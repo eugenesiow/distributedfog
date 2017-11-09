@@ -1,0 +1,275 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+    <meta name="description" content="All about the Internet of Things Landscape including technologies, protocols, applications, platforms and research.">
+    <meta name="author" content="DistributedFog.com">
+
+    <title>DistributedFog: Cloudlet</title>
+
+    
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0-beta/css/bootstrap.min.css" integrity="sha384-/Y6pD6FV/Vv2HJnA6t+vslU6fwYXjCFtcEpHbNJ0lyAFsXTsjBbfaDjzALeQsN6M" crossorigin="anonymous">
+    <link rel="stylesheet" href="https://fonts.googleapis.com/css?family=Roboto:100,400">
+    <link rel="stylesheet" href="//maxcdn.bootstrapcdn.com/font-awesome/4.7.0/css/font-awesome.min.css">
+    
+    <link href='http://distributedfog.com/css/style.css' rel="stylesheet">
+    
+    <link rel="icon" href='http://distributedfog.com/favicon.ico' type="image/x-icon" />
+    
+<script>
+(function(i,s,o,g,r,a,m){i['GoogleAnalyticsObject']=r;i[r]=i[r]||function(){
+(i[r].q=i[r].q||[]).push(arguments)},i[r].l=1*new Date();a=s.createElement(o),
+m=s.getElementsByTagName(o)[0];a.async=1;a.src=g;m.parentNode.insertBefore(a,m)
+})(window,document,'script','https://www.google-analytics.com/analytics.js','ga');
+
+ga('create', 'UA-108097594-1', 'auto');
+ga('send', 'pageview');
+</script>
+
+  </head>
+
+  <body>
+
+      
+
+<header>
+    <ol class="breadcrumb">
+        <li class="breadcrumb-item"><a href='http://distributedfog.com/'>IoT Landscape</a></li>
+        <li class="breadcrumb-item dropdown">
+            <a class="dropdown-toggle" href="#" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
+                Fog Computing
+            </a>
+            <div class="dropdown-menu">
+                
+                <a class="dropdown-item " href="/fog-computing/angels/">ANGELS</a>
+                
+                <a class="dropdown-item " href="/fog-computing/cisco-iox/">Cisco IOx</a>
+                
+                <a class="dropdown-item active" href="/fog-computing/cloudlet/">Cloudlet</a>
+                
+                <a class="dropdown-item " href="/fog-computing/eywa/">Eywa</a>
+                
+                <a class="dropdown-item " href="/fog-computing/">Fog Computing</a>
+                
+            </div>
+        </li>
+        <li class="breadcrumb-item active">Cloudlet</li>
+    </ol>
+</header>
+<div class="container container-section">
+    
+    <h1>Cloudlet </h1>
+    <div class="row">
+        <div class='col-sm-4 py-2'>
+    <div class='card card-body bg-info text-white h-100'>
+        
+A cloudlet is a mobility-enhanced small-scale cloud datacenter that is located at the edge of the Internet. The main purpose of the cloudlet is supporting resource-intensive and interactive mobile applications by providing powerful computing resources to mobile devices with lower latency. It is a new architectural element that extends today’s cloud computing infrastructure.
+
+        
+        <footer class="blockquote-footer text-white">
+            <small>
+                Wikipedia
+            </small>
+        </footer>
+        
+    </div>
+</div>
+
+<p><div class='col-sm-8 py-2'>
+    <div class='card card-body  h-100'>
+        <h3 id="cloudlet-vs-cloud">Cloudlet VS Cloud</h3>
+
+<p>There is significant overlap in the requirements for cloud and cloudlet. At both levels, there is the need for: (a) strong isolation between untrusted user-level computations; (b) mechanisms for authentication, access control, and metering; ( c) dynamic resource allocation for user-level computations; and, (d) the ability to support a very wide range of user-level computations, with minimal restrictions on their process structure, programming languages or operating systems. At a cloud datacenter, these requirements are met today using the virtual machine (VM) abstraction. For the same reasons they are used in cloud computing today, VMs are used as an abstraction for cloudlets. Meanwhile, there are a few but important differentiators between cloud and cloudlet.</p>
+
+<h5 id="rapid-provisioning">Rapid provisioning</h5>
+
+<p>Different from cloud data centers that are optimized for launching existing VM images in their storage tier, cloudlets need to be much more agile in their provisioning. Their association with mobile devices is highly dynamic, with considerable churn due to user mobility. A user from far away may unexpectedly show up at a cloudlet (e.g., if he just got off an international flight) and try to use it for an application such as a personalized language translator. For that user, the provisioning delay before he is able to use the application impacts usability.</p>
+
+<h5 id="vm-handoff-across-cloudlets">VM handoff across cloudlets</h5>
+
+<p>If a mobile device user moves away from the cloudlet he is currently using, the interactive response will degrade as the logical network distance increases. To address this effect of user mobility, the offloaded services on the first cloudlet need to be transferred to the second cloudlet maintaining end-to-end network quality. This resembles live migration in cloud computing but differs considerably in a sense that the VM handoff happens in Wide Area Network (WAN).</p>
+
+        
+        <footer class="blockquote-footer ">
+            <small>
+                elijah.cs.cmu.edu
+            </small>
+        </footer>
+        
+    </div>
+</div></p>
+
+<p><div class='col-sm-8 py-2'>
+    <div class='card card-body  h-100'>
+        <p>A cloudlet is a new architectural element  that arises from the convergence of mobile computing / IoT  and cloud computing.  It represents the middle tier of a 3-tier hierarchy:  mobile or IoT device cloudlet cloud. A cloudlet can be viewed as a &ldquo;data center in a box&rdquo; whose  goal is to &ldquo;bring the cloud closer&rdquo;.</p>
+
+<p>A cloudlet has four key attributes:</p>
+
+<ul>
+<li>only soft state:   It is does not have any hard state, but may contain cached state from the cloud.  It may also buffer data originating from a mobile device (such as video or photographs) en route to safety in the cloud.  The avoidance of hard state means that each cloudlet adds close to zero management burden after installation:  it is entirely self-managing.<br /></li>
+<li>powerful, well-connected and safe:  It possesses sufficient compute power (i.e., CPU, RAM, etc.) to offload resource-intensive computations from one or more mobile devices.  It has excellent connectivity to the cloud (typically a wired Internet connection) and is not limited by finite battery life (i.e., it is plugged into a power outlet).    Its integrity as a computing platform is assumed; in a production-quality implementation this will have to be enforced through some combination of tamper-resistance, surveillance, and run-time attestation.<br /></li>
+<li>close at hand:  It is logically proximate to the associated mobile devices. &ldquo;Logical proximity&rdquo; is defined as  low end-to-end latency and high bandwidth (e.g., one-hop Wi-Fi).   Often, logical proximity implies physical proximity.  However, because of &ldquo;last mile&rdquo; effects, the inverse may not be true: physical proximity may not imply logical proximity.<br /></li>
+<li>builds on standard cloud technology: It encapsulates offload code from mobile devices in  virtual machines (VMs), and thus resembles classic cloud infrastructure such as Amazon EC2 and OpenStack.  In addition, each cloudlet has functionality that is specific to its cloudlet role. <a href="http://elijah.cs.cmu.edu/">Read more</a><br /></li>
+</ul>
+
+        
+        <footer class="blockquote-footer ">
+            <small>
+                cisco.com
+            </small>
+        </footer>
+        
+    </div>
+</div></p>
+
+<p><div class='col-sm-4 py-2'>
+    <div class="card h-100 ">
+        <div class='card-head'>
+            <h4 class="card-title">Links</h4>
+        </div>
+        <ul class="list-group list-group-flush">
+    <a href="https://en.wikipedia.org/wiki/Cloudlet" class="list-group-item list-group-item-action ">Cloudlet Wikipedia</a>
+    <a href="http://elijah.cs.cmu.edu/" class="list-group-item list-group-item-action ">Cloudlet-based Edge Computing</a>
+    <a href="https://www.akamai.com/uk/en/products/web-performance/cloudlets/" class="list-group-item list-group-item-action ">Akamai Cloudlets</a>
+    <a href="http://elijah.cs.cmu.edu/DOCS/satya-ieeepvc-cloudlets-2009.pdf" class="list-group-item list-group-item-action ">The Case for VM-based Cloudlets in Mobile Computing</a>
+    
+</ul>
+    </div>
+</div></p>
+
+        <div class="col-sm-4 py-2">
+            <div class="card h-100">
+                <div class="card-body">
+                    <h3 class="card-title">Categories</h3>
+                    <div class="tag-list">
+                        <a href='http://distributedfog.com/fog-computing'><span class="badge badge-light">Fog Computing</span></a>
+                            
+                            <a href="/tags/software"><span class="badge badge-light">Software</span></a>
+                            
+                            <a href="/tags/virtualisation"><span class="badge badge-light">Virtualisation</span></a>
+                            
+                            <a href="/tags/distributed"><span class="badge badge-light">Distributed</span></a>
+                            
+                            <a href="/tags/cloud"><span class="badge badge-light">Cloud</span></a>
+                            
+                            <a href="/tags/edge"><span class="badge badge-light">Edge</span></a>
+                          
+                    </div>
+                </div>
+            </div>
+        </div>
+        <div class="col-sm-4 py-2">
+            <div class="card text-white bg-primary">
+                <div class="card-body">
+                    <h3 class="card-title">Share</h3>
+                    <a class="btn btn-lg btn-primary" href='https://twitter.com/intent/tweet?hashtags=software%2cvirtualisation%2cdistributed%2ccloud%2cedge&text=Cloudlet&url=http%3a%2f%2fdistributedfog.com%2ffog-computing%2fcloudlet%2f'>
+                        <i class="fa fa-twitter" aria-hidden="true"></i></a>
+                    <a class="btn btn-lg btn-primary" href='https://www.facebook.com/sharer/sharer.php?u%3dhttp%253A%252F%252Fdistributedfog.com%252Ffog-computing%252Fcloudlet%252F'>
+                        <i class="fa fa-facebook" aria-hidden="true"></i></a>
+                    <a class="btn btn-lg btn-primary" href='https://plus.google.com/share?url=http%3a%2f%2fdistributedfog.com%2ffog-computing%2fcloudlet%2f'>
+                        <i class="fa fa-google-plus" aria-hidden="true"></i></a>
+                </div>
+            </div>
+        </div>
+        <div class="col-sm-12 py-2">
+    <div class="card">
+        <div class="card-body">
+            <div id="disqus_thread"></div>
+            <script>
+                var disqus_config = function () {
+                    this.page.url = "http://distributedfog.com/fog-computing/cloudlet/";
+                    this.page.identifier = "e1f8d0e461aacde88df422d91e56a09c";
+                };
+                (function() { 
+                    var d = document, s = d.createElement('script');
+                    s.src = 'https://distributedfog.disqus.com/embed.js';
+                    s.setAttribute('data-timestamp', +new Date());
+                    (d.head || d.body).appendChild(s);
+                })();
+            </script>
+            <noscript>Please enable JavaScript to view the <a href="https://disqus.com/?ref_noscript">comments powered by Disqus.</a></noscript>
+        </div>
+    </div>
+</div>
+    </div>
+</div>
+<footer class="bg-light">
+    <div id="footer-wrapper">
+       <div class="container">
+          <div class="row">
+                <div class="col-sm-4 infobox">
+                    
+                    <a href="http://distributedfog.com"><img src="http://distributedfog.com/img/logo.svg" id="logo-graphic" title="DistributedFog.com"></a>
+                    <ul class="footer-links">
+                        <li><a href="http://distributedfog.com/about">About</a></li>
+                        <li><a href="http://eugenesiow.com">eugenesiow.com</a></li>
+                    </ul>
+                </div>
+             <div class="col-sm-4 infobox">
+                <h4>Learn</h4>
+                <ul class="footer-links">
+                    <li><a href="http://distributedfog.com/make">Make</a></li>
+                    <li><a href="http://distributedfog.com/develop">Develop</a></li>
+                    <li><a href="http://distributedfog.com/use">Use</a></li>
+                </ul>
+            </div>
+            
+            <div class="col-sm-4 infobox">
+                <h4>Code</h4>
+                <ul class="footer-icons">
+                    <li><a href="https://github.com/eugenesiow/distributedfog"><i class="fa fa-github" aria-hidden="true"></i></a></li>
+                    <li><a href="https://github.com/eugenesiow/distributedfog/wiki"><i class="fa fa-wikipedia-w" aria-hidden="true"></i></a></li>
+                </ul>
+            </div>
+          </div>
+       </div>
+    </div>
+ </footer>
+<script id="dsq-count-scr" src="//distributedfog.disqus.com/count.js" async></script>
+
+
+    
+    <script src="https://code.jquery.com/jquery-3.2.1.slim.min.js" integrity="sha384-KJ3o2DKtIkvYIK3UENzmM7KCkRr/rE9/Qpg6aAZGJwFDMVNA/GpGFF93hXpG5KkN" crossorigin="anonymous"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.11.0/umd/popper.min.js" integrity="sha384-b/U6ypiBEHpOf/4+1nzFpr53nxSS+GLCkfwBdFNTxtclqqenISfwAzpKaMNFNmj4" crossorigin="anonymous"></script>
+    <script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0-beta/js/bootstrap.min.js" integrity="sha384-h0AbiXch4ZDo7tp9hKZ4TsHbi047NrKGLO3SEJAg45jXxnGIfYzk4Si90RDIqNm1" crossorigin="anonymous"></script>
+    <script src='http://distributedfog.com/js/main.js'></script>
+    
+<script type="application/ld+json">
+{
+    "@context" : "http://schema.org",
+    "@type" : "Article",
+    "articleSection" : "fog-computing",
+    "mainEntityOfPage": {
+        "@type": "WebPage",
+        "@id": "http://distributedfog.com/fog-computing/cloudlet/"
+    },
+    "name" : "Cloudlet",
+    "headline" : "Cloudlet",
+    "description" : "A cloudlet is a mobility-enhanced small-scale cloud datacenter that is located at the edge of the Internet. The main purpose of the cloudlet is supporting resource-intensive and interactive mobile applications by providing powerful computing resources to mobile devices with lower latency. It is a new architectural element that extends today’s cloud computing infrastructure.",
+    "inLanguage" : "en-GB",
+    "author" : "DistributedFog.com",
+    "creator" : "",
+    "accountablePerson" : "",
+    "copyrightHolder" : "",
+    "copyrightYear" : "2017",
+    "datePublished" : "2017-10-11 17:56:48 &#43;0100 BST",
+    "dateModified" : "2017-10-11 17:56:48 &#43;0100 BST",
+    "publisher": {
+        "@type": "Organization",
+        "name": "DistributedFog.com",
+        "logo": {
+            "@type": "ImageObject",
+            "url": "http://distributedfog.com/img/logo.png"
+        }
+    },
+    "logo": "",
+    "url" : "http://distributedfog.com/fog-computing/cloudlet/",
+    "wordCount" : "656",
+    "image" : "http://distributedfog.com/img/logo.png",
+    "keywords" : [ "software, virtualisation, distributed, cloud, edge" ]
+}
+</script>
+
+  </body>
+</html>

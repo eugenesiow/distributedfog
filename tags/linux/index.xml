@@ -12,6 +12,24 @@
     
     
     <item>
+      <title>HDFS</title>
+      <link>http://distributedfog.com/storage/hdfs/</link>
+      <pubDate>Wed, 11 Oct 2017 17:56:48 +0100</pubDate>
+      
+      <guid>http://distributedfog.com/storage/hdfs/</guid>
+      <description>The Hadoop Distributed File System (HDFS) is a distributed file system designed to run on commodity hardware. HDFS is highly fault-tolerant and is designed to be deployed on low-cost hardware. HDFS provides high throughput access to application data and is suitable for applications that have large data sets. HDFS relaxes a few POSIX requirements to enable streaming access to file system data.  apache.org         HDFS iRODS Ceph GlusterFS Lustre     Architecture Centralized Centralized Distributed Decentralized Centralized   Naming Index Database CRUSH EHA Index   API CLI, FUSE, REST, API CLI, FUSE, API FUSE, mount, REST FUSE, mount FUSE   Fault detection Fully connect P2P Fully connect Detected Manually   System Availability No failover No failover High High Failover   Data availability Replication Replication Replication RAID-like No   Placement strategy Auto Manual Auto Manual No   Replication Async Sync Sync Sync RAID-like   Cache consistency WORM, lease Lock Lock No Lock   Load balancing Auto Manual Manual Manual No     Depardon et al.</description>
+    </item>
+    
+    <item>
+      <title>Lustre</title>
+      <link>http://distributedfog.com/storage/lustre/</link>
+      <pubDate>Wed, 11 Oct 2017 17:56:48 +0100</pubDate>
+      
+      <guid>http://distributedfog.com/storage/lustre/</guid>
+      <description>Lustre is a type of parallel distributed file system, generally used for large-scale cluster computing. The name Lustre is a portmanteau word derived from Linux and cluster. Lustre file system software is available under the GNU GPLv2 and provides high performance file systems for computer clusters ranging in size from small workgroup clusters to large-scale, multi-site clusters.  Wikipedia and opensfs.org         HDFS iRODS Ceph GlusterFS Lustre     Architecture Centralized Centralized Distributed Decentralized Centralized   Naming Index Database CRUSH EHA Index   API CLI, FUSE, REST, API CLI, FUSE, API FUSE, mount, REST FUSE, mount FUSE   Fault detection Fully connect P2P Fully connect Detected Manually   System Availability No failover No failover High High Failover   Data availability Replication Replication Replication RAID-like No   Placement strategy Auto Manual Auto Manual No   Replication Async Sync Sync Sync RAID-like   Cache consistency WORM, lease Lock Lock No Lock   Load balancing Auto Manual Manual Manual No     Depardon et al.</description>
+    </item>
+    
+    <item>
       <title>Resin.io</title>
       <link>http://distributedfog.com/platform/resin-io/</link>
       <pubDate>Wed, 11 Oct 2017 17:56:48 +0100</pubDate>

@@ -12,6 +12,51 @@
     
     
     <item>
+      <title>LoRaWAN</title>
+      <link>http://distributedfog.com/gateway-network/lora/</link>
+      <pubDate>Wed, 11 Oct 2017 17:56:48 +0100</pubDate>
+      
+      <guid>http://distributedfog.com/gateway-network/lora/</guid>
+      <description>LoRaWAN is a Low Power Wide Area Network (LPWAN) specification intended for wireless battery operated Things in a regional, national or global network. It is designed to allow low-powered devices to communicate with Internet-connected applications over long range wireless connections.  lora-alliance.org     The Things Network The Things Network is a first-of-its-kind system that uses low-power, low-bandwidth LoRaWAN technology to cover the city with a wireless signal that allows objects like boats, trash cans and street lights to become tools for developers.</description>
+    </item>
+    
+    <item>
+      <title>Ethernet</title>
+      <link>http://distributedfog.com/gateway-network/ethernet/</link>
+      <pubDate>Wed, 11 Oct 2017 17:56:48 +0100</pubDate>
+      
+      <guid>http://distributedfog.com/gateway-network/ethernet/</guid>
+      <description>Ethernet is a family of computer networking technologies commonly used in local area networks (LAN), metropolitan area networks (MAN) and wide area networks (WAN). It was commercially introduced in 1980 and first standardized in 1983 as IEEE 802.3, and has since been refined to support higher bit rates and longer link distances.  Wikipedia     IEEE 802.3 IEEE 802.3 is a working group and a collection of Institute of Electrical and Electronics Engineers (IEEE) standards produced by the working group defining the physical layer and data link layer&amp;rsquo;s media access control (MAC) of wired Ethernet.</description>
+    </item>
+    
+    <item>
+      <title>GPRS</title>
+      <link>http://distributedfog.com/gateway-network/gprs/</link>
+      <pubDate>Wed, 11 Oct 2017 17:56:48 +0100</pubDate>
+      
+      <guid>http://distributedfog.com/gateway-network/gprs/</guid>
+      <description>General Packet Radio Service (GPRS) is a packet oriented mobile data service on the 2G and 3G cellular communication system&amp;#39;s global system for mobile communications (GSM). GPRS is a best-effort service, implying variable throughput and latency that depend on the number of other users sharing the service concurrently.  Wikipedia     In 2G systems, GPRS provides data rates of 56–114 kbit/second. 2G cellular technology combined with GPRS is sometimes described as 2.</description>
+    </item>
+    
+    <item>
+      <title>GSM</title>
+      <link>http://distributedfog.com/gateway-network/gsm/</link>
+      <pubDate>Wed, 11 Oct 2017 17:56:48 +0100</pubDate>
+      
+      <guid>http://distributedfog.com/gateway-network/gsm/</guid>
+      <description>GSM (Global System for Mobile Communications, originally Groupe Spécial Mobile) is a standard developed by the European Telecommunications Standards Institute (ETSI) to describe the protocols for second-generation digital cellular networks used by mobile devices such as tablets. The GSM standard originally described as a digital, circuit-switched network optimized for full duplex voice telephony. This expanded over time to include data communications, first by circuit-switched transport, then by packet data transport via GPRS (General Packet Radio Services) and EDGE (Enhanced Data rates for GSM Evolution, or EGPRS).</description>
+    </item>
+    
+    <item>
+      <title>ISM</title>
+      <link>http://distributedfog.com/gateway-network/ism/</link>
+      <pubDate>Wed, 11 Oct 2017 17:56:48 +0100</pubDate>
+      
+      <guid>http://distributedfog.com/gateway-network/ism/</guid>
+      <description>The ISM radio bands are radio bands (portions of the radio spectrum) reserved internationally for the use of radio frequency (RF) energy for industrial, scientific and medical purposes other than telecommunications. Examples of applications in these bands include radio-frequency process heating, microwave ovens, and medical diathermy machines. The powerful emissions of these devices can create electromagnetic interference and disrupt radio communication using the same frequency, so these devices were limited to certain bands of frequencies.</description>
+    </item>
+    
+    <item>
       <title>LTE</title>
       <link>http://distributedfog.com/gateway-network/lte/</link>
       <pubDate>Wed, 11 Oct 2017 17:56:48 +0100</pubDate>
@@ -21,12 +66,12 @@
     </item>
     
     <item>
-      <title>LoRaWAN</title>
-      <link>http://distributedfog.com/gateway-network/lora/</link>
+      <title>WiFi</title>
+      <link>http://distributedfog.com/gateway-network/wifi/</link>
       <pubDate>Wed, 11 Oct 2017 17:56:48 +0100</pubDate>
       
-      <guid>http://distributedfog.com/gateway-network/lora/</guid>
-      <description>LoRaWAN is a Low Power Wide Area Network (LPWAN) specification intended for wireless battery operated Things in a regional, national or global network. It is designed to allow low-powered devices to communicate with Internet-connected applications over long range wireless connections.  lora-alliance.org     The Things Network The Things Network is a first-of-its-kind system that uses low-power, low-bandwidth LoRaWAN technology to cover the city with a wireless signal that allows objects like boats, trash cans and street lights to become tools for developers.</description>
+      <guid>http://distributedfog.com/gateway-network/wifi/</guid>
+      <description>Wi-Fi or WiFi is a technology for wireless local area networking with devices based on the IEEE 802.11 standards. A wireless local area network (WLAN) is a wireless computer network that links two or more devices using wireless communication within a limited area such as a home, school, computer laboratory, or office building. Through a gateway, a WLAN can also provide a connection to the wider Internet.  Wikipedia     IEEE 802.</description>
     </item>
     
     <item>

@@ -1,0 +1,24 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes" ?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>Container on DistributedFog</title>
+    <link>http://distributedfog.com/tags/container/</link>
+    <description>Recent content in Container on DistributedFog</description>
+    <generator>Hugo -- gohugo.io</generator>
+    <language>en-us</language>
+    <lastBuildDate>Wed, 11 Oct 2017 17:56:48 +0100</lastBuildDate>
+    
+	<atom:link href="http://distributedfog.com/tags/container/index.xml" rel="self" type="application/rss+xml" />
+    
+    
+    <item>
+      <title>CSI</title>
+      <link>http://distributedfog.com/storage/csi/</link>
+      <pubDate>Wed, 11 Oct 2017 17:56:48 +0100</pubDate>
+      
+      <guid>http://distributedfog.com/storage/csi/</guid>
+      <description>The goal of the Container Storage Interface (CSI) is to define and interface that will enable storage vendors to develop a plugin once and have it work across a number of container orchestration (CO) systems.  CSI community     The CSI specification is an emerging specification that defines an interface along with the minimum operational and packaging recommendations for a storage provider (SP) to implement a CSI compatible plugin.</description>
+    </item>
+    
+  </channel>
+</rss>

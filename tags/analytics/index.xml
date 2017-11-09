@@ -1,0 +1,24 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes" ?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>Analytics on DistributedFog</title>
+    <link>http://distributedfog.com/tags/analytics/</link>
+    <description>Recent content in Analytics on DistributedFog</description>
+    <generator>Hugo -- gohugo.io</generator>
+    <language>en-us</language>
+    <lastBuildDate>Wed, 11 Oct 2017 17:56:48 +0100</lastBuildDate>
+    
+	<atom:link href="http://distributedfog.com/tags/analytics/index.xml" rel="self" type="application/rss+xml" />
+    
+    
+    <item>
+      <title>ANGELS</title>
+      <link>http://distributedfog.com/fog-computing/angels/</link>
+      <pubDate>Wed, 11 Oct 2017 17:56:48 +0100</pubDate>
+      
+      <guid>http://distributedfog.com/fog-computing/angels/</guid>
+      <description>ANGELS is a work in progress research project that explores the idea of utilising smart edge devices for performing certain portions of the data analysis tasks in IoT.  Wikipedia     Abstract The current global emphasis on “Internet of Things (IoT)” have highlighted the extreme importance of sensor-based intelligent and ubiquitous systems which are more commonly known as “cyber-physical systems.” The technology has the potential to create a network of smart devices and things to an extent that has never been envisaged before, far outnumbering the number of devices connected in the Internet as we know today.</description>
+    </item>
+    
+  </channel>
+</rss>

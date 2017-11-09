@@ -1,0 +1,69 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes" ?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>Filesystem on DistributedFog</title>
+    <link>http://distributedfog.com/tags/filesystem/</link>
+    <description>Recent content in Filesystem on DistributedFog</description>
+    <generator>Hugo -- gohugo.io</generator>
+    <language>en-us</language>
+    <lastBuildDate>Wed, 11 Oct 2017 17:56:48 +0100</lastBuildDate>
+    
+	<atom:link href="http://distributedfog.com/tags/filesystem/index.xml" rel="self" type="application/rss+xml" />
+    
+    
+    <item>
+      <title>Ceph</title>
+      <link>http://distributedfog.com/storage/ceph/</link>
+      <pubDate>Wed, 11 Oct 2017 17:56:48 +0100</pubDate>
+      
+      <guid>http://distributedfog.com/storage/ceph/</guid>
+      <description>Ceph is a free-software storage platform that implements object storage on a single distributed computer cluster, and provides interfaces for object-, block- and file-level storage. Ceph aims primarily for completely distributed operation without a single point of failure, scalable to the exabyte level, and freely available. As a result of its design, the system is both self-healing and self-managing, aiming to minimize administration time and other costs.  Wikipedia         HDFS iRODS Ceph GlusterFS Lustre     Architecture Centralized Centralized Distributed Decentralized Centralized   Naming Index Database CRUSH EHA Index   API CLI, FUSE, REST, API CLI, FUSE, API FUSE, mount, REST FUSE, mount FUSE   Fault detection Fully connect P2P Fully connect Detected Manually   System Availability No failover No failover High High Failover   Data availability Replication Replication Replication RAID-like No   Placement strategy Auto Manual Auto Manual No   Replication Async Sync Sync Sync RAID-like   Cache consistency WORM, lease Lock Lock No Lock   Load balancing Auto Manual Manual Manual No     Depardon et al.</description>
+    </item>
+    
+    <item>
+      <title>FusionFS</title>
+      <link>http://distributedfog.com/storage/fusionfs/</link>
+      <pubDate>Wed, 11 Oct 2017 17:56:48 +0100</pubDate>
+      
+      <guid>http://distributedfog.com/storage/fusionfs/</guid>
+      <description>FusionFS is a distributed filesystem that co-exists with current parallel filesystems in High-End Computing, optimized for both a subset of HPC and Many-Task Computing workloads. FusionFS is a user-level filesystem that runs on the compute resource infrastructure, and enables every compute node to actively participate in the metadata and data management. Distributed metadata management is implemented using ZHT, a zero-hop distributed hashtable.  datasys.cs.iit.edu     Abstract State-of-the-art, yet decades-old, architecture of high-performance computing systems has its compute and storage resources separated.</description>
+    </item>
+    
+    <item>
+      <title>GlusterFS</title>
+      <link>http://distributedfog.com/storage/glusterfs/</link>
+      <pubDate>Wed, 11 Oct 2017 17:56:48 +0100</pubDate>
+      
+      <guid>http://distributedfog.com/storage/glusterfs/</guid>
+      <description>GlusterFS is a scale-out network-attached storage file system. It has found applications including cloud computing, streaming media services, and content delivery networks. GlusterFS was developed originally by Gluster, Inc. and then by Red Hat, Inc., as a result of Red Hat acquiring Gluster in 2011. Red Hat Gluster Storage is a GlusterFS-based Red Hat Storage Server.  Wikipedia         HDFS iRODS Ceph GlusterFS Lustre     Architecture Centralized Centralized Distributed Decentralized Centralized   Naming Index Database CRUSH EHA Index   API CLI, FUSE, REST, API CLI, FUSE, API FUSE, mount, REST FUSE, mount FUSE   Fault detection Fully connect P2P Fully connect Detected Manually   System Availability No failover No failover High High Failover   Data availability Replication Replication Replication RAID-like No   Placement strategy Auto Manual Auto Manual No   Replication Async Sync Sync Sync RAID-like   Cache consistency WORM, lease Lock Lock No Lock   Load balancing Auto Manual Manual Manual No     Depardon et al.</description>
+    </item>
+    
+    <item>
+      <title>HDFS</title>
+      <link>http://distributedfog.com/storage/hdfs/</link>
+      <pubDate>Wed, 11 Oct 2017 17:56:48 +0100</pubDate>
+      
+      <guid>http://distributedfog.com/storage/hdfs/</guid>
+      <description>The Hadoop Distributed File System (HDFS) is a distributed file system designed to run on commodity hardware. HDFS is highly fault-tolerant and is designed to be deployed on low-cost hardware. HDFS provides high throughput access to application data and is suitable for applications that have large data sets. HDFS relaxes a few POSIX requirements to enable streaming access to file system data.  apache.org         HDFS iRODS Ceph GlusterFS Lustre     Architecture Centralized Centralized Distributed Decentralized Centralized   Naming Index Database CRUSH EHA Index   API CLI, FUSE, REST, API CLI, FUSE, API FUSE, mount, REST FUSE, mount FUSE   Fault detection Fully connect P2P Fully connect Detected Manually   System Availability No failover No failover High High Failover   Data availability Replication Replication Replication RAID-like No   Placement strategy Auto Manual Auto Manual No   Replication Async Sync Sync Sync RAID-like   Cache consistency WORM, lease Lock Lock No Lock   Load balancing Auto Manual Manual Manual No     Depardon et al.</description>
+    </item>
+    
+    <item>
+      <title>Lustre</title>
+      <link>http://distributedfog.com/storage/lustre/</link>
+      <pubDate>Wed, 11 Oct 2017 17:56:48 +0100</pubDate>
+      
+      <guid>http://distributedfog.com/storage/lustre/</guid>
+      <description>Lustre is a type of parallel distributed file system, generally used for large-scale cluster computing. The name Lustre is a portmanteau word derived from Linux and cluster. Lustre file system software is available under the GNU GPLv2 and provides high performance file systems for computer clusters ranging in size from small workgroup clusters to large-scale, multi-site clusters.  Wikipedia and opensfs.org         HDFS iRODS Ceph GlusterFS Lustre     Architecture Centralized Centralized Distributed Decentralized Centralized   Naming Index Database CRUSH EHA Index   API CLI, FUSE, REST, API CLI, FUSE, API FUSE, mount, REST FUSE, mount FUSE   Fault detection Fully connect P2P Fully connect Detected Manually   System Availability No failover No failover High High Failover   Data availability Replication Replication Replication RAID-like No   Placement strategy Auto Manual Auto Manual No   Replication Async Sync Sync Sync RAID-like   Cache consistency WORM, lease Lock Lock No Lock   Load balancing Auto Manual Manual Manual No     Depardon et al.</description>
+    </item>
+    
+    <item>
+      <title>iRODS</title>
+      <link>http://distributedfog.com/storage/irods/</link>
+      <pubDate>Wed, 11 Oct 2017 17:56:48 +0100</pubDate>
+      
+      <guid>http://distributedfog.com/storage/irods/</guid>
+      <description>The integrated Rule-Oriented Data System (iRODS) is open source data management software used by research organizations and government agencies worldwide. iRODS is released as a production-level distribution aimed at deployment in mission critical environments. It virtualizes data storage resources, so users can take control of their data, regardless of where and on what device the data is stored. As data volumes grow and data services become more complex, iRODS is serving an increasingly important role in data management.</description>
+    </item>
+    
+  </channel>
+</rss>

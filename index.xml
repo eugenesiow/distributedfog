@@ -34,6 +34,15 @@ Series Comparison &amp;hellip;    Arduino CPU SRAM Flash     Yún 400 MHz 64 MB 
     </item>
     
     <item>
+      <title>LoRaWAN</title>
+      <link>http://distributedfog.com/gateway-network/lora/</link>
+      <pubDate>Wed, 11 Oct 2017 17:56:48 +0100</pubDate>
+      
+      <guid>http://distributedfog.com/gateway-network/lora/</guid>
+      <description>LoRaWAN is a Low Power Wide Area Network (LPWAN) specification intended for wireless battery operated Things in a regional, national or global network. It is designed to allow low-powered devices to communicate with Internet-connected applications over long range wireless connections.  lora-alliance.org     The Things Network The Things Network is a first-of-its-kind system that uses low-power, low-bandwidth LoRaWAN technology to cover the city with a wireless signal that allows objects like boats, trash cans and street lights to become tools for developers.</description>
+    </item>
+    
+    <item>
       <title>Microbit</title>
       <link>http://distributedfog.com/kit/microbit/</link>
       <pubDate>Wed, 11 Oct 2017 17:56:48 +0100</pubDate>
@@ -93,6 +102,15 @@ Ubiquitous computing (or &amp;ldquo;ubicomp&amp;rdquo;) is a concept in software
     </item>
     
     <item>
+      <title>ANGELS</title>
+      <link>http://distributedfog.com/fog-computing/angels/</link>
+      <pubDate>Wed, 11 Oct 2017 17:56:48 +0100</pubDate>
+      
+      <guid>http://distributedfog.com/fog-computing/angels/</guid>
+      <description>ANGELS is a work in progress research project that explores the idea of utilising smart edge devices for performing certain portions of the data analysis tasks in IoT.  Wikipedia     Abstract The current global emphasis on “Internet of Things (IoT)” have highlighted the extreme importance of sensor-based intelligent and ubiquitous systems which are more commonly known as “cyber-physical systems.” The technology has the potential to create a network of smart devices and things to an extent that has never been envisaged before, far outnumbering the number of devices connected in the Internet as we know today.</description>
+    </item>
+    
+    <item>
       <title>ANT&#43;</title>
       <link>http://distributedfog.com/sensor-network/ant/</link>
       <pubDate>Wed, 11 Oct 2017 17:56:48 +0100</pubDate>
@@ -124,6 +142,24 @@ BeagleBoard The USB-powered BeagleBoard is a low-cost, fan-less single board com
     </item>
     
     <item>
+      <title>CSI</title>
+      <link>http://distributedfog.com/storage/csi/</link>
+      <pubDate>Wed, 11 Oct 2017 17:56:48 +0100</pubDate>
+      
+      <guid>http://distributedfog.com/storage/csi/</guid>
+      <description>The goal of the Container Storage Interface (CSI) is to define and interface that will enable storage vendors to develop a plugin once and have it work across a number of container orchestration (CO) systems.  CSI community     The CSI specification is an emerging specification that defines an interface along with the minimum operational and packaging recommendations for a storage provider (SP) to implement a CSI compatible plugin.</description>
+    </item>
+    
+    <item>
+      <title>Ceph</title>
+      <link>http://distributedfog.com/storage/ceph/</link>
+      <pubDate>Wed, 11 Oct 2017 17:56:48 +0100</pubDate>
+      
+      <guid>http://distributedfog.com/storage/ceph/</guid>
+      <description>Ceph is a free-software storage platform that implements object storage on a single distributed computer cluster, and provides interfaces for object-, block- and file-level storage. Ceph aims primarily for completely distributed operation without a single point of failure, scalable to the exabyte level, and freely available. As a result of its design, the system is both self-healing and self-managing, aiming to minimize administration time and other costs.  Wikipedia         HDFS iRODS Ceph GlusterFS Lustre     Architecture Centralized Centralized Distributed Decentralized Centralized   Naming Index Database CRUSH EHA Index   API CLI, FUSE, REST, API CLI, FUSE, API FUSE, mount, REST FUSE, mount FUSE   Fault detection Fully connect P2P Fully connect Detected Manually   System Availability No failover No failover High High Failover   Data availability Replication Replication Replication RAID-like No   Placement strategy Auto Manual Auto Manual No   Replication Async Sync Sync Sync RAID-like   Cache consistency WORM, lease Lock Lock No Lock   Load balancing Auto Manual Manual Manual No     Depardon et al.</description>
+    </item>
+    
+    <item>
       <title>Cisco IOx</title>
       <link>http://distributedfog.com/fog-computing/cisco-iox/</link>
       <pubDate>Wed, 11 Oct 2017 17:56:48 +0100</pubDate>
@@ -132,6 +168,15 @@ BeagleBoard The USB-powered BeagleBoard is a low-cost, fan-less single board com
       <description>IOx combines IoT application execution within the fog and offers highly secure connectivity with Cisco IOS technology, as well as powerful services for rapid, reliable integration with IoT sensors and the cloud.  cisco.com     Architecture 
  cisco.com    
 The Cisco IOx application environment combines IoT application execution within the fog; secure connectivity with Cisco IOS Software; and powerful services for rapid, reliable integration with Internet of Things (IoT) sensors and the cloud.</description>
+    </item>
+    
+    <item>
+      <title>Cloudlet</title>
+      <link>http://distributedfog.com/fog-computing/cloudlet/</link>
+      <pubDate>Wed, 11 Oct 2017 17:56:48 +0100</pubDate>
+      
+      <guid>http://distributedfog.com/fog-computing/cloudlet/</guid>
+      <description>A cloudlet is a mobility-enhanced small-scale cloud datacenter that is located at the edge of the Internet. The main purpose of the cloudlet is supporting resource-intensive and interactive mobile applications by providing powerful computing resources to mobile devices with lower latency. It is a new architectural element that extends today’s cloud computing infrastructure.  Wikipedia     Cloudlet VS Cloud There is significant overlap in the requirements for cloud and cloudlet.</description>
     </item>
     
     <item>
@@ -206,6 +251,15 @@ All processes that involve energy conversion are, to some degree, inefficient. M
     </item>
     
     <item>
+      <title>Ethernet</title>
+      <link>http://distributedfog.com/gateway-network/ethernet/</link>
+      <pubDate>Wed, 11 Oct 2017 17:56:48 +0100</pubDate>
+      
+      <guid>http://distributedfog.com/gateway-network/ethernet/</guid>
+      <description>Ethernet is a family of computer networking technologies commonly used in local area networks (LAN), metropolitan area networks (MAN) and wide area networks (WAN). It was commercially introduced in 1980 and first standardized in 1983 as IEEE 802.3, and has since been refined to support higher bit rates and longer link distances.  Wikipedia     IEEE 802.3 IEEE 802.3 is a working group and a collection of Institute of Electrical and Electronics Engineers (IEEE) standards produced by the working group defining the physical layer and data link layer&amp;rsquo;s media access control (MAC) of wired Ethernet.</description>
+    </item>
+    
+    <item>
       <title>Eywa</title>
       <link>http://distributedfog.com/fog-computing/eywa/</link>
       <pubDate>Wed, 11 Oct 2017 17:56:48 +0100</pubDate>
@@ -221,6 +275,33 @@ All processes that involve energy conversion are, to some degree, inefficient. M
       
       <guid>http://distributedfog.com/sensor-network/firewire/</guid>
       <description>IEEE 1394 is an interface standard for a serial bus for high-speed communications and isochronous real-time data transfer. It was developed in the late 1980s and early 1990s by Apple, which called it FireWire. The 1394 interface is also known by the brand i.LINK (Sony), and Lynx (Texas Instruments).  Wikipedia     FireWire can connect up to 63 peripherals in a tree or daisy-chain topology (as opposed to Parallel SCSI&amp;rsquo;s electrical bus topology).</description>
+    </item>
+    
+    <item>
+      <title>FusionFS</title>
+      <link>http://distributedfog.com/storage/fusionfs/</link>
+      <pubDate>Wed, 11 Oct 2017 17:56:48 +0100</pubDate>
+      
+      <guid>http://distributedfog.com/storage/fusionfs/</guid>
+      <description>FusionFS is a distributed filesystem that co-exists with current parallel filesystems in High-End Computing, optimized for both a subset of HPC and Many-Task Computing workloads. FusionFS is a user-level filesystem that runs on the compute resource infrastructure, and enables every compute node to actively participate in the metadata and data management. Distributed metadata management is implemented using ZHT, a zero-hop distributed hashtable.  datasys.cs.iit.edu     Abstract State-of-the-art, yet decades-old, architecture of high-performance computing systems has its compute and storage resources separated.</description>
+    </item>
+    
+    <item>
+      <title>GPRS</title>
+      <link>http://distributedfog.com/gateway-network/gprs/</link>
+      <pubDate>Wed, 11 Oct 2017 17:56:48 +0100</pubDate>
+      
+      <guid>http://distributedfog.com/gateway-network/gprs/</guid>
+      <description>General Packet Radio Service (GPRS) is a packet oriented mobile data service on the 2G and 3G cellular communication system&amp;#39;s global system for mobile communications (GSM). GPRS is a best-effort service, implying variable throughput and latency that depend on the number of other users sharing the service concurrently.  Wikipedia     In 2G systems, GPRS provides data rates of 56–114 kbit/second. 2G cellular technology combined with GPRS is sometimes described as 2.</description>
+    </item>
+    
+    <item>
+      <title>GSM</title>
+      <link>http://distributedfog.com/gateway-network/gsm/</link>
+      <pubDate>Wed, 11 Oct 2017 17:56:48 +0100</pubDate>
+      
+      <guid>http://distributedfog.com/gateway-network/gsm/</guid>
+      <description>GSM (Global System for Mobile Communications, originally Groupe Spécial Mobile) is a standard developed by the European Telecommunications Standards Institute (ETSI) to describe the protocols for second-generation digital cellular networks used by mobile devices such as tablets. The GSM standard originally described as a digital, circuit-switched network optimized for full duplex voice telephony. This expanded over time to include data communications, first by circuit-switched transport, then by packet data transport via GPRS (General Packet Radio Services) and EDGE (Enhanced Data rates for GSM Evolution, or EGPRS).</description>
     </item>
     
     <item>
@@ -251,12 +332,30 @@ All processes that involve energy conversion are, to some degree, inefficient. M
     </item>
     
     <item>
+      <title>GlusterFS</title>
+      <link>http://distributedfog.com/storage/glusterfs/</link>
+      <pubDate>Wed, 11 Oct 2017 17:56:48 +0100</pubDate>
+      
+      <guid>http://distributedfog.com/storage/glusterfs/</guid>
+      <description>GlusterFS is a scale-out network-attached storage file system. It has found applications including cloud computing, streaming media services, and content delivery networks. GlusterFS was developed originally by Gluster, Inc. and then by Red Hat, Inc., as a result of Red Hat acquiring Gluster in 2011. Red Hat Gluster Storage is a GlusterFS-based Red Hat Storage Server.  Wikipedia         HDFS iRODS Ceph GlusterFS Lustre     Architecture Centralized Centralized Distributed Decentralized Centralized   Naming Index Database CRUSH EHA Index   API CLI, FUSE, REST, API CLI, FUSE, API FUSE, mount, REST FUSE, mount FUSE   Fault detection Fully connect P2P Fully connect Detected Manually   System Availability No failover No failover High High Failover   Data availability Replication Replication Replication RAID-like No   Placement strategy Auto Manual Auto Manual No   Replication Async Sync Sync Sync RAID-like   Cache consistency WORM, lease Lock Lock No Lock   Load balancing Auto Manual Manual Manual No     Depardon et al.</description>
+    </item>
+    
+    <item>
       <title>HAN</title>
       <link>http://distributedfog.com/sensor-network/han/</link>
       <pubDate>Wed, 11 Oct 2017 17:56:48 +0100</pubDate>
       
       <guid>http://distributedfog.com/sensor-network/han/</guid>
       <description>A home network or home area network (HAN) is a type of computer network that facilitates communication among devices within the close vicinity of a home. Devices capable of participating in this network, for example, smart devices such as network printers and handheld mobile computers, often gain enhanced emergent capabilities through their ability to interact.  Wikipedia     A home-area network (HAN) connects in-home digital devices, such as PCs, mobile phones, entertainment technology, thermostats, home security systems and smart appliances, into a common network.</description>
+    </item>
+    
+    <item>
+      <title>HDFS</title>
+      <link>http://distributedfog.com/storage/hdfs/</link>
+      <pubDate>Wed, 11 Oct 2017 17:56:48 +0100</pubDate>
+      
+      <guid>http://distributedfog.com/storage/hdfs/</guid>
+      <description>The Hadoop Distributed File System (HDFS) is a distributed file system designed to run on commodity hardware. HDFS is highly fault-tolerant and is designed to be deployed on low-cost hardware. HDFS provides high throughput access to application data and is suitable for applications that have large data sets. HDFS relaxes a few POSIX requirements to enable streaming access to file system data.  apache.org         HDFS iRODS Ceph GlusterFS Lustre     Architecture Centralized Centralized Distributed Decentralized Centralized   Naming Index Database CRUSH EHA Index   API CLI, FUSE, REST, API CLI, FUSE, API FUSE, mount, REST FUSE, mount FUSE   Fault detection Fully connect P2P Fully connect Detected Manually   System Availability No failover No failover High High Failover   Data availability Replication Replication Replication RAID-like No   Placement strategy Auto Manual Auto Manual No   Replication Async Sync Sync Sync RAID-like   Cache consistency WORM, lease Lock Lock No Lock   Load balancing Auto Manual Manual Manual No     Depardon et al.</description>
     </item>
     
     <item>
@@ -268,6 +367,21 @@ All processes that involve energy conversion are, to some degree, inefficient. M
       <description>HTTP/2 is a major revision of the HTTP network protocol used by the World Wide Web and derived from Google&amp;#39;s earlier experimental SPDY protocol.  Wikipedia     Research HTTP/1.1 pipelining vs HTTP2 in-the-clear, HTTP/2 multiplexed stream, HTTP/2 in Web Services
  
 HTTP/2 Server Push allows you to send site assets to the user before they’ve even asked for them. It’s an elegant way to achieve the performance benefits of HTTP/1 optimization practices such as inlining, but without the drawbacks that come with that practice.</description>
+    </item>
+    
+    <item>
+      <title>Hypercat</title>
+      <link>http://distributedfog.com/things-directory/hypercat/</link>
+      <pubDate>Wed, 11 Oct 2017 17:56:48 +0100</pubDate>
+      
+      <guid>http://distributedfog.com/things-directory/hypercat/</guid>
+      <description>The Hypercat specification allows Internet of Things (IoT) clients to discover information about IoT assets over the web. With Hypercat developers can write applications that will work across many servers, breaking down the walls between vertical silos.  Hypercat.io     Reference Server (Code)  GET, PUT, POST, DELETE of items
+ Multi-search
+ Geo search
+ Lexicographic search
+ Simple search
+ Prefix search
+ Authentication</description>
     </item>
     
     <item>
@@ -295,6 +409,15 @@ HTTP/2 Server Push allows you to send site assets to the user before they’ve e
       
       <guid>http://distributedfog.com/sensor-network/ir/</guid>
       <description>Infrared radiation, or simply infrared or IR, is electromagnetic radiation (EMR) with longer wavelengths than those of visible light, and is therefore invisible, although it is sometimes loosely called infrared light. IR data transmission is employed in short-range communication among computer peripherals and personal digital assistants.  Wikipedia     IrDA IrDA refers to a complete set of protocols for wireless infrared communications. The main reason for using IrDA had been wireless data transfer over the “last one meter” using point-and-shoot principles.</description>
+    </item>
+    
+    <item>
+      <title>ISM</title>
+      <link>http://distributedfog.com/gateway-network/ism/</link>
+      <pubDate>Wed, 11 Oct 2017 17:56:48 +0100</pubDate>
+      
+      <guid>http://distributedfog.com/gateway-network/ism/</guid>
+      <description>The ISM radio bands are radio bands (portions of the radio spectrum) reserved internationally for the use of radio frequency (RF) energy for industrial, scientific and medical purposes other than telecommunications. Examples of applications in these bands include radio-frequency process heating, microwave ovens, and medical diathermy machines. The powerful emissions of these devices can create electromagnetic interference and disrupt radio communication using the same frequency, so these devices were limited to certain bands of frequencies.</description>
     </item>
     
     <item>
@@ -327,12 +450,12 @@ Huawei also developed an open-source operating system for the IoT called Huawei 
     </item>
     
     <item>
-      <title>LoRaWAN</title>
-      <link>http://distributedfog.com/gateway-network/lora/</link>
+      <title>Lustre</title>
+      <link>http://distributedfog.com/storage/lustre/</link>
       <pubDate>Wed, 11 Oct 2017 17:56:48 +0100</pubDate>
       
-      <guid>http://distributedfog.com/gateway-network/lora/</guid>
-      <description>LoRaWAN is a Low Power Wide Area Network (LPWAN) specification intended for wireless battery operated Things in a regional, national or global network. It is designed to allow low-powered devices to communicate with Internet-connected applications over long range wireless connections.  lora-alliance.org     The Things Network The Things Network is a first-of-its-kind system that uses low-power, low-bandwidth LoRaWAN technology to cover the city with a wireless signal that allows objects like boats, trash cans and street lights to become tools for developers.</description>
+      <guid>http://distributedfog.com/storage/lustre/</guid>
+      <description>Lustre is a type of parallel distributed file system, generally used for large-scale cluster computing. The name Lustre is a portmanteau word derived from Linux and cluster. Lustre file system software is available under the GNU GPLv2 and provides high performance file systems for computer clusters ranging in size from small workgroup clusters to large-scale, multi-site clusters.  Wikipedia and opensfs.org         HDFS iRODS Ceph GlusterFS Lustre     Architecture Centralized Centralized Distributed Decentralized Centralized   Naming Index Database CRUSH EHA Index   API CLI, FUSE, REST, API CLI, FUSE, API FUSE, mount, REST FUSE, mount FUSE   Fault detection Fully connect P2P Fully connect Detected Manually   System Availability No failover No failover High High Failover   Data availability Replication Replication Replication RAID-like No   Placement strategy Auto Manual Auto Manual No   Replication Async Sync Sync Sync RAID-like   Cache consistency WORM, lease Lock Lock No Lock   Load balancing Auto Manual Manual Manual No     Depardon et al.</description>
     </item>
     
     <item>
@@ -457,10 +580,10 @@ PIOTRe PIOTRe is a Personal IoT Repository based on sparql2sql, sparql2stream an
     
     <item>
       <title>SAN</title>
-      <link>http://distributedfog.com/file-system/san/</link>
+      <link>http://distributedfog.com/storage/san/</link>
       <pubDate>Wed, 11 Oct 2017 17:56:48 +0100</pubDate>
       
-      <guid>http://distributedfog.com/file-system/san/</guid>
+      <guid>http://distributedfog.com/storage/san/</guid>
       <description>A SAN is a network which provides access to consolidated, block level data storage. SANs are primarily used to enhance storage devices, such as disk arrays, tape libraries, and optical jukeboxes, accessible to servers so that the devices appear to the operating system as locally attached devices. A SAN typically has its own network of storage devices that are generally not accessible through the local area network (LAN) by other devices.</description>
     </item>
     
@@ -564,6 +687,15 @@ Programming on TinyOS is done using a C-like language called nesC. It is a compo
     </item>
     
     <item>
+      <title>WiFi</title>
+      <link>http://distributedfog.com/gateway-network/wifi/</link>
+      <pubDate>Wed, 11 Oct 2017 17:56:48 +0100</pubDate>
+      
+      <guid>http://distributedfog.com/gateway-network/wifi/</guid>
+      <description>Wi-Fi or WiFi is a technology for wireless local area networking with devices based on the IEEE 802.11 standards. A wireless local area network (WLAN) is a wireless computer network that links two or more devices using wireless communication within a limited area such as a home, school, computer laboratory, or office building. Through a gateway, a WLAN can also provide a connection to the wider Internet.  Wikipedia     IEEE 802.</description>
+    </item>
+    
+    <item>
       <title>WiMAX</title>
       <link>http://distributedfog.com/gateway-network/wimax/</link>
       <pubDate>Wed, 11 Oct 2017 17:56:48 +0100</pubDate>
@@ -632,6 +764,15 @@ XMPP supports different communication patterns, such as Request/Response, Asynch
       
       <guid>http://distributedfog.com/sensor-network/z-wave/</guid>
       <description>Z-Wave is a wireless communications protocol used primarily for home automation. It is a mesh network using low-energy radio waves to communicate from appliance to appliance, allowing for wireless control of residential appliances and other devices, such as lighting control, security systems, thermostats, windows, locks, swimming pools and garage door openers.  Wikipedia     Essentials  Low Powered RF communications technology that supports full mesh networks without the need for a coordinator node</description>
+    </item>
+    
+    <item>
+      <title>iRODS</title>
+      <link>http://distributedfog.com/storage/irods/</link>
+      <pubDate>Wed, 11 Oct 2017 17:56:48 +0100</pubDate>
+      
+      <guid>http://distributedfog.com/storage/irods/</guid>
+      <description>The integrated Rule-Oriented Data System (iRODS) is open source data management software used by research organizations and government agencies worldwide. iRODS is released as a production-level distribution aimed at deployment in mission critical environments. It virtualizes data storage resources, so users can take control of their data, regardless of where and on what device the data is stored. As data volumes grow and data services become more complex, iRODS is serving an increasingly important role in data management.</description>
     </item>
     
     <item>

@@ -12,6 +12,15 @@
     
     
     <item>
+      <title>Ethernet</title>
+      <link>http://distributedfog.com/gateway-network/ethernet/</link>
+      <pubDate>Wed, 11 Oct 2017 17:56:48 +0100</pubDate>
+      
+      <guid>http://distributedfog.com/gateway-network/ethernet/</guid>
+      <description>Ethernet is a family of computer networking technologies commonly used in local area networks (LAN), metropolitan area networks (MAN) and wide area networks (WAN). It was commercially introduced in 1980 and first standardized in 1983 as IEEE 802.3, and has since been refined to support higher bit rates and longer link distances.  Wikipedia     IEEE 802.3 IEEE 802.3 is a working group and a collection of Institute of Electrical and Electronics Engineers (IEEE) standards produced by the working group defining the physical layer and data link layer&amp;rsquo;s media access control (MAC) of wired Ethernet.</description>
+    </item>
+    
+    <item>
       <title>FireWire</title>
       <link>http://distributedfog.com/sensor-network/firewire/</link>
       <pubDate>Wed, 11 Oct 2017 17:56:48 +0100</pubDate>

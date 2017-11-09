@@ -1,0 +1,398 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+    <meta name="description" content="All about the Internet of Things Landscape including technologies, protocols, applications, platforms and research.">
+    <meta name="author" content="DistributedFog.com">
+
+    <title>DistributedFog: HDFS</title>
+
+    
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0-beta/css/bootstrap.min.css" integrity="sha384-/Y6pD6FV/Vv2HJnA6t+vslU6fwYXjCFtcEpHbNJ0lyAFsXTsjBbfaDjzALeQsN6M" crossorigin="anonymous">
+    <link rel="stylesheet" href="https://fonts.googleapis.com/css?family=Roboto:100,400">
+    <link rel="stylesheet" href="//maxcdn.bootstrapcdn.com/font-awesome/4.7.0/css/font-awesome.min.css">
+    
+    <link href='http://distributedfog.com/css/style.css' rel="stylesheet">
+    
+    <link rel="icon" href='http://distributedfog.com/favicon.ico' type="image/x-icon" />
+    
+<script>
+(function(i,s,o,g,r,a,m){i['GoogleAnalyticsObject']=r;i[r]=i[r]||function(){
+(i[r].q=i[r].q||[]).push(arguments)},i[r].l=1*new Date();a=s.createElement(o),
+m=s.getElementsByTagName(o)[0];a.async=1;a.src=g;m.parentNode.insertBefore(a,m)
+})(window,document,'script','https://www.google-analytics.com/analytics.js','ga');
+
+ga('create', 'UA-108097594-1', 'auto');
+ga('send', 'pageview');
+</script>
+
+  </head>
+
+  <body>
+
+      
+
+<header>
+    <ol class="breadcrumb">
+        <li class="breadcrumb-item"><a href='http://distributedfog.com/'>IoT Landscape</a></li>
+        <li class="breadcrumb-item dropdown">
+            <a class="dropdown-toggle" href="#" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
+                Storage
+            </a>
+            <div class="dropdown-menu">
+                
+                <a class="dropdown-item " href="/storage/csi/">CSI</a>
+                
+                <a class="dropdown-item " href="/storage/ceph/">Ceph</a>
+                
+                <a class="dropdown-item " href="/storage/fusionfs/">FusionFS</a>
+                
+                <a class="dropdown-item " href="/storage/glusterfs/">GlusterFS</a>
+                
+                <a class="dropdown-item active" href="/storage/hdfs/">HDFS</a>
+                
+                <a class="dropdown-item " href="/storage/lustre/">Lustre</a>
+                
+                <a class="dropdown-item " href="/storage/san/">SAN</a>
+                
+                <a class="dropdown-item " href="/storage/">Storage</a>
+                
+                <a class="dropdown-item " href="/storage/irods/">iRODS</a>
+                
+            </div>
+        </li>
+        <li class="breadcrumb-item active">HDFS</li>
+    </ol>
+</header>
+<div class="container container-section">
+    
+    <h1>HDFS <small>Hadoop Distributed File System</small></h1>
+    <div class="row">
+        <div class='col-sm-4 py-2'>
+    <div class='card card-body bg-info text-white h-100'>
+        
+The Hadoop Distributed File System (HDFS) is a distributed file system designed to run on commodity hardware. HDFS is highly fault-tolerant and is designed to be deployed on low-cost hardware. HDFS provides high throughput access to application data and is suitable for applications that have large data sets. HDFS relaxes a few POSIX requirements to enable streaming access to file system data.
+
+        
+        <footer class="blockquote-footer text-white">
+            <small>
+                apache.org
+            </small>
+        </footer>
+        
+    </div>
+</div>
+
+<p><div class='col-sm-8 py-2'>
+    <div class='card card-body  h-100'>
+        <table>
+<thead>
+<tr>
+<th></th>
+<th><a href="../hdfs">HDFS</a></th>
+<th><a href="../irods">iRODS</a></th>
+<th><a href="../ceph">Ceph</a></th>
+<th><a href="../glusterfs">GlusterFS</a></th>
+<th><a href="../lustre">Lustre</a></th>
+</tr>
+</thead>
+
+<tbody>
+<tr>
+<td><strong>Architecture</strong></td>
+<td>Centralized</td>
+<td>Centralized</td>
+<td>Distributed</td>
+<td>Decentralized</td>
+<td>Centralized</td>
+</tr>
+
+<tr>
+<td><strong>Naming</strong></td>
+<td>Index</td>
+<td>Database</td>
+<td>CRUSH</td>
+<td>EHA</td>
+<td>Index</td>
+</tr>
+
+<tr>
+<td><strong>API</strong></td>
+<td>CLI, FUSE, REST, API</td>
+<td>CLI, FUSE, API</td>
+<td>FUSE, mount, REST</td>
+<td>FUSE, mount</td>
+<td>FUSE</td>
+</tr>
+
+<tr>
+<td><strong>Fault detection</strong></td>
+<td>Fully connect</td>
+<td>P2P</td>
+<td>Fully connect</td>
+<td>Detected</td>
+<td>Manually</td>
+</tr>
+
+<tr>
+<td><strong>System Availability</strong></td>
+<td>No failover</td>
+<td>No failover</td>
+<td>High</td>
+<td>High</td>
+<td>Failover</td>
+</tr>
+
+<tr>
+<td><strong>Data availability</strong></td>
+<td>Replication</td>
+<td>Replication</td>
+<td>Replication</td>
+<td>RAID-like</td>
+<td>No</td>
+</tr>
+
+<tr>
+<td><strong>Placement strategy</strong></td>
+<td>Auto</td>
+<td>Manual</td>
+<td>Auto</td>
+<td>Manual</td>
+<td>No</td>
+</tr>
+
+<tr>
+<td><strong>Replication</strong></td>
+<td>Async</td>
+<td>Sync</td>
+<td>Sync</td>
+<td>Sync</td>
+<td>RAID-like</td>
+</tr>
+
+<tr>
+<td><strong>Cache consistency</strong></td>
+<td>WORM, lease</td>
+<td>Lock</td>
+<td>Lock</td>
+<td>No</td>
+<td>Lock</td>
+</tr>
+
+<tr>
+<td><strong>Load balancing</strong></td>
+<td>Auto</td>
+<td>Manual</td>
+<td>Manual</td>
+<td>Manual</td>
+<td>No</td>
+</tr>
+</tbody>
+</table>
+
+        
+        <footer class="blockquote-footer ">
+            <small>
+                Depardon et al. (2013). Analysis of Six Distributed File Systems.
+            </small>
+        </footer>
+        
+    </div>
+</div></p>
+
+<p><div class='col-sm-8 py-2'>
+    <div class='card card-body  h-100'>
+        <p>The HDFS is a distributed, scalable, and portable file system written in Java for the Hadoop framework. Some consider it to instead be a data store due to its lack of POSIX compliance, but it does provide shell commands and Java application programming interface (API) methods that are similar to other file systems. A Hadoop cluster has nominally a single namenode plus a cluster of datanodes, although redundancy options are available for the namenode due to its criticality. Each datanode serves up blocks of data over the network using a block protocol specific to HDFS. The file system uses TCP/IP sockets for communication. Clients use remote procedure calls (RPC) to communicate with each other.</p>
+
+<p>HDFS stores large files (typically in the range of gigabytes to terabytes) across multiple machines. It achieves reliability by replicating the data across multiple hosts, and hence theoretically does not require redundant array of independent disks (RAID) storage on hosts (but to increase input-output (I/O) performance some RAID configurations are still useful). With the default replication value, 3, data is stored on three nodes: two on the same rack, and one on a different rack. Data nodes can talk to each other to rebalance data, to move copies around, and to keep the replication of data high. HDFS is not fully POSIX-compliant, because the requirements for a POSIX file-system differ from the target goals of a Hadoop application. The trade-off of not having a fully POSIX-compliant file-system is increased performance for data throughput and support for non-POSIX operations such as Append. <a href="https://en.wikipedia.org/wiki/Apache_Hadoop#Hadoop_distributed_file_system">Read more</a></p>
+
+<h3 id="assumptions-and-goals">Assumptions and Goals</h3>
+
+<h5 id="hardware-failure">Hardware Failure</h5>
+
+<p>Hardware failure is the norm rather than the exception. An HDFS instance may consist of hundreds or thousands of server machines, each storing part of the file system’s data. The fact that there are a huge number of components and that each component has a non-trivial probability of failure means that some component of HDFS is always non-functional. Therefore, detection of faults and quick, automatic recovery from them is a core architectural goal of HDFS.</p>
+
+<h5 id="streaming-data-access">Streaming Data Access</h5>
+
+<p>Applications that run on HDFS need streaming access to their data sets. They are not general purpose applications that typically run on general purpose file systems. HDFS is designed more for batch processing rather than interactive use by users. The emphasis is on high throughput of data access rather than low latency of data access. POSIX imposes many hard requirements that are not needed for applications that are targeted for HDFS. POSIX semantics in a few key areas has been traded to increase data throughput rates.</p>
+
+<h5 id="large-data-sets">Large Data Sets</h5>
+
+<p>Applications that run on HDFS have large data sets. A typical file in HDFS is gigabytes to terabytes in size. Thus, HDFS is tuned to support large files. It should provide high aggregate data bandwidth and scale to hundreds of nodes in a single cluster. It should support tens of millions of files in a single instance.</p>
+
+<h5 id="simple-coherency-model">Simple Coherency Model</h5>
+
+<p>HDFS applications need a write-once-read-many access model for files. A file once created, written, and closed need not be changed. This assumption simplifies data coherency issues and enables high throughput data access. A MapReduce application or a web crawler application fits perfectly with this model. There is a plan to support appending-writes to files in the future.</p>
+
+<h5 id="moving-computation-is-cheaper-than-moving-data">“Moving Computation is Cheaper than Moving Data”</h5>
+
+<p>A computation requested by an application is much more efficient if it is executed near the data it operates on. This is especially true when the size of the data set is huge. This minimizes network congestion and increases the overall throughput of the system. The assumption is that it is often better to migrate the computation closer to where the data is located rather than moving the data to where the application is running. HDFS provides interfaces for applications to move themselves closer to where the data is located.</p>
+
+<h5 id="portability-across-heterogeneous-hardware-and-software-platforms">Portability Across Heterogeneous Hardware and Software Platforms</h5>
+
+<p>HDFS has been designed to be easily portable from one platform to another. This facilitates widespread adoption of HDFS as a platform of choice for a large set of applications. <a href="https://hadoop.apache.org/docs/r1.2.1/hdfs_design.html#Introduction">Read more</a></p>
+
+        
+        <footer class="blockquote-footer ">
+            <small>
+                Wikipedia and apache.org
+            </small>
+        </footer>
+        
+    </div>
+</div></p>
+
+<p><div class='col-sm-4 py-2'>
+    <div class="card h-100 ">
+        <div class='card-head'>
+            <h4 class="card-title">Links</h4>
+        </div>
+        <ul class="list-group list-group-flush">
+    <a href="https://hadoop.apache.org/" class="list-group-item list-group-item-action ">Apache Hadoop</a>
+    <a href="https://hadoop.apache.org/docs/r1.2.1/hdfs_design.html#Introduction" class="list-group-item list-group-item-action ">HDFS Architecture Guide</a>
+    <a href="https://hortonworks.com/" class="list-group-item list-group-item-action ">Hortonworks Hadoop Sandbox</a>
+    <a href="http://ieeexplore.ieee.org/document/5496972/" class="list-group-item list-group-item-action ">HDFS Paper</a>
+    <a href="http://hadoop.apache.org/docs/current/" class="list-group-item list-group-item-action ">Hadoop Documentation</a>
+    
+</ul>
+    </div>
+</div></p>
+
+        <div class="col-sm-4 py-2">
+            <div class="card h-100">
+                <div class="card-body">
+                    <h3 class="card-title">Categories</h3>
+                    <div class="tag-list">
+                        <a href='http://distributedfog.com/storage'><span class="badge badge-light">Storage</span></a>
+                            
+                            <a href="/tags/storage"><span class="badge badge-light">Storage</span></a>
+                            
+                            <a href="/tags/filesystem"><span class="badge badge-light">Filesystem</span></a>
+                            
+                            <a href="/tags/cluster"><span class="badge badge-light">Cluster</span></a>
+                            
+                            <a href="/tags/linux"><span class="badge badge-light">Linux</span></a>
+                            
+                            <a href="/tags/distributed"><span class="badge badge-light">Distributed</span></a>
+                            
+                            <a href="/tags/hadoop"><span class="badge badge-light">Hadoop</span></a>
+                          
+                    </div>
+                </div>
+            </div>
+        </div>
+        <div class="col-sm-4 py-2">
+            <div class="card text-white bg-primary">
+                <div class="card-body">
+                    <h3 class="card-title">Share</h3>
+                    <a class="btn btn-lg btn-primary" href='https://twitter.com/intent/tweet?hashtags=storage%2cfilesystem%2ccluster%2clinux%2cdistributed%2chadoop&text=HDFS&url=http%3a%2f%2fdistributedfog.com%2fstorage%2fhdfs%2f'>
+                        <i class="fa fa-twitter" aria-hidden="true"></i></a>
+                    <a class="btn btn-lg btn-primary" href='https://www.facebook.com/sharer/sharer.php?u%3dhttp%253A%252F%252Fdistributedfog.com%252Fstorage%252Fhdfs%252F'>
+                        <i class="fa fa-facebook" aria-hidden="true"></i></a>
+                    <a class="btn btn-lg btn-primary" href='https://plus.google.com/share?url=http%3a%2f%2fdistributedfog.com%2fstorage%2fhdfs%2f'>
+                        <i class="fa fa-google-plus" aria-hidden="true"></i></a>
+                </div>
+            </div>
+        </div>
+        <div class="col-sm-12 py-2">
+    <div class="card">
+        <div class="card-body">
+            <div id="disqus_thread"></div>
+            <script>
+                var disqus_config = function () {
+                    this.page.url = "http://distributedfog.com/storage/hdfs/";
+                    this.page.identifier = "8f92c5d19e989bb62ef5ca068f12d51c";
+                };
+                (function() { 
+                    var d = document, s = d.createElement('script');
+                    s.src = 'https://distributedfog.disqus.com/embed.js';
+                    s.setAttribute('data-timestamp', +new Date());
+                    (d.head || d.body).appendChild(s);
+                })();
+            </script>
+            <noscript>Please enable JavaScript to view the <a href="https://disqus.com/?ref_noscript">comments powered by Disqus.</a></noscript>
+        </div>
+    </div>
+</div>
+    </div>
+</div>
+<footer class="bg-light">
+    <div id="footer-wrapper">
+       <div class="container">
+          <div class="row">
+                <div class="col-sm-4 infobox">
+                    
+                    <a href="http://distributedfog.com"><img src="http://distributedfog.com/img/logo.svg" id="logo-graphic" title="DistributedFog.com"></a>
+                    <ul class="footer-links">
+                        <li><a href="http://distributedfog.com/about">About</a></li>
+                        <li><a href="http://eugenesiow.com">eugenesiow.com</a></li>
+                    </ul>
+                </div>
+             <div class="col-sm-4 infobox">
+                <h4>Learn</h4>
+                <ul class="footer-links">
+                    <li><a href="http://distributedfog.com/make">Make</a></li>
+                    <li><a href="http://distributedfog.com/develop">Develop</a></li>
+                    <li><a href="http://distributedfog.com/use">Use</a></li>
+                </ul>
+            </div>
+            
+            <div class="col-sm-4 infobox">
+                <h4>Code</h4>
+                <ul class="footer-icons">
+                    <li><a href="https://github.com/eugenesiow/distributedfog"><i class="fa fa-github" aria-hidden="true"></i></a></li>
+                    <li><a href="https://github.com/eugenesiow/distributedfog/wiki"><i class="fa fa-wikipedia-w" aria-hidden="true"></i></a></li>
+                </ul>
+            </div>
+          </div>
+       </div>
+    </div>
+ </footer>
+<script id="dsq-count-scr" src="//distributedfog.disqus.com/count.js" async></script>
+
+
+    
+    <script src="https://code.jquery.com/jquery-3.2.1.slim.min.js" integrity="sha384-KJ3o2DKtIkvYIK3UENzmM7KCkRr/rE9/Qpg6aAZGJwFDMVNA/GpGFF93hXpG5KkN" crossorigin="anonymous"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.11.0/umd/popper.min.js" integrity="sha384-b/U6ypiBEHpOf/4+1nzFpr53nxSS+GLCkfwBdFNTxtclqqenISfwAzpKaMNFNmj4" crossorigin="anonymous"></script>
+    <script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0-beta/js/bootstrap.min.js" integrity="sha384-h0AbiXch4ZDo7tp9hKZ4TsHbi047NrKGLO3SEJAg45jXxnGIfYzk4Si90RDIqNm1" crossorigin="anonymous"></script>
+    <script src='http://distributedfog.com/js/main.js'></script>
+    
+<script type="application/ld+json">
+{
+    "@context" : "http://schema.org",
+    "@type" : "Article",
+    "articleSection" : "storage",
+    "mainEntityOfPage": {
+        "@type": "WebPage",
+        "@id": "http://distributedfog.com/storage/hdfs/"
+    },
+    "name" : "HDFS",
+    "headline" : "HDFS",
+    "description" : "The Hadoop Distributed File System (HDFS) is a distributed file system designed to run on commodity hardware. HDFS is highly fault-tolerant and is designed to be deployed on low-cost hardware. HDFS provides high throughput access to application data and is suitable for applications that have large data sets. HDFS relaxes a few POSIX requirements to enable streaming access to file system data.",
+    "inLanguage" : "en-GB",
+    "author" : "DistributedFog.com",
+    "creator" : "",
+    "accountablePerson" : "",
+    "copyrightHolder" : "",
+    "copyrightYear" : "2017",
+    "datePublished" : "2017-10-11 17:56:48 &#43;0100 BST",
+    "dateModified" : "2017-10-11 17:56:48 &#43;0100 BST",
+    "publisher": {
+        "@type": "Organization",
+        "name": "DistributedFog.com",
+        "logo": {
+            "@type": "ImageObject",
+            "url": "http://distributedfog.com/img/logo.png"
+        }
+    },
+    "logo": "",
+    "url" : "http://distributedfog.com/storage/hdfs/",
+    "wordCount" : "855",
+    "image" : "http://distributedfog.com/img/logo.png",
+    "keywords" : [ "storage, filesystem, cluster, linux, distributed, hadoop" ]
+}
+</script>
+
+  </body>
+</html>
