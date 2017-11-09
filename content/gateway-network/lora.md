@@ -3,7 +3,7 @@ title: "LoRaWAN"
 full: "Long Range Wide Area Network"
 type: "article"
 description: "LoRaWAN is a Low Power Wide Area Network (LPWAN) specification intended for wireless battery operated Things in a regional, national or global network. It is designed to allow low-powered devices to communicate with Internet-connected applications over long range wireless connections."
-weight: 0
+weight: 10
 tags: ["protocol", "WAN", "wireless"]
 date: 2017-10-11T17:56:48+01:00
 ---
