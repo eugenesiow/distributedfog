@@ -58,6 +58,10 @@
         {{ $.Scratch.Set "card-title-pretty" "Discovery" }}
         {{ partial "card.html" . }}
 
+        {{ $.Scratch.Set "card-title" "things-directory" }}
+        {{ $.Scratch.Set "card-title-pretty" "Things Dirs" }}
+        {{ partial "card.html" . }}
+
         {{ partial "layer.html" "Perception Layer" }}
 
         {{ $.Scratch.Set "card-title" "sensor" }}
