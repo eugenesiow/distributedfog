@@ -4,6 +4,7 @@ full: "Message Queue Telemetry Transport"
 type: "article"
 description: "MQTT is a publish-subscribe-based lightweight messaging protocol for use on top of TCP/IP. It is designed for connections where a small code footprint is required or the network bandwidth is limited."
 tags: ["protocol", "IBM"]
+weight: 10
 date: 2017-10-11T17:56:48+01:00
 ---
 

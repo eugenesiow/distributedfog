@@ -68,6 +68,10 @@
         {{ $.Scratch.Set "card-title-pretty" "Sensors" }}
         {{ partial "card.html" . }}
 
+        {{ $.Scratch.Set "card-title" "actuator" }}
+        {{ $.Scratch.Set "card-title-pretty" "Actuators" }}
+        {{ partial "card.html" . }}
+
         {{ $.Scratch.Set "card-title" "os" }}
         {{ $.Scratch.Set "card-title-pretty" "Device OS" }}
         {{ partial "card.html" . }}

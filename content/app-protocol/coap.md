@@ -4,6 +4,7 @@ full: "Constrained Application Protocol"
 type: "article"
 description: "CoAP is a specialised web transfer protocol for use with constrained nodes and constrained (e.g., low-power, lossy) networks."
 tags: ["protocol","IETF","CoAP"]
+weight: 10
 date: 2017-10-11T17:56:48+01:00
 ---
 
