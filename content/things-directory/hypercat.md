@@ -3,7 +3,7 @@ title: "Hypercat"
 type: "article"
 description: "The Hypercat specification allows Internet of Things (IoT) clients to discover information about IoT assets over the web. With Hypercat developers can write applications that will work across many servers, breaking down the walls between vertical silos."
 weight: 0
-tags: ["specification", "interoperability"]
+tags: ["specification", "interoperability","discovery","search"]
 date: 2017-10-11T17:56:48+01:00
 ---
 
