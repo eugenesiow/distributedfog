@@ -42,13 +42,19 @@ ga('send', 'pageview');
             </a>
             <div class="dropdown-menu">
                 
+                <a class="dropdown-item " href="/app-protocol/coap/">CoAP</a>
+                
+                <a class="dropdown-item " href="/app-protocol/mqtt/">MQTT</a>
+                
+                <a class="dropdown-item " href="/app-protocol/amqp/">AMQP</a>
+                
                 <a class="dropdown-item active" href="/app-protocol/">App Protocols</a>
                 
-                <a class="dropdown-item " href="/app-protocol/coap/">CoAP</a>
+                <a class="dropdown-item " href="/app-protocol/dds/">DDS</a>
                 
                 <a class="dropdown-item " href="/app-protocol/http2/">HTTP/2</a>
                 
-                <a class="dropdown-item " href="/app-protocol/mqtt/">MQTT</a>
+                <a class="dropdown-item " href="/app-protocol/websocket/">Websocket</a>
                 
                 <a class="dropdown-item " href="/app-protocol/xmpp/">XMPP</a>
                 
@@ -73,6 +79,33 @@ ga('send', 'pageview');
                         <small>protocol, IETF, CoAP</small>
                     </a>
                     
+                    <a href="/app-protocol/mqtt/" class="list-group-item list-group-item-action flex-column align-items-start">
+                        <div class="d-flex w-100">
+                            <h5 class="mb-1">MQTT
+                             <small>Message Queue Telemetry Transport</small></h5>
+                        </div>
+                        <p class="mb-1">MQTT is a publish-subscribe-based lightweight messaging protocol for use on top of TCP/IP. It is designed for connections where a small code footprint is required or the network bandwidth is limited.</p>
+                        <small>protocol, IBM</small>
+                    </a>
+                    
+                    <a href="/app-protocol/amqp/" class="list-group-item list-group-item-action flex-column align-items-start">
+                        <div class="d-flex w-100">
+                            <h5 class="mb-1">AMQP
+                             <small>Advanced Message Queuing Protocol</small></h5>
+                        </div>
+                        <p class="mb-1">The Advanced Message Queuing Protocol (AMQP) is an open standard application layer protocol for message-oriented middleware. The defining features of AMQP are message orientation, queuing, routing (including point-to-point and publish-and-subscribe), reliability and security.</p>
+                        <small>protocol, middleware, specification</small>
+                    </a>
+                    
+                    <a href="/app-protocol/dds/" class="list-group-item list-group-item-action flex-column align-items-start">
+                        <div class="d-flex w-100">
+                            <h5 class="mb-1">DDS
+                             <small>Data Distribution Service</small></h5>
+                        </div>
+                        <p class="mb-1">The Data Distribution Service for real-time systems (DDS) is an Object Management Group (OMG) machine-to-machine (sometimes called middleware) standard that aims to enable scalable, real-time, dependable, high-performance and interoperable data exchanges using a publish–subscribe pattern. DDS addresses the needs of applications like financial trading, air-traffic control, smart grid management, and other big data applications. The standard is used in applications such as smartphone operating systems, transportation systems and vehicles, software-defined radio, and by healthcare providers. DDS was promoted for use in the Internet of things.</p>
+                        <small>protocol, middleware</small>
+                    </a>
+                    
                     <a href="/app-protocol/http2/" class="list-group-item list-group-item-action flex-column align-items-start">
                         <div class="d-flex w-100">
                             <h5 class="mb-1">HTTP/2
@@ -82,13 +115,13 @@ ga('send', 'pageview');
                         <small>protocol, HTTP</small>
                     </a>
                     
-                    <a href="/app-protocol/mqtt/" class="list-group-item list-group-item-action flex-column align-items-start">
+                    <a href="/app-protocol/websocket/" class="list-group-item list-group-item-action flex-column align-items-start">
                         <div class="d-flex w-100">
-                            <h5 class="mb-1">MQTT
-                             <small>Message Queue Telemetry Transport</small></h5>
+                            <h5 class="mb-1">Websocket
+                            </h5>
                         </div>
-                        <p class="mb-1">MQTT is a publish-subscribe-based lightweight messaging protocol for use on top of TCP/IP. It is designed for connections where a small code footprint is required or the network bandwidth is limited.</p>
-                        <small>protocol, IBM</small>
+                        <p class="mb-1">WebSocket is a computer communications protocol, providing full-duplex communication channels over a single TCP connection. The WebSocket protocol was standardized by the IETF as RFC 6455 in 2011, and the WebSocket API in Web IDL is being standardized by the W3C.</p>
+                        <small>protocol, HTTP</small>
                     </a>
                     
                     <a href="/app-protocol/xmpp/" class="list-group-item list-group-item-action flex-column align-items-start">

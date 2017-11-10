@@ -23,6 +23,39 @@ CoAP is network-oriented protocol with similar features to HTTP but also allows 
     </item>
     
     <item>
+      <title>MQTT</title>
+      <link>http://distributedfog.com/app-protocol/mqtt/</link>
+      <pubDate>Wed, 11 Oct 2017 17:56:48 +0100</pubDate>
+      
+      <guid>http://distributedfog.com/app-protocol/mqtt/</guid>
+      <description>MQTT is a publish-subscribe-based lightweight messaging protocol for use on top of TCP/IP. It is designed for connections where a small code footprint is required or the network bandwidth is limited.  Wikipedia     Research CoAP vs MQTT, MQTT and REST, Push Notifications, Secure MQTT
+ 
+MQTT-SN is a variation of the main protocol aimed at embedded devices on non-TCP/IP networks, such as ZigBee. As it does not require the TCP/IP stack, it can be used over a serial link where overhead is really small or over UDP.</description>
+    </item>
+    
+    <item>
+      <title>AMQP</title>
+      <link>http://distributedfog.com/app-protocol/amqp/</link>
+      <pubDate>Wed, 11 Oct 2017 17:56:48 +0100</pubDate>
+      
+      <guid>http://distributedfog.com/app-protocol/amqp/</guid>
+      <description>The Advanced Message Queuing Protocol (AMQP) is an open standard application layer protocol for message-oriented middleware. The defining features of AMQP are message orientation, queuing, routing (including point-to-point and publish-and-subscribe), reliability and security.  Wikipedia     Architecture 
+ 
+Network Protocol 
+ 
+AMQP is a binary, application layer protocol, designed to efficiently support a wide variety of messaging applications and communication patterns. It provides flow controlled, message-oriented communication with message-delivery guarantees such as at-most-once (where each message is delivered once or never), at-least-once (where each message is certain to be delivered, but may do so multiple times) and exactly-once (where the message will always certainly arrive and do so only once), and authentication and/or encryption based on SASL and/or TLS.</description>
+    </item>
+    
+    <item>
+      <title>DDS</title>
+      <link>http://distributedfog.com/app-protocol/dds/</link>
+      <pubDate>Wed, 11 Oct 2017 17:56:48 +0100</pubDate>
+      
+      <guid>http://distributedfog.com/app-protocol/dds/</guid>
+      <description>The Data Distribution Service for real-time systems (DDS) is an Object Management Group (OMG) machine-to-machine (sometimes called middleware) standard that aims to enable scalable, real-time, dependable, high-performance and interoperable data exchanges using a publish–subscribe pattern. DDS addresses the needs of applications like financial trading, air-traffic control, smart grid management, and other big data applications. The standard is used in applications such as smartphone operating systems, transportation systems and vehicles, software-defined radio, and by healthcare providers.</description>
+    </item>
+    
+    <item>
       <title>HTTP/2</title>
       <link>http://distributedfog.com/app-protocol/http2/</link>
       <pubDate>Wed, 11 Oct 2017 17:56:48 +0100</pubDate>
@@ -34,14 +67,12 @@ HTTP/2 Server Push allows you to send site assets to the user before they’ve e
     </item>
     
     <item>
-      <title>MQTT</title>
-      <link>http://distributedfog.com/app-protocol/mqtt/</link>
+      <title>Websocket</title>
+      <link>http://distributedfog.com/app-protocol/websocket/</link>
       <pubDate>Wed, 11 Oct 2017 17:56:48 +0100</pubDate>
       
-      <guid>http://distributedfog.com/app-protocol/mqtt/</guid>
-      <description>MQTT is a publish-subscribe-based lightweight messaging protocol for use on top of TCP/IP. It is designed for connections where a small code footprint is required or the network bandwidth is limited.  Wikipedia     Research CoAP vs MQTT, MQTT and REST, Push Notifications, Secure MQTT
- 
-MQTT-SN is a variation of the main protocol aimed at embedded devices on non-TCP/IP networks, such as ZigBee. As it does not require the TCP/IP stack, it can be used over a serial link where overhead is really small or over UDP.</description>
+      <guid>http://distributedfog.com/app-protocol/websocket/</guid>
+      <description>WebSocket is a computer communications protocol, providing full-duplex communication channels over a single TCP connection. The WebSocket protocol was standardized by the IETF as RFC 6455 in 2011, and the WebSocket API in Web IDL is being standardized by the W3C.  Wikipedia     µWebSockets (Code) µWS is one of the most lightweight, efficient &amp;amp; scalable WebSocket &amp;amp; HTTP server implementations available. It features an easy-to-use, fully async object-oriented interface and scales to millions of connections using only a fraction of memory compared to the competition.</description>
     </item>
     
     <item>

@@ -12,7 +12,17 @@
   </url>
   
   <url>
+    <loc>http://distributedfog.com/app-protocol/coap/</loc>
+    <lastmod>2017-10-11T17:56:48+01:00</lastmod>
+  </url>
+  
+  <url>
     <loc>http://distributedfog.com/gateway-network/lora/</loc>
+    <lastmod>2017-10-11T17:56:48+01:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>http://distributedfog.com/app-protocol/mqtt/</loc>
     <lastmod>2017-10-11T17:56:48+01:00</lastmod>
   </url>
   
@@ -47,12 +57,22 @@
   </url>
   
   <url>
+    <loc>http://distributedfog.com/app-protocol/amqp/</loc>
+    <lastmod>2017-10-11T17:56:48+01:00</lastmod>
+  </url>
+  
+  <url>
     <loc>http://distributedfog.com/fog-computing/angels/</loc>
     <lastmod>2017-10-11T17:56:48+01:00</lastmod>
   </url>
   
   <url>
     <loc>http://distributedfog.com/sensor-network/ant/</loc>
+    <lastmod>2017-10-11T17:56:48+01:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>http://distributedfog.com/actuator/</loc>
     <lastmod>2017-10-11T17:56:48+01:00</lastmod>
   </url>
   
@@ -92,11 +112,6 @@
   </url>
   
   <url>
-    <loc>http://distributedfog.com/app-protocol/coap/</loc>
-    <lastmod>2017-10-11T17:56:48+01:00</lastmod>
-  </url>
-  
-  <url>
     <loc>http://distributedfog.com/things-directory/core/</loc>
     <lastmod>2017-10-11T17:56:48+01:00</lastmod>
   </url>
@@ -118,6 +133,11 @@
   
   <url>
     <loc>http://distributedfog.com/sensor-network/dash7/</loc>
+    <lastmod>2017-10-11T17:56:48+01:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>http://distributedfog.com/app-protocol/dds/</loc>
     <lastmod>2017-10-11T17:56:48+01:00</lastmod>
   </url>
   
@@ -263,11 +283,6 @@
   
   <url>
     <loc>http://distributedfog.com/storage/lustre/</loc>
-    <lastmod>2017-10-11T17:56:48+01:00</lastmod>
-  </url>
-  
-  <url>
-    <loc>http://distributedfog.com/app-protocol/mqtt/</loc>
     <lastmod>2017-10-11T17:56:48+01:00</lastmod>
   </url>
   
@@ -432,6 +447,11 @@
   </url>
   
   <url>
+    <loc>http://distributedfog.com/app-protocol/websocket/</loc>
+    <lastmod>2017-10-11T17:56:48+01:00</lastmod>
+  </url>
+  
+  <url>
     <loc>http://distributedfog.com/gateway-network/wifi/</loc>
     <lastmod>2017-10-11T17:56:48+01:00</lastmod>
   </url>
@@ -522,6 +542,11 @@
   </url>
   
   <url>
+    <loc>http://distributedfog.com/actuator/eap/</loc>
+    <lastmod>2017-10-11T16:24:18+01:00</lastmod>
+  </url>
+  
+  <url>
     <loc>http://distributedfog.com/sensor/ecg/</loc>
     <lastmod>2017-10-11T16:24:18+01:00</lastmod>
   </url>
@@ -537,7 +562,27 @@
   </url>
   
   <url>
+    <loc>http://distributedfog.com/actuator/hydraulic/</loc>
+    <lastmod>2017-10-11T16:24:18+01:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>http://distributedfog.com/actuator/motor/</loc>
+    <lastmod>2017-10-11T16:24:18+01:00</lastmod>
+  </url>
+  
+  <url>
     <loc>http://distributedfog.com/sensor/pedometer/</loc>
+    <lastmod>2017-10-11T16:24:18+01:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>http://distributedfog.com/actuator/piezoelectric/</loc>
+    <lastmod>2017-10-11T16:24:18+01:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>http://distributedfog.com/actuator/pneumatic/</loc>
     <lastmod>2017-10-11T16:24:18+01:00</lastmod>
   </url>
   
@@ -548,6 +593,21 @@
   
   <url>
     <loc>http://distributedfog.com/tag/rfid/</loc>
+    <lastmod>2017-10-11T16:24:18+01:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>http://distributedfog.com/actuator/servo/</loc>
+    <lastmod>2017-10-11T16:24:18+01:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>http://distributedfog.com/actuator/soft/</loc>
+    <lastmod>2017-10-11T16:24:18+01:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>http://distributedfog.com/sensor/temperature/</loc>
     <lastmod>2017-10-11T16:24:18+01:00</lastmod>
   </url>
   
@@ -629,6 +689,12 @@
   </url>
   
   <url>
+    <loc>http://distributedfog.com/tags/control/</loc>
+    <lastmod>2017-10-11T16:24:18+01:00</lastmod>
+    <priority>0</priority>
+  </url>
+  
+  <url>
     <loc>http://distributedfog.com/tags/core/</loc>
     <lastmod>2017-10-11T17:56:48+01:00</lastmod>
     <priority>0</priority>
@@ -667,6 +733,12 @@
   <url>
     <loc>http://distributedfog.com/tags/education/</loc>
     <lastmod>2017-10-11T17:56:48+01:00</lastmod>
+    <priority>0</priority>
+  </url>
+  
+  <url>
+    <loc>http://distributedfog.com/tags/electrical/</loc>
+    <lastmod>2017-10-11T16:24:18+01:00</lastmod>
     <priority>0</priority>
   </url>
   
@@ -743,6 +815,12 @@
   </url>
   
   <url>
+    <loc>http://distributedfog.com/tags/industrial/</loc>
+    <lastmod>2017-10-11T16:24:18+01:00</lastmod>
+    <priority>0</priority>
+  </url>
+  
+  <url>
     <loc>http://distributedfog.com/tags/industry/</loc>
     <lastmod>2017-10-11T16:24:18+01:00</lastmod>
     <priority>0</priority>
@@ -791,6 +869,12 @@
   </url>
   
   <url>
+    <loc>http://distributedfog.com/tags/manufacturing/</loc>
+    <lastmod>2017-10-11T16:24:18+01:00</lastmod>
+    <priority>0</priority>
+  </url>
+  
+  <url>
     <loc>http://distributedfog.com/tags/merkle/</loc>
     <lastmod>2017-10-11T17:56:48+01:00</lastmod>
     <priority>0</priority>
@@ -804,6 +888,12 @@
   
   <url>
     <loc>http://distributedfog.com/tags/microsoft/</loc>
+    <lastmod>2017-10-11T17:56:48+01:00</lastmod>
+    <priority>0</priority>
+  </url>
+  
+  <url>
+    <loc>http://distributedfog.com/tags/middleware/</loc>
     <lastmod>2017-10-11T17:56:48+01:00</lastmod>
     <priority>0</priority>
   </url>
@@ -889,6 +979,12 @@
   <url>
     <loc>http://distributedfog.com/tags/rfid/</loc>
     <lastmod>2017-10-11T17:56:48+01:00</lastmod>
+    <priority>0</priority>
+  </url>
+  
+  <url>
+    <loc>http://distributedfog.com/tags/robotics/</loc>
+    <lastmod>2017-10-11T16:24:18+01:00</lastmod>
     <priority>0</priority>
   </url>
   

@@ -22,5 +22,14 @@
 HTTP/2 Server Push allows you to send site assets to the user before they’ve even asked for them. It’s an elegant way to achieve the performance benefits of HTTP/1 optimization practices such as inlining, but without the drawbacks that come with that practice.</description>
     </item>
     
+    <item>
+      <title>Websocket</title>
+      <link>http://distributedfog.com/app-protocol/websocket/</link>
+      <pubDate>Wed, 11 Oct 2017 17:56:48 +0100</pubDate>
+      
+      <guid>http://distributedfog.com/app-protocol/websocket/</guid>
+      <description>WebSocket is a computer communications protocol, providing full-duplex communication channels over a single TCP connection. The WebSocket protocol was standardized by the IETF as RFC 6455 in 2011, and the WebSocket API in Web IDL is being standardized by the W3C.  Wikipedia     µWebSockets (Code) µWS is one of the most lightweight, efficient &amp;amp; scalable WebSocket &amp;amp; HTTP server implementations available. It features an easy-to-use, fully async object-oriented interface and scales to millions of connections using only a fraction of memory compared to the competition.</description>
+    </item>
+    
   </channel>
 </rss>

@@ -1,0 +1,86 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes" ?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>Actuators on DistributedFog</title>
+    <link>http://distributedfog.com/actuator/</link>
+    <description>Recent content in Actuators on DistributedFog</description>
+    <generator>Hugo -- gohugo.io</generator>
+    <language>en-us</language>
+    <lastBuildDate>Wed, 11 Oct 2017 17:56:48 +0100</lastBuildDate>
+    
+	<atom:link href="http://distributedfog.com/actuator/index.xml" rel="self" type="application/rss+xml" />
+    
+    
+    <item>
+      <title>EAPs</title>
+      <link>http://distributedfog.com/actuator/eap/</link>
+      <pubDate>Wed, 11 Oct 2017 16:24:18 +0100</pubDate>
+      
+      <guid>http://distributedfog.com/actuator/eap/</guid>
+      <description>Electroactive polymers, or EAPs, are polymers that exhibit a change in size or shape when stimulated by an electric field. The most common applications of this type of material are in actuators and sensors. A typical characteristic property of an EAP is that they will undergo a large amount of deformation while sustaining large forces.  Wikipedia     Types  Dielectric
+ Ferroelectric polymers
+ Electrostrictive graft polymers</description>
+    </item>
+    
+    <item>
+      <title>Hydraulic</title>
+      <link>http://distributedfog.com/actuator/hydraulic/</link>
+      <pubDate>Wed, 11 Oct 2017 16:24:18 +0100</pubDate>
+      
+      <guid>http://distributedfog.com/actuator/hydraulic/</guid>
+      <description>A hydraulic actuator consists of cylinder or fluid motor that uses hydraulic power to facilitate mechanical operation. The mechanical motion gives an output in terms of linear, rotatory or oscillatory motion. As liquids are nearly impossible to compress, a hydraulic actuator can exert a large force. The drawback of this approach is its limited acceleration.  Wikipedia     Advantages  Hydraulic actuators are rugged and suited for high-force applications.</description>
+    </item>
+    
+    <item>
+      <title>Motor</title>
+      <link>http://distributedfog.com/actuator/motor/</link>
+      <pubDate>Wed, 11 Oct 2017 16:24:18 +0100</pubDate>
+      
+      <guid>http://distributedfog.com/actuator/motor/</guid>
+      <description>An engine or motor is a machine designed to convert one form of energy into mechanical energy. An electric motor is an electrical machine that converts electrical energy into mechanical energy. A stepper motor is a type of DC electric motor.  Wikipedia     Electric Motors Most electric motors operate through the interaction between an electric motor&amp;rsquo;s magnetic field and winding currents to generate force. Electric motors can be powered by direct current (DC) sources, such as from batteries, motor vehicles or rectifiers, or by alternating current (AC) sources, such as from the power grid, inverters or generators.</description>
+    </item>
+    
+    <item>
+      <title>Piezoelectric</title>
+      <link>http://distributedfog.com/actuator/piezoelectric/</link>
+      <pubDate>Wed, 11 Oct 2017 16:24:18 +0100</pubDate>
+      
+      <guid>http://distributedfog.com/actuator/piezoelectric/</guid>
+      <description>Piezoelectricity is the electric charge that accumulates in certain solid materials (such as crystals, certain ceramics, and biological matter such as bone, DNA and various proteins) in response to applied mechanical stress. The word piezoelectricity means electricity resulting from pressure and heat. A piezoelectric bimorph is a cantilever used for actuation or sensing which consists of two active layers. One active layer contracts and the other expands if voltage is applied, thus the bimorph bends.</description>
+    </item>
+    
+    <item>
+      <title>Pneumatic</title>
+      <link>http://distributedfog.com/actuator/pneumatic/</link>
+      <pubDate>Wed, 11 Oct 2017 16:24:18 +0100</pubDate>
+      
+      <guid>http://distributedfog.com/actuator/pneumatic/</guid>
+      <description>A pneumatic control valve actuator converts energy (typically in the form of compressed air) into mechanical motion. The motion can be rotary or linear, depending on the type of actuator.  Wikipedia     Types  Tie rod cylinders
+ Rotary actuators
+ Grippers
+ Rodless actuators with magnetic linkage or rotary cylinders
+ Rodless actuators with mechanical linkage
+ Pneumatic artificial muscles
+ Speciality actuators that combine rotary and linear motion—frequently used for clamping operations</description>
+    </item>
+    
+    <item>
+      <title>Servo</title>
+      <link>http://distributedfog.com/actuator/servo/</link>
+      <pubDate>Wed, 11 Oct 2017 16:24:18 +0100</pubDate>
+      
+      <guid>http://distributedfog.com/actuator/servo/</guid>
+      <description>In control engineering a servomechanism, sometimes shortened to servo, is an automatic device that uses error-sensing negative feedback to correct the action of a mechanism. It usually includes a built-in encoder or other position feedback mechanism to ensure the output is achieving the desired effect. The term correctly applies only to systems where the feedback or error-correction signals help control mechanical position, speed or other parameters.  Wikipedia     Servomotor A servomotor is a specific type of motor that is combined with a rotary encoder or a potentiometer to form a servomechanism.</description>
+    </item>
+    
+    <item>
+      <title>Soft</title>
+      <link>http://distributedfog.com/actuator/soft/</link>
+      <pubDate>Wed, 11 Oct 2017 16:24:18 +0100</pubDate>
+      
+      <guid>http://distributedfog.com/actuator/soft/</guid>
+      <description>Soft actuators are being developed to handle fragile objects like fruit harvesting in agriculture or manipulating the internal organs in biomedicine that has always been a challenging task for robotics. Unlike conventional actuators, soft actuators produce flexible motion due to the integration of microscopic changes at the molecular level into a macroscopic deformation of the actuator materials.  Wikipedia     PneuNets Bending Actuators PneuNets (pneumatic networks) are a class of soft actuator originally developed by the Whitesides Research Group at Harvard.</description>
+    </item>
+    
+  </channel>
+</rss>

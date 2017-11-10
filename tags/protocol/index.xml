@@ -42,6 +42,19 @@ Ubiquitous computing (or &amp;ldquo;ubicomp&amp;rdquo;) is a concept in software
     </item>
     
     <item>
+      <title>AMQP</title>
+      <link>http://distributedfog.com/app-protocol/amqp/</link>
+      <pubDate>Wed, 11 Oct 2017 17:56:48 +0100</pubDate>
+      
+      <guid>http://distributedfog.com/app-protocol/amqp/</guid>
+      <description>The Advanced Message Queuing Protocol (AMQP) is an open standard application layer protocol for message-oriented middleware. The defining features of AMQP are message orientation, queuing, routing (including point-to-point and publish-and-subscribe), reliability and security.  Wikipedia     Architecture 
+ 
+Network Protocol 
+ 
+AMQP is a binary, application layer protocol, designed to efficiently support a wide variety of messaging applications and communication patterns. It provides flow controlled, message-oriented communication with message-delivery guarantees such as at-most-once (where each message is delivered once or never), at-least-once (where each message is certain to be delivered, but may do so multiple times) and exactly-once (where the message will always certainly arrive and do so only once), and authentication and/or encryption based on SASL and/or TLS.</description>
+    </item>
+    
+    <item>
       <title>ANT&#43;</title>
       <link>http://distributedfog.com/sensor-network/ant/</link>
       <pubDate>Wed, 11 Oct 2017 17:56:48 +0100</pubDate>
@@ -79,6 +92,15 @@ CoAP is network-oriented protocol with similar features to HTTP but also allows 
       
       <guid>http://distributedfog.com/sensor-network/dash7/</guid>
       <description>DASH7 Alliance Protocol (D7A) is an open source Wireless Sensor and Actuator Network protocol, which operates in the 433 MHz, 868 MHz and 915 MHz unlicensed ISM band/SRD band. DASH7 provides multi-year battery life, range of up to 2 km, low latency for connecting with moving things, a very small open source protocol stack, AES 128-bit shared key encryption support, and data transfer of up to 167 kbit/s.  Wikipedia     Why DASH7?</description>
+    </item>
+    
+    <item>
+      <title>DDS</title>
+      <link>http://distributedfog.com/app-protocol/dds/</link>
+      <pubDate>Wed, 11 Oct 2017 17:56:48 +0100</pubDate>
+      
+      <guid>http://distributedfog.com/app-protocol/dds/</guid>
+      <description>The Data Distribution Service for real-time systems (DDS) is an Object Management Group (OMG) machine-to-machine (sometimes called middleware) standard that aims to enable scalable, real-time, dependable, high-performance and interoperable data exchanges using a publish–subscribe pattern. DDS addresses the needs of applications like financial trading, air-traffic control, smart grid management, and other big data applications. The standard is used in applications such as smartphone operating systems, transportation systems and vehicles, software-defined radio, and by healthcare providers.</description>
     </item>
     
     <item>
@@ -239,6 +261,15 @@ MQTT-SN is a variation of the main protocol aimed at embedded devices on non-TCP
       
       <guid>http://distributedfog.com/discovery/upnp/</guid>
       <description>Universal Plug and Play (UPnP) is a set of networking protocols that permits networked devices, such as personal computers, printers, Internet gateways, Wi-Fi access points and mobile devices to seamlessly discover each other&amp;#39;s presence on the network and establish functional network services for data sharing, communications, and entertainment.  Wikipedia     Protocol UPnP assumes the network must run Internet Protocol (IP) and then leverages HTTP, SOAP and XML on top of IP, in order to provide device/service description, actions, data transfer and eventing.</description>
+    </item>
+    
+    <item>
+      <title>Websocket</title>
+      <link>http://distributedfog.com/app-protocol/websocket/</link>
+      <pubDate>Wed, 11 Oct 2017 17:56:48 +0100</pubDate>
+      
+      <guid>http://distributedfog.com/app-protocol/websocket/</guid>
+      <description>WebSocket is a computer communications protocol, providing full-duplex communication channels over a single TCP connection. The WebSocket protocol was standardized by the IETF as RFC 6455 in 2011, and the WebSocket API in Web IDL is being standardized by the W3C.  Wikipedia     µWebSockets (Code) µWS is one of the most lightweight, efficient &amp;amp; scalable WebSocket &amp;amp; HTTP server implementations available. It features an easy-to-use, fully async object-oriented interface and scales to millions of connections using only a fraction of memory compared to the competition.</description>
     </item>
     
     <item>

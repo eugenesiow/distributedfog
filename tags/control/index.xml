@@ -1,0 +1,24 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes" ?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>Control on DistributedFog</title>
+    <link>http://distributedfog.com/tags/control/</link>
+    <description>Recent content in Control on DistributedFog</description>
+    <generator>Hugo -- gohugo.io</generator>
+    <language>en-us</language>
+    <lastBuildDate>Wed, 11 Oct 2017 16:24:18 +0100</lastBuildDate>
+    
+	<atom:link href="http://distributedfog.com/tags/control/index.xml" rel="self" type="application/rss+xml" />
+    
+    
+    <item>
+      <title>Servo</title>
+      <link>http://distributedfog.com/actuator/servo/</link>
+      <pubDate>Wed, 11 Oct 2017 16:24:18 +0100</pubDate>
+      
+      <guid>http://distributedfog.com/actuator/servo/</guid>
+      <description>In control engineering a servomechanism, sometimes shortened to servo, is an automatic device that uses error-sensing negative feedback to correct the action of a mechanism. It usually includes a built-in encoder or other position feedback mechanism to ensure the output is achieving the desired effect. The term correctly applies only to systems where the feedback or error-correction signals help control mechanical position, speed or other parameters.  Wikipedia     Servomotor A servomotor is a specific type of motor that is combined with a rotary encoder or a potentiometer to form a servomechanism.</description>
+    </item>
+    
+  </channel>
+</rss>

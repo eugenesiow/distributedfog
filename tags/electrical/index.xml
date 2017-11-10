@@ -1,0 +1,24 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes" ?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>Electrical on DistributedFog</title>
+    <link>http://distributedfog.com/tags/electrical/</link>
+    <description>Recent content in Electrical on DistributedFog</description>
+    <generator>Hugo -- gohugo.io</generator>
+    <language>en-us</language>
+    <lastBuildDate>Wed, 11 Oct 2017 16:24:18 +0100</lastBuildDate>
+    
+	<atom:link href="http://distributedfog.com/tags/electrical/index.xml" rel="self" type="application/rss+xml" />
+    
+    
+    <item>
+      <title>Motor</title>
+      <link>http://distributedfog.com/actuator/motor/</link>
+      <pubDate>Wed, 11 Oct 2017 16:24:18 +0100</pubDate>
+      
+      <guid>http://distributedfog.com/actuator/motor/</guid>
+      <description>An engine or motor is a machine designed to convert one form of energy into mechanical energy. An electric motor is an electrical machine that converts electrical energy into mechanical energy. A stepper motor is a type of DC electric motor.  Wikipedia     Electric Motors Most electric motors operate through the interaction between an electric motor&amp;rsquo;s magnetic field and winding currents to generate force. Electric motors can be powered by direct current (DC) sources, such as from batteries, motor vehicles or rectifiers, or by alternating current (AC) sources, such as from the power grid, inverters or generators.</description>
+    </item>
+    
+  </channel>
+</rss>

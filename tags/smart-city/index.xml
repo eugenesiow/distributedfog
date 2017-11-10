@@ -22,5 +22,19 @@
 PM2.5 refers to atmospheric particulate matter (PM) that have a diameter of less than 2.5 micrometers. Such particles are able to bypass the nose and throat and penetrate deep into the lungs and some may even enter the circulatory system.</description>
     </item>
     
+    <item>
+      <title>Temperature</title>
+      <link>http://distributedfog.com/sensor/temperature/</link>
+      <pubDate>Wed, 11 Oct 2017 16:24:18 +0100</pubDate>
+      
+      <guid>http://distributedfog.com/sensor/temperature/</guid>
+      <description>Temperature sensors are commonly used sensors that detect Temperature or heat.  Wikipedia     Common Types &amp;hellip;  Negative Temperature Coefficient (NTC) thermistor
+ Resistance Temperature Detector (RTD)
+ Thermocouple
+ Semiconductor-based sensors
+   
+The silicon bandgap temperature sensor is an extremely common form of temperature sensor (thermometer) used in electronic equipment. Its main advantage is that it can be included in a silicon integrated circuit at very low cost.</description>
+    </item>
+    
   </channel>
 </rss>

@@ -34,12 +34,34 @@ Series Comparison &amp;hellip;    Arduino CPU SRAM Flash     Yún 400 MHz 64 MB 
     </item>
     
     <item>
+      <title>CoAP</title>
+      <link>http://distributedfog.com/app-protocol/coap/</link>
+      <pubDate>Wed, 11 Oct 2017 17:56:48 +0100</pubDate>
+      
+      <guid>http://distributedfog.com/app-protocol/coap/</guid>
+      <description>CoAP is a specialised web transfer protocol for use with constrained nodes and constrained (e.g., low-power, lossy) networks.  RFC 7252     Research HTTP/2, CoAP on device HTTP/2 everywhere else, Security, Californium Cloud Services, MQTT vs CoAP, TinyOS Performance, Transport: Logistics
+ 
+CoAP is network-oriented protocol with similar features to HTTP but also allows for low overhead, multicast, etc. CoAP operates over UDP (simpler) instead of TCP compensating for unreliability with a retransmission mechanism.</description>
+    </item>
+    
+    <item>
       <title>LoRaWAN</title>
       <link>http://distributedfog.com/gateway-network/lora/</link>
       <pubDate>Wed, 11 Oct 2017 17:56:48 +0100</pubDate>
       
       <guid>http://distributedfog.com/gateway-network/lora/</guid>
       <description>LoRaWAN is a Low Power Wide Area Network (LPWAN) specification intended for wireless battery operated Things in a regional, national or global network. It is designed to allow low-powered devices to communicate with Internet-connected applications over long range wireless connections.  lora-alliance.org     The Things Network The Things Network is a first-of-its-kind system that uses low-power, low-bandwidth LoRaWAN technology to cover the city with a wireless signal that allows objects like boats, trash cans and street lights to become tools for developers.</description>
+    </item>
+    
+    <item>
+      <title>MQTT</title>
+      <link>http://distributedfog.com/app-protocol/mqtt/</link>
+      <pubDate>Wed, 11 Oct 2017 17:56:48 +0100</pubDate>
+      
+      <guid>http://distributedfog.com/app-protocol/mqtt/</guid>
+      <description>MQTT is a publish-subscribe-based lightweight messaging protocol for use on top of TCP/IP. It is designed for connections where a small code footprint is required or the network bandwidth is limited.  Wikipedia     Research CoAP vs MQTT, MQTT and REST, Push Notifications, Secure MQTT
+ 
+MQTT-SN is a variation of the main protocol aimed at embedded devices on non-TCP/IP networks, such as ZigBee. As it does not require the TCP/IP stack, it can be used over a serial link where overhead is really small or over UDP.</description>
     </item>
     
     <item>
@@ -99,6 +121,19 @@ Ubiquitous computing (or &amp;ldquo;ubicomp&amp;rdquo;) is a concept in software
       <guid>http://distributedfog.com/sensor-network/802-15-4/</guid>
       <description>IEEE 802.15.4 is a technical standard which defines the operation of low-rate wireless personal area networks (LR-WPANs). It specifies the physical layer and media access control for LR-WPANs, and is maintained by the IEEE 802.15 working group, which defined the standard in 2003.  Wikipedia     Features  Data rates of 250 kbps, 40 kbps, and 20 kbps.
  Two addressing modes; 16-bit short and 64-bit IEEE addressing.</description>
+    </item>
+    
+    <item>
+      <title>AMQP</title>
+      <link>http://distributedfog.com/app-protocol/amqp/</link>
+      <pubDate>Wed, 11 Oct 2017 17:56:48 +0100</pubDate>
+      
+      <guid>http://distributedfog.com/app-protocol/amqp/</guid>
+      <description>The Advanced Message Queuing Protocol (AMQP) is an open standard application layer protocol for message-oriented middleware. The defining features of AMQP are message orientation, queuing, routing (including point-to-point and publish-and-subscribe), reliability and security.  Wikipedia     Architecture 
+ 
+Network Protocol 
+ 
+AMQP is a binary, application layer protocol, designed to efficiently support a wide variety of messaging applications and communication patterns. It provides flow controlled, message-oriented communication with message-delivery guarantees such as at-most-once (where each message is delivered once or never), at-least-once (where each message is certain to be delivered, but may do so multiple times) and exactly-once (where the message will always certainly arrive and do so only once), and authentication and/or encryption based on SASL and/or TLS.</description>
     </item>
     
     <item>
@@ -180,17 +215,6 @@ The Cisco IOx application environment combines IoT application execution within 
     </item>
     
     <item>
-      <title>CoAP</title>
-      <link>http://distributedfog.com/app-protocol/coap/</link>
-      <pubDate>Wed, 11 Oct 2017 17:56:48 +0100</pubDate>
-      
-      <guid>http://distributedfog.com/app-protocol/coap/</guid>
-      <description>CoAP is a specialised web transfer protocol for use with constrained nodes and constrained (e.g., low-power, lossy) networks.  RFC 7252     Research HTTP/2, CoAP on device HTTP/2 everywhere else, Security, Californium Cloud Services, MQTT vs CoAP, TinyOS Performance, Transport: Logistics
- 
-CoAP is network-oriented protocol with similar features to HTTP but also allows for low overhead, multicast, etc. CoAP operates over UDP (simpler) instead of TCP compensating for unreliability with a retransmission mechanism.</description>
-    </item>
-    
-    <item>
       <title>CoRE RD</title>
       <link>http://distributedfog.com/things-directory/core/</link>
       <pubDate>Wed, 11 Oct 2017 17:56:48 +0100</pubDate>
@@ -235,6 +259,15 @@ Programming on Contiki is done using the Cooja network simulator. To program, co
       
       <guid>http://distributedfog.com/sensor-network/dash7/</guid>
       <description>DASH7 Alliance Protocol (D7A) is an open source Wireless Sensor and Actuator Network protocol, which operates in the 433 MHz, 868 MHz and 915 MHz unlicensed ISM band/SRD band. DASH7 provides multi-year battery life, range of up to 2 km, low latency for connecting with moving things, a very small open source protocol stack, AES 128-bit shared key encryption support, and data transfer of up to 167 kbit/s.  Wikipedia     Why DASH7?</description>
+    </item>
+    
+    <item>
+      <title>DDS</title>
+      <link>http://distributedfog.com/app-protocol/dds/</link>
+      <pubDate>Wed, 11 Oct 2017 17:56:48 +0100</pubDate>
+      
+      <guid>http://distributedfog.com/app-protocol/dds/</guid>
+      <description>The Data Distribution Service for real-time systems (DDS) is an Object Management Group (OMG) machine-to-machine (sometimes called middleware) standard that aims to enable scalable, real-time, dependable, high-performance and interoperable data exchanges using a publish–subscribe pattern. DDS addresses the needs of applications like financial trading, air-traffic control, smart grid management, and other big data applications. The standard is used in applications such as smartphone operating systems, transportation systems and vehicles, software-defined radio, and by healthcare providers.</description>
     </item>
     
     <item>
@@ -468,17 +501,6 @@ Huawei also developed an open-source operating system for the IoT called Huawei 
     </item>
     
     <item>
-      <title>MQTT</title>
-      <link>http://distributedfog.com/app-protocol/mqtt/</link>
-      <pubDate>Wed, 11 Oct 2017 17:56:48 +0100</pubDate>
-      
-      <guid>http://distributedfog.com/app-protocol/mqtt/</guid>
-      <description>MQTT is a publish-subscribe-based lightweight messaging protocol for use on top of TCP/IP. It is designed for connections where a small code footprint is required or the network bandwidth is limited.  Wikipedia     Research CoAP vs MQTT, MQTT and REST, Push Notifications, Secure MQTT
- 
-MQTT-SN is a variation of the main protocol aimed at embedded devices on non-TCP/IP networks, such as ZigBee. As it does not require the TCP/IP stack, it can be used over a serial link where overhead is really small or over UDP.</description>
-    </item>
-    
-    <item>
       <title>Mbed OS</title>
       <link>http://distributedfog.com/os/mbed/</link>
       <pubDate>Wed, 11 Oct 2017 17:56:48 +0100</pubDate>
@@ -705,6 +727,15 @@ Programming on TinyOS is done using a C-like language called nesC. It is a compo
     </item>
     
     <item>
+      <title>Websocket</title>
+      <link>http://distributedfog.com/app-protocol/websocket/</link>
+      <pubDate>Wed, 11 Oct 2017 17:56:48 +0100</pubDate>
+      
+      <guid>http://distributedfog.com/app-protocol/websocket/</guid>
+      <description>WebSocket is a computer communications protocol, providing full-duplex communication channels over a single TCP connection. The WebSocket protocol was standardized by the IETF as RFC 6455 in 2011, and the WebSocket API in Web IDL is being standardized by the W3C.  Wikipedia     µWebSockets (Code) µWS is one of the most lightweight, efficient &amp;amp; scalable WebSocket &amp;amp; HTTP server implementations available. It features an easy-to-use, fully async object-oriented interface and scales to millions of connections using only a fraction of memory compared to the competition.</description>
+    </item>
+    
+    <item>
       <title>WiFi</title>
       <link>http://distributedfog.com/gateway-network/wifi/</link>
       <pubDate>Wed, 11 Oct 2017 17:56:48 +0100</pubDate>
@@ -882,6 +913,17 @@ iBeacon by Apple and Eddystone (formerly UriBeacon) by Google are 2 popular beac
     </item>
     
     <item>
+      <title>EAPs</title>
+      <link>http://distributedfog.com/actuator/eap/</link>
+      <pubDate>Wed, 11 Oct 2017 16:24:18 +0100</pubDate>
+      
+      <guid>http://distributedfog.com/actuator/eap/</guid>
+      <description>Electroactive polymers, or EAPs, are polymers that exhibit a change in size or shape when stimulated by an electric field. The most common applications of this type of material are in actuators and sensors. A typical characteristic property of an EAP is that they will undergo a large amount of deformation while sustaining large forces.  Wikipedia     Types  Dielectric
+ Ferroelectric polymers
+ Electrostrictive graft polymers</description>
+    </item>
+    
+    <item>
       <title>ECG</title>
       <link>http://distributedfog.com/sensor/ecg/</link>
       <pubDate>Wed, 11 Oct 2017 16:24:18 +0100</pubDate>
@@ -920,6 +962,24 @@ Inexpensive vibrating structure microelectromechanical systems (MEMS) gyroscopes
     </item>
     
     <item>
+      <title>Hydraulic</title>
+      <link>http://distributedfog.com/actuator/hydraulic/</link>
+      <pubDate>Wed, 11 Oct 2017 16:24:18 +0100</pubDate>
+      
+      <guid>http://distributedfog.com/actuator/hydraulic/</guid>
+      <description>A hydraulic actuator consists of cylinder or fluid motor that uses hydraulic power to facilitate mechanical operation. The mechanical motion gives an output in terms of linear, rotatory or oscillatory motion. As liquids are nearly impossible to compress, a hydraulic actuator can exert a large force. The drawback of this approach is its limited acceleration.  Wikipedia     Advantages  Hydraulic actuators are rugged and suited for high-force applications.</description>
+    </item>
+    
+    <item>
+      <title>Motor</title>
+      <link>http://distributedfog.com/actuator/motor/</link>
+      <pubDate>Wed, 11 Oct 2017 16:24:18 +0100</pubDate>
+      
+      <guid>http://distributedfog.com/actuator/motor/</guid>
+      <description>An engine or motor is a machine designed to convert one form of energy into mechanical energy. An electric motor is an electrical machine that converts electrical energy into mechanical energy. A stepper motor is a type of DC electric motor.  Wikipedia     Electric Motors Most electric motors operate through the interaction between an electric motor&amp;rsquo;s magnetic field and winding currents to generate force. Electric motors can be powered by direct current (DC) sources, such as from batteries, motor vehicles or rectifiers, or by alternating current (AC) sources, such as from the power grid, inverters or generators.</description>
+    </item>
+    
+    <item>
       <title>Pedometer</title>
       <link>http://distributedfog.com/sensor/pedometer/</link>
       <pubDate>Wed, 11 Oct 2017 16:24:18 +0100</pubDate>
@@ -930,6 +990,30 @@ Inexpensive vibrating structure microelectromechanical systems (MEMS) gyroscopes
 Popular Devices Fitbit, Apple Watch, Nike+, iPod Nano
  
 The technology for a pedometer includes a mechanical sensor and software to count steps.</description>
+    </item>
+    
+    <item>
+      <title>Piezoelectric</title>
+      <link>http://distributedfog.com/actuator/piezoelectric/</link>
+      <pubDate>Wed, 11 Oct 2017 16:24:18 +0100</pubDate>
+      
+      <guid>http://distributedfog.com/actuator/piezoelectric/</guid>
+      <description>Piezoelectricity is the electric charge that accumulates in certain solid materials (such as crystals, certain ceramics, and biological matter such as bone, DNA and various proteins) in response to applied mechanical stress. The word piezoelectricity means electricity resulting from pressure and heat. A piezoelectric bimorph is a cantilever used for actuation or sensing which consists of two active layers. One active layer contracts and the other expands if voltage is applied, thus the bimorph bends.</description>
+    </item>
+    
+    <item>
+      <title>Pneumatic</title>
+      <link>http://distributedfog.com/actuator/pneumatic/</link>
+      <pubDate>Wed, 11 Oct 2017 16:24:18 +0100</pubDate>
+      
+      <guid>http://distributedfog.com/actuator/pneumatic/</guid>
+      <description>A pneumatic control valve actuator converts energy (typically in the form of compressed air) into mechanical motion. The motion can be rotary or linear, depending on the type of actuator.  Wikipedia     Types  Tie rod cylinders
+ Rotary actuators
+ Grippers
+ Rodless actuators with magnetic linkage or rotary cylinders
+ Rodless actuators with mechanical linkage
+ Pneumatic artificial muscles
+ Speciality actuators that combine rotary and linear motion—frequently used for clamping operations</description>
     </item>
     
     <item>
@@ -953,6 +1037,38 @@ The QR code system became popular due to its fast readability and greater storag
       <description>Radio-frequency identification (RFID) uses electromagnetic fields to automatically identify and track tags, containing electronically stored information, attached to objects. There are passive and active tags.  Wikipedia     In 2009, Kevin Ashton, who cofounded the Auto-ID Center researching RFID, wrote an article in the RFID Journal titled &amp;ldquo;That &amp;lsquo;Internet of Things&amp;rsquo; Thing&amp;rdquo;. He is attributed with having coined the IoT term then.
  
 Frequencies &amp;hellip;    Band Range Speed ~Tag$     LF 10cm Low $1   HF 10cm-1m Low &amp;gt;$0.</description>
+    </item>
+    
+    <item>
+      <title>Servo</title>
+      <link>http://distributedfog.com/actuator/servo/</link>
+      <pubDate>Wed, 11 Oct 2017 16:24:18 +0100</pubDate>
+      
+      <guid>http://distributedfog.com/actuator/servo/</guid>
+      <description>In control engineering a servomechanism, sometimes shortened to servo, is an automatic device that uses error-sensing negative feedback to correct the action of a mechanism. It usually includes a built-in encoder or other position feedback mechanism to ensure the output is achieving the desired effect. The term correctly applies only to systems where the feedback or error-correction signals help control mechanical position, speed or other parameters.  Wikipedia     Servomotor A servomotor is a specific type of motor that is combined with a rotary encoder or a potentiometer to form a servomechanism.</description>
+    </item>
+    
+    <item>
+      <title>Soft</title>
+      <link>http://distributedfog.com/actuator/soft/</link>
+      <pubDate>Wed, 11 Oct 2017 16:24:18 +0100</pubDate>
+      
+      <guid>http://distributedfog.com/actuator/soft/</guid>
+      <description>Soft actuators are being developed to handle fragile objects like fruit harvesting in agriculture or manipulating the internal organs in biomedicine that has always been a challenging task for robotics. Unlike conventional actuators, soft actuators produce flexible motion due to the integration of microscopic changes at the molecular level into a macroscopic deformation of the actuator materials.  Wikipedia     PneuNets Bending Actuators PneuNets (pneumatic networks) are a class of soft actuator originally developed by the Whitesides Research Group at Harvard.</description>
+    </item>
+    
+    <item>
+      <title>Temperature</title>
+      <link>http://distributedfog.com/sensor/temperature/</link>
+      <pubDate>Wed, 11 Oct 2017 16:24:18 +0100</pubDate>
+      
+      <guid>http://distributedfog.com/sensor/temperature/</guid>
+      <description>Temperature sensors are commonly used sensors that detect Temperature or heat.  Wikipedia     Common Types &amp;hellip;  Negative Temperature Coefficient (NTC) thermistor
+ Resistance Temperature Detector (RTD)
+ Thermocouple
+ Semiconductor-based sensors
+   
+The silicon bandgap temperature sensor is an extremely common form of temperature sensor (thermometer) used in electronic equipment. Its main advantage is that it can be included in a silicon integrated circuit at very low cost.</description>
     </item>
     
   </channel>

@@ -48,5 +48,28 @@ Popular Devices Fitbit, Apple Watch, Nike+, iPod Nano
 The technology for a pedometer includes a mechanical sensor and software to count steps.</description>
     </item>
     
+    <item>
+      <title>Soft</title>
+      <link>http://distributedfog.com/actuator/soft/</link>
+      <pubDate>Wed, 11 Oct 2017 16:24:18 +0100</pubDate>
+      
+      <guid>http://distributedfog.com/actuator/soft/</guid>
+      <description>Soft actuators are being developed to handle fragile objects like fruit harvesting in agriculture or manipulating the internal organs in biomedicine that has always been a challenging task for robotics. Unlike conventional actuators, soft actuators produce flexible motion due to the integration of microscopic changes at the molecular level into a macroscopic deformation of the actuator materials.  Wikipedia     PneuNets Bending Actuators PneuNets (pneumatic networks) are a class of soft actuator originally developed by the Whitesides Research Group at Harvard.</description>
+    </item>
+    
+    <item>
+      <title>Temperature</title>
+      <link>http://distributedfog.com/sensor/temperature/</link>
+      <pubDate>Wed, 11 Oct 2017 16:24:18 +0100</pubDate>
+      
+      <guid>http://distributedfog.com/sensor/temperature/</guid>
+      <description>Temperature sensors are commonly used sensors that detect Temperature or heat.  Wikipedia     Common Types &amp;hellip;  Negative Temperature Coefficient (NTC) thermistor
+ Resistance Temperature Detector (RTD)
+ Thermocouple
+ Semiconductor-based sensors
+   
+The silicon bandgap temperature sensor is an extremely common form of temperature sensor (thermometer) used in electronic equipment. Its main advantage is that it can be included in a silicon integrated circuit at very low cost.</description>
+    </item>
+    
   </channel>
 </rss>

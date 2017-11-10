@@ -1,0 +1,37 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes" ?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>Middleware on DistributedFog</title>
+    <link>http://distributedfog.com/tags/middleware/</link>
+    <description>Recent content in Middleware on DistributedFog</description>
+    <generator>Hugo -- gohugo.io</generator>
+    <language>en-us</language>
+    <lastBuildDate>Wed, 11 Oct 2017 17:56:48 +0100</lastBuildDate>
+    
+	<atom:link href="http://distributedfog.com/tags/middleware/index.xml" rel="self" type="application/rss+xml" />
+    
+    
+    <item>
+      <title>AMQP</title>
+      <link>http://distributedfog.com/app-protocol/amqp/</link>
+      <pubDate>Wed, 11 Oct 2017 17:56:48 +0100</pubDate>
+      
+      <guid>http://distributedfog.com/app-protocol/amqp/</guid>
+      <description>The Advanced Message Queuing Protocol (AMQP) is an open standard application layer protocol for message-oriented middleware. The defining features of AMQP are message orientation, queuing, routing (including point-to-point and publish-and-subscribe), reliability and security.  Wikipedia     Architecture 
+ 
+Network Protocol 
+ 
+AMQP is a binary, application layer protocol, designed to efficiently support a wide variety of messaging applications and communication patterns. It provides flow controlled, message-oriented communication with message-delivery guarantees such as at-most-once (where each message is delivered once or never), at-least-once (where each message is certain to be delivered, but may do so multiple times) and exactly-once (where the message will always certainly arrive and do so only once), and authentication and/or encryption based on SASL and/or TLS.</description>
+    </item>
+    
+    <item>
+      <title>DDS</title>
+      <link>http://distributedfog.com/app-protocol/dds/</link>
+      <pubDate>Wed, 11 Oct 2017 17:56:48 +0100</pubDate>
+      
+      <guid>http://distributedfog.com/app-protocol/dds/</guid>
+      <description>The Data Distribution Service for real-time systems (DDS) is an Object Management Group (OMG) machine-to-machine (sometimes called middleware) standard that aims to enable scalable, real-time, dependable, high-performance and interoperable data exchanges using a publish–subscribe pattern. DDS addresses the needs of applications like financial trading, air-traffic control, smart grid management, and other big data applications. The standard is used in applications such as smartphone operating systems, transportation systems and vehicles, software-defined radio, and by healthcare providers.</description>
+    </item>
+    
+  </channel>
+</rss>

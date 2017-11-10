@@ -1,0 +1,24 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes" ?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>Manufacturing on DistributedFog</title>
+    <link>http://distributedfog.com/tags/manufacturing/</link>
+    <description>Recent content in Manufacturing on DistributedFog</description>
+    <generator>Hugo -- gohugo.io</generator>
+    <language>en-us</language>
+    <lastBuildDate>Wed, 11 Oct 2017 16:24:18 +0100</lastBuildDate>
+    
+	<atom:link href="http://distributedfog.com/tags/manufacturing/index.xml" rel="self" type="application/rss+xml" />
+    
+    
+    <item>
+      <title>Piezoelectric</title>
+      <link>http://distributedfog.com/actuator/piezoelectric/</link>
+      <pubDate>Wed, 11 Oct 2017 16:24:18 +0100</pubDate>
+      
+      <guid>http://distributedfog.com/actuator/piezoelectric/</guid>
+      <description>Piezoelectricity is the electric charge that accumulates in certain solid materials (such as crystals, certain ceramics, and biological matter such as bone, DNA and various proteins) in response to applied mechanical stress. The word piezoelectricity means electricity resulting from pressure and heat. A piezoelectric bimorph is a cantilever used for actuation or sensing which consists of two active layers. One active layer contracts and the other expands if voltage is applied, thus the bimorph bends.</description>
+    </item>
+    
+  </channel>
+</rss>
