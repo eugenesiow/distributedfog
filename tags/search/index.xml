@@ -1,24 +1,15 @@
 <?xml version="1.0" encoding="utf-8" standalone="yes" ?>
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
   <channel>
-    <title>Interoperability on DistributedFog</title>
-    <link>http://distributedfog.com/tags/interoperability/</link>
-    <description>Recent content in Interoperability on DistributedFog</description>
+    <title>Search on DistributedFog</title>
+    <link>http://distributedfog.com/tags/search/</link>
+    <description>Recent content in Search on DistributedFog</description>
     <generator>Hugo -- gohugo.io</generator>
     <language>en-us</language>
     <lastBuildDate>Wed, 11 Oct 2017 17:56:48 +0100</lastBuildDate>
     
-	<atom:link href="http://distributedfog.com/tags/interoperability/index.xml" rel="self" type="application/rss+xml" />
+	<atom:link href="http://distributedfog.com/tags/search/index.xml" rel="self" type="application/rss+xml" />
     
-    
-    <item>
-      <title>CoRE RD</title>
-      <link>http://distributedfog.com/things-directory/core/</link>
-      <pubDate>Wed, 11 Oct 2017 17:56:48 +0100</pubDate>
-      
-      <guid>http://distributedfog.com/things-directory/core/</guid>
-      <description>In many M2M applications, direct discovery of resources is not practical due to sleeping nodes, disperse networks, or networks where multicast traffic is inefficient. These problems can be solved by employing an entity called a Resource Directory (RD), which hosts descriptions of resources held on other servers, allowing lookups to be performed for those resources.  IETF.org Draft     Introduction The discovery of resources offered by a constrained server is very important in machine-to-machine applications where there are no humans in the loop and static interfaces result in fragility.</description>
-    </item>
     
     <item>
       <title>Hypercat</title>

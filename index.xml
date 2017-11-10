@@ -191,6 +191,15 @@ CoAP is network-oriented protocol with similar features to HTTP but also allows 
     </item>
     
     <item>
+      <title>CoRE RD</title>
+      <link>http://distributedfog.com/things-directory/core/</link>
+      <pubDate>Wed, 11 Oct 2017 17:56:48 +0100</pubDate>
+      
+      <guid>http://distributedfog.com/things-directory/core/</guid>
+      <description>In many M2M applications, direct discovery of resources is not practical due to sleeping nodes, disperse networks, or networks where multicast traffic is inefficient. These problems can be solved by employing an entity called a Resource Directory (RD), which hosts descriptions of resources held on other servers, allowing lookups to be performed for those resources.  IETF.org Draft     Introduction The discovery of resources offered by a constrained server is very important in machine-to-machine applications where there are no humans in the loop and static interfaces result in fragility.</description>
+    </item>
+    
+    <item>
       <title>Computes.io</title>
       <link>http://distributedfog.com/decentralisation/computes-io/</link>
       <pubDate>Wed, 11 Oct 2017 17:56:48 +0100</pubDate>
@@ -588,6 +597,15 @@ PIOTRe PIOTRe is a Personal IoT Repository based on sparql2sql, sparql2stream an
     </item>
     
     <item>
+      <title>SIR</title>
+      <link>http://distributedfog.com/things-directory/sir/</link>
+      <pubDate>Wed, 11 Oct 2017 17:56:48 +0100</pubDate>
+      
+      <guid>http://distributedfog.com/things-directory/sir/</guid>
+      <description>The Sensor Instance Registry (SIR) is a web service interface for managing sensor catalogues. It is based on the OGC discussion paper 10-171 and 09-163r2 (SensorML discovery profile) and presents a pragmatic solution that may serve as the basis for further discussion and development. The paper contains extensive descriptions of the service operations (requests and responses) for GET and POST requests.  52north.org     SensorML discovery profile (Paper) This Discussion Paper describes the mapping of sensor metadata encoded following SensorML specification 1.</description>
+    </item>
+    
+    <item>
       <title>SSDP</title>
       <link>http://distributedfog.com/discovery/ssdp/</link>
       <pubDate>Wed, 11 Oct 2017 17:56:48 +0100</pubDate>
@@ -764,6 +782,19 @@ XMPP supports different communication patterns, such as Request/Response, Asynch
       
       <guid>http://distributedfog.com/sensor-network/z-wave/</guid>
       <description>Z-Wave is a wireless communications protocol used primarily for home automation. It is a mesh network using low-energy radio waves to communicate from appliance to appliance, allowing for wireless control of residential appliances and other devices, such as lighting control, security systems, thermostats, windows, locks, swimming pools and garage door openers.  Wikipedia     Essentials  Low Powered RF communications technology that supports full mesh networks without the need for a coordinator node</description>
+    </item>
+    
+    <item>
+      <title>digrectory</title>
+      <link>http://distributedfog.com/things-directory/digrectory/</link>
+      <pubDate>Wed, 11 Oct 2017 17:56:48 +0100</pubDate>
+      
+      <guid>http://distributedfog.com/things-directory/digrectory/</guid>
+      <description>A centralized infrastructure that allows registration of sensors. Employs &amp;#39;digrectory&amp;#39; to handle different resources. Each directory is attached to a particular communication technology, such as NFC, IPv6 etc. A mobile app enables users to discover and access sensors. Discovery mechanism takes advantage of geolocation and context awareness.  WoT Group     Architecture 
+ 
+Architecture Components 
+ 
+Abstract The application of Internet-enabled devices in the real world for the development of Smart Cities, environmental monitoring, bus tracking, and parking requires scalability, extensibility, and integration of emerging resources to reach a suitable ecosystem for data acquisition and interaction with citizens.</description>
     </item>
     
     <item>

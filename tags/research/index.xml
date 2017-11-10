@@ -1,39 +1,15 @@
 <?xml version="1.0" encoding="utf-8" standalone="yes" ?>
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
   <channel>
-    <title>Interoperability on DistributedFog</title>
-    <link>http://distributedfog.com/tags/interoperability/</link>
-    <description>Recent content in Interoperability on DistributedFog</description>
+    <title>Research on DistributedFog</title>
+    <link>http://distributedfog.com/tags/research/</link>
+    <description>Recent content in Research on DistributedFog</description>
     <generator>Hugo -- gohugo.io</generator>
     <language>en-us</language>
     <lastBuildDate>Wed, 11 Oct 2017 17:56:48 +0100</lastBuildDate>
     
-	<atom:link href="http://distributedfog.com/tags/interoperability/index.xml" rel="self" type="application/rss+xml" />
+	<atom:link href="http://distributedfog.com/tags/research/index.xml" rel="self" type="application/rss+xml" />
     
-    
-    <item>
-      <title>CoRE RD</title>
-      <link>http://distributedfog.com/things-directory/core/</link>
-      <pubDate>Wed, 11 Oct 2017 17:56:48 +0100</pubDate>
-      
-      <guid>http://distributedfog.com/things-directory/core/</guid>
-      <description>In many M2M applications, direct discovery of resources is not practical due to sleeping nodes, disperse networks, or networks where multicast traffic is inefficient. These problems can be solved by employing an entity called a Resource Directory (RD), which hosts descriptions of resources held on other servers, allowing lookups to be performed for those resources.  IETF.org Draft     Introduction The discovery of resources offered by a constrained server is very important in machine-to-machine applications where there are no humans in the loop and static interfaces result in fragility.</description>
-    </item>
-    
-    <item>
-      <title>Hypercat</title>
-      <link>http://distributedfog.com/things-directory/hypercat/</link>
-      <pubDate>Wed, 11 Oct 2017 17:56:48 +0100</pubDate>
-      
-      <guid>http://distributedfog.com/things-directory/hypercat/</guid>
-      <description>The Hypercat specification allows Internet of Things (IoT) clients to discover information about IoT assets over the web. With Hypercat developers can write applications that will work across many servers, breaking down the walls between vertical silos.  Hypercat.io     Reference Server (Code)  GET, PUT, POST, DELETE of items
- Multi-search
- Geo search
- Lexicographic search
- Simple search
- Prefix search
- Authentication</description>
-    </item>
     
     <item>
       <title>SIR</title>

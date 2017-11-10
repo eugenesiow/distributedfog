@@ -6,7 +6,7 @@
     <meta name="description" content="All about the Internet of Things Landscape including technologies, protocols, applications, platforms and research.">
     <meta name="author" content="DistributedFog.com">
 
-    <title>DistributedFog: Hypercat</title>
+    <title>DistributedFog: CoRE RD</title>
 
     
     <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0-beta/css/bootstrap.min.css" integrity="sha384-/Y6pD6FV/Vv2HJnA6t+vslU6fwYXjCFtcEpHbNJ0lyAFsXTsjBbfaDjzALeQsN6M" crossorigin="anonymous">
@@ -42,9 +42,9 @@ ga('send', 'pageview');
             </a>
             <div class="dropdown-menu">
                 
-                <a class="dropdown-item " href="/things-directory/core/">CoRE RD</a>
+                <a class="dropdown-item active" href="/things-directory/core/">CoRE RD</a>
                 
-                <a class="dropdown-item active" href="/things-directory/hypercat/">Hypercat</a>
+                <a class="dropdown-item " href="/things-directory/hypercat/">Hypercat</a>
                 
                 <a class="dropdown-item " href="/things-directory/sir/">SIR</a>
                 
@@ -54,53 +54,33 @@ ga('send', 'pageview');
                 
             </div>
         </li>
-        <li class="breadcrumb-item active">Hypercat</li>
+        <li class="breadcrumb-item active">CoRE RD</li>
     </ol>
 </header>
 <div class="container container-section">
     
-    <h1>Hypercat </h1>
+    <h1>CoRE RD <small>Constrained RESTful Environments Resource Directory</small></h1>
     <div class="row">
         <div class='col-sm-4 py-2'>
     <div class='card card-body bg-info text-white h-100'>
         
-The Hypercat specification allows Internet of Things (IoT) clients to discover information about IoT assets over the web. With Hypercat developers can write applications that will work across many servers, breaking down the walls between vertical silos.
+In many M2M applications, direct discovery of resources is not practical due to sleeping nodes, disperse networks, or networks where multicast traffic is inefficient.  These problems can be solved by employing an entity called a Resource Directory (RD), which hosts descriptions of resources held on other servers, allowing lookups to be performed for those resources.
 
         
         <footer class="blockquote-footer text-white">
             <small>
-                Hypercat.io
+                IETF.org Draft
             </small>
         </footer>
         
     </div>
 </div>
 
-<p><div class='col-sm-4 py-2'>
+<p><div class='col-sm-8 py-2'>
     <div class='card card-body  h-100'>
-        <h3 id="reference-server-code-https-github-com-hypercatiot-hc2-server">Reference Server (<a href="https://github.com/HyperCatIoT/hc2-server">Code</a>)</h3>
+        <h3 id="introduction">Introduction</h3>
 
-<ul>
-<li>GET, PUT, POST, DELETE of items<br /></li>
-<li>Multi-search<br /></li>
-<li>Geo search<br /></li>
-<li>Lexicographic search<br /></li>
-<li>Simple search<br /></li>
-<li>Prefix search<br /></li>
-<li>Authentication<br /></li>
-</ul>
-
-        
-    </div>
-</div></p>
-
-<p><div class='col-sm-4 py-2'>
-    <div class='card card-body  h-100'>
-        <h3 id="piotre">PIOTRe</h3>
-
-<p><a href="../../decentralisation/piotre">PIOTRe</a> is a Personal IoT Repository that allows applications to be built on interoperable and efficient semantic database technology for deployment on lightweight IoT devices.</p>
-
-<p>PIOTRe provides a means of sharing metadata globally with HyperCat.</p>
+<p>The discovery of resources offered by a constrained server is very important in machine-to-machine applications where there are no humans in the loop and static interfaces result in fragility. The discovery of resources provided by an HTTP Web Server is typically called Web Linking (<a href="https://tools.ietf.org/html/rfc5988">RFC5988</a>). The use of Web Linking for the description and discovery of resources hosted by constrained web servers is specified by the CoRE Link Format (<a href="https://tools.ietf.org/html/rfc6690">RFC6690</a>). However, <a href="https://tools.ietf.org/html/rfc6690">RFC6690</a> only describes how to discover resources from the web server that hosts them by querying /.well-known/core. In many M2M scenarios, direct discovery of resources is not practical due to sleeping nodes, disperse networks, or networks where multicast traffic is inefficient. These problems can be solved by employing an entity called a Resource Directory (RD), which hosts descriptions of resources held on other servers, allowing lookups to be performed for those resources.</p>
 
         
     </div>
@@ -108,19 +88,54 @@ The Hypercat specification allows Internet of Things (IoT) clients to discover i
 
 <p><div class='col-sm-8 py-2'>
     <div class='card card-body  h-100'>
-        <p>HyperCat is an initiative that aims to address the issue of semantic interoperability for IoT. A major objective of the programme was to address interoperability and specifically how interoperability could be achieved between data hubs in different domains: this led to HyperCat1, a standard for representing and exposing Internet of Things data hub catalogues over web technologies, to improve data discoverability and interoperability. The idea is to enable distributed data repositories (data hubs) to be used jointly by applications by making it possible to query their catalogues in a uniform machine readable format. This enables the creation of &ldquo;knowledge graphs&rdquo; of available datasets across multiple hubs that applications can exploit and query to identify and access the data they need, whatever the data hub in which they are held.</p>
+        <h3 id="architecture">Architecture</h3>
 
-<p>This is achieved, in the specification, through employing the same principles on which linked data and the web are built: data accessible through standard web protocols and formats (HTTPS, JSON, REST, etc.), the identification of resources through URIs, and the establishment of common, shared semantics for the descriptors of datasets.</p>
+<p>The resource directory architecture is illustrated below. A Resource Directory (RD) is used as a repository for Web Links (<a href="https://tools.ietf.org/html/rfc5988">RFC5988</a>) about resources hosted on other web servers, which are called endpoints (EP). An endpoint is a web server associated with a scheme, IP address and port, thus a physical node may host one or more endpoints. The RD implements a set of REST interfaces for endpoints to register and maintain sets of Web Links (called resource directory registration entries), and for clients to lookup resources from the RD or maintain groups. Endpoints themselves can also act as clients. An RD can be logically segmented by the use of Domains. The domain an endpoint is associated with can be defined by the RD or configured by an outside entity. This information hierarchy is shown in at the bottom of the card.</p>
 
-<p>HyperCat represents a pragmatic starting point to solving the issues of managing multiple data sources, aggregated into multiple data hubs, through linked data and web approaches. It incorporates a lightweight, JSON-based approach based on a technology stack used by a large population of web developers and as such offers a very low barrier to entry, thereby encouraging the growth of IoT ecosystems. <a href="https://iot.ieee.org/newsletter/january-2016/hypercat-resource-discovery-on-the-internet-of-things.html">Read more</a></p>
+<pre><code>             Registration     Lookup, Group
+              Interface        Interfaces
+  +----+          |                 |
+  | EP |----      |                 |
+  +----+    ----  |                 |
+                --|-    +------+    |
+  +----+          | ----|      |    |     +--------+
+  | EP | ---------|-----|  RD  |----|-----| Client |
+  +----+          | ----|      |    |     +--------+
+                --|-    +------+    |
+  +----+    ----  |                 |
+  | EP |----      |                 |
+  +----+
+                    Architecture
+</code></pre>
 
-<h3 id="hypercat-catalogue">Hypercat Catalogue</h3>
+<p>A mechanism to discover an RD using CoRE Link Format (<a href="https://tools.ietf.org/html/rfc6690">RFC6690</a>) is defined.</p>
 
-<p>HyperCat is an open, lightweight JSON-based hypermedia catalogue format for exposing collections of URIs. Each HyperCat catalogue may expose any number of URIs, each with any number of RDF-like triple statements about it. HyperCat is simple to work with and allows developers to publish linked-data descriptions of resources.</p>
+<p>Endpoints proactively register and maintain resource directory registration entries on the RD, which are soft state and need to be periodically refreshed.</p>
 
-<p>HyperCat is designed for exposing information about IoT assets over the web. It allows a server to provide a set of resources to a client, each with a set of semantic annotations. Implementers are free to choose or invent any set of annotations to suit their needs. A set of best practices and tools are currently under development. Where implementers choose similar or overlapping semantics, the possibilities for interoperability are increased. Each HyperCat catalogue lists and annotates any number of URIs (which typically identify data sources), each having a set of relation-value pairs (metadata) associated with it. In this way, HyperCat allows a server to provide a set of resources to a client, each with a set of semantic annotations.</p>
+<p>An endpoint is provided with interfaces to register, update and remove a resource directory registration entry. It is also possible for an RD to fetch Web Links from endpoints and add them as resource directory registration entries.</p>
 
-<p>Importantly, there are a small set of core mandatory metadata relations which a valid HyperCat catalogue must include: beyond this, implementers are free to use any set of annotations to suit their needs. One important non-mandatory relation2 in the specification allows a data feed to be associated with an RDFS class, thereby linking to the LOD cloud. With HyperCat, developers can write apps that will access data from many hubs, aiming to break down the walls between today&rsquo;s vertical silos. <a href="https://hypercatiot.github.io/">Read more</a></p>
+<p>At the first registration of a set of entries, a &ldquo;registration resource&rdquo; is created, the location of which is returned to the registering endpoint. The registering endpoint uses this registration resource to manage the contents of the registration entry.</p>
+
+<p>A lookup interface for discovering any of the Web Links held in the RD is provided using the CoRE Link Format. <a href="https://tools.ietf.org/html/draft-ietf-core-resource-directory-12">Read more</a></p>
+
+<pre><code>               +------------+
+               |   Domain   | &lt;-- Name
+               +------------+
+                    |     |
+                    |   +------------+
+                    |   |   Group    | &lt;-- Name, Scheme, IP, Port
+                    |   +------------+
+                    |     |
+               +------------+
+               |  Endpoint  |  &lt;-- Name, Scheme, IP, Port
+               +------------+
+                     |
+                     |
+               +------------+
+               |  Resource  |  &lt;-- Target, Parameters
+               +------------+
+                        Information Hierachy
+</code></pre>
 
         
         <footer class="blockquote-footer ">
@@ -138,9 +153,9 @@ The Hypercat specification allows Internet of Things (IoT) clients to discover i
             <h4 class="card-title">Links</h4>
         </div>
         <ul class="list-group list-group-flush">
-    <a href="http://www.hypercat.io/" class="list-group-item list-group-item-action ">Hypercat.io</a>
-    <a href="http://www.hypercat.io/standard.html" class="list-group-item list-group-item-action ">Hypercat 3.00 Specification</a>
-    <a href="https://github.com/HyperCatIoT" class="list-group-item list-group-item-action ">Github</a>
+    <a href="https://tools.ietf.org/html/draft-ietf-core-resource-directory-12" class="list-group-item list-group-item-action ">Draft 12</a>
+    <a href="https://github.com/core-wg/resource-directory" class="list-group-item list-group-item-action ">Github</a>
+    <a href="https://github.com/JelmerT/coap-rd" class="list-group-item list-group-item-action ">Server Implementation</a>
 </ul>
     </div>
 </div></p>
@@ -157,8 +172,6 @@ The Hypercat specification allows Internet of Things (IoT) clients to discover i
                             <a href="/tags/interoperability"><span class="badge badge-light">Interoperability</span></a>
                             
                             <a href="/tags/discovery"><span class="badge badge-light">Discovery</span></a>
-                            
-                            <a href="/tags/search"><span class="badge badge-light">Search</span></a>
                           
                     </div>
                 </div>
@@ -168,11 +181,11 @@ The Hypercat specification allows Internet of Things (IoT) clients to discover i
             <div class="card text-white bg-primary">
                 <div class="card-body">
                     <h3 class="card-title">Share</h3>
-                    <a class="btn btn-lg btn-primary" href='https://twitter.com/intent/tweet?hashtags=specification%2cinteroperability%2cdiscovery%2csearch&text=Hypercat&url=http%3a%2f%2fdistributedfog.com%2fthings-directory%2fhypercat%2f'>
+                    <a class="btn btn-lg btn-primary" href='https://twitter.com/intent/tweet?hashtags=specification%2cinteroperability%2cdiscovery&text=CoRE%20RD&url=http%3a%2f%2fdistributedfog.com%2fthings-directory%2fcore%2f'>
                         <i class="fa fa-twitter" aria-hidden="true"></i></a>
-                    <a class="btn btn-lg btn-primary" href='https://www.facebook.com/sharer/sharer.php?u%3dhttp%253A%252F%252Fdistributedfog.com%252Fthings-directory%252Fhypercat%252F'>
+                    <a class="btn btn-lg btn-primary" href='https://www.facebook.com/sharer/sharer.php?u%3dhttp%253A%252F%252Fdistributedfog.com%252Fthings-directory%252Fcore%252F'>
                         <i class="fa fa-facebook" aria-hidden="true"></i></a>
-                    <a class="btn btn-lg btn-primary" href='https://plus.google.com/share?url=http%3a%2f%2fdistributedfog.com%2fthings-directory%2fhypercat%2f'>
+                    <a class="btn btn-lg btn-primary" href='https://plus.google.com/share?url=http%3a%2f%2fdistributedfog.com%2fthings-directory%2fcore%2f'>
                         <i class="fa fa-google-plus" aria-hidden="true"></i></a>
                 </div>
             </div>
@@ -183,8 +196,8 @@ The Hypercat specification allows Internet of Things (IoT) clients to discover i
             <div id="disqus_thread"></div>
             <script>
                 var disqus_config = function () {
-                    this.page.url = "http://distributedfog.com/things-directory/hypercat/";
-                    this.page.identifier = "89fc52409a75e6b55f92c09585535d6e";
+                    this.page.url = "http://distributedfog.com/things-directory/core/";
+                    this.page.identifier = "a7df4a5889c7fe317eaed5c17f99a6c5";
                 };
                 (function() { 
                     var d = document, s = d.createElement('script');
@@ -247,11 +260,11 @@ The Hypercat specification allows Internet of Things (IoT) clients to discover i
     "articleSection" : "things-directory",
     "mainEntityOfPage": {
         "@type": "WebPage",
-        "@id": "http://distributedfog.com/things-directory/hypercat/"
+        "@id": "http://distributedfog.com/things-directory/core/"
     },
-    "name" : "Hypercat",
-    "headline" : "Hypercat",
-    "description" : "The Hypercat specification allows Internet of Things (IoT) clients to discover information about IoT assets over the web. With Hypercat developers can write applications that will work across many servers, breaking down the walls between vertical silos.",
+    "name" : "CoRE RD",
+    "headline" : "CoRE RD",
+    "description" : "In many M2M applications, direct discovery of resources is not practical due to sleeping nodes, disperse networks, or networks where multicast traffic is inefficient.  These problems can be solved by employing an entity called a Resource Directory (RD), which hosts descriptions of resources held on other servers, allowing lookups to be performed for those resources.",
     "inLanguage" : "en-GB",
     "author" : "DistributedFog.com",
     "creator" : "",
@@ -269,10 +282,10 @@ The Hypercat specification allows Internet of Things (IoT) clients to discover i
         }
     },
     "logo": "",
-    "url" : "http://distributedfog.com/things-directory/hypercat/",
-    "wordCount" : "599",
+    "url" : "http://distributedfog.com/things-directory/core/",
+    "wordCount" : "587",
     "image" : "http://distributedfog.com/img/logo.png",
-    "keywords" : [ "specification, interoperability, discovery, search" ]
+    "keywords" : [ "specification, interoperability, discovery" ]
 }
 </script>
 

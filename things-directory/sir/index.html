@@ -6,7 +6,7 @@
     <meta name="description" content="All about the Internet of Things Landscape including technologies, protocols, applications, platforms and research.">
     <meta name="author" content="DistributedFog.com">
 
-    <title>DistributedFog: Hypercat</title>
+    <title>DistributedFog: SIR</title>
 
     
     <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0-beta/css/bootstrap.min.css" integrity="sha384-/Y6pD6FV/Vv2HJnA6t+vslU6fwYXjCFtcEpHbNJ0lyAFsXTsjBbfaDjzALeQsN6M" crossorigin="anonymous">
@@ -44,9 +44,9 @@ ga('send', 'pageview');
                 
                 <a class="dropdown-item " href="/things-directory/core/">CoRE RD</a>
                 
-                <a class="dropdown-item active" href="/things-directory/hypercat/">Hypercat</a>
+                <a class="dropdown-item " href="/things-directory/hypercat/">Hypercat</a>
                 
-                <a class="dropdown-item " href="/things-directory/sir/">SIR</a>
+                <a class="dropdown-item active" href="/things-directory/sir/">SIR</a>
                 
                 <a class="dropdown-item " href="/things-directory/">Things Directories</a>
                 
@@ -54,22 +54,22 @@ ga('send', 'pageview');
                 
             </div>
         </li>
-        <li class="breadcrumb-item active">Hypercat</li>
+        <li class="breadcrumb-item active">SIR</li>
     </ol>
 </header>
 <div class="container container-section">
     
-    <h1>Hypercat </h1>
+    <h1>SIR <small>Sensor Instance Registry</small></h1>
     <div class="row">
         <div class='col-sm-4 py-2'>
     <div class='card card-body bg-info text-white h-100'>
         
-The Hypercat specification allows Internet of Things (IoT) clients to discover information about IoT assets over the web. With Hypercat developers can write applications that will work across many servers, breaking down the walls between vertical silos.
+The Sensor Instance Registry (SIR) is a web service interface for managing sensor catalogues. It is based on the OGC discussion paper 10-171 and 09-163r2 (SensorML discovery profile) and presents a pragmatic solution that may serve as the basis for further discussion and development. The paper contains extensive descriptions of the service operations (requests and responses) for GET and POST requests.
 
         
         <footer class="blockquote-footer text-white">
             <small>
-                Hypercat.io
+                52north.org
             </small>
         </footer>
         
@@ -78,17 +78,9 @@ The Hypercat specification allows Internet of Things (IoT) clients to discover i
 
 <p><div class='col-sm-4 py-2'>
     <div class='card card-body  h-100'>
-        <h3 id="reference-server-code-https-github-com-hypercatiot-hc2-server">Reference Server (<a href="https://github.com/HyperCatIoT/hc2-server">Code</a>)</h3>
+        <h3 id="sensorml-discovery-profile-paper-https-portal-opengeospatial-org-files-artifact-id-37944">SensorML discovery profile (<a href="https://portal.opengeospatial.org/files/?artifact_id=37944">Paper</a>)</h3>
 
-<ul>
-<li>GET, PUT, POST, DELETE of items<br /></li>
-<li>Multi-search<br /></li>
-<li>Geo search<br /></li>
-<li>Lexicographic search<br /></li>
-<li>Simple search<br /></li>
-<li>Prefix search<br /></li>
-<li>Authentication<br /></li>
-</ul>
+<p>This Discussion Paper describes the mapping of sensor metadata encoded following SensorML specification 1.0 (<a href="https://portal.opengeospatial.org/files/?artifact_id=21273">OGC 07-000</a>) and a SensorML profile for discovery to an ebRIM structure within an OGC Catalogue 2.0.2 (<a href="https://portal.opengeospatial.org/files/?artifact_id=20555">OGC 07-006r1</a>) implementing the CSW-ebRIM Registry Service – part 1: ebRIM profile of CSW (<a href="https://portal.opengeospatial.org/files/?artifact_id=31137">OGC 07-110r4</a>).</p>
 
         
     </div>
@@ -96,11 +88,9 @@ The Hypercat specification allows Internet of Things (IoT) clients to discover i
 
 <p><div class='col-sm-4 py-2'>
     <div class='card card-body  h-100'>
-        <h3 id="piotre">PIOTRe</h3>
+        <h3 id="opengis-catalogue-services-paper-https-portal-opengeospatial-org-files-artifact-id-20555">OpenGIS Catalogue Services (<a href="https://portal.opengeospatial.org/files/?artifact_id=20555">Paper</a>)</h3>
 
-<p><a href="../../decentralisation/piotre">PIOTRe</a> is a Personal IoT Repository that allows applications to be built on interoperable and efficient semantic database technology for deployment on lightweight IoT devices.</p>
-
-<p>PIOTRe provides a means of sharing metadata globally with HyperCat.</p>
+<p>Catalogue services support the ability to publish and search collections of descriptive information (metadata) for data, services, and related information objects. Metadata in catalogues represent resource characteristics that can be queried and presented for evaluation and further processing by both humans and software. Catalogue services are required to support the discovery and binding to registered information resources within an information community.</p>
 
         
     </div>
@@ -108,24 +98,48 @@ The Hypercat specification allows Internet of Things (IoT) clients to discover i
 
 <p><div class='col-sm-8 py-2'>
     <div class='card card-body  h-100'>
-        <p>HyperCat is an initiative that aims to address the issue of semantic interoperability for IoT. A major objective of the programme was to address interoperability and specifically how interoperability could be achieved between data hubs in different domains: this led to HyperCat1, a standard for representing and exposing Internet of Things data hub catalogues over web technologies, to improve data discoverability and interoperability. The idea is to enable distributed data repositories (data hubs) to be used jointly by applications by making it possible to query their catalogues in a uniform machine readable format. This enables the creation of &ldquo;knowledge graphs&rdquo; of available datasets across multiple hubs that applications can exploit and query to identify and access the data they need, whatever the data hub in which they are held.</p>
+        <p>The specified Sensor Instance Registry is capable of harvesting, managing and transforming sensor metadata. In particular is provides operations for searching sensors, inserting metadata, handling the status of sensors and for linking SIR instances to OGC Catalogs. The SIR interface (currently) specifies 14 operations that can be requested by a client and performed by a SIR server. These operations are:</p>
 
-<p>This is achieved, in the specification, through employing the same principles on which linked data and the web are built: data accessible through standard web protocols and formats (HTTPS, JSON, REST, etc.), the identification of resources through URIs, and the establishment of common, shared semantics for the descriptors of datasets.</p>
+<ul>
+<li>GetCapabilities<br /></li>
+<li>Operations for searching sensors and retrieving sensor metadata:<br />
 
-<p>HyperCat represents a pragmatic starting point to solving the issues of managing multiple data sources, aggregated into multiple data hubs, through linked data and web approaches. It incorporates a lightweight, JSON-based approach based on a technology stack used by a large population of web developers and as such offers a very low barrier to entry, thereby encouraging the growth of IoT ecosystems. <a href="https://iot.ieee.org/newsletter/january-2016/hypercat-resource-discovery-on-the-internet-of-things.html">Read more</a></p>
+<ul>
+<li>SearchSensor<br /></li>
+<li>DescribeSensor<br /></li>
+</ul></li>
+<li>Operations for inserting, deleting and updating sensor metadata:<br />
 
-<h3 id="hypercat-catalogue">Hypercat Catalogue</h3>
+<ul>
+<li>HarvestService<br /></li>
+<li>InsertSensorInfo<br /></li>
+<li>DeleteSensorInfo<br /></li>
+<li>UpdateSensorDescription<br /></li>
+</ul></li>
+<li>Operations for managing sensor status information:<br />
 
-<p>HyperCat is an open, lightweight JSON-based hypermedia catalogue format for exposing collections of URIs. Each HyperCat catalogue may expose any number of URIs, each with any number of RDF-like triple statements about it. HyperCat is simple to work with and allows developers to publish linked-data descriptions of resources.</p>
+<ul>
+<li>GetSensorStatus<br /></li>
+<li>SubscribeSensorStatus<br /></li>
+<li>RenewSensorStatusSubscription<br /></li>
+<li>CancelSensorStatusSubscription<br /></li>
+<li>InsertSensorStatus<br /></li>
+</ul></li>
+<li>Operations for managing the links between SIR instances and OGC Catalogs:<br />
 
-<p>HyperCat is designed for exposing information about IoT assets over the web. It allows a server to provide a set of resources to a client, each with a set of semantic annotations. Implementers are free to choose or invent any set of annotations to suit their needs. A set of best practices and tools are currently under development. Where implementers choose similar or overlapping semantics, the possibilities for interoperability are increased. Each HyperCat catalogue lists and annotates any number of URIs (which typically identify data sources), each having a set of relation-value pairs (metadata) associated with it. In this way, HyperCat allows a server to provide a set of resources to a client, each with a set of semantic annotations.</p>
+<ul>
+<li>ConnectToCatalog<br /></li>
+<li>DisconnectFromCatalog<br />
+<br /></li>
+</ul></li>
+</ul>
 
-<p>Importantly, there are a small set of core mandatory metadata relations which a valid HyperCat catalogue must include: beyond this, implementers are free to use any set of annotations to suit their needs. One important non-mandatory relation2 in the specification allows a data feed to be associated with an RDFS class, thereby linking to the LOD cloud. With HyperCat, developers can write apps that will access data from many hubs, aiming to break down the walls between today&rsquo;s vertical silos. <a href="https://hypercatiot.github.io/">Read more</a></p>
+<p>Many of these interface aspects are common with other OWSs and thus specified in the OpenGIS Web Services Common Implementation Standard (<a href="http://www.opengeospatial.org/standards/common">OGC 06-121r3</a>).</p>
 
         
         <footer class="blockquote-footer ">
             <small>
-                IEEE IoT Newsletter and Github
+                OGC Sensor Instance Registry Discussion Paper
             </small>
         </footer>
         
@@ -138,9 +152,10 @@ The Hypercat specification allows Internet of Things (IoT) clients to discover i
             <h4 class="card-title">Links</h4>
         </div>
         <ul class="list-group list-group-flush">
-    <a href="http://www.hypercat.io/" class="list-group-item list-group-item-action ">Hypercat.io</a>
-    <a href="http://www.hypercat.io/standard.html" class="list-group-item list-group-item-action ">Hypercat 3.00 Specification</a>
-    <a href="https://github.com/HyperCatIoT" class="list-group-item list-group-item-action ">Github</a>
+    <a href="http://portal.opengeospatial.org/files/?artifact_id=40609" class="list-group-item list-group-item-action ">Original Paper</a>
+    <a href="https://portal.opengeospatial.org/files/?artifact_id=37944" class="list-group-item list-group-item-action ">SensorML discovery profile</a>
+    <a href="https://wiki.52north.org/SensorWeb/SensorInstanceRegistry" class="list-group-item list-group-item-action ">Wiki on 52north.org</a>
+    <a href="https://wiki.52north.org/SensorWeb/OpenSensorSearch" class="list-group-item list-group-item-action ">OpenSensorSearch</a>
 </ul>
     </div>
 </div></p>
@@ -152,13 +167,13 @@ The Hypercat specification allows Internet of Things (IoT) clients to discover i
                     <div class="tag-list">
                         <a href='http://distributedfog.com/things-directory'><span class="badge badge-light">Things Directories</span></a>
                             
-                            <a href="/tags/specification"><span class="badge badge-light">Specification</span></a>
+                            <a href="/tags/research"><span class="badge badge-light">Research</span></a>
                             
                             <a href="/tags/interoperability"><span class="badge badge-light">Interoperability</span></a>
                             
-                            <a href="/tags/discovery"><span class="badge badge-light">Discovery</span></a>
-                            
                             <a href="/tags/search"><span class="badge badge-light">Search</span></a>
+                            
+                            <a href="/tags/discovery"><span class="badge badge-light">Discovery</span></a>
                           
                     </div>
                 </div>
@@ -168,11 +183,11 @@ The Hypercat specification allows Internet of Things (IoT) clients to discover i
             <div class="card text-white bg-primary">
                 <div class="card-body">
                     <h3 class="card-title">Share</h3>
-                    <a class="btn btn-lg btn-primary" href='https://twitter.com/intent/tweet?hashtags=specification%2cinteroperability%2cdiscovery%2csearch&text=Hypercat&url=http%3a%2f%2fdistributedfog.com%2fthings-directory%2fhypercat%2f'>
+                    <a class="btn btn-lg btn-primary" href='https://twitter.com/intent/tweet?hashtags=research%2cinteroperability%2csearch%2cdiscovery&text=SIR&url=http%3a%2f%2fdistributedfog.com%2fthings-directory%2fsir%2f'>
                         <i class="fa fa-twitter" aria-hidden="true"></i></a>
-                    <a class="btn btn-lg btn-primary" href='https://www.facebook.com/sharer/sharer.php?u%3dhttp%253A%252F%252Fdistributedfog.com%252Fthings-directory%252Fhypercat%252F'>
+                    <a class="btn btn-lg btn-primary" href='https://www.facebook.com/sharer/sharer.php?u%3dhttp%253A%252F%252Fdistributedfog.com%252Fthings-directory%252Fsir%252F'>
                         <i class="fa fa-facebook" aria-hidden="true"></i></a>
-                    <a class="btn btn-lg btn-primary" href='https://plus.google.com/share?url=http%3a%2f%2fdistributedfog.com%2fthings-directory%2fhypercat%2f'>
+                    <a class="btn btn-lg btn-primary" href='https://plus.google.com/share?url=http%3a%2f%2fdistributedfog.com%2fthings-directory%2fsir%2f'>
                         <i class="fa fa-google-plus" aria-hidden="true"></i></a>
                 </div>
             </div>
@@ -183,8 +198,8 @@ The Hypercat specification allows Internet of Things (IoT) clients to discover i
             <div id="disqus_thread"></div>
             <script>
                 var disqus_config = function () {
-                    this.page.url = "http://distributedfog.com/things-directory/hypercat/";
-                    this.page.identifier = "89fc52409a75e6b55f92c09585535d6e";
+                    this.page.url = "http://distributedfog.com/things-directory/sir/";
+                    this.page.identifier = "ddb5a96b4f0b7cc55ad1afc9921cccfc";
                 };
                 (function() { 
                     var d = document, s = d.createElement('script');
@@ -247,11 +262,11 @@ The Hypercat specification allows Internet of Things (IoT) clients to discover i
     "articleSection" : "things-directory",
     "mainEntityOfPage": {
         "@type": "WebPage",
-        "@id": "http://distributedfog.com/things-directory/hypercat/"
+        "@id": "http://distributedfog.com/things-directory/sir/"
     },
-    "name" : "Hypercat",
-    "headline" : "Hypercat",
-    "description" : "The Hypercat specification allows Internet of Things (IoT) clients to discover information about IoT assets over the web. With Hypercat developers can write applications that will work across many servers, breaking down the walls between vertical silos.",
+    "name" : "SIR",
+    "headline" : "SIR",
+    "description" : "The Sensor Instance Registry (SIR) is a web service interface for managing sensor catalogues. It is based on the OGC discussion paper 10-171 and 09-163r2 (SensorML discovery profile) and presents a pragmatic solution that may serve as the basis for further discussion and development. The paper contains extensive descriptions of the service operations (requests and responses) for GET and POST requests.",
     "inLanguage" : "en-GB",
     "author" : "DistributedFog.com",
     "creator" : "",
@@ -269,10 +284,10 @@ The Hypercat specification allows Internet of Things (IoT) clients to discover i
         }
     },
     "logo": "",
-    "url" : "http://distributedfog.com/things-directory/hypercat/",
-    "wordCount" : "599",
+    "url" : "http://distributedfog.com/things-directory/sir/",
+    "wordCount" : "324",
     "image" : "http://distributedfog.com/img/logo.png",
-    "keywords" : [ "specification, interoperability, discovery, search" ]
+    "keywords" : [ "research, interoperability, search, discovery" ]
 }
 </script>
 
