@@ -242,6 +242,11 @@
   </url>
   
   <url>
+    <loc>http://distributedfog.com/middleware/hermes/</loc>
+    <lastmod>2017-10-11T17:56:48+01:00</lastmod>
+  </url>
+  
+  <url>
     <loc>http://distributedfog.com/things-directory/hypercat/</loc>
     <lastmod>2017-10-11T17:56:48+01:00</lastmod>
   </url>
@@ -277,6 +282,11 @@
   </url>
   
   <url>
+    <loc>http://distributedfog.com/middleware/linksmart/</loc>
+    <lastmod>2017-10-11T17:56:48+01:00</lastmod>
+  </url>
+  
+  <url>
     <loc>http://distributedfog.com/os/lite/</loc>
     <lastmod>2017-10-11T17:56:48+01:00</lastmod>
   </url>
@@ -293,6 +303,11 @@
   
   <url>
     <loc>http://distributedfog.com/os/mbed/</loc>
+    <lastmod>2017-10-11T17:56:48+01:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>http://distributedfog.com/middleware/</loc>
     <lastmod>2017-10-11T17:56:48+01:00</lastmod>
   </url>
   

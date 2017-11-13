@@ -412,6 +412,15 @@ HTTP/2 Server Push allows you to send site assets to the user before they’ve e
     </item>
     
     <item>
+      <title>Hermes</title>
+      <link>http://distributedfog.com/middleware/hermes/</link>
+      <pubDate>Wed, 11 Oct 2017 17:56:48 +0100</pubDate>
+      
+      <guid>http://distributedfog.com/middleware/hermes/</guid>
+      <description>Hermes is a distributed, eventbased middleware platform. Hermes follows a type- and attribute-based publish/subscribe model that places particular emphasis on programming language integration by supporting type-checking of event data and event type inheritance. To handle dynamic, large-scale environments, Hermes uses peer-to-peer techniques for autonomic management of its overlay network of event brokers and for scalable event dissemination.  Pietzuch (2004). Hermes: A scalable event-based middleware. PhD Thesis.     A primary feature of the Hermes event-based middleware is scalability, as it is targeted at the development of large-scale distributed systems.</description>
+    </item>
+    
+    <item>
       <title>Hypercat</title>
       <link>http://distributedfog.com/things-directory/hypercat/</link>
       <pubDate>Wed, 11 Oct 2017 17:56:48 +0100</pubDate>
@@ -478,6 +487,15 @@ HTTP/2 Server Push allows you to send site assets to the user before they’ve e
       
       <guid>http://distributedfog.com/gateway-network/lte/</guid>
       <description>LTE is a standard for high-speed wireless communication for mobile devices and data terminals, based on the GSM/EDGE and UMTS/HSPA technologies. It increases the capacity and speed using a different radio interface together with core network improvements. The standard is developed by the 3GPP (3rd Generation Partnership Project).  Wikipedia     NB-IoT &amp;hellip; NarrowBand IoT (NB-IoT) is a Low Power Wide Area Network (LPWAN) radio technology standard. NB-IoT focuses specifically on indoor coverage, low cost, long battery life, and enabling a large number of connected devices.</description>
+    </item>
+    
+    <item>
+      <title>LinkSmart</title>
+      <link>http://distributedfog.com/middleware/linksmart/</link>
+      <pubDate>Wed, 11 Oct 2017 17:56:48 +0100</pubDate>
+      
+      <guid>http://distributedfog.com/middleware/linksmart/</guid>
+      <description>LinkSmart, formerly Hydra, is an open source IoT platform for developing IoT applications for various domains, such as Smart Cities, Industrie 4.0, Smart Grid and much more. The LinkSmart platform provides building blocks as generic and domain-specific services to efficiently implement applications in the Internet of Things. These include basic services such as device abstraction, data storage, live data management, and advanced ones such as stream mining and online machine learning.</description>
     </item>
     
     <item>

@@ -12,6 +12,24 @@
     
     
     <item>
+      <title>Hermes</title>
+      <link>http://distributedfog.com/middleware/hermes/</link>
+      <pubDate>Wed, 11 Oct 2017 17:56:48 +0100</pubDate>
+      
+      <guid>http://distributedfog.com/middleware/hermes/</guid>
+      <description>Hermes is a distributed, eventbased middleware platform. Hermes follows a type- and attribute-based publish/subscribe model that places particular emphasis on programming language integration by supporting type-checking of event data and event type inheritance. To handle dynamic, large-scale environments, Hermes uses peer-to-peer techniques for autonomic management of its overlay network of event brokers and for scalable event dissemination.  Pietzuch (2004). Hermes: A scalable event-based middleware. PhD Thesis.     A primary feature of the Hermes event-based middleware is scalability, as it is targeted at the development of large-scale distributed systems.</description>
+    </item>
+    
+    <item>
+      <title>LinkSmart</title>
+      <link>http://distributedfog.com/middleware/linksmart/</link>
+      <pubDate>Wed, 11 Oct 2017 17:56:48 +0100</pubDate>
+      
+      <guid>http://distributedfog.com/middleware/linksmart/</guid>
+      <description>LinkSmart, formerly Hydra, is an open source IoT platform for developing IoT applications for various domains, such as Smart Cities, Industrie 4.0, Smart Grid and much more. The LinkSmart platform provides building blocks as generic and domain-specific services to efficiently implement applications in the Internet of Things. These include basic services such as device abstraction, data storage, live data management, and advanced ones such as stream mining and online machine learning.</description>
+    </item>
+    
+    <item>
       <title>SIR</title>
       <link>http://distributedfog.com/things-directory/sir/</link>
       <pubDate>Wed, 11 Oct 2017 17:56:48 +0100</pubDate>

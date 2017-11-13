@@ -1,0 +1,33 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes" ?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>Middleware on DistributedFog</title>
+    <link>http://distributedfog.com/middleware/</link>
+    <description>Recent content in Middleware on DistributedFog</description>
+    <generator>Hugo -- gohugo.io</generator>
+    <language>en-us</language>
+    <lastBuildDate>Wed, 11 Oct 2017 17:56:48 +0100</lastBuildDate>
+    
+	<atom:link href="http://distributedfog.com/middleware/index.xml" rel="self" type="application/rss+xml" />
+    
+    
+    <item>
+      <title>Hermes</title>
+      <link>http://distributedfog.com/middleware/hermes/</link>
+      <pubDate>Wed, 11 Oct 2017 17:56:48 +0100</pubDate>
+      
+      <guid>http://distributedfog.com/middleware/hermes/</guid>
+      <description>Hermes is a distributed, eventbased middleware platform. Hermes follows a type- and attribute-based publish/subscribe model that places particular emphasis on programming language integration by supporting type-checking of event data and event type inheritance. To handle dynamic, large-scale environments, Hermes uses peer-to-peer techniques for autonomic management of its overlay network of event brokers and for scalable event dissemination.  Pietzuch (2004). Hermes: A scalable event-based middleware. PhD Thesis.     A primary feature of the Hermes event-based middleware is scalability, as it is targeted at the development of large-scale distributed systems.</description>
+    </item>
+    
+    <item>
+      <title>LinkSmart</title>
+      <link>http://distributedfog.com/middleware/linksmart/</link>
+      <pubDate>Wed, 11 Oct 2017 17:56:48 +0100</pubDate>
+      
+      <guid>http://distributedfog.com/middleware/linksmart/</guid>
+      <description>LinkSmart, formerly Hydra, is an open source IoT platform for developing IoT applications for various domains, such as Smart Cities, Industrie 4.0, Smart Grid and much more. The LinkSmart platform provides building blocks as generic and domain-specific services to efficiently implement applications in the Internet of Things. These include basic services such as device abstraction, data storage, live data management, and advanced ones such as stream mining and online machine learning.</description>
+    </item>
+    
+  </channel>
+</rss>
