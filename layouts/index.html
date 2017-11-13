@@ -36,6 +36,10 @@
 
         {{ partial "layer.html" "Processing Layer" }}
 
+        {{ $.Scratch.Set "card-title" "middleware" }}
+        {{ $.Scratch.Set "card-title-pretty" "Middleware" }}
+        {{ partial "card.html" . }}
+
         {{ $.Scratch.Set "card-title" "storage" }}
         {{ $.Scratch.Set "card-title-pretty" "Storage" }}
         {{ partial "card.html" . }}
