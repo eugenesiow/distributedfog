@@ -12,6 +12,15 @@
     
     
     <item>
+      <title>Calvin</title>
+      <link>http://distributedfog.com/middleware/calvin/</link>
+      <pubDate>Wed, 11 Oct 2017 17:56:48 +0100</pubDate>
+      
+      <guid>http://distributedfog.com/middleware/calvin/</guid>
+      <description>Calvin is an application environment that lets things talk to things. It comprises of both a development framework for IoT application developers, and a runtime environment which handles the running application. Calvin is based on the fundamental idea that application development should be simple and fun. There should be no unnecessary impediments between an idea and its implementation, and an app developer should not have to worry about communication protocols or hardware specifics (but will not stop you from doing it if you want to.</description>
+    </item>
+    
+    <item>
       <title>Hermes</title>
       <link>http://distributedfog.com/middleware/hermes/</link>
       <pubDate>Wed, 11 Oct 2017 17:56:48 +0100</pubDate>

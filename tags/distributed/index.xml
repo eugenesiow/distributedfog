@@ -122,6 +122,15 @@ The Cisco IOx application environment combines IoT application execution within 
     </item>
     
     <item>
+      <title>Node-RED</title>
+      <link>http://distributedfog.com/middleware/node-red/</link>
+      <pubDate>Wed, 11 Oct 2017 17:56:48 +0100</pubDate>
+      
+      <guid>http://distributedfog.com/middleware/node-red/</guid>
+      <description>Node-RED is a flow-based programming tool, original developed by IBM’s Emerging Technology Services team and now a part of the JS Foundation. It is a programming tool for wiring together hardware devices, APIs and online services in new and interesting ways, like for the Internet of Things.  node-red.org     Node-RED is a flow-based development tool developed originally by IBM for wiring together hardware devices, APIs and online services as part of the Internet of Things.</description>
+    </item>
+    
+    <item>
       <title>PIOTRe</title>
       <link>http://distributedfog.com/decentralisation/piotre/</link>
       <pubDate>Wed, 11 Oct 2017 17:56:48 +0100</pubDate>

@@ -12,6 +12,15 @@
     
     
     <item>
+      <title>Calvin</title>
+      <link>http://distributedfog.com/middleware/calvin/</link>
+      <pubDate>Wed, 11 Oct 2017 17:56:48 +0100</pubDate>
+      
+      <guid>http://distributedfog.com/middleware/calvin/</guid>
+      <description>Calvin is an application environment that lets things talk to things. It comprises of both a development framework for IoT application developers, and a runtime environment which handles the running application. Calvin is based on the fundamental idea that application development should be simple and fun. There should be no unnecessary impediments between an idea and its implementation, and an app developer should not have to worry about communication protocols or hardware specifics (but will not stop you from doing it if you want to.</description>
+    </item>
+    
+    <item>
       <title>Hermes</title>
       <link>http://distributedfog.com/middleware/hermes/</link>
       <pubDate>Wed, 11 Oct 2017 17:56:48 +0100</pubDate>
@@ -27,6 +36,15 @@
       
       <guid>http://distributedfog.com/middleware/linksmart/</guid>
       <description>LinkSmart, formerly Hydra, is an open source IoT platform for developing IoT applications for various domains, such as Smart Cities, Industrie 4.0, Smart Grid and much more. The LinkSmart platform provides building blocks as generic and domain-specific services to efficiently implement applications in the Internet of Things. These include basic services such as device abstraction, data storage, live data management, and advanced ones such as stream mining and online machine learning.</description>
+    </item>
+    
+    <item>
+      <title>Node-RED</title>
+      <link>http://distributedfog.com/middleware/node-red/</link>
+      <pubDate>Wed, 11 Oct 2017 17:56:48 +0100</pubDate>
+      
+      <guid>http://distributedfog.com/middleware/node-red/</guid>
+      <description>Node-RED is a flow-based programming tool, original developed by IBM’s Emerging Technology Services team and now a part of the JS Foundation. It is a programming tool for wiring together hardware devices, APIs and online services in new and interesting ways, like for the Internet of Things.  node-red.org     Node-RED is a flow-based development tool developed originally by IBM for wiring together hardware devices, APIs and online services as part of the Internet of Things.</description>
     </item>
     
   </channel>

@@ -186,6 +186,15 @@ BeagleBoard The USB-powered BeagleBoard is a low-cost, fan-less single board com
     </item>
     
     <item>
+      <title>Calvin</title>
+      <link>http://distributedfog.com/middleware/calvin/</link>
+      <pubDate>Wed, 11 Oct 2017 17:56:48 +0100</pubDate>
+      
+      <guid>http://distributedfog.com/middleware/calvin/</guid>
+      <description>Calvin is an application environment that lets things talk to things. It comprises of both a development framework for IoT application developers, and a runtime environment which handles the running application. Calvin is based on the fundamental idea that application development should be simple and fun. There should be no unnecessary impediments between an idea and its implementation, and an app developer should not have to worry about communication protocols or hardware specifics (but will not stop you from doing it if you want to.</description>
+    </item>
+    
+    <item>
       <title>Ceph</title>
       <link>http://distributedfog.com/storage/ceph/</link>
       <pubDate>Wed, 11 Oct 2017 17:56:48 +0100</pubDate>
@@ -563,6 +572,15 @@ Ampy Move is a wearable motion-charger that transforms the kinetic energy from m
       
       <guid>http://distributedfog.com/kit/nuc/</guid>
       <description>Next Unit of Computing (NUC) is a small-form-factor personal computer designed by Intel. Its motherboard measures 4 × 4 inches (10.16 × 10.16 cm). The barebone kits consist of the board, in a plastic case with a fan, an external power supply and VESA mounting plate.  Wikipedia     Seventh Generation Intel&amp;rsquo;s seventh generation NUC models, codenamed Baby Canyon, are based on their Kaby Lake-U processors with a TDP from 15 W to 28 W.</description>
+    </item>
+    
+    <item>
+      <title>Node-RED</title>
+      <link>http://distributedfog.com/middleware/node-red/</link>
+      <pubDate>Wed, 11 Oct 2017 17:56:48 +0100</pubDate>
+      
+      <guid>http://distributedfog.com/middleware/node-red/</guid>
+      <description>Node-RED is a flow-based programming tool, original developed by IBM’s Emerging Technology Services team and now a part of the JS Foundation. It is a programming tool for wiring together hardware devices, APIs and online services in new and interesting ways, like for the Internet of Things.  node-red.org     Node-RED is a flow-based development tool developed originally by IBM for wiring together hardware devices, APIs and online services as part of the Internet of Things.</description>
     </item>
     
     <item>

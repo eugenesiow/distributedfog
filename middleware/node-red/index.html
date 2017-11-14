@@ -6,7 +6,7 @@
     <meta name="description" content="All about the Internet of Things Landscape including technologies, protocols, applications, platforms and research.">
     <meta name="author" content="DistributedFog.com">
 
-    <title>DistributedFog: Hermes</title>
+    <title>DistributedFog: Node-RED</title>
 
     
     <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0-beta/css/bootstrap.min.css" integrity="sha384-/Y6pD6FV/Vv2HJnA6t+vslU6fwYXjCFtcEpHbNJ0lyAFsXTsjBbfaDjzALeQsN6M" crossorigin="anonymous">
@@ -44,32 +44,32 @@ ga('send', 'pageview');
                 
                 <a class="dropdown-item " href="/middleware/calvin/">Calvin</a>
                 
-                <a class="dropdown-item active" href="/middleware/hermes/">Hermes</a>
+                <a class="dropdown-item " href="/middleware/hermes/">Hermes</a>
                 
                 <a class="dropdown-item " href="/middleware/linksmart/">LinkSmart</a>
                 
                 <a class="dropdown-item " href="/middleware/">Middleware</a>
                 
-                <a class="dropdown-item " href="/middleware/node-red/">Node-RED</a>
+                <a class="dropdown-item active" href="/middleware/node-red/">Node-RED</a>
                 
             </div>
         </li>
-        <li class="breadcrumb-item active">Hermes</li>
+        <li class="breadcrumb-item active">Node-RED</li>
     </ol>
 </header>
 <div class="container container-section">
     
-    <h1>Hermes </h1>
+    <h1>Node-RED </h1>
     <div class="row">
         <div class='col-sm-4 py-2'>
     <div class='card card-body bg-info text-white h-100'>
         
-Hermes is a distributed, eventbased middleware platform. Hermes follows a type- and attribute-based publish/subscribe model that places particular emphasis on programming language integration by supporting type-checking of event data and event type inheritance. To handle dynamic, large-scale environments, Hermes uses peer-to-peer techniques for autonomic management of its overlay network of event brokers and for scalable event dissemination.
+Node-RED is a flow-based programming tool, original developed by IBM’s Emerging Technology Services team and now a part of the JS Foundation. It is a programming tool for wiring together hardware devices, APIs and online services in new and interesting ways, like for the Internet of Things.
 
         
         <footer class="blockquote-footer text-white">
             <small>
-                Pietzuch (2004). Hermes: A scalable event-based middleware. PhD Thesis.
+                node-red.org
             </small>
         </footer>
         
@@ -78,17 +78,16 @@ Hermes is a distributed, eventbased middleware platform. Hermes follows a type- 
 
 <p><div class='col-sm-8 py-2'>
     <div class='card card-body  h-100'>
-        <p>A primary feature of the Hermes event-based middleware is scalability, as it is targeted at the development of large-scale distributed systems. Hermes includes two content-based routing algorithms to disseminate events from event publishers to subscribers. The type-based routing algorithm only supports subscriptions depending on the event type of event publications. It is comparable to a topic-based publish/subscribe service but differs by observing inheritance relationships between event types. The second algorithm is type- and attribute-based routing, which extends type-based routing with content-based filtering on event attributes in publications. In both algorithms, event-type specific advertisements, introduced in Section 3.3.3, are sent by publisher-hosting brokers to set up routing state. Advertisements are not broadcast to all event brokers, but instead event brokers can act as special rendezvous nodes that guarantee that event subscriptions and advertisements join in the network in order to form valid event dissemination trees.</p>
+        <p>Node-RED is a flow-based development tool developed originally by IBM for wiring together hardware devices, APIs and online services as part of the Internet of Things.</p>
 
-<p>Both routing algorithms use a distributed hash table to set up state for event dissemination trees. The distributed hash table functionality is implemented by a peer-to-peer routing substrate, called Pan, formed by the event brokers in Hermes. Pan is an extended implementation of the Pastry routing substrate. The advantage of such peer-to-peer overlay network are threefold: first, the overlay network can react to failure by changing its topology and thus adding fault-tolerance to Hermes. Second, the peer-to-peer routing substrate that manages the overlay network is responsible for handling membership of event brokers in a Hermes deployment. Third, the discovery of rendezvous nodes, which must be well-known in the<br />
-network, is simplified by the standard properties of the distributed hash table.</p>
+<p>Node-RED provides a browser-based flow editor, which can be used to create JavaScript functions. Elements of applications can be saved or shared for re-use. The runtime is built on Node.js. The flows created in Node-RED are stored using JSON. Since version 0.14 MQTT nodes can make properly configured TLS connections.</p>
 
-<p>The bottom layer is the physical network with routers and links that Hermes is deployed in. The middle layer constitutes the peer-to-peer overlay network that offers a distributed hash table abstraction. The top layer consists of multiple event dissemination trees that are constructed by Hermes to realise the event-based middleware service. When a message is routed using the peer-to-peer overlay network, a callback to the upper layer is performed at every hop, that allows the event broker to process the message by altering it or its own state. In addition to scalable event dissemination, Hermes supports event typing, the creation of event type hierarchies through inheritance, and generic, supertype event subscriptions. This enhances its integration with current object-oriented programming languages such as Java or C++.</p>
+<p>In 2016, IBM contributed Node-RED as an open source JS Foundation project.</p>
 
         
         <footer class="blockquote-footer ">
             <small>
-                Pietzuch (2004). Hermes: A scalable event-based middleware. PhD Thesis.
+                Wikipedia
             </small>
         </footer>
         
@@ -101,7 +100,8 @@ network, is simplified by the standard properties of the distributed hash table.
             <h4 class="card-title">Links</h4>
         </div>
         <ul class="list-group list-group-flush">
-    <a href="https://www.cl.cam.ac.uk/techreports/UCAM-CL-TR-590.pdf" class="list-group-item list-group-item-action ">Hermes: A scalable event-based middleware</a>
+    <a href="https://nodered.org/" class="list-group-item list-group-item-action ">NodeRed.org</a>
+    <a href="https://nodered.org/docs/getting-started/" class="list-group-item list-group-item-action ">Getting Started</a>
 </ul>
     </div>
 </div></p>
@@ -115,9 +115,11 @@ network, is simplified by the standard properties of the distributed hash table.
                             
                             <a href="/tags/software"><span class="badge badge-light">Software</span></a>
                             
-                            <a href="/tags/research"><span class="badge badge-light">Research</span></a>
-                            
                             <a href="/tags/distributed"><span class="badge badge-light">Distributed</span></a>
+                            
+                            <a href="/tags/javascript"><span class="badge badge-light">Javascript</span></a>
+                            
+                            <a href="/tags/ibm"><span class="badge badge-light">IBM</span></a>
                           
                     </div>
                 </div>
@@ -127,11 +129,11 @@ network, is simplified by the standard properties of the distributed hash table.
             <div class="card text-white bg-primary">
                 <div class="card-body">
                     <h3 class="card-title">Share</h3>
-                    <a class="btn btn-lg btn-primary" href='https://twitter.com/intent/tweet?hashtags=software%2cresearch%2cdistributed&text=Hermes&url=http%3a%2f%2fdistributedfog.com%2fmiddleware%2fhermes%2f'>
+                    <a class="btn btn-lg btn-primary" href='https://twitter.com/intent/tweet?hashtags=software%2cdistributed%2cjavascript%2cibm&text=Node-RED&url=http%3a%2f%2fdistributedfog.com%2fmiddleware%2fnode-red%2f'>
                         <i class="fa fa-twitter" aria-hidden="true"></i></a>
-                    <a class="btn btn-lg btn-primary" href='https://www.facebook.com/sharer/sharer.php?u%3dhttp%253A%252F%252Fdistributedfog.com%252Fmiddleware%252Fhermes%252F'>
+                    <a class="btn btn-lg btn-primary" href='https://www.facebook.com/sharer/sharer.php?u%3dhttp%253A%252F%252Fdistributedfog.com%252Fmiddleware%252Fnode-red%252F'>
                         <i class="fa fa-facebook" aria-hidden="true"></i></a>
-                    <a class="btn btn-lg btn-primary" href='https://plus.google.com/share?url=http%3a%2f%2fdistributedfog.com%2fmiddleware%2fhermes%2f'>
+                    <a class="btn btn-lg btn-primary" href='https://plus.google.com/share?url=http%3a%2f%2fdistributedfog.com%2fmiddleware%2fnode-red%2f'>
                         <i class="fa fa-google-plus" aria-hidden="true"></i></a>
                 </div>
             </div>
@@ -142,8 +144,8 @@ network, is simplified by the standard properties of the distributed hash table.
             <div id="disqus_thread"></div>
             <script>
                 var disqus_config = function () {
-                    this.page.url = "http://distributedfog.com/middleware/hermes/";
-                    this.page.identifier = "0e308b04febb056b0f27349a17148da6";
+                    this.page.url = "http://distributedfog.com/middleware/node-red/";
+                    this.page.identifier = "1d0663471d2dcae17e63409ee5b5a7c6";
                 };
                 (function() { 
                     var d = document, s = d.createElement('script');
@@ -206,11 +208,11 @@ network, is simplified by the standard properties of the distributed hash table.
     "articleSection" : "middleware",
     "mainEntityOfPage": {
         "@type": "WebPage",
-        "@id": "http://distributedfog.com/middleware/hermes/"
+        "@id": "http://distributedfog.com/middleware/node-red/"
     },
-    "name" : "Hermes",
-    "headline" : "Hermes",
-    "description" : "Hermes is a distributed, eventbased middleware platform. Hermes follows a type- and attribute-based publish/subscribe model that places particular emphasis on programming language integration by supporting type-checking of event data and event type inheritance. To handle dynamic, large-scale environments, Hermes uses peer-to-peer techniques for autonomic management of its overlay network of event brokers and for scalable event dissemination.",
+    "name" : "Node-RED",
+    "headline" : "Node-RED",
+    "description" : "Node-RED is a flow-based programming tool, original developed by IBM’s Emerging Technology Services team and now a part of the JS Foundation. It is a programming tool for wiring together hardware devices, APIs and online services in new and interesting ways, like for the Internet of Things.",
     "inLanguage" : "en-GB",
     "author" : "DistributedFog.com",
     "creator" : "",
@@ -228,10 +230,10 @@ network, is simplified by the standard properties of the distributed hash table.
         }
     },
     "logo": "",
-    "url" : "http://distributedfog.com/middleware/hermes/",
-    "wordCount" : "470",
+    "url" : "http://distributedfog.com/middleware/node-red/",
+    "wordCount" : "141",
     "image" : "http://distributedfog.com/img/logo.png",
-    "keywords" : [ "software, research, distributed" ]
+    "keywords" : [ "software, distributed, javascript, IBM" ]
 }
 </script>
 

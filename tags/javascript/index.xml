@@ -1,26 +1,15 @@
 <?xml version="1.0" encoding="utf-8" standalone="yes" ?>
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
   <channel>
-    <title>Ibm on DistributedFog</title>
-    <link>http://distributedfog.com/tags/ibm/</link>
-    <description>Recent content in Ibm on DistributedFog</description>
+    <title>Javascript on DistributedFog</title>
+    <link>http://distributedfog.com/tags/javascript/</link>
+    <description>Recent content in Javascript on DistributedFog</description>
     <generator>Hugo -- gohugo.io</generator>
     <language>en-us</language>
     <lastBuildDate>Wed, 11 Oct 2017 17:56:48 +0100</lastBuildDate>
     
-	<atom:link href="http://distributedfog.com/tags/ibm/index.xml" rel="self" type="application/rss+xml" />
+	<atom:link href="http://distributedfog.com/tags/javascript/index.xml" rel="self" type="application/rss+xml" />
     
-    
-    <item>
-      <title>MQTT</title>
-      <link>http://distributedfog.com/app-protocol/mqtt/</link>
-      <pubDate>Wed, 11 Oct 2017 17:56:48 +0100</pubDate>
-      
-      <guid>http://distributedfog.com/app-protocol/mqtt/</guid>
-      <description>MQTT is a publish-subscribe-based lightweight messaging protocol for use on top of TCP/IP. It is designed for connections where a small code footprint is required or the network bandwidth is limited.  Wikipedia     Research CoAP vs MQTT, MQTT and REST, Push Notifications, Secure MQTT
- 
-MQTT-SN is a variation of the main protocol aimed at embedded devices on non-TCP/IP networks, such as ZigBee. As it does not require the TCP/IP stack, it can be used over a serial link where overhead is really small or over UDP.</description>
-    </item>
     
     <item>
       <title>Node-RED</title>
