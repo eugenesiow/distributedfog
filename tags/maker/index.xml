@@ -1,0 +1,33 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes" ?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>Maker on DistributedFog</title>
+    <link>http://distributedfog.com/tags/maker/</link>
+    <description>Recent content in Maker on DistributedFog</description>
+    <generator>Hugo -- gohugo.io</generator>
+    <language>en-us</language>
+    <lastBuildDate>Wed, 11 Oct 2017 16:24:18 +0100</lastBuildDate>
+    
+	<atom:link href="http://distributedfog.com/tags/maker/index.xml" rel="self" type="application/rss+xml" />
+    
+    
+    <item>
+      <title>Formlabs</title>
+      <link>http://distributedfog.com/3d-print/formlabs/</link>
+      <pubDate>Wed, 11 Oct 2017 16:24:18 +0100</pubDate>
+      
+      <guid>http://distributedfog.com/3d-print/formlabs/</guid>
+      <description>Formlabs is a Somerville, Massachusetts-based company that was founded in September 2011. Formlabs designs and manufactures desktop 3D printers, and is well known for raising nearly $3 million in a Kickstarter campaign and creating the Form 1 and Form 2 3D printers.  Wikipedia     Form 2 The most advanced desktop 3D printer ever created. Industrial quality 3D printing made accessible, the Form 2 delivers high-resolution prints at a fraction of the cost.</description>
+    </item>
+    
+    <item>
+      <title>Thingiverse</title>
+      <link>http://distributedfog.com/3d-print/thingiverse/</link>
+      <pubDate>Wed, 11 Oct 2017 16:24:18 +0100</pubDate>
+      
+      <guid>http://distributedfog.com/3d-print/thingiverse/</guid>
+      <description>Thingiverse is a website dedicated to the sharing of user-created digital design files. 3D printers, laser cutters, milling machines and many other technologies can be used to physically create the files shared by the users on Thingiverse.  Wikipedia     What is Thingiverse? MakerBot&amp;rsquo;s Thingiverse is a thriving design community for discovering, making, and sharing 3D printable things. As the world&amp;rsquo;s largest 3D printing community, we believe that everyone should be encouraged to create and remix 3D things, no matter their technical expertise or previous experience.</description>
+    </item>
+    
+  </channel>
+</rss>

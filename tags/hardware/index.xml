@@ -127,5 +127,14 @@ Series Comparison    RPi CPU RAM WiFi     3 4 x 1.</description>
       <description>The ASUS Tinker Board is a single board computer launched by ASUS in early 2017. Its physical size and GPIO pinout are designed to be compatible with the second-generation and later Raspberry Pi models. The first released board features 4K video, 2GB of onboard RAM, gigabit Ethernet and a Rockchip RK3288 processor running at 1.8 GHz.  Wikipedia     Tinker Board is a Single Board Computer (SBC) in an ultra-small form factor that offers class-leading performance while leveraging outstanding mechanical compatibility.</description>
     </item>
     
+    <item>
+      <title>Formlabs</title>
+      <link>http://distributedfog.com/3d-print/formlabs/</link>
+      <pubDate>Wed, 11 Oct 2017 16:24:18 +0100</pubDate>
+      
+      <guid>http://distributedfog.com/3d-print/formlabs/</guid>
+      <description>Formlabs is a Somerville, Massachusetts-based company that was founded in September 2011. Formlabs designs and manufactures desktop 3D printers, and is well known for raising nearly $3 million in a Kickstarter campaign and creating the Form 1 and Form 2 3D printers.  Wikipedia     Form 2 The most advanced desktop 3D printer ever created. Industrial quality 3D printing made accessible, the Form 2 delivers high-resolution prints at a fraction of the cost.</description>
+    </item>
+    
   </channel>
 </rss>

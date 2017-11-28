@@ -1,0 +1,24 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes" ?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>Design on DistributedFog</title>
+    <link>http://distributedfog.com/tags/design/</link>
+    <description>Recent content in Design on DistributedFog</description>
+    <generator>Hugo -- gohugo.io</generator>
+    <language>en-us</language>
+    <lastBuildDate>Wed, 11 Oct 2017 16:24:18 +0100</lastBuildDate>
+    
+	<atom:link href="http://distributedfog.com/tags/design/index.xml" rel="self" type="application/rss+xml" />
+    
+    
+    <item>
+      <title>Thingiverse</title>
+      <link>http://distributedfog.com/3d-print/thingiverse/</link>
+      <pubDate>Wed, 11 Oct 2017 16:24:18 +0100</pubDate>
+      
+      <guid>http://distributedfog.com/3d-print/thingiverse/</guid>
+      <description>Thingiverse is a website dedicated to the sharing of user-created digital design files. 3D printers, laser cutters, milling machines and many other technologies can be used to physically create the files shared by the users on Thingiverse.  Wikipedia     What is Thingiverse? MakerBot&amp;rsquo;s Thingiverse is a thriving design community for discovering, making, and sharing 3D printable things. As the world&amp;rsquo;s largest 3D printing community, we believe that everyone should be encouraged to create and remix 3D things, no matter their technical expertise or previous experience.</description>
+    </item>
+    
+  </channel>
+</rss>

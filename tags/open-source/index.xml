@@ -71,5 +71,14 @@ BeagleBoard The USB-powered BeagleBoard is a low-cost, fan-less single board com
       <description>RIOT is a small operating system for networked, memory-constrained systems with a focus on low-power wireless IoT devices. It is open-source software, released under the GNU Lesser General Public License (LGPL). Due to its large independent community RIOT is often referred to as the Linux of the Internet of Things.  Wikipedia     RIOT is an operating system designed for the particular requirements of Internet of Things (IoT) scenarios.</description>
     </item>
     
+    <item>
+      <title>Thingiverse</title>
+      <link>http://distributedfog.com/3d-print/thingiverse/</link>
+      <pubDate>Wed, 11 Oct 2017 16:24:18 +0100</pubDate>
+      
+      <guid>http://distributedfog.com/3d-print/thingiverse/</guid>
+      <description>Thingiverse is a website dedicated to the sharing of user-created digital design files. 3D printers, laser cutters, milling machines and many other technologies can be used to physically create the files shared by the users on Thingiverse.  Wikipedia     What is Thingiverse? MakerBot&amp;rsquo;s Thingiverse is a thriving design community for discovering, making, and sharing 3D printable things. As the world&amp;rsquo;s largest 3D printing community, we believe that everyone should be encouraged to create and remix 3D things, no matter their technical expertise or previous experience.</description>
+    </item>
+    
   </channel>
 </rss>
