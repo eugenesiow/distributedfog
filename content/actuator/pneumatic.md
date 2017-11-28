@@ -35,7 +35,7 @@ This pressure is transferred to the valve stem, which is connected to either the
 The valves input is the "control signal." This can come from a variety of measuring devices, and each different pressure is a different set point for a valve. A typical standard signal is 20–100 kPa. For example, a valve could be controlling the pressure in a vessel which has a constant out-flow, and a varied in-flow (varied by the actuator and valve). A pressure transmitter will monitor the pressure in the vessel and transmit a signal from 20–100 kPa. 20 kPa means there is no pressure, 100 kPa means there is full range pressure (can be varied by the transmitters calibration points). As the pressure rises in the vessel, the output of the transmitter rises, this increase in pressure is sent to the valve, which causes the valve to stroke downward, and start closing the valve, decreasing flow into the vessel, reducing the pressure in the vessel as excess pressure is evacuated through the out flow. This is called a direct acting process.
 {{% /card %}}
 
-{{< listcard size="4" title="Products">}}
+{{< listcard size="4" title="Links">}}
     {{<listlink "http://www.machinedesign.com/linear-motion/what-s-difference-between-pneumatic-hydraulic-and-electrical-actuators" "Comparing Linear Actuators">}}
     {{<listlink "https://en.wikipedia.org/wiki/Pneumatic_actuator" "Wiki">}}
 {{< /listcard >}}

@@ -75,6 +75,10 @@
         {{ $.Scratch.Set "card-title" "actuator" }}
         {{ $.Scratch.Set "card-title-pretty" "Actuators" }}
         {{ partial "card.html" . }}
+        
+        {{ $.Scratch.Set "card-title" "3d-print" }}
+        {{ $.Scratch.Set "card-title-pretty" "3D Printing" }}
+        {{ partial "card.html" . }}
 
         {{ $.Scratch.Set "card-title" "os" }}
         {{ $.Scratch.Set "card-title-pretty" "Device OS" }}

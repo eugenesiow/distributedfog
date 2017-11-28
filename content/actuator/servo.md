@@ -38,7 +38,7 @@ Speed control via a governor is another type of servomechanism. The steam engine
 Positioning servomechanisms were first used in military fire-control and marine navigation equipment. Today servomechanisms are used in automatic machine tools, satellite-tracking antennas, remote control airplanes, automatic navigation systems on boats and planes, and antiaircraft-gun control systems. Other examples are fly-by-wire systems in aircraft which use servos to actuate the aircraft's control surfaces, and radio-controlled models which use RC servos for the same purpose. Many autofocus cameras also use a servomechanism to accurately move the lens. A hard disk drive has a magnetic servo system with sub-micrometre positioning accuracy. In industrial machines, servos are used to perform complex motion, in many applications.
 {{% /card %}}
 
-{{< listcard size="4" title="Products">}}
+{{< listcard size="4" title="Links">}}
     {{<listlink "https://www.jlab.org/ir/MITSeries/V25.PDF" "Servo Systems Paper">}}
     {{<listlink "https://en.wikipedia.org/wiki/Servomechanism" "Wiki">}}
     {{<listlink "http://www.instructables.com/id/IoT-Motion-Controlled-Servos/" "IoT Motion Controlled Servos">}}

@@ -43,7 +43,7 @@ The smooth outer body of welded cylinders also enables the design of multi-stage
 Welded body hydraulic cylinders dominate the mobile hydraulic equipment market such as construction equipment (excavators, bulldozers, and road graders) and material handling equipment (forklift trucks, telehandlers, and lift-gates). They are also used by heavy industry in cranes, oil rigs, and large off-road vehicles for above-ground mining operations.
 {{% /card %}}
 
-{{< listcard size="4" title="Products">}}
+{{< listcard size="4" title="Links">}}
     {{<listlink "http://www.machinedesign.com/linear-motion/what-s-difference-between-pneumatic-hydraulic-and-electrical-actuators" "Comparing Linear Actuators">}}
     {{<listlink "https://en.wikipedia.org/wiki/Hydraulic_cylinder" "Wiki">}}
     {{<listlink "http://www.hydraulicspneumatics.com/200/TechZone/HydraulicPumpsM/Article/False/6427/TechZone-HydraulicPumpsM" "Engineering Essentials: Hydraulic Motors">}}

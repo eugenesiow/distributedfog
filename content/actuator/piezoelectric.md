@@ -26,7 +26,7 @@ In actuator applications, one active layer contracts and the other expands if vo
 Piezoelectric actuation is the foundation for a myriad of mission-critical high-technology applications, from semiconductor manufacturing to genomic sequencing and medical devices. Known for nanometer precisions, piezoelectric principles are proving highly adaptable to new configurations and modalities. Recently-developed mechanisms built on a variety of novel applications of piezoelectric technology have burst through the former travel limitations familiar from classical nanopositioning mechanisms. But like those time-tested mechanisms, those built on these newer principles offer high axial force, exceptional speeds, compactness, fieldlessness, and stable position-hold without dither. These long-travel piezomotors offer valuable, proven solutions for engineers grappling with tough technical and economic needs. [Read more](https://www.mdtmag.com/article/2012/03/long-travel-piezomotors-new-innovations-new-solutions)
 {{% /card %}}
 
-{{< listcard size="4" title="Products">}}
+{{< listcard size="4" title="Links">}}
     {{<listlink "https://www.murata.com/en-eu/products/mechatronics/actuator/basic" "Principles of Piezoelectric Actuators">}}
     {{<listlink "https://en.wikipedia.org/wiki/Actuator#Examples_and_applications" "Actuator Wiki">}}
 {{< /listcard >}}

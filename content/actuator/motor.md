@@ -48,7 +48,7 @@ Alternating current (AC) motors use an electrical current, which reverses its di
 AC motors in common use today may be divided into two broad categories: 1. Induction (asynchronous) motors 2. Synchronous motors 3. Linear Motors [Read more](http://www.electrical-knowhow.com/2012/05/classification-of-electric-motors-part.html)
 {{% /card %}}
 
-{{< listcard size="4" title="Products">}}
+{{< listcard size="4" title="Links">}}
     {{<listlink "https://www.thingiverse.com/tag:electric_motor" "Motors on Thingiverse">}}
     {{<listlink "https://en.wikipedia.org/wiki/Electric_motor" "Wiki">}}
 {{< /listcard >}}
