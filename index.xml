@@ -195,6 +195,16 @@ BeagleBoard The USB-powered BeagleBoard is a low-cost, fan-less single board com
     </item>
     
     <item>
+      <title>Cassandra</title>
+      <link>http://distributedfog.com/nosql/cassandra/</link>
+      <pubDate>Wed, 11 Oct 2017 17:56:48 +0100</pubDate>
+      
+      <guid>http://distributedfog.com/nosql/cassandra/</guid>
+      <description>Apache Cassandra is a free and open-source distributed NoSQL database management system designed to handle large amounts of data across many commodity servers, providing high availability with no single point of failure. Cassandra offers robust support for clusters spanning multiple datacenters, with asynchronous masterless replication allowing low latency operations for all clients.  Wikipedia     Cloud-based DBaaS  Stratoscale Instaclustr Winguzone Intuz Bitnami   
+History Avinash Lakshman (one of the authors of Amazon&amp;rsquo;s Dynamo) and Prashant Malik initially developed Cassandra at Facebook to power the Facebook inbox search feature.</description>
+    </item>
+    
+    <item>
       <title>Ceph</title>
       <link>http://distributedfog.com/storage/ceph/</link>
       <pubDate>Wed, 11 Oct 2017 17:56:48 +0100</pubDate>
@@ -534,6 +544,16 @@ Huawei also developed an open-source operating system for the IoT called Huawei 
       
       <guid>http://distributedfog.com/os/mbed/</guid>
       <description>Arm Mbed OS is an open source embedded operating system designed specifically for the &amp;#39;things&amp;#39; in the Internet of Things. It includes all the features you need to develop a connected product based on an Arm Cortex-M microcontroller, including security, connectivity, an RTOS, and drivers for sensors and I/O devices.  mbed.com     Mbed Cloud Mbed Cloud is a suite of software tools and services for developing secure IoT products, including secure communication, standard-based and seamless device management and flexible production-line integration.</description>
+    </item>
+    
+    <item>
+      <title>MongoDB</title>
+      <link>http://distributedfog.com/nosql/mongodb/</link>
+      <pubDate>Wed, 11 Oct 2017 17:56:48 +0100</pubDate>
+      
+      <guid>http://distributedfog.com/nosql/mongodb/</guid>
+      <description>MongoDB is a free and open-source cross-platform document-oriented database program. Classified as a NoSQL database program, MongoDB uses JSON-like documents with schemas. MongoDB is developed by MongoDB Inc., and is published under a combination of the GNU Affero General Public License and the Apache License.  Wikipedia     Cloud-based DBaaS  MongoDB Atlas mLab ScaleGrid   
+Visualisation  Robo 3T Metabase Slam Data Redash</description>
     </item>
     
     <item>

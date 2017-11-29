@@ -30,6 +30,16 @@
     </item>
     
     <item>
+      <title>Cassandra</title>
+      <link>http://distributedfog.com/nosql/cassandra/</link>
+      <pubDate>Wed, 11 Oct 2017 17:56:48 +0100</pubDate>
+      
+      <guid>http://distributedfog.com/nosql/cassandra/</guid>
+      <description>Apache Cassandra is a free and open-source distributed NoSQL database management system designed to handle large amounts of data across many commodity servers, providing high availability with no single point of failure. Cassandra offers robust support for clusters spanning multiple datacenters, with asynchronous masterless replication allowing low latency operations for all clients.  Wikipedia     Cloud-based DBaaS  Stratoscale Instaclustr Winguzone Intuz Bitnami   
+History Avinash Lakshman (one of the authors of Amazon&amp;rsquo;s Dynamo) and Prashant Malik initially developed Cassandra at Facebook to power the Facebook inbox search feature.</description>
+    </item>
+    
+    <item>
       <title>Cisco IOx</title>
       <link>http://distributedfog.com/fog-computing/cisco-iox/</link>
       <pubDate>Wed, 11 Oct 2017 17:56:48 +0100</pubDate>
@@ -92,6 +102,16 @@ The Cisco IOx application environment combines IoT application execution within 
       
       <guid>http://distributedfog.com/middleware/linksmart/</guid>
       <description>LinkSmart, formerly Hydra, is an open source IoT platform for developing IoT applications for various domains, such as Smart Cities, Industrie 4.0, Smart Grid and much more. The LinkSmart platform provides building blocks as generic and domain-specific services to efficiently implement applications in the Internet of Things. These include basic services such as device abstraction, data storage, live data management, and advanced ones such as stream mining and online machine learning.</description>
+    </item>
+    
+    <item>
+      <title>MongoDB</title>
+      <link>http://distributedfog.com/nosql/mongodb/</link>
+      <pubDate>Wed, 11 Oct 2017 17:56:48 +0100</pubDate>
+      
+      <guid>http://distributedfog.com/nosql/mongodb/</guid>
+      <description>MongoDB is a free and open-source cross-platform document-oriented database program. Classified as a NoSQL database program, MongoDB uses JSON-like documents with schemas. MongoDB is developed by MongoDB Inc., and is published under a combination of the GNU Affero General Public License and the Apache License.  Wikipedia     Cloud-based DBaaS  MongoDB Atlas mLab ScaleGrid   
+Visualisation  Robo 3T Metabase Slam Data Redash</description>
     </item>
     
     <item>
