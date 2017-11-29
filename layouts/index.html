@@ -44,6 +44,10 @@
         {{ $.Scratch.Set "card-title-pretty" "Storage" }}
         {{ partial "card.html" . }}
 
+        {{ $.Scratch.Set "card-title" "nosql" }}
+        {{ $.Scratch.Set "card-title-pretty" "NoSQL" }}
+        {{ partial "card.html" . }}
+
         {{ partial "layer.html" "Network Layer" }}
 
         {{ $.Scratch.Set "card-title" "gateway-network" }}
